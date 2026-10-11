@@ -13,6 +13,7 @@ export async function request(url: string, json = true): Promise<unknown> {
       "cybergym.io",
       "www.cybergym.io",
       "openrouter.ai",
+      "featherless.ai",
     ].includes(u.hostname)
   )
     throw Error("Source host not allowed");

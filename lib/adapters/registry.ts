@@ -38,7 +38,7 @@ export const registry: Adapter = {
   id: "huggingface",
   name: "Hugging Face model registry",
   url: "https://huggingface.co/api/models",
-  async run(models) {
+  async run(models, previousVariants = []) {
     // Broad discovery, independent of publisher. Recent and popular cohorts complement each other.
     const discovered = [];
     for (const sort of ["createdAt", "trendingScore"]) {
@@ -103,7 +103,10 @@ export const registry: Adapter = {
           architecture: r.config?.model_type ?? "Unverified",
           context,
           toolSupport: "unknown",
-          providers: [],
+          providers:
+            previousVariants.find((v) => v.id === r.id)?.providers ?? [],
+          hostingChecks:
+            previousVariants.find((v) => v.id === r.id)?.hostingChecks ?? [],
           retentions: [],
           refusalNote:
             "No comparable refusal-reduction measurement ingested. Creator claims require review.",
@@ -144,7 +147,10 @@ export const registry: Adapter = {
       found.push(m);
     }
     for (const v of variants) {
-      v.providers = models.find((m) => m.id === v.id)?.providers ?? [];
+      v.providers = [
+        ...v.providers,
+        ...(models.find((m) => m.id === v.id)?.providers ?? []),
+      ].filter((p, i, a) => a.findIndex((x) => x.url === p.url) === i);
       const modified = byId.get(v.id)?.cardData?.["model-index"];
       for (const base of v.baseIds) {
         const original = byId.get(base)?.cardData?.["model-index"];
@@ -174,7 +180,7 @@ export const hosting: Adapter = {
   id: "openrouter",
   name: "OpenRouter model and hosting catalog",
   url: "https://openrouter.ai/api/v1/models",
-  async run(models) {
+  async run(models, variants = []) {
     const schema = z.object({
       data: z.array(
         z.object({
@@ -232,6 +238,34 @@ export const hosting: Adapter = {
     }
     return {
       models: [...models.map((m) => ({ ...m, providers: [] })), ...found],
+      variants: variants.map((v) => {
+        const entry = data.data.find(
+          (r) => r.hugging_face_id === v.id || r.id === v.id,
+        );
+        return {
+          ...v,
+          providers: [
+            ...v.providers.filter((p) => p.source !== this.url),
+            ...(entry
+              ? [
+                  {
+                    name: "OpenRouter",
+                    url: "https://openrouter.ai/" + entry.id,
+                    source: this.url,
+                  },
+                ]
+              : []),
+          ],
+          hostingChecks: [
+            ...v.hostingChecks.filter((c) => c.provider !== "OpenRouter"),
+            {
+              provider: "OpenRouter",
+              status: entry ? ("listed" as const) : ("not-found" as const),
+              source: this.url,
+            },
+          ],
+        };
+      }),
       message: `${found.length} catalog entries. Listing is not an inference uptime check; context is provider-declared.`,
     };
   },

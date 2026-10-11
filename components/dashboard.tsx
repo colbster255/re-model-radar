@@ -20,19 +20,15 @@ import {
   ScanLine,
 } from "lucide-react";
 import Link from "next/link";
-import type { Dataset } from "@/lib/schema";
+import type { Variant, Dataset } from "@/lib/schema";
 import type { RankedModel } from "@/lib/scoring";
-import {
-  categories,
-  weights,
-  benchmarks,
-  type ScoreCategory,
-} from "@/lib/config";
+import { benchmarks, type ScoreCategory } from "@/lib/config";
 import {
   capabilities,
   capabilityEvidence,
   capabilityLeaders,
 } from "@/lib/capabilities";
+import { fitCategories, fitWeights } from "@/lib/fit";
 import { retention } from "@/lib/variants";
 type DashboardData = Pick<
   Dataset,
@@ -40,10 +36,10 @@ type DashboardData = Pick<
 >;
 const labels: Record<ScoreCategory, string> = {
   reasoning: "Thinking / reasoning",
-  cyber: "Cybersecurity",
+  cyber: "Reversing",
   coding: "Coding",
   systems: "Low-level / RE",
-  agentic: "Agentic execution",
+  agentic: "Tool use",
   deployment: "Deployment",
 };
 const fmt = (n: number | null | undefined) => (n == null ? "—" : n.toFixed(1));
@@ -60,6 +56,7 @@ const filters = [
   "Open weight",
   "Abliterated available",
   "Hosted",
+  "Variant hosted",
 ] as const;
 function Out({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -67,6 +64,55 @@ function Out({ href, children }: { href: string; children: React.ReactNode }) {
       {children}
       <ArrowUpRight size={12} />
     </a>
+  );
+}
+function VariantHosting({
+  variant,
+  sources,
+}: {
+  variant?: Variant;
+  sources: Dataset["sources"];
+}) {
+  if (!variant) return <span className="muted">No matched variant</span>;
+  const checks = ["Featherless", "OpenRouter"].map((provider) => {
+    const check = variant.hostingChecks.find((c) => c.provider === provider);
+    const health = sources.find(
+      (s) =>
+        s.id === (provider === "Featherless" ? "featherless" : "openrouter"),
+    );
+    const listing = variant.providers.find((p) =>
+      p.name.toLowerCase().includes(provider.toLowerCase()),
+    );
+    const stale = health?.status === "error";
+    return (
+      <div key={provider} className="variant-hosting-row">
+        {listing ? (
+          <Out href={listing.url}>{provider}</Out>
+        ) : (
+          <span>
+            {provider}:{" "}
+            {check?.status === "inactive"
+              ? "Inactive listing"
+              : check?.status === "not-found"
+                ? "Not listed"
+                : "Unverified"}
+          </span>
+        )}
+        <small className="coverage">
+          {stale
+            ? "Check unavailable; prior result"
+            : health?.lastSuccess
+              ? "Checked " + date(health.lastSuccess) + " ET"
+              : "Not checked"}
+        </small>
+      </div>
+    );
+  });
+  return (
+    <div className="variant-hosting">
+      {checks}
+      <small className="muted">Exact checkpoint; catalog status</small>
+    </div>
   );
 }
 function Score({
@@ -124,7 +170,8 @@ export default function Dashboard({
         .includes(query.toLowerCase()) &&
       (filter !== "Open weight" || r.openWeight) &&
       (filter !== "Abliterated available" || r.variant) &&
-      (filter !== "Hosted" || r.providers.length > 0),
+      (filter !== "Hosted" || r.providers.length > 0) &&
+      (filter !== "Variant hosted" || (r.variant?.providers.length ?? 0) > 0),
   );
   if (sort !== "overall")
     filtered.sort(
@@ -177,6 +224,7 @@ export default function Dashboard({
                 label: "Ranking methodology",
                 icon: SlidersHorizontal,
               },
+              { id: "variants", label: "Variant hosting", icon: GitBranch },
               { id: "sources", label: "Sources & refresh", icon: Database },
             ].map(({ id, label, icon: Icon }) => (
               <button
@@ -211,16 +259,20 @@ export default function Dashboard({
               <h1>
                 {view === "leaderboard"
                   ? "Models for reverse engineering"
-                  : view === "sources"
-                    ? "Sources & collection"
-                    : "Ranking methodology"}
+                  : view === "variants"
+                    ? "Abliterated model hosting"
+                    : view === "sources"
+                      ? "Sources & collection"
+                      : "Ranking methodology"}
               </h1>
               <p>
                 {view === "leaderboard"
                   ? "Compare thinking, coding, reversing and tool use for your next investigation."
-                  : view === "sources"
-                    ? "Every result has a source. Every refresh leaves a trace."
-                    : "Base-model competence first. Modified checkpoints evaluated separately."}
+                  : view === "variants"
+                    ? "Exact checkpoint listings on Featherless and OpenRouter, separate from base-model hosting."
+                    : view === "sources"
+                      ? "Every result has a source. Every refresh leaves a trace."
+                      : "Base-model competence first. Modified checkpoints evaluated separately."}
               </p>
             </div>
             <span className="profile-badge">
@@ -241,14 +293,14 @@ export default function Dashboard({
                 </div>
                 <div>
                   <span>
-                    QUALIFIED RANKINGS <ShieldCheck size={14} />
+                    RANKED ESTIMATES <ShieldCheck size={14} />
                   </span>
                   <strong>
                     {verified}
                     <small>
                       {verified
-                        ? "meet the independent evidence gate"
-                        : "Awaiting independent validation"}
+                        ? "have evidence in at least two skill areas"
+                        : "Awaiting broader evidence"}
                     </small>
                   </strong>
                 </div>
@@ -274,14 +326,10 @@ export default function Dashboard({
               <div className="evidence-notice">
                 <Info size={16} />
                 <p>
-                  <b>
-                    {verified
-                      ? "Evidence coverage varies."
-                      : "No definitive #1 yet."}
-                  </b>{" "}
-                  Provisional scores are relative to evaluated peers. Windows /
-                  RE coverage is unverified; manufacturer claims alone cannot
-                  earn a qualified rank.
+                  <b>Estimated fit, separate confidence.</b> Scores combine
+                  transferable skills for RE. They are reasoned estimates, not
+                  measured Windows RE accuracy or probabilities. Missing
+                  evidence lowers confidence; it is not a proven weakness.
                 </p>
                 <button onClick={() => setView("methodology")}>
                   Scoring policy <ArrowUpRight size={13} />
@@ -294,9 +342,9 @@ export default function Dashboard({
                 <div className="capability-heading">
                   <h2>Which models fit each part of RE?</h2>
                   <p>
-                    Same-benchmark shortlists, preferring independent evidence
-                    and the broadest observed cohort. Scores are peer
-                    percentiles, not Windows RE accuracy.
+                    Likely task fit from reasoning, coding, security and tool
+                    execution evidence. Overall rewards models that overlap
+                    across all four. Select a model to inspect the reasoning.
                   </p>
                 </div>
                 <div className="capability-grid">
@@ -322,10 +370,8 @@ export default function Dashboard({
                                 <span>
                                   {r.name}
                                   <small>
-                                    {benchmarks[r.capabilityBenchmark].label} ·{" "}
-                                    {r.capabilityKind === "independent"
-                                      ? "Independent"
-                                      : "Manufacturer claim"}
+                                    Estimated RE fit -{" "}
+                                    {r.fits[c.key].confidence} confidence
                                   </small>
                                 </span>
                                 <b>{fmt(r.capabilityScore)}</b>
@@ -336,7 +382,8 @@ export default function Dashboard({
                       </ol>
                       {!capabilityLeaders(filtered, c.key).length && (
                         <p className="capability-empty">
-                          No scored evidence for these filters.
+                          Not enough evidence across skill areas for these
+                          filters.
                         </p>
                       )}
                       <small className="capability-caveat">{c.caveat}</small>
@@ -351,8 +398,8 @@ export default function Dashboard({
                       Model leaderboard <span>{filtered.length}</span>
                     </h2>
                     <p>
-                      Base models ranked first. Abliterated counterparts linked
-                      below.
+                      Overall = balanced overlap across the four RE task
+                      estimates.
                     </p>
                   </div>
                   <span className="mini-label">
@@ -399,12 +446,8 @@ export default function Dashboard({
                         <option value="overall">Overall</option>
                         <option value="reasoning">Thinking / reasoning</option>
                         <option value="coding">Coding</option>
-                        <option value="cyber">
-                          Reversing · security proxy
-                        </option>
-                        <option value="agentic">
-                          Tool use · execution proxy
-                        </option>
+                        <option value="cyber">Reversing fit</option>
+                        <option value="agentic">Tool use fit</option>
                       </select>
                     </label>
                   </div>
@@ -421,15 +464,15 @@ export default function Dashboard({
                         </th>
                         <th>CODING {sort === "coding" && <span>↓</span>}</th>
                         <th>
-                          RE / SECURITY PROXY{" "}
-                          {sort === "cyber" && <span>↓</span>}
+                          REVERSING FIT {sort === "cyber" && <span>↓</span>}
                         </th>
                         <th>
-                          TOOL USE PROXY {sort === "agentic" && <span>↓</span>}
+                          TOOL USE FIT {sort === "agentic" && <span>↓</span>}
                         </th>
                         <th>CONFIDENCE</th>
                         <th>RETENTION</th>
-                        <th>HOSTING</th>
+                        <th>BASE HOSTING</th>
+                        <th>VARIANT HOSTING</th>
                         <th>UPDATED</th>
                         <th>
                           <span className="sr-only">Details</span>
@@ -498,7 +541,7 @@ export default function Dashboard({
                             <Score value={r.overall} accent />
                             <small className="provisional">
                               {r.qualified
-                                ? "Qualified"
+                                ? "Estimated overlap"
                                 : r.overall !== null
                                   ? "Provisional"
                                   : "Awaiting evidence"}
@@ -518,7 +561,7 @@ export default function Dashboard({
                           </td>
                           <td>
                             <span
-                              className={`confidence ${r.qualified ? "medium" : "low"}`}
+                              className={`confidence ${r.confidence === "Medium" ? "medium" : "low"}`}
                             >
                               <i />
                               {r.confidence === "Awaiting evidence"
@@ -526,7 +569,7 @@ export default function Dashboard({
                                 : r.confidence}
                             </span>
                             <small className="coverage">
-                              {r.coverage}% coverage
+                              {r.coverage}% evidence support
                             </small>
                           </td>
                           <td>
@@ -549,13 +592,20 @@ export default function Dashboard({
                           </td>
                           <td>
                             {r.providers.length ? (
-                              <span className="hosted">
-                                <i className="dot" />
-                                Listed <small>{r.providers[0].name}</small>
-                              </span>
+                              r.providers.map((p) => (
+                                <Out key={p.url} href={p.url}>
+                                  {p.name.replace(" catalog", "")}
+                                </Out>
+                              ))
                             ) : (
-                              <span className="muted">Unverified</span>
+                              <span className="muted">No verified listing</span>
                             )}
+                          </td>
+                          <td>
+                            <VariantHosting
+                              variant={r.variant}
+                              sources={data.sources}
+                            />
                           </td>
                           <td className="date-cell">
                             {new Date(r.updatedAt).toLocaleDateString("en-CA", {
@@ -596,8 +646,8 @@ export default function Dashboard({
                 <div className="table-footer">
                   <span>
                     Showing {Math.min(limit, filtered.length)} of{" "}
-                    {filtered.length} models <i>·</i> Scores are normalized peer
-                    percentiles
+                    {filtered.length} models <i>·</i> Scores are estimated fit
+                    indices
                   </span>
                   {filtered.length > limit && (
                     <button onClick={() => setLimit((l) => l + 15)}>
@@ -610,22 +660,22 @@ export default function Dashboard({
                 <div className="weights-panel">
                   <div className="panel-title">
                     <SlidersHorizontal size={15} />
-                    <h3>Your evaluation profile</h3>
+                    <h3>Balanced RE overlap</h3>
                   </div>
                   <div className="weight-bar">
-                    {categories.map((c) => (
+                    {fitCategories.map((c) => (
                       <span
                         key={c}
                         className={`weight-${c}`}
-                        style={{ width: weights[c] + "%" }}
+                        style={{ width: 25 + "%" }}
                       />
                     ))}
                   </div>
                   <div className="weight-legend">
-                    {categories.map((c) => (
+                    {fitCategories.map((c) => (
                       <span key={c}>
                         <i className={`weight-${c}`} />
-                        {labels[c]} <b>{weights[c]}%</b>
+                        {labels[c]} <b>25%</b>
                       </span>
                     ))}
                   </div>
@@ -645,6 +695,8 @@ export default function Dashboard({
                 </div>
               </section>
             </>
+          ) : view === "variants" ? (
+            <VariantCatalog data={data} />
           ) : view === "methodology" ? (
             <Methodology />
           ) : (
@@ -672,10 +724,10 @@ export default function Dashboard({
                 <p>
                   Hourly GitHub Actions runs may be queued or delayed. Recent
                   and trending Hugging Face releases, variant searches,
-                  OpenRouter listings, and benchmark repositories are checked
-                  without paid inference. Discovery is bounded and cannot
-                  guarantee every release. Unavailable adapters retain their
-                  prior valid snapshot.
+                  OpenRouter and Featherless listings, and benchmark
+                  repositories are checked without paid inference. Discovery is
+                  bounded and cannot guarantee every release. Unavailable
+                  adapters retain their prior valid snapshot.
                 </p>
                 <p>
                   NIST, SEC-Bench and ExploitBench are research references; no
@@ -707,64 +759,172 @@ export default function Dashboard({
     </div>
   );
 }
+function VariantCatalog({ data }: { data: DashboardData }) {
+  const [query, setQuery] = useState("");
+  const [provider, setProvider] = useState("Hosted");
+  const [limit, setLimit] = useState(20);
+  const matches = data.variants
+    .filter((v) => {
+      const names = v.providers.map((p) => p.name.toLowerCase());
+      return (
+        (v.id + " " + v.baseIds.join(" "))
+          .toLowerCase()
+          .includes(query.toLowerCase()) &&
+        (provider === "All" ||
+          (provider === "Hosted" && names.length > 0) ||
+          (provider === "Both" &&
+            names.some((n) => n.includes("featherless")) &&
+            names.some((n) => n.includes("openrouter"))) ||
+          (provider === "None" && names.length === 0) ||
+          names.some((n) => n.includes(provider.toLowerCase())))
+      );
+    })
+    .toSorted(
+      (a, b) =>
+        b.providers.length - a.providers.length || a.id.localeCompare(b.id),
+    );
+  return (
+    <section className="variant-catalog">
+      <div className="method-card">
+        <h2>Where can I run the modified checkpoint?</h2>
+        <p>
+          Catalog listings are matched by exact repository ID, not a similar
+          name or its base model. A listing does not guarantee inference uptime
+          or access on your plan. Unverified base lineage remains visible here
+          but cannot establish an RE ranking.
+        </p>
+        <div className="search-sort">
+          <label className="search">
+            <Search size={14} />
+            <input
+              aria-label="Search variants"
+              placeholder="Search checkpoints or bases..."
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setLimit(20);
+              }}
+            />
+          </label>
+          <label className="sort">
+            <select
+              aria-label="Variant hosting provider"
+              value={provider}
+              onChange={(e) => {
+                setProvider(e.target.value);
+                setLimit(20);
+              }}
+            >
+              <option value="Hosted">Any verified listing</option>
+              <option value="Featherless">Featherless</option>
+              <option value="OpenRouter">OpenRouter</option>
+              <option value="Both">Both providers</option>
+              <option value="None">No verified listing</option>
+              <option value="All">All checkpoints</option>
+            </select>
+          </label>
+        </div>
+        <p>
+          {matches.length} matching checkpoints / {data.variants.length} tracked
+        </p>
+      </div>
+      <div className="variant-catalog-grid">
+        {matches.slice(0, limit).map((v) => (
+          <article className="method-card" key={v.id}>
+            <h3>
+              <Out href={v.card}>{v.id}</Out>
+            </h3>
+            <p>
+              {v.lineage === "declared"
+                ? "Declared base: " + v.baseIds.join(", ")
+                : "Base lineage unverified"}{" "}
+              - Retention{" "}
+              {v.retentions.length ? "see model comparison" : "unverified"}
+            </p>
+            <VariantHosting variant={v} sources={data.sources} />
+          </article>
+        ))}
+      </div>
+      {!matches.length && (
+        <div className="empty-state">
+          <h3>No matching verified listings</h3>
+          <p>
+            Try another provider or select All checkpoints to inspect checked
+            absences.
+          </p>
+        </div>
+      )}
+      {matches.length > limit && (
+        <button onClick={() => setLimit((l) => l + 20)}>Show 20 more</button>
+      )}
+    </section>
+  );
+}
 function Methodology() {
   return (
     <section className="methodology">
       <div className="method-card">
-        <span className="eyebrow">01 / NORMALIZE WITHIN A BENCHMARK</span>
-        <h2>Relative evidence, with visible gaps.</h2>
+        <span className="eyebrow">01 / ESTIMATE TRANSFERABLE TASK FIT</span>
+        <h2>Which model is most likely to help with your RE task?</h2>
         <p>
-          Each benchmark is normalized to a percentile within its source,
-          evaluator class, version, harness, effort, and budget cohort. At least
-          three distinct models are required. Ties use mid-rank percentiles. A
-          percentile of 100 means best in that observed cohort, not perfect
-          performance. Scores from different cohorts are imperfect proxies and
-          must be read alongside their raw results.
+          These are transparent heuristic estimates, not calibrated
+          probabilities or direct RE test results. General reasoning supports
+          reconstructing behavior; coding supports decompiled-code comprehension
+          and offensive implementation; security supports vulnerability
+          hypotheses; execution supports terminal and debugger workflows. No
+          model gets a hand-picked bonus from its name or reputation.
         </p>
         <p>
-          For each benchmark, independent results take priority over
-          manufacturer reports. Duplicate reports never add weight. Benchmarks
-          in the same category have equal weight; category scores are then
-          combined using the weights below, renormalized over available
-          categories. Missing categories are excluded and reduce coverage,
-          rather than becoming zero.
+          Raw observations are normalized within matching benchmark, source,
+          protocol and evaluator cohorts (at least three models). Independent
+          results take precedence over duplicate manufacturer reports. Each
+          percentile is shrunk toward 50 by cohort size / (cohort size + 10), so
+          a tiny comparison cannot manufacture an extreme score. Signals in each
+          skill area are averaged; overlapping tests do not multiply confidence.
         </p>
-        <div className="method-weights">
-          {categories.map((c) => (
-            <div key={c}>
-              <span>{labels[c]}</span>
-              <b>{weights[c]}%</b>
-            </div>
-          ))}
-        </div>
+        {capabilities.map((c) => (
+          <p key={c.key}>
+            <b>{c.title}:</b>{" "}
+            {Object.entries(fitWeights[c.key])
+              .map(([key, w]) => labels[key as ScoreCategory] + " " + w + "%")
+              .join(" / ")}
+          </p>
+        ))}
+        <p>
+          Missing inputs use a neutral 50 assumption and provide no evidence
+          support. This avoids treating unknown skill as zero or extrapolating a
+          single strong test to every missing skill. C++-specific, assembly and
+          Windows evidence is currently absent: general coding transfers, but
+          specialization remains uncertain. Weights are editorial judgments,
+          versioned in code, not learned or validated coefficients.
+        </p>
       </div>
       <div className="method-card">
-        <span className="eyebrow">02 / QUALIFICATION IS SEPARATE</span>
-        <h2>Claims cannot buy the top position.</h2>
+        <span className="eyebrow">
+          02 / OVERLAP AND CONFIDENCE ARE SEPARATE
+        </span>
+        <h2>Strong across all four, with honest uncertainty.</h2>
         <p>
-          A qualified rank requires at least 70% weighted coverage, independent
-          evaluations in at least two categories, and independent cybersecurity
-          evidence. Other models are shown without a numbered rank. Provisional
-          models with at least 70% coverage appear first, followed by sparse
-          evidence, then sorted by score within those groups. High confidence
-          needs 85% coverage; qualified models below that are Medium. Evidence
-          older than 365 days is excluded from scoring, but preserved for audit.
+          Overall is the equally weighted geometric mean of the four task-fit
+          estimates. A weaker task lowers overlap more than an arithmetic mean
+          would. At least two observed skill areas are required for a numbered
+          overall rank or shortlist. Confidence never boosts or demotes fit:
+          rankable models are ordered by estimated overlap alone.
         </p>
         <p>
-          Thinking / reasoning is compared separately using LiveBench reasoning
-          tasks and does not change the original weighted overall score or
-          qualification gate. Shortlists compare a shared benchmark cohort,
-          preferring independent evidence and broader cohorts, then recency. The
-          table category sorts use the category mean percentile across
-          benchmarks. None of these category scores establishes direct Windows
-          reverse-engineering competence.
-        </p>
-        <p>
-          There is no validated Windows kernel, Vanguard, IDA, Ghidra, WinDbg or
-          x64dbg benchmark in the current feeds. Low-level / RE therefore
-          remains unscored. Agentic execution is a tool-reliability proxy, not a
-          direct measurement of tool-call correctness. Deployment listings and
-          context are metadata, not invented performance scores.
+          Evidence support is the task-weighted sum of observed signal
+          reliability. Independent evidence starts at 80%; manufacturer-only
+          evidence at 45%. Small cohorts reduce reliability by cohort size /
+          (cohort size + 10); reliability also declines up to 25% with evidence
+          age over a year. Disagreement within an area reduces reliability by
+          its score range / 200. Reliability is averaged within each skill area,
+          so mixed-quality reports do not inherit the strongest report alone.
+          Unknown inputs contribute zero support. Task confidence is Medium at
+          55% support, otherwise Low; overall uses average task support. No
+          estimate receives High confidence until direct RE validation is
+          available. These labels describe support for the heuristic, not a
+          statistical confidence interval. Evidence older than 365 days or dated
+          in the future is excluded. Sources and raw results remain inspectable.
         </p>
       </div>
       <div className="method-card">
@@ -837,15 +997,17 @@ function Details({
         <p className="muted">
           {m.family} ·{" "}
           {m.qualified
-            ? "Qualified ranking"
-            : "Provisional / qualification criteria incomplete"}
+            ? "Estimated RE overlap ranking"
+            : "Insufficient evidence breadth for overall ranking"}
         </p>
         <div className="detail-score">
           <strong>
             {fmt(m.overall)}
-            <small>/ 100 peer percentile</small>
+            <small>/ 100 estimated fit</small>
           </strong>
-          <span>{m.coverage}% evidence coverage</span>
+          <span>
+            {m.coverage}% evidence support - {m.confidence} confidence
+          </span>
         </div>
         <div className="detail-section">
           <h3>Fit for your RE workflow</h3>
@@ -854,12 +1016,17 @@ function Details({
               <strong>
                 {c.title}: {fmt(m.scores[c.key])}
                 {m.scores[c.key] !== undefined
-                  ? " / 100 peer percentile"
+                  ? " / 100 estimated fit"
                   : " · no scored evidence"}
               </strong>
               <p>
                 {c.use} {c.caveat}
               </p>
+              <p>
+                {m.fits[c.key].confidence} confidence - {m.fits[c.key].support}%
+                evidence support
+              </p>
+              <p>{m.fits[c.key].explanation}</p>
               {capabilityEvidence(m, c.key).map((e) => (
                 <Out key={e.id} href={e.source}>
                   {benchmarks[e.benchmark].label} · {e.kind}
@@ -873,7 +1040,7 @@ function Details({
           <p>
             {m.breakdown.length
               ? `Evaluated in ${m.breakdown.length} scored benchmark(s), with ${m.independentCategories} category/categories independently evaluated. Best-supported areas: ${Object.entries(
-                  m.scores,
+                  m.observedScores,
                 )
                   .sort((a, b) => b[1] - a[1])
                   .slice(0, 2)
@@ -1007,13 +1174,7 @@ function Details({
                   <div>
                     <dt>Hosting</dt>
                     <dd>
-                      {v.providers.length
-                        ? v.providers.map((p) => (
-                            <Out key={p.url} href={p.url}>
-                              {p.name}
-                            </Out>
-                          ))
-                        : "No verified inference provider"}
+                      <VariantHosting variant={v} sources={data.sources} />
                     </dd>
                   </div>
                 </dl>

@@ -9,7 +9,7 @@ export type Adapter = {
   id: string;
   name: string;
   url: string;
-  run: (models: Model[]) => Promise<Batch>;
+  run: (models: Model[], variants?: Variant[]) => Promise<Batch>;
 };
 export function newModel(
   id: string,

@@ -582,7 +582,7 @@ h1 {
 }
 table {
   width: 100%;
-  min-width: 1360px;
+  min-width: 1580px;
   border-collapse: collapse;
   text-align: left;
   white-space: nowrap;
@@ -1531,5 +1531,35 @@ dd {
     grid-template-columns: 110px 1fr;
     gap: 10px;
     font-size: 11px;
+  }
+}
+
+.variant-hosting {
+  min-width: 170px;
+  font-size: 11px;
+}
+.variant-hosting-row {
+  margin-bottom: 7px;
+}
+.variant-hosting-row .coverage {
+  display: block;
+}
+
+.variant-catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.variant-catalog-grid h3 {
+  overflow-wrap: anywhere;
+  font-size: 15px;
+}
+.variant-catalog .sort select {
+  width: 175px;
+}
+@media (max-width: 650px) {
+  .variant-catalog-grid {
+    grid-template-columns: 1fr;
   }
 }

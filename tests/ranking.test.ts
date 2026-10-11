@@ -60,6 +60,7 @@ const variant: Variant = {
   context: null,
   toolSupport: "unknown",
   providers: [],
+  hostingChecks: [],
   retentions: [],
   refusalNote: "99% refusal reduction claim",
   caveats: [],

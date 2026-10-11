@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile, rename } from "node:fs/promises";
 import { datasetSchema, type Dataset, type Model } from "../lib/schema";
 import { benchmarkAdapters } from "../lib/adapters/benchmarks";
+import { featherless } from "../lib/adapters/featherless";
 import { livebench } from "../lib/adapters/livebench";
 import { registry, hosting } from "../lib/adapters/registry";
 import { fingerprint } from "../lib/adapters/http";
@@ -61,8 +62,9 @@ export async function refresh(
   const adapters = options.adapters ?? [
     ...benchmarkAdapters,
     livebench,
-    hosting,
     registry,
+    hosting,
+    featherless,
   ];
   await mkdir(directory, { recursive: true });
   let previous: Dataset;
@@ -88,7 +90,10 @@ export async function refresh(
   for (const adapter of adapters) {
     const old = data.sources.find((s) => s.id === adapter.id);
     try {
-      const batch = await adapter.run(structuredClone(data.models));
+      const batch = await adapter.run(
+        structuredClone(data.models),
+        structuredClone(data.variants),
+      );
       const before = data;
       data = structuredClone(data);
       try {

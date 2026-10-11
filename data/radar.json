@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-10-11T13:41:02.149Z",
+  "refreshedAt": "2026-10-11T14:21:28.010Z",
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -1721,7 +1721,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.324Z",
-      "updatedAt": "2026-10-11T13:41:02.846Z",
+      "updatedAt": "2026-10-11T14:21:28.538Z",
       "releaseDate": "2024-12-26"
     },
     {
@@ -1735,7 +1735,7 @@
       "architecture": "deepseek_v32",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T13:41:03.278Z",
+      "updatedAt": "2026-10-11T14:21:29.284Z",
       "releaseDate": null
     },
     {
@@ -1943,7 +1943,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:02.831Z",
+      "updatedAt": "2026-10-11T14:21:28.517Z",
       "releaseDate": "2025-12-22"
     },
     {
@@ -1957,7 +1957,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:03.273Z",
+      "updatedAt": "2026-10-11T14:21:29.265Z",
       "releaseDate": null
     },
     {
@@ -1971,7 +1971,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:02.933Z",
+      "updatedAt": "2026-10-11T14:21:28.635Z",
       "releaseDate": null
     },
     {
@@ -2059,7 +2059,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T13:41:03.277Z",
+      "updatedAt": "2026-10-11T14:21:29.279Z",
       "releaseDate": null
     },
     {
@@ -2073,7 +2073,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:02.932Z",
+      "updatedAt": "2026-10-11T14:21:28.630Z",
       "releaseDate": null
     },
     {
@@ -2087,7 +2087,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:02.931Z",
+      "updatedAt": "2026-10-11T14:21:28.629Z",
       "releaseDate": null
     },
     {
@@ -2215,7 +2215,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.322Z",
-      "updatedAt": "2026-10-11T13:41:04.535Z",
+      "updatedAt": "2026-10-11T14:21:30.341Z",
       "releaseDate": null
     },
     {
@@ -2249,7 +2249,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:41:03.275Z",
+      "updatedAt": "2026-10-11T14:21:29.273Z",
       "releaseDate": null
     },
     {
@@ -2263,7 +2263,7 @@
       "architecture": "minimax_m2",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T13:41:03.274Z",
+      "updatedAt": "2026-10-11T14:21:29.271Z",
       "releaseDate": null
     },
     {
@@ -2779,6 +2779,20 @@
       "discoveredAt": "2026-10-11T10:55:34.167Z",
       "updatedAt": "2026-07-17T04:25:35.000Z",
       "releaseDate": "2026-07-17T04:25:35.000Z"
+    },
+    {
+      "id": "CodonProject/MotifChord-Base",
+      "name": "MotifChord-Base",
+      "family": "CodonProject",
+      "openWeight": true,
+      "card": "https://huggingface.co/CodonProject/MotifChord-Base",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T14:21:34.201Z",
+      "updatedAt": "2026-10-11T14:07:48.000Z",
+      "releaseDate": "2026-10-11T13:52:06.000Z"
     },
     {
       "id": "cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition",
@@ -3545,7 +3559,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.167Z",
-      "updatedAt": "2026-10-11T13:40:20.000Z",
+      "updatedAt": "2026-10-11T14:20:45.000Z",
       "releaseDate": "2026-10-11T12:38:40.000Z"
     },
     {
@@ -3687,6 +3701,48 @@
       "discoveredAt": "2026-10-11T10:55:34.037Z",
       "updatedAt": "2026-10-11T10:22:07.000Z",
       "releaseDate": "2026-10-11T09:44:31.000Z"
+    },
+    {
+      "id": "francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed10",
+      "name": "ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T14:21:34.200Z",
+      "updatedAt": "2026-10-11T13:58:43.000Z",
+      "releaseDate": "2026-10-11T13:53:46.000Z"
+    },
+    {
+      "id": "francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed3407",
+      "name": "ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed3407",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed3407",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T14:21:34.203Z",
+      "updatedAt": "2026-10-11T13:48:44.000Z",
+      "releaseDate": "2026-10-11T13:17:54.000Z"
+    },
+    {
+      "id": "francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed455",
+      "name": "ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-nld-before-100mb-packed-bfdiso_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T14:21:34.201Z",
+      "updatedAt": "2026-10-11T13:53:32.000Z",
+      "releaseDate": "2026-10-11T13:48:59.000Z"
     },
     {
       "id": "francesca9805/ppt-wc-zipf-newlex-rus-before-100mb-packed-bfdiso_seed10",
@@ -3867,7 +3923,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.167Z",
-      "updatedAt": "2026-10-11T13:40:03.000Z",
+      "updatedAt": "2026-10-11T14:19:09.000Z",
       "releaseDate": "2026-10-11T12:36:31.000Z"
     },
     {
@@ -3923,7 +3979,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.166Z",
-      "updatedAt": "2026-10-11T13:38:41.000Z",
+      "updatedAt": "2026-10-11T14:18:22.000Z",
       "releaseDate": "2026-10-11T12:46:13.000Z"
     },
     {
@@ -6243,7 +6299,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T12:32:48.026Z",
-      "updatedAt": "2026-10-11T13:25:22.000Z",
+      "updatedAt": "2026-10-11T14:19:15.000Z",
       "releaseDate": "2026-10-11T11:41:58.000Z"
     },
     {
@@ -6257,7 +6313,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T12:32:48.028Z",
-      "updatedAt": "2026-10-11T13:25:21.000Z",
+      "updatedAt": "2026-10-11T14:19:14.000Z",
       "releaseDate": "2026-10-11T11:34:14.000Z"
     },
     {
@@ -11531,6 +11587,20 @@
       "releaseDate": "2026-10-11T10:18:28.000Z"
     },
     {
+      "id": "smhsmh/bitnet-persian-r14",
+      "name": "bitnet-persian-r14",
+      "family": "smhsmh",
+      "openWeight": true,
+      "card": "https://huggingface.co/smhsmh/bitnet-persian-r14",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "bitnet",
+      "providers": [],
+      "discoveredAt": "2026-10-11T14:21:34.202Z",
+      "updatedAt": "2026-10-11T13:41:44.000Z",
+      "releaseDate": "2026-10-11T13:18:47.000Z"
+    },
+    {
       "id": "squiredaniiar/act_pusht",
       "name": "act_pusht",
       "family": "squiredaniiar",
@@ -16756,6 +16826,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=0bserverx%2FQwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16777,6 +16859,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=13432ad2%2FNoct-Q-Uncensored-Qwen-Image-2.1"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16798,6 +16892,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=2beng2%2FSwift-1.5-Qwen3.8-27B-Uncensored-NVFP4-NInfer"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16819,6 +16925,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=abenzerps%2FQwen-Image-2.1-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16840,6 +16958,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Adolphsson%2FDeepSeek-V4.1-Flash-UNCENSORED-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16861,6 +16991,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=alesha-pro%2FQwen3.8-27B-S-mirai-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16882,6 +17024,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Amarillys%2FQwen3.8-Flash-Next-Uncensored-ik-llama-v4-lite-iq3-kt-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16889,7 +17043,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/Amarillys/Qwen3.8-Flash-Next-Uncensored-ik-llama-v4-lite-iq3-kt-GGUF",
-      "updatedAt": "2026-10-11T13:36:39.000Z"
+      "updatedAt": "2026-10-11T13:50:53.000Z"
     },
     {
       "id": "ArRENCEAI/Qwen3.5-9B-OBLIT-High_Coherence-Low_drift-15_perc_refusal",
@@ -16903,6 +17057,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=ArRENCEAI%2FQwen3.5-9B-OBLIT-High_Coherence-Low_drift-15_perc_refusal"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16924,6 +17090,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=audnai%2Fpenclaw-GLM-5.3-abliterated"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16945,6 +17123,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=ayngepaw%2FGLM-5.3-UNCENSORED-EXL3-3.0bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16966,6 +17156,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FDeepSeek-V4.1-Flash-DERISKED-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -16987,6 +17189,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FGLM-5.3-DERISKED-Int4-Int8Mix"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17008,6 +17222,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FGLM-5.3-Flash-Derisked-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17029,6 +17255,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FGLM-5.3-Flash-DERISKED-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17050,6 +17288,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FGLM-5.3-Flash-DERISKED-NVFP4"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17071,6 +17321,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FK2-Horizon-MoVA-36B-A4B-DERISKED-BF16"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17092,6 +17354,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FKOLIBRI-1-DERISKED-BF16"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17113,6 +17387,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FKOLIBRI-1-DERISKED-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17134,6 +17420,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FKOLIBRI-1-DERISKED-NVFP4"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17155,6 +17453,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FMiMo-V2.6-Distill-Qwen-9B-Derisked-BF16"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17176,6 +17486,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FQwen-3.8-2.4T-A95B-Derisked-IQ1_0-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17197,6 +17519,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FSTEP-5-PREVIEW-DERISKED-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17218,6 +17552,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-AI%2FSTEP-5-PREVIEW-DERISKED-NVFP4"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17239,6 +17585,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-Research%2FGLM-5.3-Derisked-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17260,6 +17618,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-Research%2FGLM-5.3-DERISKED-NVFP4"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17281,6 +17651,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-Research%2FGLM-5.3-DERISKED-NVFP4-V2"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17302,6 +17684,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=ccharnkij%2Fgpt-oss-120b-Uncensored"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17323,6 +17717,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=CCSSNE%2FHauhauCS-Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17344,6 +17750,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=CCSSNE%2FHauhauCS-Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17365,6 +17783,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=DavCd%2FQwen3.8-Flash-Next-Uncensored-exl3-3.09bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17386,6 +17816,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=davetha%2FQwen3.8-Flash-Next-DERISKED-W4A16-AWQ"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17410,6 +17852,18 @@
       "context": null,
       "toolSupport": "declared",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=dealignai%2FGLM-5.3-CYBERSECURITY-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "Creator reports 80–84% direct compliance on a non-copyright HarmBench subset. Compliance is not refusal reduction or capability retention.",
       "caveats": [
@@ -17436,6 +17890,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=dealignai%2FGLM-5.3-UNCENSORED-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17457,6 +17923,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=defiobi00%2FGLM-5.3-DERISKED-Int4-Int8Mix"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17478,6 +17956,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=defiobi00%2FGLM-5.3-DERISKED-UD-Q3_K_XL"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17499,6 +17989,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=dwmk%2FHana-0.1-Fast"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17520,6 +18022,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Ecmcfee%2FQwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-MLX"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17541,6 +18055,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=edgebites%2FMiniCPM5-2B-Abliterated-iq4XS-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17562,6 +18088,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=freakyskittle%2FK2-Horizon-MoVA-36B-A4B-DERISKED-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17583,6 +18121,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=gorbatjovy%2FSwift1.5-Qwen3.8-Flash-Next-abliterated-EXL3-4.05bpw_h6_ng6-v2"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17604,6 +18154,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=groxaxo%2FHolo4-27B-abliterated-exl3-6bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17625,6 +18187,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=gyang274%2FHuihui-Qwen3.8-27B-abliterated-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17632,7 +18206,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/gyang274/Huihui-Qwen3.8-27B-abliterated-FP8",
-      "updatedAt": "2026-10-11T03:41:17.000Z"
+      "updatedAt": "2026-10-11T13:49:04.000Z"
     },
     {
       "id": "haddockaihamburg/LFM2.5-2.6B-abliterated",
@@ -17646,6 +18220,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=haddockaihamburg%2FLFM2.5-2.6B-abliterated"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17667,6 +18253,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=hotdogs%2Fjev-Ternary-Bonsai-2-27B-Abliterated-PTQ1_0"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17688,6 +18286,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=hotdogs%2FTernary-Bonsai-2-27B-Abliterated-swift-cap-PQ2_0-MTP"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17709,6 +18319,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=huihui-ai%2FHuihui-Kolibri-1-BF16-abliterated"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17730,6 +18352,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=huihui-ai%2FHuihui-Kolibri-1-BF16-abliterated-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17751,6 +18385,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Infatoshi%2FGLM-5.3-UNCENSORED-EXL3-3.0bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17772,6 +18418,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=issoufzousko07%2FQwen2.5-Coder-1.5B-Instruct-abliterated-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17793,6 +18451,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=IstroSec%2FThinkingCap-Qwen3.8-27B-abliterated-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17814,6 +18484,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=j-llm%2FQwen3.8-27B-Uncensored-OptiQ-4bit"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17835,6 +18517,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=jakeatx%2FATX-Swift-1.5-Qwen3.8-27B-Uncensored-2.3bpw-MTP-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17856,6 +18550,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=jakeatx%2FATX-Swift-1.5-Qwen3.8-27B-Uncensored-IQ4_XS-M-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17877,6 +18583,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Jhustle44%2Fgemma-3-1b-it-abliterated-mlx-8Bit"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17898,6 +18616,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=JonathanColetti%2FQwen3.8-27B-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17919,6 +18649,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Kaktus4048%2FHuihui-Qwen3.8-27B-abliterated-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17940,6 +18682,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=kg3n%2FDeepSeek-V4.1-Flash-UNCENSORED-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17961,6 +18715,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Kre80r%2FThinkingCap-Qwen3.8-27B-Uncensored-Heretic-AutoRound-W4A16"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -17982,6 +18748,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=LessThanThreeAI%2FQwen3.8-27B-Humanlike-Chat-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18003,6 +18781,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=li1272%2FQwen-Image-2.1-Turbo-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18024,6 +18814,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=LOKSUN-158%2FSamQuant-Qwen3.8-Flash-Next-Uncensored-MLX-Serve-Mix-C58"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18045,6 +18847,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=minas2025%2FQwen-3.5-2B-StupidChat-Uncensored"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18066,6 +18880,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FGemma-3-27b-it-vl-SuperBrain7x-High-Reasoning-ULTRAMIND-Heretic-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18087,6 +18913,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FHuihui-Kimi-Linear-48B-A3B-Instruct-abliterated-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18108,6 +18946,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FHuihui-Qwen3-Omni-30B-A3B-Thinking-abliterated-i1-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18129,6 +18979,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FJEV-27B-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18150,6 +19012,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FJEV-27B-VL-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18171,6 +19045,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FMagistral-Small-2509-ultra-uncensored-heretic-v1-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18192,6 +19078,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FMagistral-Small-2509-ultra-uncensored-heretic-v2-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18213,6 +19111,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FMiMo-V2.6-Distill-Qwen-9B-Derisked-BF16-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18234,6 +19144,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FMiMo-V2.6-Distill-Qwen-9B-Derisked-BF16-i1-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18255,6 +19177,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FMistral-Small-3.2-24B-Instruct-2506-ultra-uncensored-heretic-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18276,6 +19210,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FQwen3-Next-80B-A3B-Thinking-GRPO-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18297,6 +19243,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-3-12b-it-abliterated-GLP-43-L5-47-a0.25"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18318,6 +19276,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-3-1b-it-abliterated-GLP-20-L4-25-a0.25"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18339,6 +19309,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-3-27b-it-abliterated-GLP-51-L11-61-a0.25"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18360,6 +19342,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-3-4b-it-abliterated-GLP-28-L6-33-a0.25"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18381,6 +19375,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-4-12B-it-abliterated-GLP-33-L15-47-a0.5"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18402,6 +19408,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-4-26B-A4B-it-abliterated-GLP-27-L3-29-a0.5"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18423,6 +19441,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-4-31B-it-abliterated-GLP-54-L6-59-a0.5"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18444,6 +19474,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-4-E2B-it-abliterated-GLP-31-L4-34-a0.5"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18465,6 +19507,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=msuiche%2Fgemma-4-E4B-it-abliterated-GLP-33-L5-41-a1"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18486,6 +19540,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=notfakerv%2FQwen3.8-27B-ABLITERATED-Splash"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18506,7 +19572,25 @@
       "architecture": "qwen3_5",
       "context": null,
       "toolSupport": "unknown",
-      "providers": [],
+      "providers": [
+        {
+          "name": "Featherless",
+          "url": "https://featherless.ai/models/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+          "source": "https://featherless.ai/api/feather/search/models?query=OBLITERATUS%2FQwen3.8-27B-OBLITERATED"
+        }
+      ],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "listed",
+          "source": "https://featherless.ai/api/feather/search/models?query=OBLITERATUS%2FQwen3.8-27B-OBLITERATED"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18528,6 +19612,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=orcarouter%2FGLM-5.3-Flash-Uncensored-FP8"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18549,6 +19645,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=orcarouter%2FOrcaSAQ-2-Cyber-27B-Uncensored-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18570,6 +19678,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=OS-Software%2FTernary-Bonsai-2-27B-Uncensored-Heretic-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18591,6 +19711,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=p0ly31%2FQwen3.8-Flash-Next-DERISKED-MTPLX-Optimized-Speed"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18612,6 +19744,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=pckem%2FKolibri-1-abliterated-kimi-k3-distill-LoRA-smoke"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18633,6 +19777,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=peasantsmith%2FGLM-5.3-Flash-Maya-M-Derisked-IQ2_S-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18654,6 +19810,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=pierpaolo%2FSwift-1.5-Qwen3.8-27B-NVFP4-Uncensored-MTP-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18675,6 +19843,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=redhillsmediafl%2FLongleaf-35B-A3B-Abliterated"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18696,6 +19876,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "inactive",
+          "source": "https://featherless.ai/api/feather/search/models?query=shawnw3i%2FQwopus3.8-27B-Flash-V2-abliterated"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18717,6 +19909,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=shawnw3i%2FQwopus3.8-27B-Flash-V2-abliterated-exl3-6.0bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18724,7 +19928,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/shawnw3i/Qwopus3.8-27B-Flash-V2-abliterated-exl3-6.0bpw",
-      "updatedAt": "2026-10-11T13:39:58.000Z"
+      "updatedAt": "2026-10-11T14:02:15.000Z"
     },
     {
       "id": "thebadking/Qwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF",
@@ -18738,6 +19942,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=thebadking%2FQwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18759,6 +19975,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Tree-AI-lab%2FQwen2.5-Coder-1.5B-Instruct-non-censure-uncensored-coder-for-android-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18782,6 +20010,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Uniboshi%2FKimi-K3-Abliterated-V1"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18803,6 +20043,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=vcruz305%2FMiMo-V2.6-Flash-MOPD-DERISKED-EXL3-2.20bpw"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18824,6 +20076,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=waldie%2FHemmingway-1-Heretic-4bpw-exl3"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18845,6 +20109,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=WaveCut%2FGemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP-NInfer-v3"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18866,6 +20142,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=yuhanb%2FQwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18887,6 +20175,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=zoro1991%2FQwen3-4B-Instruct-2507-heretic"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18908,6 +20208,18 @@
       "context": null,
       "toolSupport": "unknown",
       "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Zyszztggd%2FQwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF"
+        }
+      ],
       "retentions": [],
       "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
       "caveats": [
@@ -18924,7 +20236,7 @@
       "name": "CyberGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/cybergym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "48 single-model results; agent-only and multi-model submissions excluded"
     },
     {
@@ -18932,15 +20244,23 @@
       "name": "ExploitGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/exploitgym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "13 version/budget-specific results"
+    },
+    {
+      "id": "featherless",
+      "name": "Featherless exact checkpoint hosting",
+      "url": "https://featherless.ai/models",
+      "status": "ok",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "message": "Checked 103 exact checkpoint IDs. Active catalog listings only; inference uptime and plan access are not tested."
     },
     {
       "id": "glm-card",
       "name": "Z.ai evaluation table",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "39 attributed results; no independent claim"
     },
     {
@@ -18948,7 +20268,7 @@
       "name": "Hugging Face model registry",
       "url": "https://huggingface.co/api/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "Bounded recent + trending base-model discovery and variant searches. Registry claims remain unverified; previously discovered entries are retained."
     },
     {
@@ -18956,7 +20276,7 @@
       "name": "LiveBench reasoning, coding & agentic tasks",
       "url": "https://livebench.ai/new-livebench/",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "60 models / 180 independent category observations; release 2026_06_25. General reasoning/coding proxies, not direct RE validation."
     },
     {
@@ -18964,7 +20284,7 @@
       "name": "OpenRouter model and hosting catalog",
       "url": "https://openrouter.ai/api/v1/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "441 catalog entries. Listing is not an inference uptime check; context is provider-declared."
     },
     {
@@ -18972,7 +20292,7 @@
       "name": "SWE-bench Multilingual",
       "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "12 checked benchmark-team runs"
     },
     {
@@ -18980,11 +20300,74 @@
       "name": "Terminal-Bench 4.0",
       "url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:41:02.149Z",
+      "lastSuccess": "2026-10-11T14:21:28.010Z",
       "message": "21 official submissions, separated by harness and effort"
     }
   ],
   "previousRanks": {
-    "benchmark/claude-opus-4.6": 1
+    "anthropic/claude-fable-5.1": 1,
+    "anthropic/claude-opus-5.5": 2,
+    "livebench/claude-opus-5-xhigh-effort": 3,
+    "openai/gpt-5.6-sol": 4,
+    "anthropic/claude-fable-5": 5,
+    "openai/gpt-6-astra": 6,
+    "livebench/muse-spark-1.3-xhigh": 7,
+    "benchmark/gpt-6.1-sol": 8,
+    "moonshotai/Kimi-K3": 9,
+    "livebench/gpt-5.5": 10,
+    "livebench/claude-sonnet-5-xhigh-effort": 11,
+    "benchmark/gpt-6-sol": 12,
+    "deepseek-ai/DeepSeek-V4.1-Flash": 13,
+    "livebench/gpt-5.6-terra-max": 14,
+    "livebench/muse-spark-1.2-xhigh": 15,
+    "livebench/claude-opus-4-7-high-effort": 16,
+    "livebench/gemini-3.7-flash-high": 17,
+    "anthropic/claude-opus-4.8": 18,
+    "livebench/grok-4.6": 19,
+    "benchmark/claude-opus-4.6": 20,
+    "livebench/claude-sonnet-5-5-xhigh-effort": 21,
+    "livebench/gpt-5.6-luna-max": 22,
+    "zai-org/GLM-5.3": 23,
+    "livebench/muse-spark-1.1-xhigh": 24,
+    "livebench/gpt-5.4": 25,
+    "benchmark/claude-opus-4.5": 26,
+    "Qwen/Qwen3.8-2.4T-A95B": 27,
+    "benchmark/glm-5": 28,
+    "deepseek-ai/DeepSeek-V4-Pro-0813": 29,
+    "deepseek-ai/DeepSeek-V4-Pro": 30,
+    "livebench/gemini-3.8-flash-high": 31,
+    "Qwen/Qwen3.8-Flash-Next": 32,
+    "livebench/gpt-5.2-codex": 33,
+    "livebench/mistral-large-4-high": 34,
+    "benchmark/gpt-6-luna": 35,
+    "livebench/claude-sonnet-4-6-thinking-auto-high-effort": 36,
+    "zai-org/GLM-5.3-Flash": 37,
+    "livebench/grok-4.7-xhigh": 38,
+    "livebench/gemini-3.6-flash-high": 39,
+    "livebench/gemini-3.5-flash": 40,
+    "Qwen/Qwen3.8-Max": 41,
+    "livebench/grok-4.5": 42,
+    "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": 43,
+    "deepseek-ai/DeepSeek-V4-Flash-0731": 44,
+    "livebench/claude-opus-4-5-20251101-thinking-64k": 45,
+    "moonshotai/Kimi-K2.6": 46,
+    "Qwen/Qwen3.8-27B": 47,
+    "livebench/gpt-5.2-2025-12-11": 48,
+    "livebench/gemini-3.1-pro-preview-high": 49,
+    "livebench/claude-haiku-5-5-xhigh-effort": 50,
+    "zai-org/GLM-5.2": 51,
+    "livebench/qwen3.7-max": 52,
+    "moonshotai/Kimi-K2.7-Code": 53,
+    "livebench/ox-alpha-max": 54,
+    "livebench/qwen3.6-plus": 55,
+    "livebench/gpt-5.4-nano": 56,
+    "livebench/inkling-xhigh": 57,
+    "livebench/gemini-3.5-flash-lite-high": 58,
+    "livebench/grok-build-0.1": 59,
+    "livebench/gpt-5.4-mini": 60,
+    "Qwen/Qwen3.6-27B": 61,
+    "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4": 62,
+    "livebench/minimax-m3": 63,
+    "livebench/grok-4.3": 64
   }
 }

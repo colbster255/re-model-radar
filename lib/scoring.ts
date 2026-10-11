@@ -1,3 +1,4 @@
+import { estimateFit } from "./fit";
 import {
   benchmarks,
   categories,
@@ -113,26 +114,37 @@ export function rankModels(data: Dataset, now = Date.now()) {
       (model) =>
         !variantIds.has(model.id) && !/fallback|multi-model/i.test(model.name),
     )
-    .map((model) => ({
-      ...model,
-      name: model.name.replace(/ \(batch\)$/i, ""),
-      ...scoreModel(model, data.evidence, now),
-      variant: selectVariant(model.id, data.variants),
-    }));
-  // Broad provisional evidence comes before isolated single-benchmark winners.
+    .map((model) => {
+      const observed = scoreModel(model, data.evidence, now);
+      const eligible = data.evidence.filter(
+        (e) =>
+          Date.parse(e.observedAt) <= now &&
+          now - Date.parse(e.observedAt) <=
+            policy.maxEvidenceAgeDays * 86400000,
+      );
+      return {
+        ...model,
+        name: model.name.replace(/ \(batch\)$/i, ""),
+        ...observed,
+        observedScores: observed.scores,
+        independentCategories: new Set(
+          observed.breakdown
+            .filter((e) => e.kind === "independent")
+            .map((e) => benchmarks[e.benchmark].category),
+        ).size,
+        ...estimateFit(observed.breakdown, eligible, now),
+        variant: selectVariant(model.id, data.variants),
+      };
+    });
   rows.sort(
     (a, b) =>
-      Number(b.qualified) - Number(a.qualified) ||
-      Number(b.coverage >= policy.minimumCoverage) -
-        Number(a.coverage >= policy.minimumCoverage) ||
-      (b.overall ?? -1) - (a.overall ?? -1) ||
-      a.name.localeCompare(b.name),
+      (b.overall ?? -1) - (a.overall ?? -1) || a.name.localeCompare(b.name),
   );
   let rank = 0;
   return rows.map((row) => ({
     ...row,
     rank: row.qualified ? ++rank : null,
-    previousRank: data.previousRanks[row.id] ?? null,
+    previousRank: null as number | null, // Previous scoring-version ranks are not comparable.
   }));
 }
 export type RankedModel = ReturnType<typeof rankModels>[number];

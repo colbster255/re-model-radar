@@ -59,6 +59,15 @@ export const variantSchema = z.object({
   context: z.number().positive().nullable(),
   toolSupport: z.enum(["declared", "unknown"]),
   providers: z.array(providerSchema),
+  hostingChecks: z
+    .array(
+      z.object({
+        provider: z.string(),
+        status: z.enum(["listed", "not-found", "inactive"]),
+        source: safeUrl,
+      }),
+    )
+    .default([]),
   retentions: z.array(retentionSchema),
   refusalNote: z.string(),
   caveats: z.array(z.string()),
