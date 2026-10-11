@@ -1637,10 +1637,13 @@ dd {
 }
 .decision-controls label {
   display: grid;
+  min-width: 0;
   gap: 7px;
   color: var(--muted);
 }
 .decision-controls select {
+  width: 100%;
+  min-width: 0;
   padding: 10px;
   border: 1px solid var(--border);
   border-radius: 6px;
