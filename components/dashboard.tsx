@@ -358,10 +358,10 @@ export default function Dashboard({
                         <th className="rank-cell">#</th>
                         <th>BASE MODEL / VARIANT</th>
                         <th>
-                          OVERALL <span>↓</span>
+                          OVERALL {sort === "overall" && <span>↓</span>}
                         </th>
-                        <th>CODING</th>
-                        <th>CYBERSECURITY</th>
+                        <th>CODING {sort === "coding" && <span>↓</span>}</th>
+                        <th>CYBERSECURITY {sort === "cyber" && <span>↓</span>}</th>
                         <th>CONFIDENCE</th>
                         <th>RETENTION</th>
                         <th>HOSTING</th>
