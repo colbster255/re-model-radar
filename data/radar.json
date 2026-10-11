@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-10-11T13:28:34.260Z",
+  "refreshedAt": "2026-10-11T13:41:02.149Z",
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -373,7 +373,7 @@
       "architecture": "qwen3",
       "providers": [],
       "discoveredAt": "2026-10-11T12:32:48.022Z",
-      "updatedAt": "2026-10-11T13:19:48.000Z",
+      "updatedAt": "2026-10-11T13:34:21.000Z",
       "releaseDate": "2026-10-11T11:49:58.000Z"
     },
     {
@@ -1721,7 +1721,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.324Z",
-      "updatedAt": "2026-10-11T13:28:34.949Z",
+      "updatedAt": "2026-10-11T13:41:02.846Z",
       "releaseDate": "2024-12-26"
     },
     {
@@ -1735,7 +1735,7 @@
       "architecture": "deepseek_v32",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T13:28:35.543Z",
+      "updatedAt": "2026-10-11T13:41:03.278Z",
       "releaseDate": null
     },
     {
@@ -1943,7 +1943,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:28:34.913Z",
+      "updatedAt": "2026-10-11T13:41:02.831Z",
       "releaseDate": "2025-12-22"
     },
     {
@@ -1957,7 +1957,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:28:35.517Z",
+      "updatedAt": "2026-10-11T13:41:03.273Z",
       "releaseDate": null
     },
     {
@@ -1971,7 +1971,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:28:35.073Z",
+      "updatedAt": "2026-10-11T13:41:02.933Z",
       "releaseDate": null
     },
     {
@@ -2059,36 +2059,36 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T10:55:31.455Z",
-      "releaseDate": "2025-12-10T18:02:55.000Z"
+      "updatedAt": "2026-10-11T13:41:03.277Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/gpt-5.4",
       "name": "GPT-5.4",
-      "family": "OpenAI",
+      "family": "ExploitGym Team",
       "openWeight": false,
-      "card": "https://openai.com/index/introducing-gpt-5-5",
+      "card": "https://cybergym.io/exploitgym/",
       "context": 1050000,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
-      "releaseDate": "2026-03-05"
+      "updatedAt": "2026-10-11T13:41:02.932Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/gpt-5.5",
       "name": "GPT-5.5",
-      "family": "OpenAI",
+      "family": "ExploitGym Team",
       "openWeight": false,
-      "card": "https://openai.com/index/introducing-gpt-5-5",
+      "card": "https://cybergym.io/exploitgym/",
       "context": 1050000,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
-      "releaseDate": "2026-04-23"
+      "updatedAt": "2026-10-11T13:41:02.931Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/gpt-5.5-cyber",
@@ -2209,14 +2209,14 @@
       "name": "Grok 4.5",
       "family": "xAI",
       "openWeight": false,
-      "card": "https://cursor.com/resources/grok-4-5-model-card.pdf",
+      "card": "https://docs.x.ai/developers/models/grok-4.5",
       "context": 500000,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.322Z",
-      "updatedAt": "2026-10-11T10:55:31.322Z",
-      "releaseDate": "2026-07-14"
+      "updatedAt": "2026-10-11T13:41:04.535Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/grok-4.6",
@@ -2249,7 +2249,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T13:28:35.532Z",
+      "updatedAt": "2026-10-11T13:41:03.275Z",
       "releaseDate": null
     },
     {
@@ -2263,7 +2263,7 @@
       "architecture": "minimax_m2",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T13:28:35.527Z",
+      "updatedAt": "2026-10-11T13:41:03.274Z",
       "releaseDate": null
     },
     {
@@ -3033,6 +3033,20 @@
       "releaseDate": "2026-10-11T11:22:51.000Z"
     },
     {
+      "id": "Ddiop01/smartquery-qwen2.5-1.5b-lora",
+      "name": "smartquery-qwen2.5-1.5b-lora",
+      "family": "Ddiop01",
+      "openWeight": true,
+      "card": "https://huggingface.co/Ddiop01/smartquery-qwen2.5-1.5b-lora",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T13:41:09.098Z",
+      "updatedAt": "2026-10-11T13:25:23.000Z",
+      "releaseDate": "2026-10-11T13:25:09.000Z"
+    },
+    {
       "id": "deepseek-ai/DeepSeek-R1",
       "name": "DeepSeek-R1",
       "family": "deepseek-ai",
@@ -3531,7 +3545,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.167Z",
-      "updatedAt": "2026-10-11T13:28:02.000Z",
+      "updatedAt": "2026-10-11T13:40:20.000Z",
       "releaseDate": "2026-10-11T12:38:40.000Z"
     },
     {
@@ -3853,7 +3867,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.167Z",
-      "updatedAt": "2026-10-11T13:25:43.000Z",
+      "updatedAt": "2026-10-11T13:40:03.000Z",
       "releaseDate": "2026-10-11T12:36:31.000Z"
     },
     {
@@ -3909,7 +3923,7 @@
       "architecture": "gpt2",
       "providers": [],
       "discoveredAt": "2026-10-11T12:59:47.166Z",
-      "updatedAt": "2026-10-11T13:23:45.000Z",
+      "updatedAt": "2026-10-11T13:38:41.000Z",
       "releaseDate": "2026-10-11T12:46:13.000Z"
     },
     {
@@ -11475,6 +11489,20 @@
       "releaseDate": "2026-10-11T07:57:03.000Z"
     },
     {
+      "id": "Skskskd/modelo-fraco",
+      "name": "modelo-fraco",
+      "family": "Skskskd",
+      "openWeight": true,
+      "card": "https://huggingface.co/Skskskd/modelo-fraco",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T13:41:09.097Z",
+      "updatedAt": "2026-10-11T13:30:46.000Z",
+      "releaseDate": "2026-10-11T13:30:42.000Z"
+    },
+    {
       "id": "SKT-NRS/SKT-STARCODER",
       "name": "SKT-STARCODER",
       "family": "SKT-NRS",
@@ -16861,7 +16889,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/Amarillys/Qwen3.8-Flash-Next-Uncensored-ik-llama-v4-lite-iq3-kt-GGUF",
-      "updatedAt": "2026-10-11T13:01:25.000Z"
+      "updatedAt": "2026-10-11T13:36:39.000Z"
     },
     {
       "id": "ArRENCEAI/Qwen3.5-9B-OBLIT-High_Coherence-Low_drift-15_perc_refusal",
@@ -17282,6 +17310,48 @@
       ],
       "source": "https://huggingface.co/ccharnkij/gpt-oss-120b-Uncensored",
       "updatedAt": "2026-10-11T04:19:47.000Z"
+    },
+    {
+      "id": "CCSSNE/HauhauCS-Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "name": "HauhauCS-Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "card": "https://huggingface.co/CCSSNE/HauhauCS-Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/CCSSNE/HauhauCS-Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "updatedAt": "2026-10-11T13:31:25.000Z"
+    },
+    {
+      "id": "CCSSNE/HauhauCS-Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "name": "HauhauCS-Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "card": "https://huggingface.co/CCSSNE/HauhauCS-Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/CCSSNE/HauhauCS-Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "updatedAt": "2026-10-11T13:31:12.000Z"
     },
     {
       "id": "DavCd/Qwen3.8-Flash-Next-Uncensored-exl3-3.09bpw",
@@ -18612,7 +18682,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/redhillsmediafl/Longleaf-35B-A3B-Abliterated",
-      "updatedAt": "2026-10-11T02:58:36.000Z"
+      "updatedAt": "2026-10-11T13:40:06.000Z"
     },
     {
       "id": "shawnw3i/Qwopus3.8-27B-Flash-V2-abliterated",
@@ -18654,7 +18724,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/shawnw3i/Qwopus3.8-27B-Flash-V2-abliterated-exl3-6.0bpw",
-      "updatedAt": "2026-10-11T13:25:47.000Z"
+      "updatedAt": "2026-10-11T13:39:58.000Z"
     },
     {
       "id": "thebadking/Qwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF",
@@ -18854,7 +18924,7 @@
       "name": "CyberGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/cybergym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "48 single-model results; agent-only and multi-model submissions excluded"
     },
     {
@@ -18862,7 +18932,7 @@
       "name": "ExploitGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/exploitgym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "13 version/budget-specific results"
     },
     {
@@ -18870,7 +18940,7 @@
       "name": "Z.ai evaluation table",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "39 attributed results; no independent claim"
     },
     {
@@ -18878,7 +18948,7 @@
       "name": "Hugging Face model registry",
       "url": "https://huggingface.co/api/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "Bounded recent + trending base-model discovery and variant searches. Registry claims remain unverified; previously discovered entries are retained."
     },
     {
@@ -18886,7 +18956,7 @@
       "name": "LiveBench reasoning, coding & agentic tasks",
       "url": "https://livebench.ai/new-livebench/",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "60 models / 180 independent category observations; release 2026_06_25. General reasoning/coding proxies, not direct RE validation."
     },
     {
@@ -18894,7 +18964,7 @@
       "name": "OpenRouter model and hosting catalog",
       "url": "https://openrouter.ai/api/v1/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "441 catalog entries. Listing is not an inference uptime check; context is provider-declared."
     },
     {
@@ -18902,7 +18972,7 @@
       "name": "SWE-bench Multilingual",
       "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "12 checked benchmark-team runs"
     },
     {
@@ -18910,9 +18980,11 @@
       "name": "Terminal-Bench 4.0",
       "url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
       "status": "ok",
-      "lastSuccess": "2026-10-11T13:28:34.260Z",
+      "lastSuccess": "2026-10-11T13:41:02.149Z",
       "message": "21 official submissions, separated by harness and effort"
     }
   ],
-  "previousRanks": {}
+  "previousRanks": {
+    "benchmark/claude-opus-4.6": 1
+  }
 }
