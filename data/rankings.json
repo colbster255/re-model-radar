@@ -3209,7 +3209,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:29.265Z",
+    "updatedAt": "2026-10-11T16:41:00.517Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 51.64600550964188,
@@ -7075,6 +7075,57 @@
     "previousRank": null
   },
   {
+    "id": "0v0ai/0u0-pelican-pro-0.2B-GUFF",
+    "name": "0u0-pelican-pro-0.2B-GUFF",
+    "family": "0v0ai",
+    "openWeight": true,
+    "card": "https://huggingface.co/0v0ai/0u0-pelican-pro-0.2B-GUFF",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:38:38.000Z",
+    "releaseDate": "2026-10-11T15:25:22.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "Raghav-Singhal/1pp-0.5b-asst-rawanneal-base",
     "name": "1pp-0.5b-asst-rawanneal-base",
     "family": "Raghav-Singhal",
@@ -8437,6 +8488,57 @@
     "previousRank": null
   },
   {
+    "id": "Aobangaming/aoban-1-base",
+    "name": "aoban-1-base",
+    "family": "Aobangaming",
+    "openWeight": true,
+    "card": "https://huggingface.co/Aobangaming/aoban-1-base",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "lightning",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:10:02.000Z",
+    "releaseDate": "2026-10-11T15:56:59.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "apodex/apodex-1.1-mini:free",
     "name": "Apodex 1.1 Mini (free)",
     "family": "apodex",
@@ -8800,6 +8902,159 @@
     "previousRank": null
   },
   {
+    "id": "AutomatosX/AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+    "name": "AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+    "family": "AutomatosX",
+    "openWeight": true,
+    "card": "https://huggingface.co/AutomatosX/AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:29:59.000Z",
+    "releaseDate": "2026-10-11T14:29:24.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "AutomatosX/AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+    "name": "AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+    "family": "AutomatosX",
+    "openWeight": true,
+    "card": "https://huggingface.co/AutomatosX/AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:29:08.000Z",
+    "releaseDate": "2026-10-11T14:28:44.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "AutomatosX/AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+    "name": "AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+    "family": "AutomatosX",
+    "openWeight": true,
+    "card": "https://huggingface.co/AutomatosX/AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:12:31.000Z",
+    "releaseDate": "2026-10-11T16:12:23.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "ronghua/Baihua-Gemma4-E4B",
     "name": "Baihua-Gemma4-E4B",
     "family": "ronghua",
@@ -8812,6 +9067,57 @@
     "discoveredAt": "2026-10-11T12:59:47.166Z",
     "updatedAt": "2026-10-11T12:52:21.000Z",
     "releaseDate": "2026-10-11T12:52:21.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "schizophyllume/BeeLLM",
+    "name": "BeeLLM",
+    "family": "schizophyllume",
+    "openWeight": true,
+    "card": "https://huggingface.co/schizophyllume/BeeLLM",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.932Z",
+    "updatedAt": "2026-10-11T10:41:58.000Z",
+    "releaseDate": "2026-10-09T00:32:03.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -12836,7 +13142,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.324Z",
-    "updatedAt": "2026-10-11T14:21:28.538Z",
+    "updatedAt": "2026-10-11T16:41:00.346Z",
     "releaseDate": "2024-12-26",
     "scores": {},
     "coverage": 0,
@@ -13244,7 +13550,7 @@
     "architecture": "deepseek_v32",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-11T14:21:29.284Z",
+    "updatedAt": "2026-10-11T16:41:00.522Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 45.53719008264463,
@@ -13420,6 +13726,57 @@
     "discoveredAt": "2026-10-11T10:55:31.323Z",
     "updatedAt": "2026-06-22T12:12:13.000Z",
     "releaseDate": "2026-04-22T06:04:20.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "Nightmak/DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Flash",
+    "family": "Nightmak",
+    "openWeight": true,
+    "card": "https://huggingface.co/Nightmak/DeepSeek-V4-Flash",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "deepseek_v4",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:18:30.000Z",
+    "releaseDate": "2026-10-11T16:18:29.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -17152,6 +17509,57 @@
     "previousRank": null
   },
   {
+    "id": "AnirbanSaha/gemma2-9b-tlink-sentence-only-autoregressive",
+    "name": "gemma2-9b-tlink-sentence-only-autoregressive",
+    "family": "AnirbanSaha",
+    "openWeight": true,
+    "card": "https://huggingface.co/AnirbanSaha/gemma2-9b-tlink-sentence-only-autoregressive",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gemma2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:53:21.000Z",
+    "releaseDate": "2026-10-11T14:51:19.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "UIDUser-NSB/Gemma4-E4B-Text-MLX",
     "name": "Gemma4-E4B-Text-MLX",
     "family": "UIDUser-NSB",
@@ -17164,6 +17572,108 @@
     "discoveredAt": "2026-10-11T10:55:34.039Z",
     "updatedAt": "2026-10-11T09:20:46.000Z",
     "releaseDate": "2026-10-11T09:19:39.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "watta2002/geniac_prize_2026_stage1_4",
+    "name": "geniac_prize_2026_stage1_4",
+    "family": "watta2002",
+    "openWeight": true,
+    "card": "https://huggingface.co/watta2002/geniac_prize_2026_stage1_4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:34:50.000Z",
+    "releaseDate": "2026-10-11T14:32:37.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "watta2002/geniac_prize_2026_stage2_4",
+    "name": "geniac_prize_2026_stage2_4",
+    "family": "watta2002",
+    "openWeight": true,
+    "card": "https://huggingface.co/watta2002/geniac_prize_2026_stage2_4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:47:58.000Z",
+    "releaseDate": "2026-10-11T14:34:50.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -18068,7 +18578,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:28.517Z",
+    "updatedAt": "2026-10-11T16:41:00.334Z",
     "releaseDate": "2025-12-22",
     "scores": {
       "reasoning": 48.33333333333333,
@@ -18140,7 +18650,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:28.635Z",
+    "updatedAt": "2026-10-11T16:41:00.421Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.16666666666667,
@@ -18572,6 +19082,261 @@
     "previousRank": null
   },
   {
+    "id": "gold-sky/gms-env-20261011-133552",
+    "name": "gms-env-20261011-133552",
+    "family": "gold-sky",
+    "openWeight": true,
+    "card": "https://huggingface.co/gold-sky/gms-env-20261011-133552",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:02:01.000Z",
+    "releaseDate": "2026-10-11T15:01:20.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "gold-sky/gms-env-20261011-133652",
+    "name": "gms-env-20261011-133652",
+    "family": "gold-sky",
+    "openWeight": true,
+    "card": "https://huggingface.co/gold-sky/gms-env-20261011-133652",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:02:01.000Z",
+    "releaseDate": "2026-10-11T15:01:07.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "gold-sky/gms-env-20261011-134131",
+    "name": "gms-env-20261011-134131",
+    "family": "gold-sky",
+    "openWeight": true,
+    "card": "https://huggingface.co/gold-sky/gms-env-20261011-134131",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:54:24.000Z",
+    "releaseDate": "2026-10-11T14:53:26.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "gold-sky/gms-env-20261011-135159",
+    "name": "gms-env-20261011-135159",
+    "family": "gold-sky",
+    "openWeight": true,
+    "card": "https://huggingface.co/gold-sky/gms-env-20261011-135159",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:55:17.000Z",
+    "releaseDate": "2026-10-11T14:54:52.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "gold-sky/gms-env-20261011-151835",
+    "name": "gms-env-20261011-151835",
+    "family": "gold-sky",
+    "openWeight": true,
+    "card": "https://huggingface.co/gold-sky/gms-env-20261011-151835",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:15:14.000Z",
+    "releaseDate": "2026-10-11T16:14:28.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "benchmark/gpt-5-mini",
     "name": "GPT 5 mini",
     "family": "OpenAI",
@@ -18660,7 +19425,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-11T14:21:29.279Z",
+    "updatedAt": "2026-10-11T16:41:00.520Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 47.52066115702479,
@@ -21411,7 +22176,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:28.630Z",
+    "updatedAt": "2026-10-11T16:41:00.418Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.83974358974359,
@@ -21952,7 +22717,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:28.629Z",
+    "updatedAt": "2026-10-11T16:41:00.418Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.83333333333333,
@@ -24212,7 +24977,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.322Z",
-    "updatedAt": "2026-10-11T14:21:30.341Z",
+    "updatedAt": "2026-10-11T16:41:01.785Z",
     "releaseDate": null,
     "scores": {},
     "coverage": 0,
@@ -26248,6 +27013,57 @@
     "previousRank": null
   },
   {
+    "id": "KVCHub/KaiLu-2-933M",
+    "name": "KaiLu-2-933M",
+    "family": "KVCHub",
+    "openWeight": true,
+    "card": "https://huggingface.co/KVCHub/KaiLu-2-933M",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:21:11.000Z",
+    "releaseDate": "2026-10-11T14:27:51.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "moonshotai/Kimi-K2-Instruct",
     "name": "Kimi K2 0711",
     "family": "moonshotai",
@@ -26429,7 +27245,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-11T14:21:29.273Z",
+    "updatedAt": "2026-10-11T16:41:00.519Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.50413223140495,
@@ -27190,6 +28006,108 @@
     "discoveredAt": "2026-10-11T10:55:32.121Z",
     "updatedAt": "2026-10-11T10:55:32.122Z",
     "releaseDate": "2026-07-02T14:27:09.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "akhi499/legalkd-student-e1",
+    "name": "legalkd-student-e1",
+    "family": "akhi499",
+    "openWeight": true,
+    "card": "https://huggingface.co/akhi499/legalkd-student-e1",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:27:52.000Z",
+    "releaseDate": "2026-10-11T13:57:24.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "akhi499/legalkd-student-e2",
+    "name": "legalkd-student-e2",
+    "family": "akhi499",
+    "openWeight": true,
+    "card": "https://huggingface.co/akhi499/legalkd-student-e2",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:30:05.000Z",
+    "releaseDate": "2026-10-11T13:58:26.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -28885,6 +29803,57 @@
     "previousRank": null
   },
   {
+    "id": "semateksen/Manolya-1.5B",
+    "name": "Manolya-1.5B",
+    "family": "semateksen",
+    "openWeight": true,
+    "card": "https://huggingface.co/semateksen/Manolya-1.5B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:04:26.000Z",
+    "releaseDate": "2026-10-11T16:01:35.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
     "name": "Mellum2.1-12B-A2.5B-Thinking",
     "family": "JetBrains",
@@ -28948,6 +29917,57 @@
     "discoveredAt": "2026-10-11T10:55:34.053Z",
     "updatedAt": "2026-10-11T08:56:06.000Z",
     "releaseDate": "2026-10-11T08:55:54.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "imaadd05/Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+    "name": "Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+    "family": "imaadd05",
+    "openWeight": true,
+    "card": "https://huggingface.co/imaadd05/Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "mellum",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T16:27:53.000Z",
+    "releaseDate": "2026-10-11T15:24:38.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -29777,7 +30797,7 @@
     "architecture": "minimax_m2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-11T14:21:29.271Z",
+    "updatedAt": "2026-10-11T16:41:00.519Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.49586776859505,
@@ -32065,6 +33085,210 @@
     "previousRank": null
   },
   {
+    "id": "ArchiveStudio/Muse2-125M",
+    "name": "Muse2-125M",
+    "family": "ArchiveStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/ArchiveStudio/Muse2-125M",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "muse2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.927Z",
+    "updatedAt": "2026-10-11T16:29:31.000Z",
+    "releaseDate": "2026-10-11T16:29:31.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "ArchiveStudio/Muse2-125M-Base",
+    "name": "Muse2-125M-Base",
+    "family": "ArchiveStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/ArchiveStudio/Muse2-125M-Base",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "muse2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.927Z",
+    "updatedAt": "2026-10-11T16:29:27.000Z",
+    "releaseDate": "2026-10-11T16:29:26.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "ArchiveStudio/Muse2-230M",
+    "name": "Muse2-230M",
+    "family": "ArchiveStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/ArchiveStudio/Muse2-230M",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "muse2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:29:22.000Z",
+    "releaseDate": "2026-10-11T16:29:22.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "ArchiveStudio/Muse2-230M-Base",
+    "name": "Muse2-230M-Base",
+    "family": "ArchiveStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/ArchiveStudio/Muse2-230M-Base",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "muse2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:29:18.000Z",
+    "releaseDate": "2026-10-11T16:29:18.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "hello2333666/my_awesome_eli5_clm-model",
     "name": "my_awesome_eli5_clm-model",
     "family": "hello2333666",
@@ -32077,6 +33301,57 @@
     "discoveredAt": "2026-10-11T13:28:41.473Z",
     "updatedAt": "2026-10-11T13:10:32.000Z",
     "releaseDate": "2026-10-11T11:42:19.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "kori11/my-awesome-model",
+    "name": "my-awesome-model",
+    "family": "kori11",
+    "openWeight": true,
+    "card": "https://huggingface.co/kori11/my-awesome-model",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "bert",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:33:51.000Z",
+    "releaseDate": "2026-10-11T15:33:05.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -32800,6 +34075,159 @@
     "discoveredAt": "2026-10-11T10:55:32.115Z",
     "updatedAt": "2026-10-11T10:55:32.115Z",
     "releaseDate": "2026-09-08T17:54:10.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "Anoopsingh53/nexai-v2",
+    "name": "nexai-v2",
+    "family": "Anoopsingh53",
+    "openWeight": true,
+    "card": "https://huggingface.co/Anoopsingh53/nexai-v2",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:03:41.000Z",
+    "releaseDate": "2026-10-11T14:46:06.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/nor-latn-10mb-100mb_seed455",
+    "name": "nor-latn-10mb-100mb_seed455",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/nor-latn-10mb-100mb_seed455",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T16:39:10.000Z",
+    "releaseDate": "2026-10-11T15:25:27.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/nor-latn-10mb-10mb_seed455",
+    "name": "nor-latn-10mb-10mb_seed455",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/nor-latn-10mb-10mb_seed455",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:24:42.000Z",
+    "releaseDate": "2026-10-11T15:09:53.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -33922,6 +35350,108 @@
     "discoveredAt": "2026-10-11T10:55:31.324Z",
     "updatedAt": "2026-10-11T10:55:31.324Z",
     "releaseDate": "2025-04-16",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "LoNebula/okinawa-dialect-assistant",
+    "name": "okinawa-dialect-assistant",
+    "family": "LoNebula",
+    "openWeight": true,
+    "card": "https://huggingface.co/LoNebula/okinawa-dialect-assistant",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:46:13.000Z",
+    "releaseDate": "2026-10-11T15:45:33.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+    "name": "Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+    "family": "BrandonHowe",
+    "openWeight": true,
+    "card": "https://huggingface.co/BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "olmo3",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:56:26.000Z",
+    "releaseDate": "2026-10-11T14:53:51.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -37342,6 +38872,57 @@
     "previousRank": null
   },
   {
+    "id": "Manikanta23/qwen2.5-coder-7b-vlsi-unified-master",
+    "name": "qwen2.5-coder-7b-vlsi-unified-master",
+    "family": "Manikanta23",
+    "openWeight": true,
+    "card": "https://huggingface.co/Manikanta23/qwen2.5-coder-7b-vlsi-unified-master",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:30:43.000Z",
+    "releaseDate": "2026-10-11T15:30:40.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "Qwen/Qwen3-14B",
     "name": "Qwen3 14B",
     "family": "qwen",
@@ -38419,6 +40000,108 @@
     "discoveredAt": "2026-10-11T10:55:34.081Z",
     "updatedAt": "2026-10-11T06:11:52.000Z",
     "releaseDate": "2026-10-11T06:02:33.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "BrandonHowe/Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+    "name": "Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+    "family": "BrandonHowe",
+    "openWeight": true,
+    "card": "https://huggingface.co/BrandonHowe/Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:49:21.000Z",
+    "releaseDate": "2026-10-11T14:46:20.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "pjdawson2020/Qwen3-Coder-Next",
+    "name": "Qwen3-Coder-Next",
+    "family": "pjdawson2020",
+    "openWeight": true,
+    "card": "https://huggingface.co/pjdawson2020/Qwen3-Coder-Next",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_next",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.927Z",
+    "updatedAt": "2026-10-11T16:33:43.000Z",
+    "releaseDate": "2026-10-11T16:33:43.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -39994,6 +41677,210 @@
     "previousRank": null
   },
   {
+    "id": "starrylay/RC-OPD-1.7B",
+    "name": "RC-OPD-1.7B",
+    "family": "starrylay",
+    "openWeight": true,
+    "card": "https://huggingface.co/starrylay/RC-OPD-1.7B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:10:19.000Z",
+    "releaseDate": "2026-10-11T16:10:11.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "starrylay/RC-OPD-4B",
+    "name": "RC-OPD-4B",
+    "family": "starrylay",
+    "openWeight": true,
+    "card": "https://huggingface.co/starrylay/RC-OPD-4B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:10:58.000Z",
+    "releaseDate": "2026-10-11T16:10:52.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "starrylay/RC-OPD-8B",
+    "name": "RC-OPD-8B",
+    "family": "starrylay",
+    "openWeight": true,
+    "card": "https://huggingface.co/starrylay/RC-OPD-8B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:11:21.000Z",
+    "releaseDate": "2026-10-11T16:11:15.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "mihirpatel1111/ReasonForge-3B",
+    "name": "ReasonForge-3B",
+    "family": "mihirpatel1111",
+    "openWeight": true,
+    "card": "https://huggingface.co/mihirpatel1111/ReasonForge-3B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "llama",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:15:54.000Z",
+    "releaseDate": "2026-10-11T16:05:21.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "n00nehere/recursive-bitnet-ngram-102M-64K-instruct-preview",
     "name": "recursive-bitnet-ngram-102M-64K-instruct-preview",
     "family": "n00nehere",
@@ -40699,6 +42586,57 @@
     "discoveredAt": "2026-10-11T10:55:34.024Z",
     "updatedAt": "2026-10-11T12:35:51.000Z",
     "releaseDate": "2026-10-11T10:11:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+    "name": "rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T16:40:21.000Z",
+    "releaseDate": "2026-10-11T15:06:47.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -42181,6 +44119,57 @@
     "previousRank": null
   },
   {
+    "id": "qxyz/sn56-i485-br20",
+    "name": "sn56-i485-br20",
+    "family": "qxyz",
+    "openWeight": true,
+    "card": "https://huggingface.co/qxyz/sn56-i485-br20",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T14:57:08.000Z",
+    "releaseDate": "2026-10-11T14:57:01.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "qxyz/sn56-i486-br20",
     "name": "sn56-i486-br20",
     "family": "qxyz",
@@ -43096,6 +45085,57 @@
     "previousRank": null
   },
   {
+    "id": "Nekodeus/starcoder2-7b-openvino",
+    "name": "starcoder2-7b-openvino",
+    "family": "Nekodeus",
+    "openWeight": true,
+    "card": "https://huggingface.co/Nekodeus/starcoder2-7b-openvino",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "starcoder2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:43:52.000Z",
+    "releaseDate": "2026-10-11T15:28:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "stepfun-ai/Step-3.5-Flash",
     "name": "Step 3.5 Flash",
     "family": "stepfun",
@@ -43426,6 +45466,159 @@
     "previousRank": null
   },
   {
+    "id": "francesca9805/tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "name": "tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.928Z",
+    "updatedAt": "2026-10-11T16:39:12.000Z",
+    "releaseDate": "2026-10-11T15:46:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "name": "tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:43:29.000Z",
+    "releaseDate": "2026-10-11T14:31:49.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+    "name": "tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T14:31:12.000Z",
+    "releaseDate": "2026-10-11T14:20:01.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "BashCache/temp-llada-instruct-20-snr-weighted-adapters-v2",
     "name": "temp-llada-instruct-20-snr-weighted-adapters-v2",
     "family": "BashCache",
@@ -43438,6 +45631,57 @@
     "discoveredAt": "2026-10-11T13:28:41.470Z",
     "updatedAt": "2026-10-11T13:06:33.000Z",
     "releaseDate": "2026-10-11T13:03:30.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "BashCache/temp-llada-instruct-40-snr-weighted-adapters-v2",
+    "name": "temp-llada-instruct-40-snr-weighted-adapters-v2",
+    "family": "BashCache",
+    "openWeight": true,
+    "card": "https://huggingface.co/BashCache/temp-llada-instruct-40-snr-weighted-adapters-v2",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T14:56:35.000Z",
+    "releaseDate": "2026-10-11T14:56:17.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -43546,6 +45790,57 @@
     "discoveredAt": "2026-10-11T10:55:34.105Z",
     "updatedAt": "2026-09-22T21:18:49.000Z",
     "releaseDate": "2026-09-16T23:41:18.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "master103525/test-105-3",
+    "name": "test-105-3",
+    "family": "master103525",
+    "openWeight": true,
+    "card": "https://huggingface.co/master103525/test-105-3",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.930Z",
+    "updatedAt": "2026-10-11T15:09:20.000Z",
+    "releaseDate": "2026-10-11T14:35:04.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -44527,6 +46822,57 @@
     "previousRank": null
   },
   {
+    "id": "Ethan33X/Ventus-2B",
+    "name": "Ventus-2B",
+    "family": "Ethan33X",
+    "openWeight": true,
+    "card": "https://huggingface.co/Ethan33X/Ventus-2B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5_text",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:23:28.000Z",
+    "releaseDate": "2026-10-11T14:55:08.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "tsinghua-sigs-robot-lab/VeriLoop-E2",
     "name": "VeriLoop-E2",
     "family": "tsinghua-sigs-robot-lab",
@@ -44812,6 +47158,57 @@
     "discoveredAt": "2026-10-11T10:55:32.147Z",
     "updatedAt": "2026-10-11T10:55:32.147Z",
     "releaseDate": "2024-04-16T00:00:00.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "workmagicio/workmagic-jev-decision",
+    "name": "workmagic-jev-decision",
+    "family": "workmagicio",
+    "openWeight": true,
+    "card": "https://huggingface.co/workmagicio/workmagic-jev-decision",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3",
+    "providers": [],
+    "discoveredAt": "2026-10-11T16:41:04.929Z",
+    "updatedAt": "2026-10-11T15:55:51.000Z",
+    "releaseDate": "2026-10-11T15:12:43.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,

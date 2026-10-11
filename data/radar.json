@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-10-11T14:21:28.010Z",
+  "refreshedAt": "2026-10-11T16:41:00.042Z",
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -363,6 +363,20 @@
       "releaseDate": "2026-08-19T14:50:53.000Z"
     },
     {
+      "id": "0v0ai/0u0-pelican-pro-0.2B-GUFF",
+      "name": "0u0-pelican-pro-0.2B-GUFF",
+      "family": "0v0ai",
+      "openWeight": true,
+      "card": "https://huggingface.co/0v0ai/0u0-pelican-pro-0.2B-GUFF",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:38:38.000Z",
+      "releaseDate": "2026-10-11T15:25:22.000Z"
+    },
+    {
       "id": "Adammouedden/squire",
       "name": "squire",
       "family": "Adammouedden",
@@ -551,6 +565,34 @@
       "discoveredAt": "2026-10-11T10:55:32.142Z",
       "updatedAt": "2026-10-11T10:55:32.142Z",
       "releaseDate": "2025-02-04T19:18:38.000Z"
+    },
+    {
+      "id": "akhi499/legalkd-student-e1",
+      "name": "legalkd-student-e1",
+      "family": "akhi499",
+      "openWeight": true,
+      "card": "https://huggingface.co/akhi499/legalkd-student-e1",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:27:52.000Z",
+      "releaseDate": "2026-10-11T13:57:24.000Z"
+    },
+    {
+      "id": "akhi499/legalkd-student-e2",
+      "name": "legalkd-student-e2",
+      "family": "akhi499",
+      "openWeight": true,
+      "card": "https://huggingface.co/akhi499/legalkd-student-e2",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:30:05.000Z",
+      "releaseDate": "2026-10-11T13:58:26.000Z"
     },
     {
       "id": "Aleph-Alpha/Kolibri-1",
@@ -779,6 +821,20 @@
       "releaseDate": "2026-10-11T06:28:16.000Z"
     },
     {
+      "id": "AnirbanSaha/gemma2-9b-tlink-sentence-only-autoregressive",
+      "name": "gemma2-9b-tlink-sentence-only-autoregressive",
+      "family": "AnirbanSaha",
+      "openWeight": true,
+      "card": "https://huggingface.co/AnirbanSaha/gemma2-9b-tlink-sentence-only-autoregressive",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gemma2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:53:21.000Z",
+      "releaseDate": "2026-10-11T14:51:19.000Z"
+    },
+    {
       "id": "AnirbanSaha/ministral-8b-tlink-full-autoregressive",
       "name": "ministral-8b-tlink-full-autoregressive",
       "family": "AnirbanSaha",
@@ -791,6 +847,20 @@
       "discoveredAt": "2026-10-11T10:55:34.037Z",
       "updatedAt": "2026-10-11T09:42:00.000Z",
       "releaseDate": "2026-10-11T09:40:14.000Z"
+    },
+    {
+      "id": "Anoopsingh53/nexai-v2",
+      "name": "nexai-v2",
+      "family": "Anoopsingh53",
+      "openWeight": true,
+      "card": "https://huggingface.co/Anoopsingh53/nexai-v2",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:03:41.000Z",
+      "releaseDate": "2026-10-11T14:46:06.000Z"
     },
     {
       "id": "anthracite-org/magnum-v4-72b",
@@ -1273,6 +1343,20 @@
       "releaseDate": "2026-09-28T18:04:46.000Z"
     },
     {
+      "id": "Aobangaming/aoban-1-base",
+      "name": "aoban-1-base",
+      "family": "Aobangaming",
+      "openWeight": true,
+      "card": "https://huggingface.co/Aobangaming/aoban-1-base",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "lightning",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:10:02.000Z",
+      "releaseDate": "2026-10-11T15:56:59.000Z"
+    },
+    {
       "id": "apodex/apodex-1.1-mini:free",
       "name": "Apodex 1.1 Mini (free)",
       "family": "apodex",
@@ -1339,6 +1423,104 @@
       "discoveredAt": "2026-10-11T12:50:26.619Z",
       "updatedAt": "2026-10-03T18:13:44.000Z",
       "releaseDate": "2026-10-03T18:13:44.000Z"
+    },
+    {
+      "id": "ArchiveStudio/Muse2-125M",
+      "name": "Muse2-125M",
+      "family": "ArchiveStudio",
+      "openWeight": true,
+      "card": "https://huggingface.co/ArchiveStudio/Muse2-125M",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "muse2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.927Z",
+      "updatedAt": "2026-10-11T16:29:31.000Z",
+      "releaseDate": "2026-10-11T16:29:31.000Z"
+    },
+    {
+      "id": "ArchiveStudio/Muse2-125M-Base",
+      "name": "Muse2-125M-Base",
+      "family": "ArchiveStudio",
+      "openWeight": true,
+      "card": "https://huggingface.co/ArchiveStudio/Muse2-125M-Base",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "muse2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.927Z",
+      "updatedAt": "2026-10-11T16:29:27.000Z",
+      "releaseDate": "2026-10-11T16:29:26.000Z"
+    },
+    {
+      "id": "ArchiveStudio/Muse2-230M",
+      "name": "Muse2-230M",
+      "family": "ArchiveStudio",
+      "openWeight": true,
+      "card": "https://huggingface.co/ArchiveStudio/Muse2-230M",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "muse2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:29:22.000Z",
+      "releaseDate": "2026-10-11T16:29:22.000Z"
+    },
+    {
+      "id": "ArchiveStudio/Muse2-230M-Base",
+      "name": "Muse2-230M-Base",
+      "family": "ArchiveStudio",
+      "openWeight": true,
+      "card": "https://huggingface.co/ArchiveStudio/Muse2-230M-Base",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "muse2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:29:18.000Z",
+      "releaseDate": "2026-10-11T16:29:18.000Z"
+    },
+    {
+      "id": "AutomatosX/AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+      "name": "AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+      "family": "AutomatosX",
+      "openWeight": true,
+      "card": "https://huggingface.co/AutomatosX/AX-Clef-27B-CUDA-AXQ-NVFP4-W4A16",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:29:59.000Z",
+      "releaseDate": "2026-10-11T14:29:24.000Z"
+    },
+    {
+      "id": "AutomatosX/AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+      "name": "AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+      "family": "AutomatosX",
+      "openWeight": true,
+      "card": "https://huggingface.co/AutomatosX/AX-Clef-Flash-9B-CUDA-AXQ-NVFP4-W4A16",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:29:08.000Z",
+      "releaseDate": "2026-10-11T14:28:44.000Z"
+    },
+    {
+      "id": "AutomatosX/AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+      "name": "AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+      "family": "AutomatosX",
+      "openWeight": true,
+      "card": "https://huggingface.co/AutomatosX/AX-Qwen3.5-0.8B-decision-CUDA-AXQ-NVFP4-W4A16",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:12:31.000Z",
+      "releaseDate": "2026-10-11T16:12:23.000Z"
     },
     {
       "id": "autotrust/GLM5.3-Flash-E256-DGX-Spark",
@@ -1423,6 +1605,20 @@
       "discoveredAt": "2026-10-11T13:28:41.470Z",
       "updatedAt": "2026-10-11T13:06:33.000Z",
       "releaseDate": "2026-10-11T13:03:30.000Z"
+    },
+    {
+      "id": "BashCache/temp-llada-instruct-40-snr-weighted-adapters-v2",
+      "name": "temp-llada-instruct-40-snr-weighted-adapters-v2",
+      "family": "BashCache",
+      "openWeight": true,
+      "card": "https://huggingface.co/BashCache/temp-llada-instruct-40-snr-weighted-adapters-v2",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T14:56:35.000Z",
+      "releaseDate": "2026-10-11T14:56:17.000Z"
     },
     {
       "id": "bebbisingh/Kolibri-1",
@@ -1721,7 +1917,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.324Z",
-      "updatedAt": "2026-10-11T14:21:28.538Z",
+      "updatedAt": "2026-10-11T16:41:00.346Z",
       "releaseDate": "2024-12-26"
     },
     {
@@ -1735,7 +1931,7 @@
       "architecture": "deepseek_v32",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T14:21:29.284Z",
+      "updatedAt": "2026-10-11T16:41:00.522Z",
       "releaseDate": null
     },
     {
@@ -1943,7 +2139,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:28.517Z",
+      "updatedAt": "2026-10-11T16:41:00.334Z",
       "releaseDate": "2025-12-22"
     },
     {
@@ -1957,7 +2153,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:29.265Z",
+      "updatedAt": "2026-10-11T16:41:00.517Z",
       "releaseDate": null
     },
     {
@@ -1971,7 +2167,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:28.635Z",
+      "updatedAt": "2026-10-11T16:41:00.421Z",
       "releaseDate": null
     },
     {
@@ -2059,7 +2255,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T14:21:29.279Z",
+      "updatedAt": "2026-10-11T16:41:00.520Z",
       "releaseDate": null
     },
     {
@@ -2073,7 +2269,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:28.630Z",
+      "updatedAt": "2026-10-11T16:41:00.418Z",
       "releaseDate": null
     },
     {
@@ -2087,7 +2283,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:28.629Z",
+      "updatedAt": "2026-10-11T16:41:00.418Z",
       "releaseDate": null
     },
     {
@@ -2215,7 +2411,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.322Z",
-      "updatedAt": "2026-10-11T14:21:30.341Z",
+      "updatedAt": "2026-10-11T16:41:01.785Z",
       "releaseDate": null
     },
     {
@@ -2249,7 +2445,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T14:21:29.273Z",
+      "updatedAt": "2026-10-11T16:41:00.519Z",
       "releaseDate": null
     },
     {
@@ -2263,7 +2459,7 @@
       "architecture": "minimax_m2",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-10-11T14:21:29.271Z",
+      "updatedAt": "2026-10-11T16:41:00.519Z",
       "releaseDate": null
     },
     {
@@ -2529,6 +2725,20 @@
       "releaseDate": "2026-10-03T09:04:47.000Z"
     },
     {
+      "id": "BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+      "name": "Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+      "family": "BrandonHowe",
+      "openWeight": true,
+      "card": "https://huggingface.co/BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-best-val-step-750",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "olmo3",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:56:26.000Z",
+      "releaseDate": "2026-10-11T14:53:51.000Z"
+    },
+    {
       "id": "BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-final",
       "name": "Olmo7b-urban-seed1-20261010-CPT-final",
       "family": "BrandonHowe",
@@ -2597,6 +2807,20 @@
       "discoveredAt": "2026-10-11T10:55:34.016Z",
       "updatedAt": "2026-10-11T10:54:17.000Z",
       "releaseDate": "2026-10-11T10:53:06.000Z"
+    },
+    {
+      "id": "BrandonHowe/Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+      "name": "Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+      "family": "BrandonHowe",
+      "openWeight": true,
+      "card": "https://huggingface.co/BrandonHowe/Qwen3-8b-urban-seed1-20261010-CPT-best-val-step-750",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:49:21.000Z",
+      "releaseDate": "2026-10-11T14:46:20.000Z"
     },
     {
       "id": "bytedance-seed/seed-1.6",
@@ -3431,6 +3655,20 @@
       "releaseDate": "2026-10-05T00:01:45.000Z"
     },
     {
+      "id": "Ethan33X/Ventus-2B",
+      "name": "Ventus-2B",
+      "family": "Ethan33X",
+      "openWeight": true,
+      "card": "https://huggingface.co/Ethan33X/Ventus-2B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5_text",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:23:28.000Z",
+      "releaseDate": "2026-10-11T14:55:08.000Z"
+    },
+    {
       "id": "exresearch2/lit-magnum-v4-72b",
       "name": "lit-magnum-v4-72b",
       "family": "exresearch2",
@@ -3575,6 +3813,34 @@
       "discoveredAt": "2026-10-11T10:55:34.066Z",
       "updatedAt": "2026-10-11T10:07:17.000Z",
       "releaseDate": "2026-10-11T07:53:49.000Z"
+    },
+    {
+      "id": "francesca9805/nor-latn-10mb-100mb_seed455",
+      "name": "nor-latn-10mb-100mb_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/nor-latn-10mb-100mb_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T16:39:10.000Z",
+      "releaseDate": "2026-10-11T15:25:27.000Z"
+    },
+    {
+      "id": "francesca9805/nor-latn-10mb-10mb_seed455",
+      "name": "nor-latn-10mb-10mb_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/nor-latn-10mb-10mb_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:24:42.000Z",
+      "releaseDate": "2026-10-11T15:09:53.000Z"
     },
     {
       "id": "francesca9805/ppt-wc-zipf-newlex-eng-before-100mb-packed-bfdiso_seed10",
@@ -3941,6 +4207,62 @@
       "releaseDate": "2026-10-11T10:11:41.000Z"
     },
     {
+      "id": "francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "name": "rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T16:40:21.000Z",
+      "releaseDate": "2026-10-11T15:06:47.000Z"
+    },
+    {
+      "id": "francesca9805/tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "name": "tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/tam-taml-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:39:12.000Z",
+      "releaseDate": "2026-10-11T15:46:41.000Z"
+    },
+    {
+      "id": "francesca9805/tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "name": "tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/tam-taml-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:43:29.000Z",
+      "releaseDate": "2026-10-11T14:31:49.000Z"
+    },
+    {
+      "id": "francesca9805/tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+      "name": "tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/tam-taml-10mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:31:12.000Z",
+      "releaseDate": "2026-10-11T14:20:01.000Z"
+    },
+    {
       "id": "francesca9805/urd-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed10",
       "name": "urd-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed10",
       "family": "francesca9805",
@@ -4037,6 +4359,76 @@
       "discoveredAt": "2026-10-11T10:55:34.082Z",
       "updatedAt": "2026-10-11T05:55:39.000Z",
       "releaseDate": "2026-10-11T05:55:17.000Z"
+    },
+    {
+      "id": "gold-sky/gms-env-20261011-133552",
+      "name": "gms-env-20261011-133552",
+      "family": "gold-sky",
+      "openWeight": true,
+      "card": "https://huggingface.co/gold-sky/gms-env-20261011-133552",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:02:01.000Z",
+      "releaseDate": "2026-10-11T15:01:20.000Z"
+    },
+    {
+      "id": "gold-sky/gms-env-20261011-133652",
+      "name": "gms-env-20261011-133652",
+      "family": "gold-sky",
+      "openWeight": true,
+      "card": "https://huggingface.co/gold-sky/gms-env-20261011-133652",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:02:01.000Z",
+      "releaseDate": "2026-10-11T15:01:07.000Z"
+    },
+    {
+      "id": "gold-sky/gms-env-20261011-134131",
+      "name": "gms-env-20261011-134131",
+      "family": "gold-sky",
+      "openWeight": true,
+      "card": "https://huggingface.co/gold-sky/gms-env-20261011-134131",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:54:24.000Z",
+      "releaseDate": "2026-10-11T14:53:26.000Z"
+    },
+    {
+      "id": "gold-sky/gms-env-20261011-135159",
+      "name": "gms-env-20261011-135159",
+      "family": "gold-sky",
+      "openWeight": true,
+      "card": "https://huggingface.co/gold-sky/gms-env-20261011-135159",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:55:17.000Z",
+      "releaseDate": "2026-10-11T14:54:52.000Z"
+    },
+    {
+      "id": "gold-sky/gms-env-20261011-151835",
+      "name": "gms-env-20261011-151835",
+      "family": "gold-sky",
+      "openWeight": true,
+      "card": "https://huggingface.co/gold-sky/gms-env-20261011-151835",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:15:14.000Z",
+      "releaseDate": "2026-10-11T16:14:28.000Z"
     },
     {
       "id": "google/gemini-2.5-flash",
@@ -4977,6 +5369,20 @@
       "releaseDate": "2026-08-31T20:06:20.000Z"
     },
     {
+      "id": "imaadd05/Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+      "name": "Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+      "family": "imaadd05",
+      "openWeight": true,
+      "card": "https://huggingface.co/imaadd05/Mellum2.1-12B-A2.5B-Thinking-mlx-nvfp4",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "mellum",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T16:27:53.000Z",
+      "releaseDate": "2026-10-11T15:24:38.000Z"
+    },
+    {
       "id": "inception/mercury-2",
       "name": "Mercury 2",
       "family": "inception",
@@ -5605,6 +6011,20 @@
       "releaseDate": "2026-10-08T03:20:20.000Z"
     },
     {
+      "id": "kori11/my-awesome-model",
+      "name": "my-awesome-model",
+      "family": "kori11",
+      "openWeight": true,
+      "card": "https://huggingface.co/kori11/my-awesome-model",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "bert",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:33:51.000Z",
+      "releaseDate": "2026-10-11T15:33:05.000Z"
+    },
+    {
       "id": "Kus669/ViSceT5-abl-vitextvqa-noimg-scespavis-ocraug-r1",
       "name": "ViSceT5-abl-vitextvqa-noimg-scespavis-ocraug-r1",
       "family": "Kus669",
@@ -5617,6 +6037,20 @@
       "discoveredAt": "2026-10-11T10:55:34.156Z",
       "updatedAt": "2026-10-11T10:48:01.000Z",
       "releaseDate": "2026-10-11T06:58:24.000Z"
+    },
+    {
+      "id": "KVCHub/KaiLu-2-933M",
+      "name": "KaiLu-2-933M",
+      "family": "KVCHub",
+      "openWeight": true,
+      "card": "https://huggingface.co/KVCHub/KaiLu-2-933M",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:21:11.000Z",
+      "releaseDate": "2026-10-11T14:27:51.000Z"
     },
     {
       "id": "kwanhee/Kimi-K2.5-REAP50-NVFP4-W4A4-GS16",
@@ -6255,6 +6689,20 @@
       "releaseDate": "2026-10-11T12:25:06.000Z"
     },
     {
+      "id": "LoNebula/okinawa-dialect-assistant",
+      "name": "okinawa-dialect-assistant",
+      "family": "LoNebula",
+      "openWeight": true,
+      "card": "https://huggingface.co/LoNebula/okinawa-dialect-assistant",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:46:13.000Z",
+      "releaseDate": "2026-10-11T15:45:33.000Z"
+    },
+    {
       "id": "Luigi/K2-Horizon-0.9B-meeting-agent-zh",
       "name": "K2-Horizon-0.9B-meeting-agent-zh",
       "family": "Luigi",
@@ -6287,6 +6735,34 @@
       "discoveredAt": "2026-10-11T10:55:32.147Z",
       "updatedAt": "2026-10-11T10:55:32.147Z",
       "releaseDate": "2023-08-02T00:00:00.000Z"
+    },
+    {
+      "id": "Manikanta23/qwen2.5-coder-7b-vlsi-unified-master",
+      "name": "qwen2.5-coder-7b-vlsi-unified-master",
+      "family": "Manikanta23",
+      "openWeight": true,
+      "card": "https://huggingface.co/Manikanta23/qwen2.5-coder-7b-vlsi-unified-master",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:30:43.000Z",
+      "releaseDate": "2026-10-11T15:30:40.000Z"
+    },
+    {
+      "id": "master103525/test-105-3",
+      "name": "test-105-3",
+      "family": "master103525",
+      "openWeight": true,
+      "card": "https://huggingface.co/master103525/test-105-3",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T15:09:20.000Z",
+      "releaseDate": "2026-10-11T14:35:04.000Z"
     },
     {
       "id": "Maximilian228/Qwen3.8-Flash-Next-NVFP4-Q8-Mix-Strata",
@@ -6685,6 +7161,20 @@
       "discoveredAt": "2026-10-11T10:55:32.147Z",
       "updatedAt": "2026-10-11T10:55:32.147Z",
       "releaseDate": "2024-04-16T00:00:00.000Z"
+    },
+    {
+      "id": "mihirpatel1111/ReasonForge-3B",
+      "name": "ReasonForge-3B",
+      "family": "mihirpatel1111",
+      "openWeight": true,
+      "card": "https://huggingface.co/mihirpatel1111/ReasonForge-3B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "llama",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:15:54.000Z",
+      "releaseDate": "2026-10-11T16:05:21.000Z"
     },
     {
       "id": "MikeRoz/MiniMax-M2.5-exl3",
@@ -7689,6 +8179,20 @@
       "releaseDate": "2026-02-02T13:42:05.000Z"
     },
     {
+      "id": "Nekodeus/starcoder2-7b-openvino",
+      "name": "starcoder2-7b-openvino",
+      "family": "Nekodeus",
+      "openWeight": true,
+      "card": "https://huggingface.co/Nekodeus/starcoder2-7b-openvino",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "starcoder2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:43:52.000Z",
+      "releaseDate": "2026-10-11T15:28:41.000Z"
+    },
+    {
       "id": "Neo39982/magnum-v4-72b-mlx-8Bit",
       "name": "magnum-v4-72b-mlx-8Bit",
       "family": "Neo39982",
@@ -7769,6 +8273,20 @@
       "discoveredAt": "2026-10-11T10:55:34.175Z",
       "updatedAt": "2026-09-30T09:02:22.000Z",
       "releaseDate": "2026-09-28T15:41:55.000Z"
+    },
+    {
+      "id": "Nightmak/DeepSeek-V4-Flash",
+      "name": "DeepSeek-V4-Flash",
+      "family": "Nightmak",
+      "openWeight": true,
+      "card": "https://huggingface.co/Nightmak/DeepSeek-V4-Flash",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "deepseek_v4",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:18:30.000Z",
+      "releaseDate": "2026-10-11T16:18:29.000Z"
     },
     {
       "id": "nikimori/Qwen3.5-2B-Base-4bit",
@@ -10151,6 +10669,20 @@
       "releaseDate": "2025-03-07T02:08:28.000Z"
     },
     {
+      "id": "pjdawson2020/Qwen3-Coder-Next",
+      "name": "Qwen3-Coder-Next",
+      "family": "pjdawson2020",
+      "openWeight": true,
+      "card": "https://huggingface.co/pjdawson2020/Qwen3-Coder-Next",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_next",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.927Z",
+      "updatedAt": "2026-10-11T16:33:43.000Z",
+      "releaseDate": "2026-10-11T16:33:43.000Z"
+    },
+    {
       "id": "poolside/Laguna-S-2.1",
       "name": "Laguna S 2.1 (free)",
       "family": "poolside",
@@ -11087,6 +11619,20 @@
       "releaseDate": "2026-09-21T03:05:54.000Z"
     },
     {
+      "id": "qxyz/sn56-i485-br20",
+      "name": "sn56-i485-br20",
+      "family": "qxyz",
+      "openWeight": true,
+      "card": "https://huggingface.co/qxyz/sn56-i485-br20",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T14:57:08.000Z",
+      "releaseDate": "2026-10-11T14:57:01.000Z"
+    },
+    {
       "id": "qxyz/sn56-i486-br20",
       "name": "sn56-i486-br20",
       "family": "qxyz",
@@ -11503,6 +12049,34 @@
       "releaseDate": "2024-12-18T15:32:08.000Z"
     },
     {
+      "id": "schizophyllume/BeeLLM",
+      "name": "BeeLLM",
+      "family": "schizophyllume",
+      "openWeight": true,
+      "card": "https://huggingface.co/schizophyllume/BeeLLM",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.932Z",
+      "updatedAt": "2026-10-11T10:41:58.000Z",
+      "releaseDate": "2026-10-09T00:32:03.000Z"
+    },
+    {
+      "id": "semateksen/Manolya-1.5B",
+      "name": "Manolya-1.5B",
+      "family": "semateksen",
+      "openWeight": true,
+      "card": "https://huggingface.co/semateksen/Manolya-1.5B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:04:26.000Z",
+      "releaseDate": "2026-10-11T16:01:35.000Z"
+    },
+    {
       "id": "sethanimesh/echora-qwen3-asr-command",
       "name": "echora-qwen3-asr-command",
       "family": "sethanimesh",
@@ -11655,6 +12229,48 @@
       "discoveredAt": "2026-10-11T10:55:34.061Z",
       "updatedAt": "2026-10-11T08:11:47.000Z",
       "releaseDate": "2026-10-11T08:10:12.000Z"
+    },
+    {
+      "id": "starrylay/RC-OPD-1.7B",
+      "name": "RC-OPD-1.7B",
+      "family": "starrylay",
+      "openWeight": true,
+      "card": "https://huggingface.co/starrylay/RC-OPD-1.7B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:10:19.000Z",
+      "releaseDate": "2026-10-11T16:10:11.000Z"
+    },
+    {
+      "id": "starrylay/RC-OPD-4B",
+      "name": "RC-OPD-4B",
+      "family": "starrylay",
+      "openWeight": true,
+      "card": "https://huggingface.co/starrylay/RC-OPD-4B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:10:58.000Z",
+      "releaseDate": "2026-10-11T16:10:52.000Z"
+    },
+    {
+      "id": "starrylay/RC-OPD-8B",
+      "name": "RC-OPD-8B",
+      "family": "starrylay",
+      "openWeight": true,
+      "card": "https://huggingface.co/starrylay/RC-OPD-8B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.928Z",
+      "updatedAt": "2026-10-11T16:11:21.000Z",
+      "releaseDate": "2026-10-11T16:11:15.000Z"
     },
     {
       "id": "stepfun-ai/Step-3.5-Flash",
@@ -12335,6 +12951,34 @@
       "releaseDate": "2026-10-04T11:12:49.000Z"
     },
     {
+      "id": "watta2002/geniac_prize_2026_stage1_4",
+      "name": "geniac_prize_2026_stage1_4",
+      "family": "watta2002",
+      "openWeight": true,
+      "card": "https://huggingface.co/watta2002/geniac_prize_2026_stage1_4",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:34:50.000Z",
+      "releaseDate": "2026-10-11T14:32:37.000Z"
+    },
+    {
+      "id": "watta2002/geniac_prize_2026_stage2_4",
+      "name": "geniac_prize_2026_stage2_4",
+      "family": "watta2002",
+      "openWeight": true,
+      "card": "https://huggingface.co/watta2002/geniac_prize_2026_stage2_4",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "Unverified",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.930Z",
+      "updatedAt": "2026-10-11T14:47:58.000Z",
+      "releaseDate": "2026-10-11T14:34:50.000Z"
+    },
+    {
       "id": "WaveCut/gemma-4-26B-A4B-it-QAT-Q4_0-MTP-NInfer-v3",
       "name": "gemma-4-26B-A4B-it-QAT-Q4_0-MTP-NInfer-v3",
       "family": "WaveCut",
@@ -12347,6 +12991,20 @@
       "discoveredAt": "2026-10-11T12:32:48.037Z",
       "updatedAt": "2026-10-11T11:27:13.000Z",
       "releaseDate": "2026-10-11T10:47:58.000Z"
+    },
+    {
+      "id": "workmagicio/workmagic-jev-decision",
+      "name": "workmagic-jev-decision",
+      "family": "workmagicio",
+      "openWeight": true,
+      "card": "https://huggingface.co/workmagicio/workmagic-jev-decision",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3",
+      "providers": [],
+      "discoveredAt": "2026-10-11T16:41:04.929Z",
+      "updatedAt": "2026-10-11T15:55:51.000Z",
+      "releaseDate": "2026-10-11T15:12:43.000Z"
     },
     {
       "id": "writer/palmyra-x5",
@@ -18242,6 +18900,39 @@
       "updatedAt": "2026-10-11T07:35:10.000Z"
     },
     {
+      "id": "hbheiner26/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "name": "DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "card": "https://huggingface.co/hbheiner26/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "deepseek_v41",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=hbheiner26%2FDeepSeek-V4.1-Flash-UNCENSORED-FP8"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/hbheiner26/DeepSeek-V4.1-Flash-UNCENSORED-FP8",
+      "updatedAt": "2026-10-11T14:58:32.000Z"
+    },
+    {
       "id": "hotdogs/jev-Ternary-Bonsai-2-27B-Abliterated-PTQ1_0",
       "name": "jev-Ternary-Bonsai-2-27B-Abliterated-PTQ1_0",
       "card": "https://huggingface.co/hotdogs/jev-Ternary-Bonsai-2-27B-Abliterated-PTQ1_0",
@@ -18372,6 +19063,39 @@
       ],
       "source": "https://huggingface.co/huihui-ai/Huihui-Kolibri-1-BF16-abliterated-GGUF",
       "updatedAt": "2026-10-08T04:45:44.000Z"
+    },
+    {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated",
+      "name": "Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated",
+      "card": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": false,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=huihui-ai%2FHuihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-Coder390-EfficientThink-abliterated",
+      "updatedAt": "2026-10-11T15:22:05.000Z"
     },
     {
       "id": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
@@ -19232,6 +19956,105 @@
       "updatedAt": "2026-10-10T22:54:15.000Z"
     },
     {
+      "id": "mradermacher/Qwen3.6-35B-A3B-abliterated-v2-GGUF",
+      "name": "Qwen3.6-35B-A3B-abliterated-v2-GGUF",
+      "card": "https://huggingface.co/mradermacher/Qwen3.6-35B-A3B-abliterated-v2-GGUF",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FQwen3.6-35B-A3B-abliterated-v2-GGUF"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/mradermacher/Qwen3.6-35B-A3B-abliterated-v2-GGUF",
+      "updatedAt": "2026-10-11T15:29:57.000Z"
+    },
+    {
+      "id": "mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF",
+      "name": "Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF",
+      "card": "https://huggingface.co/mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FQwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-GGUF",
+      "updatedAt": "2026-10-11T14:22:04.000Z"
+    },
+    {
+      "id": "mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-i1-GGUF",
+      "name": "Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-i1-GGUF",
+      "card": "https://huggingface.co/mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-i1-GGUF",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=mradermacher%2FQwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-i1-GGUF"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/mradermacher/Qwen3.8-27B-Ultra-Uncensored-Heretic-Native-MTP-Preserved-i1-GGUF",
+      "updatedAt": "2026-10-11T15:27:46.000Z"
+    },
+    {
       "id": "msuiche/gemma-3-12b-it-abliterated-GLP-43-L5-47-a0.25",
       "name": "gemma-3-12b-it-abliterated-GLP-43-L5-47-a0.25",
       "card": "https://huggingface.co/msuiche/gemma-3-12b-it-abliterated-GLP-43-L5-47-a0.25",
@@ -19931,6 +20754,39 @@
       "updatedAt": "2026-10-11T14:02:15.000Z"
     },
     {
+      "id": "SizorCloud/ideogram4-text-encoder-abliterated-merged",
+      "name": "ideogram4-text-encoder-abliterated-merged",
+      "card": "https://huggingface.co/SizorCloud/ideogram4-text-encoder-abliterated-merged",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "qwen3_vl_text",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=SizorCloud%2Fideogram4-text-encoder-abliterated-merged"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/SizorCloud/ideogram4-text-encoder-abliterated-merged",
+      "updatedAt": "2026-10-11T14:24:23.000Z"
+    },
+    {
       "id": "thebadking/Qwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF",
       "name": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF",
       "card": "https://huggingface.co/thebadking/Qwen3.8-27B-Heretic-Abliterated-Uncensored-P1M-GGUF",
@@ -20065,6 +20921,39 @@
       "updatedAt": "2026-10-01T17:15:17.000Z"
     },
     {
+      "id": "wacomctl672/Nemotron-3-Nano-Omni-30B-Abliterated-MM-GGUF",
+      "name": "Nemotron-3-Nano-Omni-30B-Abliterated-MM-GGUF",
+      "card": "https://huggingface.co/wacomctl672/Nemotron-3-Nano-Omni-30B-Abliterated-MM-GGUF",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=wacomctl672%2FNemotron-3-Nano-Omni-30B-Abliterated-MM-GGUF"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/wacomctl672/Nemotron-3-Nano-Omni-30B-Abliterated-MM-GGUF",
+      "updatedAt": "2026-10-11T15:31:30.000Z"
+    },
+    {
       "id": "waldie/Hemmingway-1-Heretic-4bpw-exl3",
       "name": "Hemmingway-1-Heretic-4bpw-exl3",
       "card": "https://huggingface.co/waldie/Hemmingway-1-Heretic-4bpw-exl3",
@@ -20128,7 +21017,40 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/WaveCut/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP-NInfer-v3",
-      "updatedAt": "2026-10-11T11:27:15.000Z"
+      "updatedAt": "2026-10-11T15:09:19.000Z"
+    },
+    {
+      "id": "Winnougan/ComfyUI-Heretic-Uncensored-Text-Encoders",
+      "name": "ComfyUI-Heretic-Uncensored-Text-Encoders",
+      "card": "https://huggingface.co/Winnougan/ComfyUI-Heretic-Uncensored-Text-Encoders",
+      "baseIds": [],
+      "lineage": "unverified",
+      "available": true,
+      "gated": false,
+      "architecture": "Unverified",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Winnougan%2FComfyUI-Heretic-Uncensored-Text-Encoders"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/Winnougan/ComfyUI-Heretic-Uncensored-Text-Encoders",
+      "updatedAt": "2026-10-11T15:53:34.000Z"
     },
     {
       "id": "yuhanb/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
@@ -20236,7 +21158,7 @@
       "name": "CyberGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/cybergym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "48 single-model results; agent-only and multi-model submissions excluded"
     },
     {
@@ -20244,7 +21166,7 @@
       "name": "ExploitGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/exploitgym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "13 version/budget-specific results"
     },
     {
@@ -20252,15 +21174,15 @@
       "name": "Featherless exact checkpoint hosting",
       "url": "https://featherless.ai/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
-      "message": "Checked 103 exact checkpoint IDs. Active catalog listings only; inference uptime and plan access are not tested."
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
+      "message": "Checked 111 exact checkpoint IDs. Active catalog listings only; inference uptime and plan access are not tested."
     },
     {
       "id": "glm-card",
       "name": "Z.ai evaluation table",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "39 attributed results; no independent claim"
     },
     {
@@ -20268,7 +21190,7 @@
       "name": "Hugging Face model registry",
       "url": "https://huggingface.co/api/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "Bounded recent + trending base-model discovery and variant searches. Registry claims remain unverified; previously discovered entries are retained."
     },
     {
@@ -20276,7 +21198,7 @@
       "name": "LiveBench reasoning, coding & agentic tasks",
       "url": "https://livebench.ai/new-livebench/",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "60 models / 180 independent category observations; release 2026_06_25. General reasoning/coding proxies, not direct RE validation."
     },
     {
@@ -20284,7 +21206,7 @@
       "name": "OpenRouter model and hosting catalog",
       "url": "https://openrouter.ai/api/v1/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "441 catalog entries. Listing is not an inference uptime check; context is provider-declared."
     },
     {
@@ -20292,7 +21214,7 @@
       "name": "SWE-bench Multilingual",
       "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "12 checked benchmark-team runs"
     },
     {
@@ -20300,7 +21222,7 @@
       "name": "Terminal-Bench 4.0",
       "url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
       "status": "ok",
-      "lastSuccess": "2026-10-11T14:21:28.010Z",
+      "lastSuccess": "2026-10-11T16:41:00.042Z",
       "message": "21 official submissions, separated by harness and effort"
     }
   ],
