@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-10-11T12:50:19.277Z",
+  "refreshedAt": "2026-10-11T12:59:42.223Z",
   "models": [
     {
       "id": "~anthropic/claude-fable-latest",
@@ -1707,7 +1707,7 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.324Z",
-      "updatedAt": "2026-10-11T10:55:31.324Z",
+      "updatedAt": "2026-10-11T12:59:42.732Z",
       "releaseDate": "2024-12-26"
     },
     {
@@ -1715,14 +1715,14 @@
       "name": "DeepSeek-V3.2",
       "family": "DeepSeek",
       "openWeight": true,
-      "card": "https://huggingface.co/KINOX12/DeepSeek-V3.2",
+      "card": "https://api-docs.deepseek.com",
       "context": 163840,
       "toolSupport": "declared",
       "architecture": "deepseek_v32",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-09-11T18:18:16.000Z",
-      "releaseDate": "2026-09-11T18:18:15.000Z"
+      "updatedAt": "2026-10-11T12:59:43.166Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/deepseek-v4-flash",
@@ -1929,36 +1929,36 @@
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
+      "updatedAt": "2026-10-11T12:59:42.725Z",
       "releaseDate": "2025-12-22"
     },
     {
       "id": "benchmark/glm-5",
       "name": "GLM-5",
-      "family": "Zhipu AI",
+      "family": "Z.ai",
       "openWeight": true,
-      "card": "https://z.ai/blog/glm-5",
+      "card": "https://z.ai",
       "context": 204800,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
-      "releaseDate": "2026-02-12"
+      "updatedAt": "2026-10-11T12:59:43.165Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/glm-5.1",
       "name": "GLM-5.1",
-      "family": "Zhipu AI",
+      "family": "ExploitGym Team",
       "openWeight": false,
-      "card": "https://z.ai/blog/glm-5.1",
+      "card": "https://cybergym.io/exploitgym/",
       "context": 204800,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
-      "releaseDate": "2026-04-07"
+      "updatedAt": "2026-10-11T12:59:42.795Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/glm-5.3-flash",
@@ -2251,30 +2251,30 @@
     {
       "id": "benchmark/kimi-k2.5",
       "name": "Kimi K2.5",
-      "family": "Kimi",
+      "family": "Moonshot AI",
       "openWeight": true,
-      "card": "https://arxiv.org/abs/2602.02276",
+      "card": "https://moonshotai.github.io/Kimi-K2/",
       "context": 262144,
       "toolSupport": "declared",
       "architecture": "Unverified",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.323Z",
-      "updatedAt": "2026-10-11T10:55:31.323Z",
-      "releaseDate": "2026-02-02"
+      "updatedAt": "2026-10-11T12:59:43.165Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/minimax-m2.5",
       "name": "MiniMax M2.5",
       "family": "Minimax",
       "openWeight": true,
-      "card": "https://huggingface.co/ANGELOSEGRETO/MiniMax-M2.5",
+      "card": "https://www.minimax.io",
       "context": 204800,
       "toolSupport": "declared",
       "architecture": "minimax_m2",
       "providers": [],
       "discoveredAt": "2026-10-11T10:55:31.455Z",
-      "updatedAt": "2026-09-13T22:49:28.000Z",
-      "releaseDate": "2026-09-13T22:49:27.000Z"
+      "updatedAt": "2026-10-11T12:59:43.165Z",
+      "releaseDate": null
     },
     {
       "id": "benchmark/muse-spark",
@@ -2537,6 +2537,20 @@
       "discoveredAt": "2026-10-11T10:55:34.123Z",
       "updatedAt": "2026-10-06T05:07:41.000Z",
       "releaseDate": "2026-10-03T09:04:47.000Z"
+    },
+    {
+      "id": "BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-final",
+      "name": "Olmo7b-urban-seed1-20261010-CPT-final",
+      "family": "BrandonHowe",
+      "openWeight": true,
+      "card": "https://huggingface.co/BrandonHowe/Olmo7b-urban-seed1-20261010-CPT-final",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "olmo3",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.167Z",
+      "updatedAt": "2026-10-11T11:31:58.000Z",
+      "releaseDate": "2026-10-11T11:30:45.000Z"
     },
     {
       "id": "BrandonHowe/Olmo7b-urban-seed1-20261010-nvl-after-koqf8weu-CPT-final",
@@ -3319,7 +3333,7 @@
       "architecture": "lfm2_moe",
       "providers": [],
       "discoveredAt": "2026-10-11T12:32:48.022Z",
-      "updatedAt": "2026-10-11T12:00:26.000Z",
+      "updatedAt": "2026-10-11T12:53:54.000Z",
       "releaseDate": "2026-10-11T11:58:44.000Z"
     },
     {
@@ -3503,6 +3517,20 @@
       "releaseDate": "2026-10-11T07:45:19.000Z"
     },
     {
+      "id": "francesca9805/ind-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "name": "ind-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/ind-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.167Z",
+      "updatedAt": "2026-10-11T12:56:57.000Z",
+      "releaseDate": "2026-10-11T12:38:40.000Z"
+    },
+    {
       "id": "francesca9805/isl-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
       "name": "isl-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
       "family": "francesca9805",
@@ -3557,6 +3585,20 @@
       "discoveredAt": "2026-10-11T10:55:34.069Z",
       "updatedAt": "2026-10-11T08:18:47.000Z",
       "releaseDate": "2026-10-11T07:39:02.000Z"
+    },
+    {
+      "id": "francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed10",
+      "name": "ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:54:22.000Z",
+      "releaseDate": "2026-10-11T12:48:58.000Z"
     },
     {
       "id": "francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed3407",
@@ -3755,6 +3797,20 @@
       "releaseDate": "2026-10-11T11:28:05.000Z"
     },
     {
+      "id": "francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed10",
+      "name": "rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed10",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed10",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.167Z",
+      "updatedAt": "2026-10-11T12:57:24.000Z",
+      "releaseDate": "2026-10-11T12:36:31.000Z"
+    },
+    {
       "id": "francesca9805/rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed3407",
       "name": "rus-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed3407",
       "family": "francesca9805",
@@ -3795,6 +3851,20 @@
       "discoveredAt": "2026-10-11T10:55:34.063Z",
       "updatedAt": "2026-10-11T10:25:09.000Z",
       "releaseDate": "2026-10-11T08:05:01.000Z"
+    },
+    {
+      "id": "francesca9805/urd-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "name": "urd-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "family": "francesca9805",
+      "openWeight": true,
+      "card": "https://huggingface.co/francesca9805/urd-100mb-after-wc-loglinear-newlex-before-ckpt500-packed-bfdiso_seed455",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gpt2",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:58:50.000Z",
+      "releaseDate": "2026-10-11T12:46:13.000Z"
     },
     {
       "id": "Frontiers/alien-si-fusion",
@@ -4681,6 +4751,34 @@
       "releaseDate": "2026-10-03T18:21:59.000Z"
     },
     {
+      "id": "hermitdave/Qwen3.8-27B-Coder390-ET-O5.5-G6A-G4.7-DSV4-K3-RLOO-MTP-DFlash2-oQ4e",
+      "name": "Qwen3.8-27B-Coder390-ET-O5.5-G6A-G4.7-DSV4-K3-RLOO-MTP-DFlash2-oQ4e",
+      "family": "hermitdave",
+      "openWeight": true,
+      "card": "https://huggingface.co/hermitdave/Qwen3.8-27B-Coder390-ET-O5.5-G6A-G4.7-DSV4-K3-RLOO-MTP-DFlash2-oQ4e",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:58:07.000Z",
+      "releaseDate": "2026-10-11T12:49:36.000Z"
+    },
+    {
+      "id": "hermitdave/VeriLoop-E2-oQ4e-mtp",
+      "name": "VeriLoop-E2-oQ4e-mtp",
+      "family": "hermitdave",
+      "openWeight": true,
+      "card": "https://huggingface.co/hermitdave/VeriLoop-E2-oQ4e-mtp",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3_5",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:56:49.000Z",
+      "releaseDate": "2026-10-11T12:48:07.000Z"
+    },
+    {
       "id": "hotdogs/Hemmingway-1-27B_qwen3.8-27B_svd_lora",
       "name": "Hemmingway-1-27B_qwen3.8-27B_svd_lora",
       "family": "hotdogs",
@@ -5403,6 +5501,20 @@
       "discoveredAt": "2026-10-11T12:32:48.018Z",
       "updatedAt": "2026-10-11T12:21:07.000Z",
       "releaseDate": "2026-10-11T12:19:46.000Z"
+    },
+    {
+      "id": "LeaderboardModel1/Qwen3-32B-AutoRound-W4A16-RTN",
+      "name": "Qwen3-32B-AutoRound-W4A16-RTN",
+      "family": "LeaderboardModel1",
+      "openWeight": true,
+      "card": "https://huggingface.co/LeaderboardModel1/Qwen3-32B-AutoRound-W4A16-RTN",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "qwen3",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:52:49.000Z",
+      "releaseDate": "2026-10-11T12:52:25.000Z"
     },
     {
       "id": "liaad/facta-pt-qg-amalia-9b-0626-dpo",
@@ -10515,6 +10627,20 @@
       "releaseDate": "2026-10-11T09:45:17.000Z"
     },
     {
+      "id": "ronghua/Baihua-Gemma4-E4B",
+      "name": "Baihua-Gemma4-E4B",
+      "family": "ronghua",
+      "openWeight": true,
+      "card": "https://huggingface.co/ronghua/Baihua-Gemma4-E4B",
+      "context": null,
+      "toolSupport": "unknown",
+      "architecture": "gemma4",
+      "providers": [],
+      "discoveredAt": "2026-10-11T12:59:47.166Z",
+      "updatedAt": "2026-10-11T12:52:21.000Z",
+      "releaseDate": "2026-10-11T12:52:21.000Z"
+    },
+    {
       "id": "sakana/fugu-max",
       "name": "Fugu Max",
       "family": "sakana",
@@ -15038,7 +15164,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/minas2025/Qwen-3.5-2B-StupidChat-Uncensored",
-      "updatedAt": "2026-10-11T12:47:08.000Z"
+      "updatedAt": "2026-10-11T12:51:35.000Z"
     },
     {
       "id": "mradermacher/Gemma-3-27b-it-vl-SuperBrain7x-High-Reasoning-ULTRAMIND-Heretic-Uncensored-GGUF",
@@ -15710,7 +15836,7 @@
         "Coding, cybersecurity retention and tool-call reliability are unverified."
       ],
       "source": "https://huggingface.co/shawnw3i/Qwopus3.8-27B-Flash-V2-abliterated-exl3-6.0bpw",
-      "updatedAt": "2026-10-11T12:41:29.000Z"
+      "updatedAt": "2026-10-11T12:55:35.000Z"
     },
     {
       "id": "Tree-AI-lab/Qwen2.5-Coder-1.5B-Instruct-non-censure-uncensored-coder-for-android-GGUF",
@@ -15889,7 +16015,7 @@
       "name": "CyberGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/cybergym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "48 single-model results; agent-only and multi-model submissions excluded"
     },
     {
@@ -15897,7 +16023,7 @@
       "name": "ExploitGym structured leaderboard",
       "url": "https://www.cybergym.io/assets/data/exploitgym.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "13 version/budget-specific results"
     },
     {
@@ -15905,7 +16031,7 @@
       "name": "Z.ai evaluation table",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "39 attributed results; no independent claim"
     },
     {
@@ -15913,7 +16039,7 @@
       "name": "Hugging Face model registry",
       "url": "https://huggingface.co/api/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "Bounded recent + trending base-model discovery and variant searches. Registry claims remain unverified; previously discovered entries are retained."
     },
     {
@@ -15921,7 +16047,7 @@
       "name": "OpenRouter model and hosting catalog",
       "url": "https://openrouter.ai/api/v1/models",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "441 catalog entries. Listing is not an inference uptime check; context is provider-declared."
     },
     {
@@ -15929,7 +16055,7 @@
       "name": "SWE-bench Multilingual",
       "url": "https://raw.githubusercontent.com/SWE-bench/swe-bench.github.io/master/data/leaderboards.json",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "12 checked benchmark-team runs"
     },
     {
@@ -15937,7 +16063,7 @@
       "name": "Terminal-Bench 4.0",
       "url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
       "status": "ok",
-      "lastSuccess": "2026-10-11T12:50:19.277Z",
+      "lastSuccess": "2026-10-11T12:59:42.223Z",
       "message": "21 official submissions, separated by harness and effort"
     }
   ],
