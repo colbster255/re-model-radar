@@ -190,6 +190,18 @@ export const hosting: Adapter = {
           hugging_face_id: z.string().nullable().optional(),
           context_length: z.number().positive(),
           created: z.number().optional(),
+          top_provider: z
+            .object({
+              max_completion_tokens: z
+                .number()
+                .positive()
+                .nullable()
+                .optional(),
+            })
+            .optional(),
+          pricing: z
+            .object({ prompt: z.string(), completion: z.string() })
+            .optional(),
           supported_parameters: z.array(z.string()).optional(),
         }),
       ),
@@ -218,6 +230,8 @@ export const hosting: Adapter = {
           r.id.split("/")[0],
           Boolean(r.hugging_face_id),
         );
+      const existing = found.find((x) => x.id === m.id);
+      if (existing) found.splice(found.indexOf(existing), 1);
       found.push({
         ...m,
         context: m.context ?? r.context_length,
@@ -225,8 +239,28 @@ export const hosting: Adapter = {
           ? "declared"
           : m.toolSupport,
         providers: [
+          ...(existing?.providers ??
+            m.providers.filter((p) => p.source !== this.url)),
           {
             name: "OpenRouter catalog",
+            modelId: r.id,
+            mode: r.id.endsWith(":batch") ? "batch" : "interactive",
+            context: r.context_length,
+            output: r.top_provider?.max_completion_tokens ?? null,
+            tools: r.supported_parameters?.includes("tools") ?? false,
+            checkedAt: new Date().toISOString(),
+            inputPerMillion:
+              r.pricing &&
+              Number.isFinite(Number(r.pricing.prompt)) &&
+              Number(r.pricing.prompt) >= 0
+                ? Number(r.pricing.prompt) * 1000000
+                : null,
+            outputPerMillion:
+              r.pricing &&
+              Number.isFinite(Number(r.pricing.completion)) &&
+              Number(r.pricing.completion) >= 0
+                ? Number(r.pricing.completion) * 1000000
+                : null,
             url: `https://openrouter.ai/${r.id}`,
             source: this.url,
           },
@@ -237,7 +271,13 @@ export const hosting: Adapter = {
       });
     }
     return {
-      models: [...models.map((m) => ({ ...m, providers: [] })), ...found],
+      models: [
+        ...models.map((m) => ({
+          ...m,
+          providers: m.providers.filter((p) => p.source !== this.url),
+        })),
+        ...found,
+      ],
       variants: variants.map((v) => {
         const entry = data.data.find(
           (r) => r.hugging_face_id === v.id || r.id === v.id,
@@ -250,6 +290,13 @@ export const hosting: Adapter = {
               ? [
                   {
                     name: "OpenRouter",
+                    modelId: entry.id,
+                    mode: entry.id.endsWith(":batch")
+                      ? ("batch" as const)
+                      : ("interactive" as const),
+                    context: entry.context_length,
+                    output: entry.top_provider?.max_completion_tokens ?? null,
+                    checkedAt: new Date().toISOString(),
                     url: "https://openrouter.ai/" + entry.id,
                     source: this.url,
                   },

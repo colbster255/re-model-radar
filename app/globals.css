@@ -1563,3 +1563,185 @@ dd {
     grid-template-columns: 1fr;
   }
 }
+
+/* Workflow decision policy v3; preserve neutral dark research workspace. */
+.workflow {
+  display: grid;
+  gap: 22px;
+}
+.workflow-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: linear-gradient(120deg, #111917, var(--panel));
+}
+.workflow-intro h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  letter-spacing: -1px;
+}
+.workflow-intro p {
+  max-width: 720px;
+  color: var(--muted);
+}
+.workflow-status {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+  min-width: 210px;
+  color: var(--muted);
+}
+.workflow-status strong {
+  color: var(--green);
+  font-size: 20px;
+}
+.role-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.role-tabs button,
+.workflow-button {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 11px 14px;
+  background: var(--panel);
+}
+.role-tabs button.active {
+  color: var(--green);
+  border-color: #35594b;
+  background: #14221c;
+}
+.decision-panel {
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  min-width: 0;
+}
+.decision-panel h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.decision-panel p {
+  max-width: 1100px;
+}
+.decision-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.decision-controls label {
+  display: grid;
+  gap: 7px;
+  color: var(--muted);
+}
+.decision-controls select {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #09090b;
+  color: var(--text);
+  max-width: 100%;
+}
+.decision-controls option {
+  color: #fafafa;
+  background: #18181b;
+}
+.decision-controls.checks label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.decision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.decision-grid article {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  min-width: 0;
+}
+.decision-grid h3 {
+  margin: 8px 0 12px;
+  font-size: 19px;
+}
+.evidence-badge {
+  display: inline-block;
+  color: #fcd48b;
+  border: 1px solid #58452a;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.workflow details {
+  margin: 16px 0;
+}
+.workflow summary {
+  cursor: pointer;
+  color: var(--green);
+}
+.workflow table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.workflow th,
+.workflow td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  white-space: normal;
+}
+.workflow th {
+  color: var(--muted);
+  font-size: 12px;
+}
+.raw-table {
+  min-width: 1000px;
+}
+.workflow small {
+  display: block;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.workflow code {
+  overflow-wrap: anywhere;
+  display: block;
+  font-size: 12px;
+  color: var(--green);
+}
+.provider-record {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  margin-top: 16px;
+}
+.workflow a {
+  color: var(--green);
+}
+@media (max-width: 700px) {
+  .workflow-intro {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .decision-grid {
+    grid-template-columns: 1fr;
+  }
+  .decision-panel {
+    padding: 16px;
+  }
+  .decision-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .role-tabs button {
+    flex: 1 1 40%;
+  }
+}

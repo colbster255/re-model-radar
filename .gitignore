@@ -6,3 +6,6 @@ node_modules/
 *.tsbuildinfo
 artifacts/
 data/refresh-status.json
+
+evals/manifest.json
+evals/runs/

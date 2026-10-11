@@ -20,6 +20,7 @@ import {
   ScanLine,
 } from "lucide-react";
 import Link from "next/link";
+import WorkflowDecisions from "./workflow-decisions";
 import type { Variant, Dataset } from "@/lib/schema";
 import type { RankedModel } from "@/lib/scoring";
 import { benchmarks, type ScoreCategory } from "@/lib/config";
@@ -33,7 +34,7 @@ import { retention } from "@/lib/variants";
 type DashboardData = Pick<
   Dataset,
   "refreshedAt" | "evidence" | "variants" | "sources"
->;
+> & { evaluatedAt: string };
 const labels: Record<ScoreCategory, string> = {
   reasoning: "Thinking / reasoning",
   cyber: "Reversing",
@@ -142,7 +143,7 @@ export default function Dashboard({
     [filter, setFilter] = useState<(typeof filters)[number]>("All models"),
     [sort, setSort] = useState("overall"),
     [selected, setSelected] = useState<RankedModel | null>(null),
-    [view, setView] = useState("leaderboard"),
+    [view, setView] = useState("workflow"),
     [limit, setLimit] = useState(15);
   const [lastCheck, setLastCheck] = useState<string | null>(null),
     [conclusion, setConclusion] = useState<string | null>(null);
@@ -218,10 +219,15 @@ export default function Dashboard({
         <div className="nav-shell">
           <nav aria-label="Main navigation">
             {[
-              { id: "leaderboard", label: "Model leaderboard", icon: ScanLine },
+              { id: "workflow", label: "Workflow decisions", icon: ScanLine },
+              {
+                id: "leaderboard",
+                label: "Archived v2 ranking",
+                icon: ScanLine,
+              },
               {
                 id: "methodology",
-                label: "Ranking methodology",
+                label: "Archived v2 methodology",
                 icon: SlidersHorizontal,
               },
               { id: "variants", label: "Variant hosting", icon: GitBranch },
@@ -257,30 +263,44 @@ export default function Dashboard({
             <div>
               <div className="eyebrow">RESEARCH / MODEL INTELLIGENCE</div>
               <h1>
-                {view === "leaderboard"
-                  ? "Models for reverse engineering"
-                  : view === "variants"
-                    ? "Abliterated model hosting"
-                    : view === "sources"
-                      ? "Sources & collection"
-                      : "Ranking methodology"}
+                {view === "workflow"
+                  ? "Models for your Windows workflow"
+                  : view === "leaderboard"
+                    ? "Archived v2 heuristic"
+                    : view === "variants"
+                      ? "Abliterated model hosting"
+                      : view === "sources"
+                        ? "Sources & collection"
+                        : "Ranking methodology"}
               </h1>
               <p>
-                {view === "leaderboard"
-                  ? "Compare thinking, coding, reversing and tool use for your next investigation."
-                  : view === "variants"
-                    ? "Exact checkpoint listings on Featherless and OpenRouter, separate from base-model hosting."
-                    : view === "sources"
-                      ? "Every result has a source. Every refresh leaves a trace."
-                      : "Base-model competence first. Modified checkpoints evaluated separately."}
+                {view === "workflow"
+                  ? "Raw evidence, role-specific candidates and practical cloud deployment."
+                  : view === "leaderboard"
+                    ? "Superseded heuristic: percentile-based scores below are not Windows capability measurements."
+                    : view === "variants"
+                      ? "Exact checkpoint listings on Featherless and OpenRouter, separate from base-model hosting."
+                      : view === "sources"
+                        ? "Every result has a source. Every refresh leaves a trace."
+                        : "Base-model competence first. Modified checkpoints evaluated separately."}
               </p>
             </div>
             <span className="profile-badge">
               <Terminal size={14} /> Windows / x64
             </span>
           </div>
-          {view === "leaderboard" ? (
+          {view === "workflow" ? (
+            <WorkflowDecisions models={rows} data={data} />
+          ) : view === "leaderboard" ? (
             <>
+              <div className="decision-panel">
+                <strong>Archived policy v2 — superseded.</strong>
+                <p>
+                  This heuristic is retained for audit only. Use Workflow
+                  decisions for current recommendations. Base-model scores below
+                  never measure associated variants.
+                </p>
+              </div>
               <section className="stats-grid" aria-label="Dataset overview">
                 <div>
                   <span>
@@ -841,6 +861,22 @@ function VariantCatalog({ data }: { data: DashboardData }) {
               - Retention{" "}
               {v.retentions.length ? "see model comparison" : "unverified"}
             </p>
+            <span className="evidence-badge">Experimental / unvalidated</span>
+            <p>
+              Checkpoint exists:{" "}
+              {v.available
+                ? "registry artifacts listed"
+                : "artifacts unverified"}{" "}
+              · access: {v.gated ? "gated" : "registry not gated"}.{" "}
+              <Out href={v.card + "/tree/main"}>Inspect weight artifacts</Out>
+            </p>
+            <p>
+              Comparable capability retention:{" "}
+              {v.retentions.filter((r) => r.comparable).length || "none"}. Tool
+              reliability: untested. Plan access: unknown. Serving: untested. No
+              inherited base capability score.
+            </p>
+            <p>{v.refusalNote || "Refusal/compliance measurements unknown."}</p>
             <VariantHosting variant={v} sources={data.sources} />
           </article>
         ))}

@@ -3,6 +3,7 @@ import { request } from "./http";
 import { newModel, type Adapter } from "./types";
 import { matchModel } from "../matching";
 import { evidenceSchema, safeUrl, type Evidence, type Model } from "../schema";
+import { parseCard } from "../card-parser";
 const raw = "https://raw.githubusercontent.com/";
 const known: Record<string, string> = {
   "GLM-5.3": "zai-org/GLM-5.3",
@@ -69,47 +70,13 @@ export const glmCard: Adapter = {
             : "Benchmark comparison",
       ),
     );
-    const lookup: Record<string, string> = {
-      CyberGym: "cybergym",
-      ExploitBench: "exploitbench",
-      "DeepSWE (v1.1)": "deepswe",
-      "Terminal Bench 2.1": "terminal21",
-      "Terminal Bench 3.0": "terminal30",
-      "Toolathlon Verified": "toolathlon",
-    };
-    const evidence: Evidence[] = [];
-    for (const line of lines.slice(2)) {
-      const cells = line
-        .split("|")
-        .slice(1, -1)
-        .map((x) => x.replaceAll("**", "").trim());
-      const key = lookup[cells[0]];
-      if (!key) continue;
-      cells.slice(1).forEach((cell, i) => {
-        if (
-          !/^\d+(\.\d+)?$/.test(cell) ||
-          !discovered[i] ||
-          /fallback|multi-model/i.test(header[i])
-        )
-          return;
-        evidence.push(
-          evidenceSchema.parse({
-            id: `glm-card:${key}:${discovered[i].id}`,
-            modelId: discovered[i].id,
-            benchmark: key,
-            protocol: `Z.ai GLM-5.3 table / ${key} / see card footnotes`,
-            value: Number(cell),
-            kind: "manufacturer",
-            source: this.url,
-            sourceId: this.id,
-            observedAt: "2026-08-14T00:00:00Z",
-            notes:
-              "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-          }),
-        );
-      });
-    }
-    if (evidence.length < 10) throw Error("Incomplete evaluation table");
+    const evidence = parseCard(
+      text,
+      discovered.map((m, i) =>
+        /fallback|multi-model/i.test(header[i]) ? undefined : m.id,
+      ),
+      new Date().toISOString(),
+    );
     return {
       models: discovered.filter(
         (_, i) => !/fallback|multi-model/i.test(header[i]),

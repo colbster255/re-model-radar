@@ -5,6 +5,13 @@ import { featherless } from "../lib/adapters/featherless";
 import { livebench } from "../lib/adapters/livebench";
 import { registry, hosting } from "../lib/adapters/registry";
 import { fingerprint } from "../lib/adapters/http";
+import {
+  decisionVersion,
+  baselineId,
+  candidateId,
+  roles,
+  sensitivity,
+} from "../lib/decisions";
 import { rankModels } from "../lib/scoring";
 import type { Adapter } from "../lib/adapters/types";
 import { join } from "node:path";
@@ -35,12 +42,24 @@ export function mergeModels(previous: Model[], incoming: Model[]) {
 }
 function material(data: Dataset) {
   return {
+    decisionPolicyVersion: data.decisionPolicyVersion,
     models: data.models.map(({ discoveredAt, updatedAt, ...m }) => {
       void discoveredAt;
       void updatedAt;
-      return m;
+      return {
+        ...m,
+        providers: m.providers.map(({ checkedAt, ...p }) => {
+          void checkedAt;
+          return p;
+        }),
+      };
     }),
-    evidence: data.evidence,
+    evidence: data.evidence.map(({ checkedAt, ...e }) => {
+      void checkedAt;
+      return e.sourceId === "glm-card"
+        ? { ...e, observedAt: "retrieval date; content unchanged" }
+        : e;
+    }),
     variants: data.variants.map(({ updatedAt, ...v }) => {
       void updatedAt;
       return v;
@@ -84,7 +103,10 @@ export async function refresh(
       previousRanks: {},
     };
   }
-  let data: Dataset = structuredClone(previous);
+  let data: Dataset = {
+    ...structuredClone(previous),
+    decisionPolicyVersion: decisionVersion,
+  };
   const checkedAt = new Date().toISOString();
   let successes = 0;
   for (const adapter of adapters) {
@@ -98,7 +120,10 @@ export async function refresh(
       data = structuredClone(data);
       try {
         if (adapter.id === "openrouter")
-          data.models = data.models.map((m) => ({ ...m, providers: [] }));
+          data.models = data.models.map((m) => ({
+            ...m,
+            providers: m.providers.filter((p) => p.source !== adapter.url),
+          }));
         data.models = mergeModels(data.models, batch.models ?? []);
         if (batch.evidence)
           data.evidence = [
@@ -189,6 +214,31 @@ export async function refresh(
     );
     data.refreshedAt = checkedAt;
     await atomic(join(directory, "radar.json"), data);
+    await atomic(join(directory, "decisions.json"), {
+      decisionVersion,
+      evaluatedAt: checkedAt,
+      baselineId,
+      candidateId,
+      status: "provisional; no direct Windows workflow runs",
+      roles: roles.map((role) => {
+        const result = sensitivity(
+          data,
+          baselineId,
+          candidateId,
+          role,
+          { manufacturer: true, published: false, budget: 6 },
+          Date.parse(checkedAt),
+        );
+        return {
+          id: role.id,
+          weights: role.weights,
+          groups: result.groups,
+          unstable: result.unstable,
+          scenarios: result.scenarios,
+          pairedObservationIds: result.pairs.map((p) => [p.a.id, p.b.id]),
+        };
+      }),
+    });
     await atomic(
       join(directory, "rankings.json"),
       rankModels(data, Date.parse(checkedAt)),

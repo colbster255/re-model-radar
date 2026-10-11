@@ -10,7 +10,13 @@ export default function Page() {
   return (
     <Dashboard
       rows={rankModels(data)}
-      data={{ refreshedAt, evidence, variants, sources }}
+      data={{
+        refreshedAt,
+        evidence,
+        variants,
+        sources,
+        evaluatedAt: new Date().toISOString(),
+      }}
     />
   );
 }

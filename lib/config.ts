@@ -73,6 +73,46 @@ export const benchmarks: Record<
     label: "Toolathlon Verified",
     protocol: "official service / pass@1 / avg@3",
   },
+  nl2repo: {
+    category: "coding",
+    label: "NL2Repo",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  programbench: {
+    category: "coding",
+    label: "ProgramBench Almost Solved",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  frontierswe: {
+    category: "coding",
+    label: "FrontierSWE",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  "swe-marathon": {
+    category: "coding",
+    label: "SWE-Marathon v1.1",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  posttrain: {
+    category: "agentic",
+    label: "PostTrainBench",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  automation: {
+    category: "agentic",
+    label: "AutomationBench v1.0.6",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  ale: {
+    category: "agentic",
+    label: "Agents Last Exam CLI",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
+  "hle-tools": {
+    category: "reasoning",
+    label: "HLE with tools",
+    protocol: "Z.ai published comparison; see footnotes",
+  },
   "swe-multilingual": {
     category: "coding",
     label: "SWE-bench Multilingual",

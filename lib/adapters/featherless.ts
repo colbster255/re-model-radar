@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { request } from "./http";
 import type { Adapter } from "./types";
-import type { Variant } from "../schema";
+import type { Variant, Model } from "../schema";
 export const featherlessSearch =
   "https://featherless.ai/api/feather/search/models";
 const responseSchema = z.object({
@@ -25,6 +25,8 @@ export function featherlessResult(variant: Variant, payload: unknown): Variant {
         ? [
             {
               name: "Featherless",
+              modelId: variant.id,
+              mode: "interactive" as const,
               url: "https://featherless.ai/models/" + variant.id,
               source,
             },
@@ -47,7 +49,7 @@ export const featherless: Adapter = {
   id: "featherless",
   name: "Featherless exact checkpoint hosting",
   url: "https://featherless.ai/models",
-  async run(_models, variants = []) {
+  async run(models, variants = []) {
     if (variants.length > 200)
       throw Error(
         "Checkpoint lookup bound exceeded; prior hosting data retained",
@@ -70,7 +72,76 @@ export const featherless: Adapter = {
         )),
       );
     }
+    const baseModels: Model[] = [];
+    // Explicit baseline/candidate; other bases remain unknown rather than guessed hosted.
+    for (const id of ["zai-org/GLM-5.3", "moonshotai/Kimi-K3"]) {
+      const m = models.find((m) => m.id === id);
+      if (!m) continue;
+      const source = featherlessSearch + "?query=" + encodeURIComponent(id);
+      const result = responseSchema.parse(await request(source));
+      if (result.pagination.total_pages > 1)
+        throw Error("Base lookup truncated");
+      const active = result.items.some(
+        (x) => x.id === id && x.status === "active",
+      );
+      const detailSource =
+        "https://featherless.ai/api/feather/models/" + encodeURIComponent(id);
+      const detail = active
+        ? z
+            .object({
+              id: z.literal(id),
+              supports_tool_calling: z.boolean().optional(),
+              request_pricing: z
+                .object({
+                  input_price_per_1m_tokens: z.coerce.number().nonnegative(),
+                  output_price_per_1m_tokens: z.coerce.number().nonnegative(),
+                })
+                .optional(),
+              context_length_override: z
+                .number()
+                .positive()
+                .nullable()
+                .optional(),
+              model_class: z.object({
+                context_length: z.number().positive(),
+                concurrency_cost: z.number().positive(),
+              }),
+            })
+            .parse(await request(detailSource))
+        : null;
+      baseModels.push({
+        ...m,
+        providers: [
+          ...m.providers.filter(
+            (p) => !p.source.startsWith("https://featherless.ai/"),
+          ),
+          ...(detail
+            ? [
+                {
+                  name: "Featherless",
+                  url: "https://featherless.ai/models/" + id,
+                  source: detailSource,
+                  modelId: id,
+                  mode: "interactive" as const,
+                  context:
+                    detail.context_length_override ??
+                    detail.model_class.context_length,
+                  tools: detail.supports_tool_calling,
+                  inputPerMillion:
+                    detail.request_pricing?.input_price_per_1m_tokens ?? null,
+                  outputPerMillion:
+                    detail.request_pricing?.output_price_per_1m_tokens ?? null,
+                  output: null,
+                  concurrencyUnits: detail.model_class.concurrency_cost,
+                  checkedAt: new Date().toISOString(),
+                },
+              ]
+            : []),
+        ],
+      });
+    }
     return {
+      models: baseModels,
       variants: checked,
       message: `Checked ${checked.length} exact checkpoint IDs. Active catalog listings only; inference uptime and plan access are not tested.`,
     };

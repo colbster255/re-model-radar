@@ -14,12 +14,28 @@ export const evidenceSchema = z.object({
   sourceId: z.string(),
   observedAt: z.string(),
   notes: z.string().default(""),
+  metric: z.enum(["percentage", "coverage", "count"]).optional(),
+  rawValue: z.number().nonnegative().optional(),
+  denominator: z.number().positive().optional(),
+  budgetHours: z.number().positive().optional(),
+  correlationGroup: z.string().optional(),
+  comparability: z.enum(["matched", "published", "unresolved"]).optional(),
+  checkedAt: z.string().optional(),
 });
 export type Evidence = z.infer<typeof evidenceSchema>;
 export const providerSchema = z.object({
   name: z.string(),
   url: safeUrl,
   source: safeUrl,
+  modelId: z.string().optional(),
+  mode: z.enum(["interactive", "batch", "unknown"]).optional(),
+  context: z.number().positive().nullable().optional(),
+  output: z.number().positive().nullable().optional(),
+  tools: z.boolean().optional(),
+  checkedAt: z.string().optional(),
+  inputPerMillion: z.number().nonnegative().nullable().optional(),
+  outputPerMillion: z.number().nonnegative().nullable().optional(),
+  concurrencyUnits: z.number().positive().optional(),
 });
 export const modelSchema = z.object({
   id: z.string().min(1).max(200),
@@ -87,6 +103,7 @@ export const sourceSchema = z.object({
 export type Source = z.infer<typeof sourceSchema>;
 export const datasetSchema = z.object({
   schemaVersion: z.literal(1),
+  decisionPolicyVersion: z.string().optional(),
   refreshedAt: z.string(),
   models: z.array(modelSchema),
   evidence: z.array(evidenceSchema),
