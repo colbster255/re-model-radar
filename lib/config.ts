@@ -6,6 +6,7 @@ export const weights = {
   deployment: 10,
 } as const;
 export type Category = keyof typeof weights;
+export type ScoreCategory = Category | "reasoning";
 export const categories = Object.keys(weights) as Category[];
 export const policy = {
   minimumCoverage: 70,
@@ -14,8 +15,24 @@ export const policy = {
 };
 export const benchmarks: Record<
   string,
-  { category: Category; label: string; protocol: string }
+  { category: ScoreCategory; label: string; protocol: string }
 > = {
+  "livebench-reasoning": {
+    category: "reasoning",
+    label: "LiveBench Reasoning",
+    protocol:
+      "release-specific reasoning subtask mean / published effort configuration",
+  },
+  "livebench-coding": {
+    category: "coding",
+    label: "LiveBench Coding",
+    protocol: "release-specific code generation/completion mean",
+  },
+  "livebench-agentic": {
+    category: "agentic",
+    label: "LiveBench Agentic Coding",
+    protocol: "release-specific JavaScript/TypeScript/Python task mean",
+  },
   terminal40: {
     category: "agentic",
     label: "Terminal-Bench 4.0",

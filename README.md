@@ -19,6 +19,10 @@ The interface adapts the open-source [shadcn/ui dashboard](https://ui.shadcn.com
 
 ## Architecture
 
+The dashboard compares four RE workflow capabilities: thinking/reasoning, coding, reversing (security proxy), and tool use (agentic execution proxy). Each shortlist compares one shared benchmark cohort, preferring independent evidence, broader coverage and then recency. Category table scores remain means across normalized benchmarks, so shortlist and table values can differ. Details explain the evidence and its transfer limits. Reasoning is an additional comparison axis; it does not alter the original weighted overall score or qualification policy.
+
+LiveBench is an hourly collector source for reasoning, coding and agentic coding. It discovers the latest public release and uses the benchmark publisher's default model configuration, with a declared variant fallback when that row is absent. Category values use complete subtask means following the publisher's calculation; missing subtasks skip the category. Effort varies between models and is recorded. The table-file publication timestamp is used because per-run dates are unavailable. Remote model metadata is parsed with a static syntax tree and never executed; unknown/malformed CSV contracts fail closed. Exact Hugging Face IDs and reviewed closed-model aliases link results to base entries. Finetune entries are excluded.
+
 - `lib/adapters/`: public source adapters, schemas, provenance and safe HTTP ingestion.
 - `lib/config.ts`: all category weights, benchmark categories and qualification thresholds.
 - `lib/scoring.ts`: cohort percentiles, missing evidence, confidence, qualification and deterministic rankings.

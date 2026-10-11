@@ -4,6 +4,7 @@ import {
   policy,
   weights,
   type Category,
+  type ScoreCategory,
 } from "./config";
 import type { Dataset, Evidence, Model } from "./schema";
 import { selectVariant } from "./variants";
@@ -21,7 +22,7 @@ export function scoreModel(model: Model, all: Evidence[], now = Date.now()) {
       Date.parse(e.observedAt) <= now &&
       now - Date.parse(e.observedAt) <= policy.maxEvidenceAgeDays * 86400000,
   );
-  const scores: Partial<Record<Category, number>> = {},
+  const scores: Partial<Record<ScoreCategory, number>> = {},
     independent = new Set<Category>();
   const breakdown: (Evidence & { normalized: number })[] = [];
   for (const key of Object.keys(benchmarks)) {
@@ -60,11 +61,14 @@ export function scoreModel(model: Model, all: Evidence[], now = Date.now()) {
     )[0];
     if (best) {
       breakdown.push(best);
-      if (best.kind === "independent")
-        independent.add(benchmarks[key].category);
+      if (
+        best.kind === "independent" &&
+        benchmarks[key].category !== "reasoning"
+      )
+        independent.add(benchmarks[key].category as Category);
     }
   }
-  for (const cat of categories) {
+  for (const cat of [...categories, "reasoning"] as ScoreCategory[]) {
     const values = breakdown
       .filter((e) => benchmarks[e.benchmark].category === cat)
       .map((e) => e.normalized);
@@ -111,6 +115,7 @@ export function rankModels(data: Dataset, now = Date.now()) {
     )
     .map((model) => ({
       ...model,
+      name: model.name.replace(/ \(batch\)$/i, ""),
       ...scoreModel(model, data.evidence, now),
       variant: selectVariant(model.id, data.variants),
     }));

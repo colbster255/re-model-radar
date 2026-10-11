@@ -1,6 +1,6 @@
-# Goal alignment audit — 2026-10-11
+# Goal alignment audit — 2026-10-11 (09:00 ET baseline)
 
-RE Model Radar follows the requested evidence-first design. The main remaining gap is evaluation coverage, rather than a demonstrated best model for Windows security research. No model currently meets the qualification policy, and matched variants have no comparable capability-retention measurements. These gaps remain visible throughout the dashboard.
+RE Model Radar follows the requested evidence-first design. The main remaining gap is evaluation coverage, rather than a demonstrated best model for Windows security research. At this baseline, no model met the qualification policy, and matched variants had no comparable capability-retention measurements. These gaps remain visible throughout the dashboard.
 
 ## Corrections made
 
@@ -51,3 +51,9 @@ The audited flow is public feeds → validated adapters → versioned snapshot �
 - Browser checks cover sorting with keyboard input, search and empty results, filters, details, source provenance and unverified variant measurements. Deployment and responsive verification are recorded in the completion report.
 
 CSS behavior reference: [MDN option styling](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/option#styling_with_css).
+
+## Follow-up: four capabilities for reverse engineering
+
+The subsequent task-focused view adds thinking/reasoning, coding, reversing (security proxy) and tool-use (agentic execution proxy) shortlists, corresponding table columns/sorts, and per-model workflow explanations with source links. LiveBench is now the eighth adapter and supplied 180 independent category observations across 60 default model configurations on its first refresh. Qualification can change as this evidence is added; the live dashboard shows the current result. Reasoning remains separate from the original overall weighting and qualification gate.
+
+Shortlists compare one shared benchmark/protocol cohort, preferring independence, breadth and then recency, instead of comparing unrelated category winners. Displayed shortlist percentiles can therefore differ from the table's multi-benchmark category means. Tests cover static metadata parsing without execution, malformed CSV rejection, reasoning isolation and shared-cohort shortlist selection. General logic, code and agentic tasks remain transfer proxies, not direct Windows RE validation.

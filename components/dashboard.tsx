@@ -22,13 +22,24 @@ import {
 import Link from "next/link";
 import type { Dataset } from "@/lib/schema";
 import type { RankedModel } from "@/lib/scoring";
-import { categories, weights, benchmarks, type Category } from "@/lib/config";
+import {
+  categories,
+  weights,
+  benchmarks,
+  type ScoreCategory,
+} from "@/lib/config";
+import {
+  capabilities,
+  capabilityEvidence,
+  capabilityLeaders,
+} from "@/lib/capabilities";
 import { retention } from "@/lib/variants";
 type DashboardData = Pick<
   Dataset,
   "refreshedAt" | "evidence" | "variants" | "sources"
 >;
-const labels: Record<Category, string> = {
+const labels: Record<ScoreCategory, string> = {
+  reasoning: "Thinking / reasoning",
   cyber: "Cybersecurity",
   coding: "Coding",
   systems: "Low-level / RE",
@@ -118,7 +129,8 @@ export default function Dashboard({
   if (sort !== "overall")
     filtered.sort(
       (a, b) =>
-        (b.scores[sort as Category] ?? -1) - (a.scores[sort as Category] ?? -1),
+        (b.scores[sort as ScoreCategory] ?? -1) -
+        (a.scores[sort as ScoreCategory] ?? -1),
     );
   const verified = rows.filter((r) => r.qualified).length,
     withVariants = rows.filter((r) => r.variant).length,
@@ -198,14 +210,14 @@ export default function Dashboard({
               <div className="eyebrow">RESEARCH / MODEL INTELLIGENCE</div>
               <h1>
                 {view === "leaderboard"
-                  ? "Model intelligence"
+                  ? "Models for reverse engineering"
                   : view === "sources"
                     ? "Sources & collection"
                     : "Ranking methodology"}
               </h1>
               <p>
                 {view === "leaderboard"
-                  ? "Track technical capability. Compare the evidence. Find your next model."
+                  ? "Compare thinking, coding, reversing and tool use for your next investigation."
                   : view === "sources"
                     ? "Every result has a source. Every refresh leaves a trace."
                     : "Base-model competence first. Modified checkpoints evaluated separately."}
@@ -275,6 +287,63 @@ export default function Dashboard({
                   Scoring policy <ArrowUpRight size={13} />
                 </button>
               </div>
+              <section
+                className="capability-section"
+                aria-label="RE capability shortlists"
+              >
+                <div className="capability-heading">
+                  <h2>Which models fit each part of RE?</h2>
+                  <p>
+                    Same-benchmark shortlists, preferring independent evidence
+                    and the broadest observed cohort. Scores are peer
+                    percentiles, not Windows RE accuracy.
+                  </p>
+                </div>
+                <div className="capability-grid">
+                  {capabilities.map((c) => (
+                    <article className="capability-card" key={c.key}>
+                      <button
+                        className="capability-title"
+                        onClick={() => {
+                          setSort(c.key);
+                          setLimit(15);
+                        }}
+                        aria-label={`Sort by ${c.title}`}
+                      >
+                        <h3>{c.title}</h3>
+                        <ArrowUpRight size={15} />
+                      </button>
+                      <p>{c.use}</p>
+                      <ol>
+                        {capabilityLeaders(filtered, c.key).map((r) => {
+                          return (
+                            <li key={r.id}>
+                              <button onClick={() => setSelected(r)}>
+                                <span>
+                                  {r.name}
+                                  <small>
+                                    {benchmarks[r.capabilityBenchmark].label} ·{" "}
+                                    {r.capabilityKind === "independent"
+                                      ? "Independent"
+                                      : "Manufacturer claim"}
+                                  </small>
+                                </span>
+                                <b>{fmt(r.capabilityScore)}</b>
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ol>
+                      {!capabilityLeaders(filtered, c.key).length && (
+                        <p className="capability-empty">
+                          No scored evidence for these filters.
+                        </p>
+                      )}
+                      <small className="capability-caveat">{c.caveat}</small>
+                    </article>
+                  ))}
+                </div>
+              </section>
               <section className="leaderboard">
                 <div className="section-heading">
                   <div>
@@ -328,9 +397,14 @@ export default function Dashboard({
                         onChange={(e) => setSort(e.target.value)}
                       >
                         <option value="overall">Overall</option>
+                        <option value="reasoning">Thinking / reasoning</option>
                         <option value="coding">Coding</option>
-                        <option value="cyber">Cybersecurity</option>
-                        <option value="agentic">Tool reliability proxy</option>
+                        <option value="cyber">
+                          Reversing · security proxy
+                        </option>
+                        <option value="agentic">
+                          Tool use · execution proxy
+                        </option>
                       </select>
                     </label>
                   </div>
@@ -342,9 +416,16 @@ export default function Dashboard({
                         <th className="rank-cell">#</th>
                         <th>BASE MODEL / VARIANT</th>
                         <th>OVERALL {sort === "overall" && <span>↓</span>}</th>
+                        <th>
+                          REASONING {sort === "reasoning" && <span>↓</span>}
+                        </th>
                         <th>CODING {sort === "coding" && <span>↓</span>}</th>
                         <th>
-                          CYBERSECURITY {sort === "cyber" && <span>↓</span>}
+                          RE / SECURITY PROXY{" "}
+                          {sort === "cyber" && <span>↓</span>}
+                        </th>
+                        <th>
+                          TOOL USE PROXY {sort === "agentic" && <span>↓</span>}
                         </th>
                         <th>CONFIDENCE</th>
                         <th>RETENTION</th>
@@ -424,10 +505,16 @@ export default function Dashboard({
                             </small>
                           </td>
                           <td>
+                            <Score value={r.scores.reasoning} />
+                          </td>
+                          <td>
                             <Score value={r.scores.coding} />
                           </td>
                           <td>
                             <Score value={r.scores.cyber} />
+                          </td>
+                          <td>
+                            <Score value={r.scores.agentic} />
                           </td>
                           <td>
                             <span
@@ -664,6 +751,15 @@ function Methodology() {
           older than 365 days is excluded from scoring, but preserved for audit.
         </p>
         <p>
+          Thinking / reasoning is compared separately using LiveBench reasoning
+          tasks and does not change the original weighted overall score or
+          qualification gate. Shortlists compare a shared benchmark cohort,
+          preferring independent evidence and broader cohorts, then recency. The
+          table category sorts use the category mean percentile across
+          benchmarks. None of these category scores establishes direct Windows
+          reverse-engineering competence.
+        </p>
+        <p>
           There is no validated Windows kernel, Vanguard, IDA, Ghidra, WinDbg or
           x64dbg benchmark in the current feeds. Low-level / RE therefore
           remains unscored. Agentic execution is a tool-reliability proxy, not a
@@ -742,7 +838,7 @@ function Details({
           {m.family} ·{" "}
           {m.qualified
             ? "Qualified ranking"
-            : "Provisional / awaiting independent evidence"}
+            : "Provisional / qualification criteria incomplete"}
         </p>
         <div className="detail-score">
           <strong>
@@ -750,6 +846,27 @@ function Details({
             <small>/ 100 peer percentile</small>
           </strong>
           <span>{m.coverage}% evidence coverage</span>
+        </div>
+        <div className="detail-section">
+          <h3>Fit for your RE workflow</h3>
+          {capabilities.map((c) => (
+            <div className="capability-detail" key={c.key}>
+              <strong>
+                {c.title}: {fmt(m.scores[c.key])}
+                {m.scores[c.key] !== undefined
+                  ? " / 100 peer percentile"
+                  : " · no scored evidence"}
+              </strong>
+              <p>
+                {c.use} {c.caveat}
+              </p>
+              {capabilityEvidence(m, c.key).map((e) => (
+                <Out key={e.id} href={e.source}>
+                  {benchmarks[e.benchmark].label} · {e.kind}
+                </Out>
+              ))}
+            </div>
+          ))}
         </div>
         <div className="detail-section">
           <h3>What the evidence supports</h3>
@@ -760,7 +877,7 @@ function Details({
                 )
                   .sort((a, b) => b[1] - a[1])
                   .slice(0, 2)
-                  .map(([c]) => labels[c as Category])
+                  .map(([c]) => labels[c as ScoreCategory])
                   .join(", ")}.`
               : "No comparable scored cohort yet. This release enters the catalog automatically and awaits evidence."}
           </p>

@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile, rename } from "node:fs/promises";
 import { datasetSchema, type Dataset, type Model } from "../lib/schema";
 import { benchmarkAdapters } from "../lib/adapters/benchmarks";
+import { livebench } from "../lib/adapters/livebench";
 import { registry, hosting } from "../lib/adapters/registry";
 import { fingerprint } from "../lib/adapters/http";
 import { rankModels } from "../lib/scoring";
@@ -59,6 +60,7 @@ export async function refresh(
   const directory = options.directory ?? "data";
   const adapters = options.adapters ?? [
     ...benchmarkAdapters,
+    livebench,
     hosting,
     registry,
   ];
@@ -150,6 +152,7 @@ export async function refresh(
       rankModels(previous, Date.parse(previous.refreshedAt)).map((r) => ({
         id: r.id,
         overall: r.overall,
+        scores: r.scores,
         coverage: r.coverage,
         rank: r.rank,
       })),
@@ -158,6 +161,7 @@ export async function refresh(
         rankModels(data, Date.parse(checkedAt)).map((r) => ({
           id: r.id,
           overall: r.overall,
+          scores: r.scores,
           coverage: r.coverage,
           rank: r.rank,
         })),
