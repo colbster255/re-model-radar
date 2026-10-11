@@ -24,6 +24,10 @@ import type { Dataset } from "@/lib/schema";
 import type { RankedModel } from "@/lib/scoring";
 import { categories, weights, benchmarks, type Category } from "@/lib/config";
 import { retention } from "@/lib/variants";
+type DashboardData = Pick<
+  Dataset,
+  "refreshedAt" | "evidence" | "variants" | "sources"
+>;
 const labels: Record<Category, string> = {
   cyber: "Cybersecurity",
   coding: "Coding",
@@ -75,7 +79,7 @@ export default function Dashboard({
   data,
 }: {
   rows: RankedModel[];
-  data: Dataset;
+  data: DashboardData;
 }) {
   const [query, setQuery] = useState(""),
     [filter, setFilter] = useState<(typeof filters)[number]>("All models"),
@@ -119,6 +123,9 @@ export default function Dashboard({
   const verified = rows.filter((r) => r.qualified).length,
     withVariants = rows.filter((r) => r.variant).length,
     errors = data.sources.filter((s) => s.status === "error").length;
+  const refreshFailed =
+    conclusion !== null &&
+    !["success", "skipped", "neutral"].includes(conclusion);
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -174,10 +181,12 @@ export default function Dashboard({
             ))}
           </nav>
           <span className="pipeline-status">
-            <i className={errors ? "dot amber" : "dot"} />
-            {errors
-              ? errors + " sources unavailable"
-              : "All sources operational"}
+            <i className={errors || refreshFailed ? "dot amber" : "dot"} />
+            {refreshFailed
+              ? "Latest refresh failed · snapshot retained"
+              : errors
+                ? errors + " sources unavailable"
+                : "Snapshot sources healthy"}
             <span>Hourly sync</span>
           </span>
         </div>
@@ -376,6 +385,8 @@ export default function Dashboard({
                                 >
                                   {r.name}
                                   {r.releaseDate &&
+                                    Date.parse(data.refreshedAt) >=
+                                      Date.parse(r.releaseDate) &&
                                     Date.parse(data.refreshedAt) -
                                       Date.parse(r.releaseDate) <
                                       14 * 86400000 && (
@@ -440,9 +451,13 @@ export default function Dashboard({
                                 : "Unverified"}
                             </span>
                             <small className="coverage">
-                              {r.variant
-                                ? "Comparable tests required"
-                                : "No verified comparison"}
+                              {r.variant?.retentions.some(
+                                (c) => retention(c) !== null,
+                              )
+                                ? "Per-benchmark measurements"
+                                : r.variant
+                                  ? "Comparable tests required"
+                                  : "No verified comparison"}
                             </small>
                           </td>
                           <td>
@@ -665,10 +680,12 @@ function Methodology() {
           Variants require an exact base_model identifier from registry metadata
           and checkpoint files. Similar names, shared families and smaller
           checkpoints do not qualify. Declared lineage is not forensic
-          verification. Candidates are ordered by independent comparable tests,
-          then creator comparable tests, then declared tool support; ties use
-          stable identifiers. Without comparable evaluations, the result is a
-          candidate, not an endorsed best variant.
+          verification. Candidates prefer independent comparable capability
+          tests over creator tests, then the strongest weakest measured ratio
+          (capped at parity), distinct test coverage and declared tool support;
+          ties use stable identifiers. This selection rule is conservative, not
+          an overall capability score. Without comparable evaluations, the
+          result is a candidate, not an endorsed best variant.
         </p>
         <code>retention = modified score / original score × 100</code>
         <p>
@@ -688,7 +705,7 @@ function Details({
   close,
 }: {
   model: RankedModel;
-  data: Dataset;
+  data: DashboardData;
   close: () => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -840,14 +857,16 @@ function Details({
                 </small>
                 <dl>
                   <div>
-                    <dt>Coding / RE retention</dt>
+                    <dt>Measured benchmark retention</dt>
                     <dd>
                       {v.retentions.length
                         ? v.retentions.map((r, i) => (
                             <span key={i}>
                               {r.benchmark}:{" "}
-                              {retention(r)?.toFixed(1) ?? "Unverified"}% (
-                              {r.kind}){" "}
+                              {retention(r) === null
+                                ? "Unverified"
+                                : `${retention(r)!.toFixed(1)}%`}{" "}
+                              ({r.kind}){" "}
                             </span>
                           ))
                         : "Unverified"}

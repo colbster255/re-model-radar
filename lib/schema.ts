@@ -38,6 +38,7 @@ export const modelSchema = z.object({
 export type Model = z.infer<typeof modelSchema>;
 export const retentionSchema = z.object({
   benchmark: z.string(),
+  category: z.enum(["coding", "cyber", "reasoning"]).optional(),
   protocol: z.string(),
   original: z.number().positive(),
   modified: z.number().min(0),

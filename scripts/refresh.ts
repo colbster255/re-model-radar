@@ -86,32 +86,40 @@ export async function refresh(
   for (const adapter of adapters) {
     const old = data.sources.find((s) => s.id === adapter.id);
     try {
-      const batch = await adapter.run(data.models);
-      if (adapter.id === "openrouter")
-        data.models = data.models.map((m) => ({ ...m, providers: [] }));
-      data.models = mergeModels(data.models, batch.models ?? []);
-      if (batch.evidence)
-        data.evidence = [
-          ...data.evidence.filter((e) => e.sourceId !== adapter.id),
-          ...batch.evidence,
-        ].sort((a, b) => a.id.localeCompare(b.id));
-      if (batch.variants)
-        data.variants = [
-          ...new Map(
-            [...data.variants, ...batch.variants].map((v) => [v.id, v]),
-          ).values(),
-        ].sort((a, b) => a.id.localeCompare(b.id));
-      data.sources = data.sources
-        .filter((s) => s.id !== adapter.id)
-        .concat({
-          id: adapter.id,
-          name: adapter.name,
-          url: adapter.url,
-          status: "ok",
-          lastSuccess: checkedAt,
-          message: batch.message,
-          fingerprint: fingerprint(batch),
-        });
+      const batch = await adapter.run(structuredClone(data.models));
+      const before = data;
+      data = structuredClone(data);
+      try {
+        if (adapter.id === "openrouter")
+          data.models = data.models.map((m) => ({ ...m, providers: [] }));
+        data.models = mergeModels(data.models, batch.models ?? []);
+        if (batch.evidence)
+          data.evidence = [
+            ...data.evidence.filter((e) => e.sourceId !== adapter.id),
+            ...batch.evidence,
+          ].sort((a, b) => a.id.localeCompare(b.id));
+        if (batch.variants)
+          data.variants = [
+            ...new Map(
+              [...data.variants, ...batch.variants].map((v) => [v.id, v]),
+            ).values(),
+          ].sort((a, b) => a.id.localeCompare(b.id));
+        data.sources = data.sources
+          .filter((s) => s.id !== adapter.id)
+          .concat({
+            id: adapter.id,
+            name: adapter.name,
+            url: adapter.url,
+            status: "ok",
+            lastSuccess: checkedAt,
+            message: batch.message,
+            fingerprint: fingerprint(batch),
+          });
+        data = datasetSchema.parse(data);
+      } catch (error) {
+        data = before;
+        throw error;
+      }
       successes++;
       console.log(`${adapter.id}: ${batch.message}`);
     } catch (e) {
@@ -136,17 +144,24 @@ export async function refresh(
     .sort((a, b) => a.id.localeCompare(b.id));
   data = datasetSchema.parse(data);
   const changed =
-    fingerprint(material(previous)) !== fingerprint(material(data));
-  if (changed) {
-    data.previousRanks = Object.fromEntries(
-      rankModels(previous)
-        .filter((r) => r.rank !== null)
-        .map((r) => [r.id, r.rank!]),
-    );
-    data.refreshedAt = checkedAt;
-    await atomic(join(directory, "radar.json"), data);
-    await atomic(join(directory, "rankings.json"), rankModels(data));
-  }
+    fingerprint(material(previous)) !== fingerprint(material(data)) ||
+    // Evidence aging is material even when every upstream payload is unchanged.
+    fingerprint(
+      rankModels(previous, Date.parse(previous.refreshedAt)).map((r) => ({
+        id: r.id,
+        overall: r.overall,
+        coverage: r.coverage,
+        rank: r.rank,
+      })),
+    ) !==
+      fingerprint(
+        rankModels(data, Date.parse(checkedAt)).map((r) => ({
+          id: r.id,
+          overall: r.overall,
+          coverage: r.coverage,
+          rank: r.rank,
+        })),
+      );
   await atomic(join(directory, "refresh-status.json"), {
     checkedAt,
     successes,
@@ -157,6 +172,19 @@ export async function refresh(
   console.log(changed ? "Material data changed." : "No material changes.");
   if (successes === 0)
     throw Error("All sources failed; preserved last valid snapshot");
+  if (changed) {
+    data.previousRanks = Object.fromEntries(
+      rankModels(previous, Date.parse(previous.refreshedAt))
+        .filter((r) => r.rank !== null)
+        .map((r) => [r.id, r.rank!]),
+    );
+    data.refreshedAt = checkedAt;
+    await atomic(join(directory, "radar.json"), data);
+    await atomic(
+      join(directory, "rankings.json"),
+      rankModels(data, Date.parse(checkedAt)),
+    );
+  }
   return { changed, data };
 }
 if (process.argv[1]?.replaceAll("\\", "/").endsWith("/refresh.ts"))

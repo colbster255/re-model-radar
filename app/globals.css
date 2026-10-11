@@ -198,7 +198,7 @@ svg {
   color: #d4d4d8;
 }
 .pipeline-status > span {
-  color: #71717a;
+  color: #a1a1aa;
   padding-left: 12px;
   margin-left: 6px;
   border-left: 1px solid var(--border);
@@ -231,7 +231,7 @@ main {
   margin-bottom: 22px;
 }
 .eyebrow {
-  color: #71717a;
+  color: #a1a1aa;
   font:
     10px/1.5 "Cascadia Code",
     Consolas,
@@ -286,7 +286,7 @@ h1 {
   color: #a1a1aa;
 }
 .stats-grid > div > span svg {
-  color: #71717a;
+  color: #a1a1aa;
 }
 .stats-grid strong {
   display: block;
@@ -303,7 +303,7 @@ h1 {
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0;
-  color: #71717a;
+  color: #a1a1aa;
   margin-top: 8px;
 }
 .stats-grid strong.timestamp {
@@ -381,7 +381,7 @@ h1 {
 }
 .section-heading p {
   margin: 5px 0 0;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 12px;
 }
 .mini-label {
@@ -436,9 +436,10 @@ h1 {
   border: 1px solid #303034;
   background: #09090b;
   border-radius: 6px;
-  color: #71717a;
+  color: #a1a1aa;
 }
-.search:focus-within {
+.search:focus-within,
+.sort:focus-within {
   border-color: #6ee7b7;
 }
 .search input,
@@ -453,10 +454,17 @@ h1 {
   width: 145px;
 }
 .search input::placeholder {
-  color: #71717a;
+  color: #a1a1aa;
 }
 .sort select {
   width: 118px;
+  color-scheme: dark;
+  background-color: #09090b;
+  color: #fafafa;
+}
+.sort option {
+  background-color: #18181b;
+  color: #fafafa;
 }
 .table-scroll {
   width: 100%;
@@ -475,7 +483,7 @@ th {
   font-size: 9px;
   font-weight: 500;
   letter-spacing: 0.6px;
-  color: #71717a;
+  color: #a1a1aa;
   background: #18181b;
   border-block: 1px solid var(--border);
   padding: 12px 13px;
@@ -498,7 +506,7 @@ tbody tr:hover {
 .rank-cell {
   width: 40px;
   text-align: center;
-  color: #71717a;
+  color: #a1a1aa;
   font:
     11px Consolas,
     monospace;
@@ -560,7 +568,7 @@ tr:nth-child(3n + 2) .model-avatar {
   gap: 5px;
   align-items: center;
   font-size: 9px;
-  color: #71717a;
+  color: #a1a1aa;
   margin: 4px 0 7px;
 }
 .model-meta > span {
@@ -578,7 +586,7 @@ tr:nth-child(3n + 2) .model-avatar {
   display: flex;
   gap: 5px;
   align-items: center;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 9px;
 }
 .variant-line a {
@@ -628,7 +636,7 @@ tr:nth-child(3n + 2) .model-avatar {
 }
 .provisional {
   display: block;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 8px;
   margin-top: 5px;
 }
@@ -656,7 +664,7 @@ tr:nth-child(3n + 2) .model-avatar {
 }
 .coverage {
   display: block;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 8px;
   margin-top: 6px;
 }
@@ -675,7 +683,7 @@ tr:nth-child(3n + 2) .model-avatar {
 }
 .hosted small {
   display: block;
-  color: #71717a;
+  color: #a1a1aa;
   margin-top: 5px;
   font-size: 8px;
 }
@@ -686,7 +694,7 @@ tr:nth-child(3n + 2) .model-avatar {
     monospace;
 }
 .details-trigger {
-  color: #71717a;
+  color: #a1a1aa;
   padding: 5px;
   border-radius: 5px;
 }
@@ -709,7 +717,7 @@ tr:nth-child(3n + 2) .model-avatar {
   justify-content: space-between;
   gap: 16px;
   font-size: 10px;
-  color: #71717a;
+  color: #a1a1aa;
 }
 .table-footer i {
   padding-inline: 7px;
@@ -822,7 +830,7 @@ tr:nth-child(3n + 2) .model-avatar {
 .integrity-panel p {
   font-size: 11px;
   line-height: 1.8;
-  color: #71717a;
+  color: #a1a1aa;
   margin: 7px 0;
 }
 .integrity-panel button {
@@ -838,7 +846,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 10px;
   margin-top: 28px;
 }
@@ -953,7 +961,7 @@ footer > a {
 }
 .source-list small {
   font-size: 10px;
-  color: #71717a;
+  color: #a1a1aa;
 }
 .source-list .method-card {
   grid-column: 1 / -1;
@@ -1077,7 +1085,7 @@ footer > a {
 }
 .benchmark small {
   display: block;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 10px;
   margin-top: 4px;
 }
@@ -1111,7 +1119,7 @@ dl > div {
   font-size: 12px;
 }
 dt {
-  color: #71717a;
+  color: #a1a1aa;
 }
 dd {
   margin: 0;
@@ -1145,7 +1153,7 @@ dd {
 .variant-card > small {
   display: block;
   margin: 8px 0 16px;
-  color: #71717a;
+  color: #a1a1aa;
   font-size: 10px;
 }
 .variant-card p {
@@ -1159,7 +1167,7 @@ dd {
 }
 .observation small {
   display: block;
-  color: #71717a;
+  color: #a1a1aa;
   margin-top: 6px;
   font-size: 10px;
 }

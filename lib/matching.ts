@@ -9,9 +9,13 @@ export function matchModel<T extends { id: string; name: string }>(
   name: string,
   models: T[],
 ): T | undefined {
-  return models.find(
-    (m) =>
-      canonical(m.id) === canonical(name) ||
-      canonical(m.name) === canonical(name),
+  const unique = [
+    ...new Map(models.map((m) => [m.id.toLowerCase(), m])).values(),
+  ];
+  const exact = unique.filter((m) => m.id.toLowerCase() === name.toLowerCase());
+  if (exact.length === 1) return exact[0];
+  const candidates = unique.filter(
+    (m) => canonical(m.name) === canonical(name),
   );
+  return candidates.length === 1 ? candidates[0] : undefined;
 }

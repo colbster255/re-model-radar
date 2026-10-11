@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { fingerprint } from "./adapters/http";
 import type { Retention } from "./schema";
+import { retentionCategory } from "./variants";
 const args = z
   .object({
     harness: z.string().min(1),
@@ -43,10 +44,22 @@ export function ingestRetention(
       )
         continue;
       for (const metric of v.metrics) {
+        const benchmark = `${v.dataset.type} / ${metric.type}`;
+        const category = retentionCategory({
+          benchmark: `${v.task.type} / ${benchmark}`,
+        });
+        if (
+          !category ||
+          !/^(accuracy|acc|acc_norm|exact_match|pass@\d+|pass_at_\d+|pass_rate|success_rate|resolved_rate)$/i.test(
+            metric.type,
+          )
+        )
+          continue;
         const baseline = b.metrics.find((m) => m.type === metric.type);
         if (!baseline || baseline.value <= 0) continue;
         results.push({
-          benchmark: `${v.dataset.type} / ${metric.type}`,
+          benchmark,
+          category,
           protocol: JSON.stringify(v.dataset.args),
           original: baseline.value,
           modified: metric.value,

@@ -19,12 +19,12 @@
     "updatedAt": "2026-10-11T10:55:31.267Z",
     "releaseDate": "2026-07-09T09:54:10.000Z",
     "scores": {
-      "cyber": 77.38095238095238,
+      "cyber": 91.66666666666666,
       "coding": 100,
-      "agentic": 90.47619047619048
+      "agentic": 88.8888888888889
     },
     "coverage": 70,
-    "overall": 88.26530612244899,
+    "overall": 94.04761904761905,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -39,7 +39,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 71.42857142857143
+        "normalized": 83.33333333333333
       },
       {
         "id": "glm-card:exploitbench:openai/gpt-5.6-sol",
@@ -52,7 +52,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 83.33333333333333
+        "normalized": 100
       },
       {
         "id": "glm-card:deepswe:openai/gpt-5.6-sol",
@@ -104,119 +104,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 71.42857142857143
-      }
-    ],
-    "independentCategories": 0,
-    "rank": null,
-    "previousRank": null
-  },
-  {
-    "id": "anthropic/claude-fable-5",
-    "name": "Fable 5 (w/ fallback)",
-    "family": "Benchmark comparison",
-    "openWeight": false,
-    "card": "https://huggingface.co/zai-org/GLM-5.3",
-    "context": 1000000,
-    "toolSupport": "declared",
-    "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/anthropic/claude-fable-5",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
-    "discoveredAt": "2026-10-11T10:55:31.267Z",
-    "updatedAt": "2026-10-11T10:55:31.267Z",
-    "releaseDate": "2026-06-09T12:18:35.000Z",
-    "scores": {
-      "cyber": 92.85714285714286,
-      "coding": 85.71428571428571,
-      "agentic": 64.76190476190476
-    },
-    "coverage": 70,
-    "overall": 84.28571428571429,
-    "qualified": false,
-    "confidence": "Low",
-    "breakdown": [
-      {
-        "id": "glm-card:cybergym:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "cybergym",
-        "protocol": "Z.ai GLM-5.3 table / cybergym / see card footnotes",
-        "value": 83.8,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 85.71428571428571
-      },
-      {
-        "id": "glm-card:exploitbench:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "exploitbench",
-        "protocol": "Z.ai GLM-5.3 table / exploitbench / see card footnotes",
-        "value": 78,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 100
-      },
-      {
-        "id": "glm-card:deepswe:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "deepswe",
-        "protocol": "Z.ai GLM-5.3 table / deepswe / see card footnotes",
-        "value": 69.7,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 85.71428571428571
-      },
-      {
-        "id": "glm-card:terminal21:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "terminal21",
-        "protocol": "Z.ai GLM-5.3 table / terminal21 / see card footnotes",
-        "value": 88,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 57.142857142857146
-      },
-      {
-        "id": "glm-card:terminal30:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "terminal30",
-        "protocol": "Z.ai GLM-5.3 table / terminal30 / see card footnotes",
-        "value": 33.7,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 80
-      },
-      {
-        "id": "glm-card:toolathlon:anthropic/claude-fable-5",
-        "modelId": "anthropic/claude-fable-5",
-        "benchmark": "toolathlon",
-        "protocol": "Z.ai GLM-5.3 table / toolathlon / see card footnotes",
-        "value": 74.7,
-        "kind": "manufacturer",
-        "source": "https://huggingface.co/zai-org/GLM-5.3",
-        "sourceId": "glm-card",
-        "observedAt": "2026-08-14T00:00:00Z",
-        "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 57.142857142857146
+        "normalized": 66.66666666666667
       }
     ],
     "independentCategories": 0,
@@ -243,12 +131,12 @@
     "updatedAt": "2026-09-04T06:41:23.000Z",
     "releaseDate": "2026-08-25T06:42:50.000Z",
     "scores": {
-      "cyber": 83.33333333333334,
-      "coding": 57.142857142857146,
-      "agentic": 53.33333333333334
+      "cyber": 90,
+      "coding": 66.66666666666667,
+      "agentic": 58.33333333333334
     },
     "coverage": 70,
-    "overall": 67.55102040816328,
+    "overall": 74.88095238095238,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -276,7 +164,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 66.66666666666667
+        "normalized": 80
       },
       {
         "id": "glm-card:deepswe:zai-org/GLM-5.3",
@@ -289,7 +177,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 57.142857142857146
+        "normalized": 66.66666666666667
       },
       {
         "id": "glm-card:terminal21:zai-org/GLM-5.3",
@@ -302,7 +190,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 71.42857142857143
+        "normalized": 66.66666666666667
       },
       {
         "id": "glm-card:terminal30:zai-org/GLM-5.3",
@@ -315,7 +203,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 60
+        "normalized": 75
       },
       {
         "id": "glm-card:toolathlon:zai-org/GLM-5.3",
@@ -328,7 +216,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 28.571428571428573
+        "normalized": 33.333333333333336
       }
     ],
     "independentCategories": 0,
@@ -381,12 +269,12 @@
     "updatedAt": "2026-09-02T02:22:41.000Z",
     "releaseDate": "2026-06-13T06:42:57.000Z",
     "scores": {
-      "cyber": 38.095238095238095,
-      "coding": 71.42857142857143,
-      "agentic": 68.57142857142857
+      "cyber": 45,
+      "coding": 83.33333333333333,
+      "agentic": 69.44444444444444
     },
     "coverage": 70,
-    "overall": 56.53061224489795,
+    "overall": 63.92857142857143,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -401,7 +289,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 42.857142857142854
+        "normalized": 50
       },
       {
         "id": "glm-card:exploitbench:moonshotai/Kimi-K3",
@@ -414,7 +302,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 33.333333333333336
+        "normalized": 40
       },
       {
         "id": "glm-card:deepswe:moonshotai/Kimi-K3",
@@ -427,7 +315,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 71.42857142857143
+        "normalized": 83.33333333333333
       },
       {
         "id": "glm-card:terminal21:moonshotai/Kimi-K3",
@@ -440,7 +328,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 85.71428571428571
+        "normalized": 83.33333333333333
       },
       {
         "id": "glm-card:terminal30:moonshotai/Kimi-K3",
@@ -453,7 +341,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 20
+        "normalized": 25
       },
       {
         "id": "glm-card:toolathlon:moonshotai/Kimi-K3",
@@ -516,12 +404,12 @@
     "updatedAt": "2026-10-11T10:55:31.267Z",
     "releaseDate": "2026-08-12T15:42:44.000Z",
     "scores": {
-      "cyber": 57.142857142857146,
-      "coding": 42.857142857142854,
-      "agentic": 42.857142857142854
+      "cyber": 66.66666666666667,
+      "coding": 50,
+      "agentic": 50
     },
     "coverage": 70,
-    "overall": 48.97959183673469,
+    "overall": 57.142857142857146,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -536,7 +424,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 57.142857142857146
+        "normalized": 66.66666666666667
       },
       {
         "id": "glm-card:deepswe:deepseek-ai/DeepSeek-V4-Pro-0813",
@@ -549,7 +437,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 42.857142857142854
+        "normalized": 50
       },
       {
         "id": "glm-card:terminal21:deepseek-ai/DeepSeek-V4-Pro-0813",
@@ -562,7 +450,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 42.857142857142854
+        "normalized": 50
       },
       {
         "id": "glm-card:toolathlon:deepseek-ai/DeepSeek-V4-Pro-0813",
@@ -575,7 +463,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 42.857142857142854
+        "normalized": 50
       }
     ],
     "independentCategories": 0,
@@ -602,12 +490,12 @@
     "updatedAt": "2026-10-11T10:55:31.267Z",
     "releaseDate": "2026-05-27T18:04:51.000Z",
     "scores": {
-      "cyber": 32.142857142857146,
-      "coding": 28.571428571428573,
-      "agentic": 46.666666666666664
+      "cyber": 38.333333333333336,
+      "coding": 33.333333333333336,
+      "agentic": 50
     },
     "coverage": 70,
-    "overall": 33.97959183673469,
+    "overall": 39.04761904761905,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -622,7 +510,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 14.285714285714286
+        "normalized": 16.666666666666668
       },
       {
         "id": "glm-card:exploitbench:anthropic/claude-opus-4.8",
@@ -635,7 +523,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 50
+        "normalized": 60
       },
       {
         "id": "glm-card:deepswe:anthropic/claude-opus-4.8",
@@ -648,7 +536,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 28.571428571428573
+        "normalized": 33.333333333333336
       },
       {
         "id": "glm-card:terminal21:anthropic/claude-opus-4.8",
@@ -661,7 +549,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 14.285714285714286
+        "normalized": 16.666666666666668
       },
       {
         "id": "glm-card:terminal30:anthropic/claude-opus-4.8",
@@ -674,7 +562,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 40
+        "normalized": 50
       },
       {
         "id": "glm-card:toolathlon:anthropic/claude-opus-4.8",
@@ -687,7 +575,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 85.71428571428571
+        "normalized": 83.33333333333333
       }
     ],
     "independentCategories": 0,
@@ -708,12 +596,12 @@
     "updatedAt": "2026-10-11T10:55:31.267Z",
     "releaseDate": null,
     "scores": {
-      "cyber": 22.61904761904762,
-      "coding": 14.285714285714286,
-      "agentic": 21.42857142857143
+      "cyber": 26.666666666666668,
+      "coding": 16.666666666666668,
+      "agentic": 25
     },
     "coverage": 70,
-    "overall": 19.38775510204082,
+    "overall": 22.73809523809524,
     "qualified": false,
     "confidence": "Low",
     "breakdown": [
@@ -728,7 +616,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 28.571428571428573
+        "normalized": 33.333333333333336
       },
       {
         "id": "glm-card:exploitbench:Qwen/Qwen3.8-Max",
@@ -741,7 +629,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 16.666666666666668
+        "normalized": 20
       },
       {
         "id": "glm-card:deepswe:Qwen/Qwen3.8-Max",
@@ -754,7 +642,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 14.285714285714286
+        "normalized": 16.666666666666668
       },
       {
         "id": "glm-card:terminal21:Qwen/Qwen3.8-Max",
@@ -767,7 +655,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 28.571428571428573
+        "normalized": 33.333333333333336
       },
       {
         "id": "glm-card:toolathlon:Qwen/Qwen3.8-Max",
@@ -780,7 +668,7 @@
         "sourceId": "glm-card",
         "observedAt": "2026-08-14T00:00:00Z",
         "notes": "Manufacturer-reported comparison. Harness details and deviations are in the model card. Not independent verification.",
-        "normalized": 14.285714285714286
+        "normalized": 16.666666666666668
       }
     ],
     "independentCategories": 0,
@@ -1233,13 +1121,7 @@
     "context": 204800,
     "toolSupport": "declared",
     "architecture": "minimax_m2",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/minimax/minimax-m2.5",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
     "updatedAt": "2026-09-13T22:49:28.000Z",
     "releaseDate": "2026-09-13T22:49:27.000Z",
@@ -1323,13 +1205,7 @@
     "context": 204800,
     "toolSupport": "declared",
     "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/z-ai/glm-5",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
     "updatedAt": "2026-10-11T10:55:31.323Z",
     "releaseDate": "2026-02-12",
@@ -1382,13 +1258,7 @@
     "context": 262144,
     "toolSupport": "declared",
     "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/moonshotai/kimi-k2.5",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
     "updatedAt": "2026-10-11T10:55:31.323Z",
     "releaseDate": "2026-02-02",
@@ -1724,13 +1594,7 @@
     "context": 204800,
     "toolSupport": "declared",
     "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/z-ai/glm-5.1",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
     "updatedAt": "2026-10-11T10:55:31.323Z",
     "releaseDate": "2026-04-07",
@@ -1821,13 +1685,7 @@
     "context": 163840,
     "toolSupport": "declared",
     "architecture": "deepseek_v32",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/deepseek/deepseek-v3.2",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
     "updatedAt": "2026-09-11T18:18:16.000Z",
     "releaseDate": "2026-09-11T18:18:15.000Z",
@@ -1905,13 +1763,7 @@
     "context": 204800,
     "toolSupport": "declared",
     "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/z-ai/glm-4.7",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
     "updatedAt": "2026-10-11T10:55:31.323Z",
     "releaseDate": "2025-12-22",
@@ -2160,6 +2012,29 @@
     "discoveredAt": "2026-10-11T10:55:34.061Z",
     "updatedAt": "2026-10-11T08:11:47.000Z",
     "releaseDate": "2026-10-11T08:10:12.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "squiredaniiar/act_pusht",
+    "name": "act_pusht",
+    "family": "squiredaniiar",
+    "openWeight": true,
+    "card": "https://huggingface.co/squiredaniiar/act_pusht",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
+    "updatedAt": "2026-08-27T10:28:30.000Z",
+    "releaseDate": "2026-08-27T10:28:19.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -4091,6 +3966,35 @@
     "previousRank": null
   },
   {
+    "id": "deepseek-ai/DeepSeek-V3",
+    "name": "DeepSeek V3",
+    "family": "deepseek",
+    "openWeight": true,
+    "card": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+    "context": 163840,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/deepseek/deepseek-chat",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.680Z",
+    "updatedAt": "2026-10-11T12:50:24.680Z",
+    "releaseDate": "2024-12-26T19:28:40.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "deepseek-ai/DeepSeek-V3-0324",
     "name": "DeepSeek V3 0324",
     "family": "deepseek",
@@ -4178,6 +4082,35 @@
     "previousRank": null
   },
   {
+    "id": "deepseek-ai/DeepSeek-V3.2",
+    "name": "DeepSeek V3.2",
+    "family": "deepseek",
+    "openWeight": true,
+    "card": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+    "context": 163840,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/deepseek/deepseek-v3.2",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.670Z",
+    "updatedAt": "2026-10-11T12:50:24.670Z",
+    "releaseDate": "2025-12-01T13:10:42.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "deepseek-ai/DeepSeek-V3.2-Exp",
     "name": "DeepSeek V3.2 Exp",
     "family": "deepseek",
@@ -4214,7 +4147,7 @@
     "card": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
     "context": 1048576,
     "toolSupport": "declared",
-    "architecture": "Unverified",
+    "architecture": "deepseek_v4",
     "providers": [
       {
         "name": "OpenRouter catalog",
@@ -4223,8 +4156,8 @@
       }
     ],
     "discoveredAt": "2026-10-11T10:55:32.127Z",
-    "updatedAt": "2026-10-11T10:55:32.127Z",
-    "releaseDate": "2026-04-24T03:17:46.000Z",
+    "updatedAt": "2026-06-22T12:12:13.000Z",
+    "releaseDate": "2026-04-22T06:04:20.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -4330,7 +4263,7 @@
     "card": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
     "context": 1048576,
     "toolSupport": "declared",
-    "architecture": "Unverified",
+    "architecture": "deepseek_v4",
     "providers": [
       {
         "name": "OpenRouter catalog",
@@ -4339,8 +4272,8 @@
       }
     ],
     "discoveredAt": "2026-10-11T10:55:32.127Z",
-    "updatedAt": "2026-10-11T10:55:32.127Z",
-    "releaseDate": "2026-04-24T03:17:59.000Z",
+    "updatedAt": "2026-06-22T12:12:50.000Z",
+    "releaseDate": "2026-04-22T06:04:45.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -4533,13 +4466,7 @@
     "context": 163840,
     "toolSupport": "declared",
     "architecture": "Unverified",
-    "providers": [
-      {
-        "name": "OpenRouter catalog",
-        "url": "https://openrouter.ai/deepseek/deepseek-chat",
-        "source": "https://openrouter.ai/api/v1/models"
-      }
-    ],
+    "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.324Z",
     "updatedAt": "2026-10-11T10:55:31.324Z",
     "releaseDate": "2024-12-26",
@@ -6681,6 +6608,35 @@
     "previousRank": null
   },
   {
+    "id": "zai-org/GLM-4.7",
+    "name": "GLM 4.7",
+    "family": "z-ai",
+    "openWeight": true,
+    "card": "https://huggingface.co/zai-org/GLM-4.7",
+    "context": 204800,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/z-ai/glm-4.7",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.669Z",
+    "updatedAt": "2026-10-11T12:50:24.669Z",
+    "releaseDate": "2025-12-22T04:33:34.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "zai-org/GLM-4.7-Flash",
     "name": "GLM 4.7 Flash",
     "family": "z-ai",
@@ -6710,6 +6666,35 @@
     "previousRank": null
   },
   {
+    "id": "zai-org/GLM-5",
+    "name": "GLM 5",
+    "family": "z-ai",
+    "openWeight": true,
+    "card": "https://huggingface.co/zai-org/GLM-5",
+    "context": 204800,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/z-ai/glm-5",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.668Z",
+    "updatedAt": "2026-10-11T12:50:24.668Z",
+    "releaseDate": "2026-02-11T16:59:42.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "z-ai/glm-5-turbo",
     "name": "GLM 5 Turbo",
     "family": "z-ai",
@@ -6728,6 +6713,35 @@
     "discoveredAt": "2026-10-11T10:55:32.129Z",
     "updatedAt": "2026-10-11T10:55:32.129Z",
     "releaseDate": "2026-03-15T14:06:13.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "zai-org/GLM-5.1",
+    "name": "GLM 5.1",
+    "family": "z-ai",
+    "openWeight": true,
+    "card": "https://huggingface.co/zai-org/GLM-5.1",
+    "context": 204800,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/z-ai/glm-5.1",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.666Z",
+    "updatedAt": "2026-10-11T12:50:24.666Z",
+    "releaseDate": "2026-04-07T16:07:05.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -10486,7 +10500,7 @@
     "architecture": "gpt2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.027Z",
-    "updatedAt": "2026-10-11T12:32:31.000Z",
+    "updatedAt": "2026-10-11T12:37:58.000Z",
     "releaseDate": "2026-10-11T10:02:20.000Z",
     "scores": {},
     "coverage": 0,
@@ -10765,6 +10779,35 @@
     "previousRank": null
   },
   {
+    "id": "moonshotai/Kimi-K2.5",
+    "name": "Kimi K2.5",
+    "family": "moonshotai",
+    "openWeight": true,
+    "card": "https://huggingface.co/moonshotai/Kimi-K2.5",
+    "context": 262144,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/moonshotai/kimi-k2.5",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.669Z",
+    "updatedAt": "2026-10-11T12:50:24.669Z",
+    "releaseDate": "2026-01-27T04:11:16.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "moonshotai/Kimi-K2.6",
     "name": "Kimi K2.6",
     "family": "moonshotai",
@@ -10948,12 +10991,35 @@
     "name": "Kolibri-1",
     "family": "Aleph-Alpha",
     "openWeight": true,
-    "card": "https://huggingface.co/bebbisingh/Kolibri-1",
+    "card": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
     "context": null,
     "toolSupport": "unknown",
     "architecture": "kolibri1",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.084Z",
+    "updatedAt": "2026-10-03T08:43:53.000Z",
+    "releaseDate": "2026-10-02T05:54:02.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "bebbisingh/Kolibri-1",
+    "name": "Kolibri-1",
+    "family": "bebbisingh",
+    "openWeight": true,
+    "card": "https://huggingface.co/bebbisingh/Kolibri-1",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "kolibri1",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
     "updatedAt": "2026-10-08T16:13:34.000Z",
     "releaseDate": "2026-10-08T16:13:34.000Z",
     "scores": {},
@@ -10971,12 +11037,35 @@
     "name": "Kolibri-1-BF16",
     "family": "Aleph-Alpha",
     "openWeight": true,
-    "card": "https://huggingface.co/ArchiveStudio/Kolibri-1-BF16",
+    "card": "https://huggingface.co/Aleph-Alpha/Kolibri-1-BF16",
     "context": null,
     "toolSupport": "unknown",
     "architecture": "kolibri1",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.094Z",
+    "updatedAt": "2026-10-03T08:44:27.000Z",
+    "releaseDate": "2026-10-02T08:07:59.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "ArchiveStudio/Kolibri-1-BF16",
+    "name": "Kolibri-1-BF16",
+    "family": "ArchiveStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/ArchiveStudio/Kolibri-1-BF16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "kolibri1",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
     "updatedAt": "2026-10-03T18:13:44.000Z",
     "releaseDate": "2026-10-03T18:13:44.000Z",
     "scores": {},
@@ -11679,6 +11768,29 @@
     "previousRank": null
   },
   {
+    "id": "meta-llama/Llama-3.1-8B-Instruct",
+    "name": "Llama-3.1-8B-Instruct",
+    "family": "meta-llama",
+    "openWeight": true,
+    "card": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "llama",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.616Z",
+    "updatedAt": "2024-09-25T17:00:57.000Z",
+    "releaseDate": "2024-07-18T08:56:00.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "reyhadri/Llama-3.2-3B-Legal-Instruct-merged16bit",
     "name": "Llama-3.2-3B-Legal-Instruct-merged16bit",
     "family": "reyhadri",
@@ -12310,6 +12422,35 @@
     "discoveredAt": "2026-10-11T10:55:32.132Z",
     "updatedAt": "2026-10-11T10:55:32.132Z",
     "releaseDate": "2025-12-23T01:56:37.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "MiniMaxAI/MiniMax-M2.5",
+    "name": "MiniMax M2.5",
+    "family": "minimax",
+    "openWeight": true,
+    "card": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+    "context": 204800,
+    "toolSupport": "declared",
+    "architecture": "Unverified",
+    "providers": [
+      {
+        "name": "OpenRouter catalog",
+        "url": "https://openrouter.ai/minimax/minimax-m2.5",
+        "source": "https://openrouter.ai/api/v1/models"
+      }
+    ],
+    "discoveredAt": "2026-10-11T12:50:24.668Z",
+    "updatedAt": "2026-10-11T12:50:24.668Z",
+    "releaseDate": "2026-02-12T15:01:42.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -14815,6 +14956,52 @@
     "previousRank": null
   },
   {
+    "id": "francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed3407",
+    "name": "ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed3407",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed3407",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.613Z",
+    "updatedAt": "2026-10-11T12:41:31.000Z",
+    "releaseDate": "2026-10-11T12:36:44.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed455",
+    "name": "ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed455",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-isl-before-100mb-packed-bfdiso_seed455",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.613Z",
+    "updatedAt": "2026-10-11T12:48:44.000Z",
+    "releaseDate": "2026-10-11T12:41:47.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "francesca9805/ppt-wc-zipf-newlex-jpn-after-100mb-packed-bfdiso_seed10",
     "name": "ppt-wc-zipf-newlex-jpn-after-100mb-packed-bfdiso_seed10",
     "family": "francesca9805",
@@ -14873,6 +15060,29 @@
     "discoveredAt": "2026-10-11T10:55:34.037Z",
     "updatedAt": "2026-10-11T10:22:07.000Z",
     "releaseDate": "2026-10-11T09:44:31.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "francesca9805/ppt-wc-zipf-newlex-rus-before-100mb-packed-bfdiso_seed10",
+    "name": "ppt-wc-zipf-newlex-rus-before-100mb-packed-bfdiso_seed10",
+    "family": "francesca9805",
+    "openWeight": true,
+    "card": "https://huggingface.co/francesca9805/ppt-wc-zipf-newlex-rus-before-100mb-packed-bfdiso_seed10",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "gpt2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.613Z",
+    "updatedAt": "2026-10-11T12:34:06.000Z",
+    "releaseDate": "2026-10-11T12:28:55.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -15332,12 +15542,58 @@
     "name": "qwen2.5-1.5b-instruct-legal-id-grpo",
     "family": "Andikaputh",
     "openWeight": true,
-    "card": "https://huggingface.co/YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-grpo",
+    "card": "https://huggingface.co/Andikaputh/qwen2.5-1.5b-instruct-legal-id-grpo",
     "context": null,
     "toolSupport": "unknown",
     "architecture": "qwen2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.055Z",
+    "updatedAt": "2026-10-11T08:34:42.000Z",
+    "releaseDate": "2026-10-11T08:32:31.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "Djrielism/qwen2.5-1.5b-instruct-legal-id-grpo",
+    "name": "qwen2.5-1.5b-instruct-legal-id-grpo",
+    "family": "Djrielism",
+    "openWeight": true,
+    "card": "https://huggingface.co/Djrielism/qwen2.5-1.5b-instruct-legal-id-grpo",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.623Z",
+    "updatedAt": "2026-09-12T09:27:42.000Z",
+    "releaseDate": "2026-09-11T12:48:52.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-grpo",
+    "name": "qwen2.5-1.5b-instruct-legal-id-grpo",
+    "family": "YudhaPalulun",
+    "openWeight": true,
+    "card": "https://huggingface.co/YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-grpo",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.623Z",
     "updatedAt": "2026-07-21T22:49:19.000Z",
     "releaseDate": "2026-07-21T16:17:35.000Z",
     "scores": {},
@@ -15355,12 +15611,35 @@
     "name": "qwen2.5-1.5b-instruct-legal-id-sft",
     "family": "Andikaputh",
     "openWeight": true,
-    "card": "https://huggingface.co/YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-sft",
+    "card": "https://huggingface.co/Andikaputh/qwen2.5-1.5b-instruct-legal-id-sft",
     "context": null,
     "toolSupport": "unknown",
     "architecture": "qwen2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.074Z",
+    "updatedAt": "2026-10-11T06:30:36.000Z",
+    "releaseDate": "2026-10-11T06:28:16.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-sft",
+    "name": "qwen2.5-1.5b-instruct-legal-id-sft",
+    "family": "YudhaPalulun",
+    "openWeight": true,
+    "card": "https://huggingface.co/YudhaPalulun/qwen2.5-1.5b-instruct-legal-id-sft",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.623Z",
     "updatedAt": "2026-07-15T11:18:00.000Z",
     "releaseDate": "2026-07-15T11:15:21.000Z",
     "scores": {},
@@ -15386,6 +15665,29 @@
     "discoveredAt": "2026-10-11T10:55:34.017Z",
     "updatedAt": "2026-10-11T10:52:39.000Z",
     "releaseDate": "2026-10-11T10:47:38.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "karthiksuk/qwen2.5-1.5b-ui-planner-q8",
+    "name": "qwen2.5-1.5b-ui-planner-q8",
+    "family": "karthiksuk",
+    "openWeight": true,
+    "card": "https://huggingface.co/karthiksuk/qwen2.5-1.5b-ui-planner-q8",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.613Z",
+    "updatedAt": "2026-10-11T12:48:51.000Z",
+    "releaseDate": "2026-10-11T12:47:40.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -17160,7 +17462,7 @@
     "architecture": "gpt2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.024Z",
-    "updatedAt": "2026-10-11T12:31:21.000Z",
+    "updatedAt": "2026-10-11T12:35:51.000Z",
     "releaseDate": "2026-10-11T10:11:41.000Z",
     "scores": {},
     "coverage": 0,
@@ -17883,6 +18185,29 @@
     "previousRank": null
   },
   {
+    "id": "squiredaniiar/so101-vlm-agent",
+    "name": "so101-vlm-agent",
+    "family": "squiredaniiar",
+    "openWeight": true,
+    "card": "https://huggingface.co/squiredaniiar/so101-vlm-agent",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
+    "updatedAt": "2026-09-27T17:45:24.000Z",
+    "releaseDate": "2026-09-27T17:45:03.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "upstage/solar-mini4",
     "name": "Solar Mini 4",
     "family": "upstage",
@@ -18207,6 +18532,52 @@
     "previousRank": null
   },
   {
+    "id": "noema-art/squireflux",
+    "name": "squireflux",
+    "family": "noema-art",
+    "openWeight": true,
+    "card": "https://huggingface.co/noema-art/squireflux",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
+    "updatedAt": "2025-04-22T00:58:11.000Z",
+    "releaseDate": "2025-04-22T00:58:07.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "noema-art/squireflux-klein",
+    "name": "squireflux-klein",
+    "family": "noema-art",
+    "openWeight": true,
+    "card": "https://huggingface.co/noema-art/squireflux-klein",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.619Z",
+    "updatedAt": "2026-06-30T11:39:28.000Z",
+    "releaseDate": "2026-06-30T11:38:57.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "stepfun-ai/Step-3.5-Flash",
     "name": "Step 3.5 Flash",
     "family": "stepfun",
@@ -18450,18 +18821,64 @@
     "previousRank": null
   },
   {
+    "id": "CollectionStudio/Trinity-Large-Thinking",
+    "name": "Trinity-Large-Thinking",
+    "family": "CollectionStudio",
+    "openWeight": true,
+    "card": "https://huggingface.co/CollectionStudio/Trinity-Large-Thinking",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "afmoe",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.624Z",
+    "updatedAt": "2026-09-09T02:37:34.000Z",
+    "releaseDate": "2026-09-09T02:37:34.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "JayJay1111111/Trinity-Large-Thinking",
+    "name": "Trinity-Large-Thinking",
+    "family": "JayJay1111111",
+    "openWeight": true,
+    "card": "https://huggingface.co/JayJay1111111/Trinity-Large-Thinking",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "afmoe",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.624Z",
+    "updatedAt": "2026-06-02T16:43:36.000Z",
+    "releaseDate": "2026-06-02T16:43:36.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "arcee-ai/Trinity-Large-Thinking-NVFP4",
     "name": "Trinity-Large-Thinking-NVFP4",
     "family": "arcee-ai",
     "openWeight": true,
-    "card": "https://huggingface.co/RedHatAI/Trinity-Large-Thinking-NVFP4",
+    "card": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking-NVFP4",
     "context": null,
     "toolSupport": "unknown",
     "architecture": "afmoe",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.130Z",
-    "updatedAt": "2026-04-03T13:16:12.000Z",
-    "releaseDate": "2026-04-03T12:26:54.000Z",
+    "updatedAt": "2026-05-28T22:45:58.000Z",
+    "releaseDate": "2026-04-08T18:25:20.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -18485,6 +18902,29 @@
     "discoveredAt": "2026-10-11T10:55:34.128Z",
     "updatedAt": "2026-09-09T02:38:18.000Z",
     "releaseDate": "2026-09-09T02:38:18.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "RedHatAI/Trinity-Large-Thinking-NVFP4",
+    "name": "Trinity-Large-Thinking-NVFP4",
+    "family": "RedHatAI",
+    "openWeight": true,
+    "card": "https://huggingface.co/RedHatAI/Trinity-Large-Thinking-NVFP4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "afmoe",
+    "providers": [],
+    "discoveredAt": "2026-10-11T12:50:26.624Z",
+    "updatedAt": "2026-04-03T13:16:12.000Z",
+    "releaseDate": "2026-04-03T12:26:54.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -18731,7 +19171,7 @@
     "architecture": "gpt2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.020Z",
-    "updatedAt": "2026-10-11T12:31:03.000Z",
+    "updatedAt": "2026-10-11T12:45:34.000Z",
     "releaseDate": "2026-10-11T10:25:54.000Z",
     "scores": {},
     "coverage": 0,

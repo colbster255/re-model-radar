@@ -119,11 +119,16 @@ export const registry: Adapter = {
       // Do not promote quantizations/finetunes into base-model entries automatically.
       if (
         bases.length ||
-        /gguf|awq|gptq|fp8|mxfp|int4/i.test(r.id.split("/")[1])
+        /gguf|awq|gptq|fp8|mxfp|int4|exl[23]|quant/i.test(r.id.split("/")[1]) ||
+        !(r.siblings ?? []).some((f) =>
+          /\.(safetensors|gguf|bin)$/.test(f.rfilename),
+        )
       )
         continue;
       const name = r.id.split("/")[1],
-        existing = matchModel(name, models);
+        existing = models.find(
+          (m) => m.id.toLowerCase() === r.id.toLowerCase(),
+        );
       const m = {
         ...newModel(r.id, name, card, r.id.split("/")[0], true),
         ...existing,
@@ -193,7 +198,9 @@ export const hosting: Adapter = {
         continue;
       const exact =
         models.find((m) => m.id === r.hugging_face_id || m.id === r.id) ||
-        matchModel(r.name.replace(/^.*?:\s*/, ""), models);
+        (!r.hugging_face_id
+          ? matchModel(r.name.replace(/^.*?:\s*/, ""), models)
+          : undefined);
       const m =
         exact ??
         newModel(

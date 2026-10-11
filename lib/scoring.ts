@@ -18,6 +18,7 @@ export function scoreModel(model: Model, all: Evidence[], now = Date.now()) {
     (e) =>
       benchmarks[e.benchmark] &&
       !["creator", "unverified"].includes(e.kind) &&
+      Date.parse(e.observedAt) <= now &&
       now - Date.parse(e.observedAt) <= policy.maxEvidenceAgeDays * 86400000,
   );
   const scores: Partial<Record<Category, number>> = {},
@@ -31,7 +32,17 @@ export function scoreModel(model: Model, all: Evidence[], now = Date.now()) {
     }
     const candidates = [];
     for (const group of groups.values()) {
-      const dedup = [...new Map(group.map((e) => [e.modelId, e])).values()];
+      const dedup = [
+        ...new Map(
+          group
+            .toSorted(
+              (a, b) =>
+                a.observedAt.localeCompare(b.observedAt) ||
+                a.id.localeCompare(b.id),
+            )
+            .map((e) => [e.modelId, e]),
+        ).values(),
+      ];
       const e = dedup.find((e) => e.modelId === model.id);
       if (!e) continue;
       const normalized = percentile(
@@ -94,7 +105,10 @@ export function scoreModel(model: Model, all: Evidence[], now = Date.now()) {
 export function rankModels(data: Dataset, now = Date.now()) {
   const variantIds = new Set(data.variants.map((v) => v.id));
   const rows = data.models
-    .filter((model) => !variantIds.has(model.id))
+    .filter(
+      (model) =>
+        !variantIds.has(model.id) && !/fallback|multi-model/i.test(model.name),
+    )
     .map((model) => ({
       ...model,
       ...scoreModel(model, data.evidence, now),

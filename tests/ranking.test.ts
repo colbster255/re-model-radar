@@ -148,12 +148,74 @@ test("matching preserves version, size and base checkpoint", () => {
   assert.equal(derivesFrom(model.id, ["EXAMPLE/Model-8B"]), true);
   assert.equal(matchModel("Model-70B", [model]), undefined);
   assert.equal(matchModel("Model-8B-v2", [model]), undefined);
+  assert.equal(
+    matchModel("Model-8B", [model, { ...model, id: "other/Model-8B" }]),
+    undefined,
+  );
+  assert.equal(
+    matchModel(model.id, [model, { ...model, id: "other/Model-8B" }])?.id,
+    model.id,
+  );
 });
 test("retention requires a comparable positive baseline", () => {
   assert.equal(retention(comparison), 95);
   assert.equal(retention({ ...comparison, comparable: false }), null);
   assert.equal(retention({ ...comparison, original: 0 }), null);
   assert.equal(retention({ ...comparison, modified: 84 }), 105);
+  assert.equal(retention({ ...comparison, original: Infinity }), null);
+  assert.equal(retention({ ...comparison, modified: -1 }), null);
+});
+test("future-dated evidence cannot affect current scores", () => {
+  assert.equal(
+    scoreModel(
+      model,
+      cohort("cybergym").map((e) => ({
+        ...e,
+        observedAt: "2099-01-01T00:00:00Z",
+      })),
+    ).overall,
+    null,
+  );
+});
+test("duplicate observations deterministically prefer the latest result", () => {
+  const e = cohort("cybergym");
+  const older = {
+    ...e[2],
+    id: "older",
+    value: 0,
+    observedAt: "2026-01-01T00:00:00Z",
+  };
+  assert.equal(scoreModel(model, [...e, older]).overall, 100);
+  assert.equal(scoreModel(model, [older, ...e]).overall, 100);
+});
+test("variant preference considers retention strength before test quantity", () => {
+  const strong = { ...variant, id: "test/strong", retentions: [comparison] };
+  const weak = {
+    ...variant,
+    id: "test/weak",
+    retentions: [1, 2, 3].map((i) => ({
+      ...comparison,
+      benchmark: `Coding test ${i}`,
+      modified: 20,
+    })),
+  };
+  assert.equal(selectVariant(model.id, [weak, strong])?.id, strong.id);
+  const compliance = {
+    ...variant,
+    id: "test/compliance",
+    retentions: [
+      { ...comparison, benchmark: "HarmBench compliance", modified: 100 },
+    ],
+  };
+  assert.equal(selectVariant(model.id, [compliance, strong])?.id, strong.id);
+  const independent = {
+    ...weak,
+    retentions: [{ ...comparison, kind: "independent" as const }],
+  };
+  assert.equal(
+    selectVariant(model.id, [strong, independent])?.id,
+    independent.id,
+  );
 });
 test("variant selection rewards comparable capability evidence, not compliance", () => {
   const measured = {
@@ -228,6 +290,15 @@ test("structured retention requires explicit matching evaluation conditions", ()
     ingestRetention(entry(80, {}), entry(76, {}), "https://example.com"),
     [],
   );
+  const loss = entry(80);
+  loss[0].results[0].metrics[0].type = "loss";
+  assert.deepEqual(ingestRetention(loss, loss, "https://example.com"), []);
+  const compliance = entry(80);
+  compliance[0].results[0].dataset.type = "HarmBench compliance";
+  assert.deepEqual(
+    ingestRetention(compliance, compliance, "https://example.com"),
+    [],
+  );
 });
 test("provisional rows have no rank and qualified models take precedence", () => {
   const data: Dataset = datasetSchema.parse({
@@ -246,4 +317,6 @@ test("provisional rows have no rank and qualified models take precedence", () =>
     ...cohort("terminal21"),
   ];
   assert.equal(rankModels(data)[0].rank, 1);
+  data.models = [{ ...model, name: "Model (w/ fallback)" }];
+  assert.deepEqual(rankModels(data), []);
 });

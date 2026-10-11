@@ -11,7 +11,6 @@ const known: Record<string, string> = {
   "DeepSeek-V4 Pro-0813": "deepseek-ai/DeepSeek-V4-Pro-0813",
   "Qwen3.8-Max": "Qwen/Qwen3.8-Max",
   "Opus 4.8": "anthropic/claude-opus-4.8",
-  "Fable 5 (w/ fallback)": "anthropic/claude-fable-5",
   "GPT-5.6 Sol": "openai/gpt-5.6-sol",
 };
 function resolve(
@@ -87,7 +86,12 @@ export const glmCard: Adapter = {
       const key = lookup[cells[0]];
       if (!key) continue;
       cells.slice(1).forEach((cell, i) => {
-        if (!/^\d+(\.\d+)?$/.test(cell) || !discovered[i]) return;
+        if (
+          !/^\d+(\.\d+)?$/.test(cell) ||
+          !discovered[i] ||
+          /fallback|multi-model/i.test(header[i])
+        )
+          return;
         evidence.push(
           evidenceSchema.parse({
             id: `glm-card:${key}:${discovered[i].id}`,
@@ -107,7 +111,9 @@ export const glmCard: Adapter = {
     }
     if (evidence.length < 10) throw Error("Incomplete evaluation table");
     return {
-      models: discovered,
+      models: discovered.filter(
+        (_, i) => !/fallback|multi-model/i.test(header[i]),
+      ),
       evidence,
       message: `${evidence.length} attributed results; no independent claim`,
     };
