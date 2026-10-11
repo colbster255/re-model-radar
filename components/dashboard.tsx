@@ -121,107 +121,82 @@ export default function Dashboard({
     errors = data.sources.filter((s) => s.status === "error").length;
   return (
     <div className="app-shell">
-      <aside className="sidebar">
-        <Link className="brand" href="/">
-          <span className="brand-mark">
-            <Radar size={21} />
-          </span>
-          <span>
-            RE Model Radar<small>TECHNICAL INTELLIGENCE</small>
-          </span>
-        </Link>
-        <div className="workspace-label">WORKSPACE</div>
-        <nav aria-label="Main navigation">
-          {[
-            { id: "leaderboard", label: "Model leaderboard", icon: ScanLine },
-            {
-              id: "methodology",
-              label: "Ranking methodology",
-              icon: SlidersHorizontal,
-            },
-            { id: "sources", label: "Sources & refresh", icon: Database },
-          ].map(({ id, label, icon: Icon }) => (
-            <button
-              key={id}
-              onClick={() => setView(id)}
-              className={view === id ? "active" : ""}
-            >
-              <Icon size={16} />
-              {label}
-              {id === "leaderboard" && (
-                <span className="nav-count">{rows.length}</span>
-              )}
-            </button>
-          ))}
-        </nav>
-        <div className="research-scope">
-          <span className="workspace-label">RESEARCH PROFILE</span>
-          <p>
-            <Terminal size={14} /> Windows security
-          </p>
-          <p>
-            <Code2 size={14} /> Native C / C++
-          </p>
-          <p>
-            <GitBranch size={14} /> Reverse engineering
-          </p>
-          <p>
-            <ShieldCheck size={14} /> Vulnerability research
-          </p>
-        </div>
-        <div className="sidebar-bottom">
-          <div className="pipeline">
-            <i className={errors ? "dot amber" : "dot"} />
-            <div>
-              Hourly research pipeline
-              <small>
-                {errors
-                  ? `${errors} source(s) unavailable`
-                  : "Deterministic · no inference cost"}
-              </small>
-            </div>
-          </div>
-          <Out href="https://github.com/colbster255/re-model-radar">
-            View source on GitHub
-          </Out>
-        </div>
-      </aside>
-      <div className="main-shell">
-        <header className="topbar">
-          <span className="breadcrumb">
-            Workspace <ChevronRight size={13} />{" "}
-            <b>
-              {view === "leaderboard"
-                ? "Model leaderboard"
-                : view === "sources"
-                  ? "Sources & refresh"
-                  : "Ranking methodology"}
-            </b>
-          </span>
-          <span className="topbar-right">
-            <span className="live-pill">
-              <i className="dot" />
-              Evidence-first
+      <header className="app-header">
+        <div className="header-inner">
+          <Link className="brand" href="/">
+            <span className="brand-mark">
+              <Radar size={23} />
             </span>
+            <span>RE Model Radar</span>
+          </Link>
+          <span className="header-divider" />
+          <span className="workspace-name">
+            <Code2 size={15} /> Research workspace{" "}
+            <span className="workspace-tier">PUBLIC</span>
+          </span>
+          <div className="header-actions">
+            <Out href="https://github.com/colbster255/re-model-radar">
+              GitHub
+            </Out>
             <Out href="https://github.com/colbster255/re-model-radar/actions">
               Update history
             </Out>
+            <span
+              className="workspace-avatar"
+              aria-label="Reverse engineering workspace"
+            >
+              RE
+            </span>
+          </div>
+        </div>
+        <div className="nav-shell">
+          <nav aria-label="Main navigation">
+            {[
+              { id: "leaderboard", label: "Model leaderboard", icon: ScanLine },
+              {
+                id: "methodology",
+                label: "Ranking methodology",
+                icon: SlidersHorizontal,
+              },
+              { id: "sources", label: "Sources & refresh", icon: Database },
+            ].map(({ id, label, icon: Icon }) => (
+              <button
+                key={id}
+                onClick={() => setView(id)}
+                aria-current={view === id ? "page" : undefined}
+                className={view === id ? "active" : ""}
+              >
+                <Icon size={16} /> {label}
+                {id === "leaderboard" && (
+                  <span className="nav-count">{rows.length}</span>
+                )}
+              </button>
+            ))}
+          </nav>
+          <span className="pipeline-status">
+            <i className={errors ? "dot amber" : "dot"} />
+            {errors
+              ? errors + " sources unavailable"
+              : "All sources operational"}
+            <span>Hourly sync</span>
           </span>
-        </header>
+        </div>
+      </header>
+      <div className="main-shell">
         <main>
           <div className="page-heading">
             <div>
-              <div className="eyebrow">YOUR WORKFLOW. YOUR BENCHMARK.</div>
+              <div className="eyebrow">RESEARCH / MODEL INTELLIGENCE</div>
               <h1>
                 {view === "leaderboard"
-                  ? "Technical model radar"
+                  ? "Model intelligence"
                   : view === "sources"
-                    ? "An open evidence trail"
-                    : "How the ranking works"}
+                    ? "Sources & collection"
+                    : "Ranking methodology"}
               </h1>
               <p>
                 {view === "leaderboard"
-                  ? "The models that matter for security research, reverse engineering, and systems development."
+                  ? "Track technical capability. Compare the evidence. Find your next model."
                   : view === "sources"
                     ? "Every result has a source. Every refresh leaves a trace."
                     : "Base-model competence first. Modified checkpoints evaluated separately."}
@@ -240,7 +215,7 @@ export default function Dashboard({
                   </span>
                   <strong>
                     {rows.length}
-                    <small>across all discovered families</small>
+                    <small>Models in the research catalog</small>
                   </strong>
                 </div>
                 <div>
@@ -252,7 +227,7 @@ export default function Dashboard({
                     <small>
                       {verified
                         ? "meet the independent evidence gate"
-                        : "evidence still incomplete"}
+                        : "Awaiting independent validation"}
                     </small>
                   </strong>
                 </div>
@@ -262,7 +237,7 @@ export default function Dashboard({
                   </span>
                   <strong>
                     {withVariants}
-                    <small>exact declared base lineage</small>
+                    <small>Exact declared base lineage</small>
                   </strong>
                 </div>
                 <div>
@@ -271,7 +246,7 @@ export default function Dashboard({
                   </span>
                   <strong className="timestamp">
                     {date(data.refreshedAt)}
-                    <small>ET · hourly checks, changes only</small>
+                    <small>ET · most recent material update</small>
                   </strong>
                 </div>
               </section>
@@ -357,11 +332,11 @@ export default function Dashboard({
                       <tr>
                         <th className="rank-cell">#</th>
                         <th>BASE MODEL / VARIANT</th>
-                        <th>
-                          OVERALL {sort === "overall" && <span>↓</span>}
-                        </th>
+                        <th>OVERALL {sort === "overall" && <span>↓</span>}</th>
                         <th>CODING {sort === "coding" && <span>↓</span>}</th>
-                        <th>CYBERSECURITY {sort === "cyber" && <span>↓</span>}</th>
+                        <th>
+                          CYBERSECURITY {sort === "cyber" && <span>↓</span>}
+                        </th>
                         <th>CONFIDENCE</th>
                         <th>RETENTION</th>
                         <th>HOSTING</th>
@@ -390,34 +365,41 @@ export default function Dashboard({
                             ) : null}
                           </td>
                           <td className="model-cell">
-                            <button
-                              className="model-title"
-                              onClick={() => setSelected(r)}
-                            >
-                              {r.name}
-                              {r.releaseDate &&
-                                Date.parse(data.refreshedAt) -
-                                  Date.parse(r.releaseDate) <
-                                  14 * 86400000 && (
-                                  <span className="new-tag">NEW</span>
-                                )}
-                            </button>
-                            <div className="model-meta">
-                              <span>{r.family}</span>
-                              <i />
-                              {r.openWeight
-                                ? "Open weight"
-                                : "API / unverified weights"}
-                            </div>
-                            <div className="variant-line">
-                              <GitBranch size={11} />
-                              {r.variant ? (
-                                <Out href={r.variant.card}>
-                                  {r.variant.name}
-                                </Out>
-                              ) : (
-                                <span>No credible matched checkpoint</span>
-                              )}
+                            <div className="model-identity">
+                              <span className="model-avatar" aria-hidden="true">
+                                {r.name.slice(0, 2).toUpperCase()}
+                              </span>
+                              <div className="model-info">
+                                <button
+                                  className="model-title"
+                                  onClick={() => setSelected(r)}
+                                >
+                                  {r.name}
+                                  {r.releaseDate &&
+                                    Date.parse(data.refreshedAt) -
+                                      Date.parse(r.releaseDate) <
+                                      14 * 86400000 && (
+                                      <span className="new-tag">NEW</span>
+                                    )}
+                                </button>
+                                <div className="model-meta">
+                                  <span>{r.family}</span>
+                                  <i />
+                                  {r.openWeight
+                                    ? "Open weight"
+                                    : "API / unverified weights"}
+                                </div>
+                                <div className="variant-line">
+                                  <GitBranch size={11} />
+                                  {r.variant ? (
+                                    <Out href={r.variant.card}>
+                                      {r.variant.name}
+                                    </Out>
+                                  ) : (
+                                    <span>No credible matched checkpoint</span>
+                                  )}
+                                </div>
+                              </div>
                             </div>
                           </td>
                           <td>
@@ -526,7 +508,7 @@ export default function Dashboard({
                 <div className="weights-panel">
                   <div className="panel-title">
                     <SlidersHorizontal size={15} />
-                    <h3>Built for depth, weighted for your work</h3>
+                    <h3>Your evaluation profile</h3>
                   </div>
                   <div className="weight-bar">
                     {categories.map((c) => (

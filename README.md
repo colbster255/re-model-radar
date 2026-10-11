@@ -13,6 +13,10 @@ npm run dev
 npm run check
 ```
 
+## Visual theme
+
+The interface adapts the open-source [shadcn/ui dashboard](https://ui.shadcn.com/blocks?category=dashboard) aesthetic: Neutral dark zinc surfaces, restrained borders, rounded cards and emerald accents. A full-width navigation and table layout keeps the research data central. Model identifiers, source cards and the accessible centered details dialog share the same tokens. The implementation uses native React controls and local CSS without a runtime theme service or external font dependency.
+
 ## Architecture
 
 - `lib/adapters/`: public source adapters, schemas, provenance and safe HTTP ingestion.
