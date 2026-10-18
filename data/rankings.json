@@ -18,7 +18,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -132,7 +132,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -346,7 +346,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -460,7 +460,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -588,8 +588,8 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
-        "inputPerMillion": 0.30400000000000005,
+        "checkedAt": "2026-10-18T20:50:26.864Z",
+        "inputPerMillion": 0.24900000000000003,
         "outputPerMillion": 11.936
       },
       {
@@ -601,7 +601,7 @@
         "context": 1048576,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.864Z",
         "inputPerMillion": 2.2800000000000002,
         "outputPerMillion": 11.399999999999999
       }
@@ -750,7 +750,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -1064,7 +1064,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -1378,7 +1378,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -1492,7 +1492,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -1606,8 +1606,8 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
-        "inputPerMillion": 0.04,
+        "checkedAt": "2026-10-18T20:50:26.853Z",
+        "inputPerMillion": 0.0608,
         "outputPerMillion": 0.144
       },
       {
@@ -1619,7 +1619,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.15
       }
@@ -2147,9 +2147,9 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.079,
-        "outputPerMillion": 1.4
+        "outputPerMillion": 1
       },
       {
         "name": "OpenRouter catalog",
@@ -2160,7 +2160,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 2
       }
@@ -2426,7 +2426,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.875Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -2980,7 +2980,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -3080,7 +3080,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -3186,7 +3186,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.635Z",
+    "updatedAt": "2026-10-18T20:50:21.061Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 51.64600550964188,
@@ -3280,7 +3280,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.20879999999999999,
         "outputPerMillion": 0.41759999999999997
       }
@@ -3494,7 +3494,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.47
       }
@@ -3808,7 +3808,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.62,
         "outputPerMillion": 2.42
       }
@@ -3936,7 +3936,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.577Z",
+        "checkedAt": "2026-10-18T20:50:26.851Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -4150,7 +4150,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.048,
         "outputPerMillion": 0.19999999999999998
       },
@@ -4163,7 +4163,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.18
       }
@@ -4677,7 +4677,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.21559999999999999,
         "outputPerMillion": 0.6468
       }
@@ -4791,8 +4791,8 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
-        "inputPerMillion": 0.015099999999999999,
+        "checkedAt": "2026-10-18T20:50:26.862Z",
+        "inputPerMillion": 0.0049,
         "outputPerMillion": 0.44999999999999996
       }
     ],
@@ -5005,7 +5005,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 3.41
       }
@@ -5119,7 +5119,7 @@
         "context": 1000000,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.24,
         "outputPerMillion": 2.2
       }
@@ -5633,7 +5633,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.6712,
         "outputPerMillion": 3.35
       }
@@ -6447,7 +6447,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -6861,7 +6861,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.19999999999999998
       },
@@ -6874,7 +6874,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -10285,6 +10285,57 @@
     "previousRank": null
   },
   {
+    "id": "ishikaa/acquisition_student_AS_grape_combine_WGM_MP_qwen3b_5000",
+    "name": "acquisition_student_AS_grape_combine_WGM_MP_qwen3b_5000",
+    "family": "ishikaa",
+    "openWeight": true,
+    "card": "https://huggingface.co/ishikaa/acquisition_student_AS_grape_combine_WGM_MP_qwen3b_5000",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.700Z",
+    "updatedAt": "2026-10-18T20:08:01.000Z",
+    "releaseDate": "2026-10-18T20:06:47.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "ishikaa/acquisition_student_AS_grape_mmlupro_qwen3b_5000",
     "name": "acquisition_student_AS_grape_mmlupro_qwen3b_5000",
     "family": "ishikaa",
@@ -12394,7 +12445,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 3,
         "outputPerMillion": 6
       }
@@ -12459,7 +12510,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 1.4
       }
@@ -12524,7 +12575,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.5999999999999999
       }
@@ -12589,7 +12640,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 3,
         "outputPerMillion": 6
       }
@@ -12654,7 +12705,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 1.4
       }
@@ -12719,7 +12770,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.5999999999999999
       }
@@ -17221,7 +17272,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.846Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3
       }
@@ -17433,6 +17484,57 @@
     "discoveredAt": "2026-10-14T23:58:03.384Z",
     "updatedAt": "2026-10-14T23:49:30.000Z",
     "releaseDate": "2026-10-14T23:46:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "imend35/Begonia-AI-1.5B",
+    "name": "Begonia-AI-1.5B",
+    "family": "imend35",
+    "openWeight": true,
+    "card": "https://huggingface.co/imend35/Begonia-AI-1.5B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.705Z",
+    "updatedAt": "2026-10-18T18:52:50.000Z",
+    "releaseDate": "2026-10-18T17:31:19.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -18084,6 +18186,57 @@
     "previousRank": null
   },
   {
+    "id": "Sticzu/bielik-nonsensik-v2",
+    "name": "bielik-nonsensik-v2",
+    "family": "Sticzu",
+    "openWeight": true,
+    "card": "https://huggingface.co/Sticzu/bielik-nonsensik-v2",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.702Z",
+    "updatedAt": "2026-10-18T20:23:42.000Z",
+    "releaseDate": "2026-10-18T19:41:21.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "smhsmh/bitnet-persian-r10",
     "name": "bitnet-persian-r10",
     "family": "smhsmh",
@@ -18351,6 +18504,57 @@
     "discoveredAt": "2026-10-17T17:16:24.990Z",
     "updatedAt": "2026-10-17T15:15:01.000Z",
     "releaseDate": "2026-10-17T15:13:33.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "sartajbhuvaji/bonsai-candidate-depth0-experts16",
+    "name": "bonsai-candidate-depth0-experts16",
+    "family": "sartajbhuvaji",
+    "openWeight": true,
+    "card": "https://huggingface.co/sartajbhuvaji/bonsai-candidate-depth0-experts16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_moe",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:12:06.000Z",
+    "releaseDate": "2026-10-18T18:10:19.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -18861,6 +19065,108 @@
     "discoveredAt": "2026-10-17T17:16:24.987Z",
     "updatedAt": "2026-10-17T15:59:24.000Z",
     "releaseDate": "2026-10-17T15:59:03.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "sartajbhuvaji/bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss",
+    "name": "bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss",
+    "family": "sartajbhuvaji",
+    "openWeight": true,
+    "card": "https://huggingface.co/sartajbhuvaji/bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_moe",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:54:02.000Z",
+    "releaseDate": "2026-10-18T18:49:46.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "sartajbhuvaji/bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss-best",
+    "name": "bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss-best",
+    "family": "sartajbhuvaji",
+    "openWeight": true,
+    "card": "https://huggingface.co/sartajbhuvaji/bonsai-distilled-depth0-experts16-500-warmup75-lr1e4-fixedloss-best",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_moe",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:58:24.000Z",
+    "releaseDate": "2026-10-18T18:54:14.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -21183,7 +21489,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -21248,7 +21554,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -21313,7 +21619,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -21378,7 +21684,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -21443,7 +21749,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -21508,7 +21814,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -21573,7 +21879,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -21638,7 +21944,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -21847,7 +22153,7 @@
         "context": 200000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 7.5,
         "outputPerMillion": 37.5
       }
@@ -21912,7 +22218,7 @@
         "context": 200000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 15,
         "outputPerMillion": 75
       }
@@ -21977,7 +22283,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -22042,7 +22348,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.875Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -22107,7 +22413,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -22172,7 +22478,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -22258,7 +22564,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -22395,7 +22701,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -22460,7 +22766,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -22546,7 +22852,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -22611,7 +22917,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -22778,7 +23084,7 @@
         "context": 1000000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -22843,7 +23149,7 @@
         "context": 1000000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -22929,7 +23235,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -22994,7 +23300,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -23080,7 +23386,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -23145,7 +23451,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -23210,7 +23516,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -23275,7 +23581,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -23340,7 +23646,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -23813,7 +24119,7 @@
         "context": 256000,
         "output": 204800,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.8999999999999999
       }
@@ -23878,7 +24184,7 @@
         "context": 256000,
         "output": 204800,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.44999999999999996
       }
@@ -24078,6 +24384,57 @@
     "previousRank": null
   },
   {
+    "id": "hermitdave/Comet-60B-LLM-MLX-rtn-8bit",
+    "name": "Comet-60B-LLM-MLX-rtn-8bit",
+    "family": "hermitdave",
+    "openWeight": true,
+    "card": "https://huggingface.co/hermitdave/Comet-60B-LLM-MLX-rtn-8bit",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "nemotron_h",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.705Z",
+    "updatedAt": "2026-10-18T18:14:33.000Z",
+    "releaseDate": "2026-10-18T17:56:07.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "CohereForAI/c4ai-command-a-03-2025",
     "name": "Command A",
     "family": "cohere",
@@ -24096,7 +24453,7 @@
         "context": 256000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -24161,7 +24518,7 @@
         "context": 192000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.5
       }
@@ -24226,7 +24583,7 @@
         "context": 128000,
         "output": 4000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -24291,7 +24648,7 @@
         "context": 128000,
         "output": 4000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -24356,7 +24713,7 @@
         "context": 128000,
         "output": 4000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.0375,
         "outputPerMillion": 0.15
       }
@@ -25543,7 +25900,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.5
       }
@@ -26271,7 +26628,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.6
       }
@@ -26336,7 +26693,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 8
       }
@@ -26401,7 +26758,7 @@
         "context": 163840,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.32,
         "outputPerMillion": 0.8899999999999999
       }
@@ -26466,7 +26823,7 @@
         "context": 163840,
         "output": 115200,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.29,
         "outputPerMillion": 1.1400000000000001
       }
@@ -26531,7 +26888,7 @@
         "context": 163840,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.95
       }
@@ -26596,7 +26953,7 @@
         "context": 163840,
         "output": 147456,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.27,
         "outputPerMillion": 1
       }
@@ -26661,7 +27018,7 @@
         "context": 163840,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.28,
         "outputPerMillion": 0.42
       }
@@ -26726,7 +27083,7 @@
         "context": 163840,
         "output": 147456,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.27,
         "outputPerMillion": 0.41
       }
@@ -26791,7 +27148,7 @@
         "context": 1048576,
         "output": 943717,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.091,
         "outputPerMillion": 0.182
       }
@@ -26856,9 +27213,9 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
-        "inputPerMillion": 0.015099999999999999,
-        "outputPerMillion": 0.44999999999999996
+        "checkedAt": "2026-10-18T20:50:26.862Z",
+        "inputPerMillion": 0.00392,
+        "outputPerMillion": 0.144
       }
     ],
     "discoveredAt": "2026-10-11T10:55:32.119Z",
@@ -26921,7 +27278,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.572Z",
+        "checkedAt": "2026-10-18T20:50:26.846Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -27547,7 +27904,7 @@
         "context": 64000,
         "output": 16000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 2.5
       }
@@ -28675,7 +29032,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.324Z",
-    "updatedAt": "2026-10-18T18:10:20.112Z",
+    "updatedAt": "2026-10-18T20:50:20.520Z",
     "releaseDate": "2024-12-26",
     "scores": {},
     "coverage": 0,
@@ -29083,7 +29440,7 @@
     "architecture": "deepseek_v32",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-18T18:10:20.651Z",
+    "updatedAt": "2026-10-18T20:50:21.077Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 45.53719008264463,
@@ -29265,7 +29622,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 0.66,
         "outputPerMillion": 1.9800000000000002
       }
@@ -29322,7 +29679,7 @@
     "architecture": "deepseek_v4",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.058Z",
+    "updatedAt": "2026-10-18T20:50:20.473Z",
     "releaseDate": "2026-07-31",
     "scores": {},
     "coverage": 0,
@@ -30605,7 +30962,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -31639,7 +31996,7 @@
         "context": 512000,
         "output": 460800,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -34050,7 +34407,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -35492,7 +35849,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0
       }
@@ -37495,7 +37852,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -37560,7 +37917,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -37625,7 +37982,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -38098,7 +38455,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -38163,7 +38520,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.25
       }
@@ -38228,7 +38585,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -38293,7 +38650,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.19999999999999998
       }
@@ -38409,7 +38766,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -38474,7 +38831,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.625,
         "outputPerMillion": 5
       }
@@ -38539,7 +38896,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -38676,7 +39033,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3
       }
@@ -38741,7 +39098,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -38878,7 +39235,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -38943,7 +39300,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.125,
         "outputPerMillion": 0.75
       }
@@ -39008,7 +39365,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -39124,7 +39481,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -39189,7 +39546,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -39254,7 +39611,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -39319,7 +39676,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 9
       }
@@ -39384,7 +39741,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -39449,7 +39806,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -39514,7 +39871,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.864Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.25
       }
@@ -39579,7 +39936,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -39644,7 +40001,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -39709,7 +40066,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -39774,7 +40131,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -39839,7 +40196,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.8250000000000001,
         "outputPerMillion": 4.125
       }
@@ -39904,7 +40261,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -40020,7 +40377,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -40085,7 +40442,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -40150,7 +40507,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -40215,7 +40572,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -40280,7 +40637,7 @@
         "context": 8192,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 0.65
       }
@@ -40345,7 +40702,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.15
       }
@@ -40410,7 +40767,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.35
       }
@@ -40475,7 +40832,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.09999999999999999
       }
@@ -40540,7 +40897,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0.0675,
         "outputPerMillion": 0.22499999999999998
       },
@@ -40553,7 +40910,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -40618,7 +40975,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.39999999999999997
       },
@@ -40631,7 +40988,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -43348,7 +43705,7 @@
         "context": 262144,
         "output": 256000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.846Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 3
       }
@@ -43413,7 +43770,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.2
       }
@@ -43478,7 +43835,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.13,
         "outputPerMillion": 0.85
       }
@@ -43543,7 +43900,7 @@
         "context": 65536,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 1.7999999999999998
       }
@@ -43608,7 +43965,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2
       }
@@ -43673,7 +44030,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.8999999999999999
       }
@@ -43738,7 +44095,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.54,
         "outputPerMillion": 1.9800000000000002
       }
@@ -43803,7 +44160,7 @@
         "context": 200000,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.060500000000000005,
         "outputPerMillion": 0.39999999999999997
       }
@@ -43868,7 +44225,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3.1999999999999997
       }
@@ -43933,7 +44290,7 @@
         "context": 202752,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 1.2,
         "outputPerMillion": 4
       }
@@ -43998,7 +44355,7 @@
         "context": 204800,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0.966,
         "outputPerMillion": 3.036
       }
@@ -44063,7 +44420,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.37,
         "outputPerMillion": 1.25
       }
@@ -44128,7 +44485,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 2.8,
         "outputPerMillion": 8.8
       }
@@ -44193,7 +44550,7 @@
         "context": 202752,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 1.2,
         "outputPerMillion": 4
       }
@@ -44258,7 +44615,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.048,
         "outputPerMillion": 0.19999999999999998
       }
@@ -44323,7 +44680,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 2.2
       }
@@ -44431,7 +44788,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.078Z",
+    "updatedAt": "2026-10-18T20:50:20.490Z",
     "releaseDate": "2025-12-22",
     "scores": {
       "reasoning": 48.33333333333333,
@@ -44605,7 +44962,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.228Z",
+    "updatedAt": "2026-10-18T20:50:20.857Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.16666666666667,
@@ -45820,7 +46177,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -45898,7 +46255,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-18T18:10:20.648Z",
+    "updatedAt": "2026-10-18T20:50:21.074Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 47.52066115702479,
@@ -45978,7 +46335,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -46043,7 +46400,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -46108,7 +46465,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -46173,7 +46530,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -46238,7 +46595,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -46303,7 +46660,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -46368,7 +46725,7 @@
         "context": 16385,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.891Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 1.5
       }
@@ -46433,7 +46790,7 @@
         "context": 16385,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.891Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -46498,7 +46855,7 @@
         "context": 4095,
         "output": 3685,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -46563,7 +46920,7 @@
         "context": 16385,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 3,
         "outputPerMillion": 4
       }
@@ -46628,7 +46985,7 @@
         "context": 4095,
         "output": 3685,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 2
       }
@@ -46693,7 +47050,7 @@
         "context": 8191,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.891Z",
         "inputPerMillion": 30,
         "outputPerMillion": 60
       }
@@ -46758,7 +47115,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 10,
         "outputPerMillion": 30
       }
@@ -46823,7 +47180,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 5,
         "outputPerMillion": 15
       }
@@ -46888,7 +47245,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.619Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -46953,7 +47310,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4
       }
@@ -47018,7 +47375,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 1.5999999999999999
       }
@@ -47083,7 +47440,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.7999999999999999
       }
@@ -47148,7 +47505,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -47213,7 +47570,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.19999999999999998
       }
@@ -47278,7 +47635,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -47343,7 +47700,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 5
       }
@@ -47408,7 +47765,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 5,
         "outputPerMillion": 15
       }
@@ -47473,7 +47830,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -47538,7 +47895,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -47603,7 +47960,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -47668,7 +48025,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -47733,7 +48090,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -47798,7 +48155,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.611Z",
+        "checkedAt": "2026-10-18T20:50:26.882Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -47863,7 +48220,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.611Z",
+        "checkedAt": "2026-10-18T20:50:26.882Z",
         "inputPerMillion": 0.625,
         "outputPerMillion": 5
       }
@@ -47928,7 +48285,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.125,
         "outputPerMillion": 1
       }
@@ -47993,7 +48350,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.39999999999999997
       }
@@ -48058,7 +48415,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.024999999999999998,
         "outputPerMillion": 0.19999999999999998
       }
@@ -48123,7 +48480,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 15,
         "outputPerMillion": 120
       }
@@ -48188,7 +48545,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 7.5,
         "outputPerMillion": 60
       }
@@ -48253,7 +48610,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -48318,7 +48675,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.625,
         "outputPerMillion": 5
       }
@@ -48383,7 +48740,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -48448,7 +48805,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -48513,7 +48870,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -48578,7 +48935,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -48643,7 +49000,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.875,
         "outputPerMillion": 7
       }
@@ -48708,7 +49065,7 @@
         "context": 128000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -48773,7 +49130,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 21,
         "outputPerMillion": 168
       }
@@ -48838,7 +49195,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 10.5,
         "outputPerMillion": 84
       }
@@ -48903,7 +49260,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -48968,7 +49325,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -49025,7 +49382,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.219Z",
+    "updatedAt": "2026-10-18T20:50:20.851Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.83974358974359,
@@ -49118,7 +49475,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 15
       }
@@ -49183,7 +49540,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 7.5
       }
@@ -49248,7 +49605,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -49313,7 +49670,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 2.25
       }
@@ -49378,7 +49735,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.25
       }
@@ -49443,7 +49800,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.625
       }
@@ -49508,7 +49865,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 30,
         "outputPerMillion": 180
       }
@@ -49573,7 +49930,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 15,
         "outputPerMillion": 90
       }
@@ -49630,7 +49987,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.218Z",
+    "updatedAt": "2026-10-18T20:50:20.848Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.83333333333333,
@@ -49723,7 +50080,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -49788,7 +50145,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 15
       }
@@ -49853,7 +50210,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 30,
         "outputPerMillion": 180
       }
@@ -49918,7 +50275,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 15,
         "outputPerMillion": 90
       }
@@ -50055,7 +50412,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.595Z",
+        "checkedAt": "2026-10-18T20:50:26.867Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.2
       }
@@ -50120,7 +50477,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.595Z",
+        "checkedAt": "2026-10-18T20:50:26.867Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.6
       }
@@ -50185,7 +50542,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.593Z",
+        "checkedAt": "2026-10-18T20:50:26.865Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.2
       }
@@ -50250,7 +50607,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.593Z",
+        "checkedAt": "2026-10-18T20:50:26.865Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.6
       }
@@ -50315,7 +50672,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -50380,7 +50737,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -50445,7 +50802,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -50510,7 +50867,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -50575,7 +50932,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -50640,7 +50997,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.595Z",
+        "checkedAt": "2026-10-18T20:50:26.867Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -50705,7 +51062,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.595Z",
+        "checkedAt": "2026-10-18T20:50:26.867Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -50770,7 +51127,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -50835,7 +51192,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -50900,7 +51257,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -50965,7 +51322,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.577Z",
+        "checkedAt": "2026-10-18T20:50:26.851Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -51030,7 +51387,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -51095,7 +51452,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -51160,7 +51517,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -51225,7 +51582,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.577Z",
+        "checkedAt": "2026-10-18T20:50:26.851Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -51290,7 +51647,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.578Z",
+        "checkedAt": "2026-10-18T20:50:26.851Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -51355,7 +51712,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -51420,7 +51777,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.574Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -51485,7 +51842,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.574Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -51652,7 +52009,7 @@
         "context": 131072,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       },
@@ -51665,7 +52022,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.0296,
         "outputPerMillion": 0.136
       }
@@ -51781,7 +52138,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.018,
         "outputPerMillion": 0.09
       },
@@ -51794,7 +52151,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.612Z",
+        "checkedAt": "2026-10-18T20:50:26.883Z",
         "inputPerMillion": 0.024,
         "outputPerMillion": 0.112
       }
@@ -51961,7 +52318,7 @@
         "context": 131072,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -52332,7 +52689,7 @@
         "context": 131000,
         "output": 117900,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.017,
         "outputPerMillion": 0.112
       }
@@ -52397,7 +52754,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.25
       }
@@ -53074,7 +53431,7 @@
         "context": 2000000,
         "output": 1800000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -53139,7 +53496,7 @@
         "context": 2000000,
         "output": 1800000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -53204,7 +53561,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -53269,7 +53626,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -53326,7 +53683,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.322Z",
-    "updatedAt": "2026-10-18T18:10:22.017Z",
+    "updatedAt": "2026-10-18T20:50:22.515Z",
     "releaseDate": null,
     "scores": {},
     "coverage": 0,
@@ -53385,7 +53742,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -53450,7 +53807,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -53515,7 +53872,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -53580,7 +53937,7 @@
         "context": 256000,
         "output": 230400,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -53645,7 +54002,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.868Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -55087,7 +55444,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 1,
         "outputPerMillion": 1
       }
@@ -55152,7 +55509,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 0.7
       }
@@ -55217,7 +55574,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3
       }
@@ -56506,7 +56863,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.5700000000000001
       }
@@ -56826,7 +57183,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.044,
         "outputPerMillion": 0.17700000000000002
       }
@@ -56891,7 +57248,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.074,
         "outputPerMillion": 0.295
       }
@@ -56956,7 +57313,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.074,
         "outputPerMillion": 0.295
       }
@@ -57021,7 +57378,7 @@
         "context": 262144,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.0825,
         "outputPerMillion": 0.33
       }
@@ -57086,7 +57443,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 0.6
       }
@@ -57151,7 +57508,7 @@
         "context": 1048576,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.7505999999999999,
         "outputPerMillion": 2.2509
       }
@@ -58542,7 +58899,7 @@
         "context": 524288,
         "output": 471859,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.864Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4.05
       },
@@ -58555,7 +58912,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.864Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -58620,7 +58977,7 @@
         "context": 524288,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 1.2
       },
@@ -58633,7 +58990,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -59310,7 +59667,7 @@
         "context": 1000000,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": null,
         "outputPerMillion": null
       }
@@ -60497,7 +60854,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.5700000000000001,
         "outputPerMillion": 2.3
       }
@@ -60562,7 +60919,7 @@
         "context": 262144,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.5
       }
@@ -60627,7 +60984,7 @@
         "context": 262144,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.5
       }
@@ -60684,7 +61041,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-18T18:10:20.644Z",
+    "updatedAt": "2026-10-18T20:50:21.071Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.50413223140495,
@@ -60764,7 +61121,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -60829,9 +61186,9 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
-        "inputPerMillion": 0.25,
-        "outputPerMillion": 14
+        "checkedAt": "2026-10-18T20:50:26.869Z",
+        "inputPerMillion": 0.24900000000000003,
+        "outputPerMillion": 11.936
       }
     ],
     "discoveredAt": "2026-10-11T10:55:32.124Z",
@@ -62169,7 +62526,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.18
       },
@@ -62182,7 +62539,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -62247,7 +62604,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.12
       },
@@ -62260,7 +62617,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -64365,7 +64722,7 @@
         "context": 65536,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -64616,6 +64973,57 @@
     "previousRank": null
   },
   {
+    "id": "janihal/LFM2.5-230M-Chess-oQ8",
+    "name": "LFM2.5-230M-Chess-oQ8",
+    "family": "janihal",
+    "openWeight": true,
+    "card": "https://huggingface.co/janihal/LFM2.5-230M-Chess-oQ8",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "lfm2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.703Z",
+    "updatedAt": "2026-10-18T19:18:21.000Z",
+    "releaseDate": "2026-10-18T19:17:28.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "dokoomae/LFM2.5-230M-cMoE-e8s2a2-LoRA-merged",
     "name": "LFM2.5-230M-cMoE-e8s2a2-LoRA-merged",
     "family": "dokoomae",
@@ -64736,7 +65144,7 @@
         "context": 128000,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.7
       }
@@ -66688,7 +67096,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.863Z",
         "inputPerMillion": 0.020999999999999998,
         "outputPerMillion": 0.063
       }
@@ -66855,7 +67263,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.18
       }
@@ -66920,7 +67328,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.22499999999999998
       }
@@ -67342,7 +67750,7 @@
         "context": 8192,
         "output": 7372,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0.049999999999999996
       }
@@ -67407,7 +67815,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.39999999999999997
       }
@@ -67472,7 +67880,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.08
       }
@@ -67537,7 +67945,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.85,
         "outputPerMillion": 0.85
       }
@@ -67602,7 +68010,7 @@
         "context": 60000,
         "output": 54000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.027,
         "outputPerMillion": 0.201
       }
@@ -67667,7 +68075,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.33
       }
@@ -67732,7 +68140,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.32
       }
@@ -67797,7 +68205,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 0.75
       }
@@ -67862,7 +68270,7 @@
         "context": 1048576,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.1875,
         "outputPerMillion": 0.6525
       }
@@ -67927,7 +68335,7 @@
         "context": 1310720,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -67992,7 +68400,7 @@
         "context": 163840,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 0.18
       }
@@ -72341,7 +72749,7 @@
         "context": 1048756,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.591Z",
+        "checkedAt": "2026-10-18T20:50:26.864Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -72508,7 +72916,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -72573,7 +72981,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -73199,7 +73607,7 @@
         "context": 32768,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 5
       }
@@ -74539,7 +74947,7 @@
         "context": 128000,
         "output": 50000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -74604,7 +75012,7 @@
         "context": 260000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0.15
       }
@@ -75383,7 +75791,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.28
       }
@@ -75448,7 +75856,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.870Z",
         "inputPerMillion": 0.435,
         "outputPerMillion": 0.87
       }
@@ -75564,7 +75972,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.28
       }
@@ -75680,7 +76088,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.435,
         "outputPerMillion": 0.87
       }
@@ -75745,7 +76153,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": 4.35,
         "outputPerMillion": 8.7
       }
@@ -76200,6 +76608,57 @@
     "previousRank": null
   },
   {
+    "id": "esatapedico/MiniCPM-V-4.7-35B-A3B-DSpark-NVFP4A16",
+    "name": "MiniCPM-V-4.7-35B-A3B-DSpark-NVFP4A16",
+    "family": "esatapedico",
+    "openWeight": true,
+    "card": "https://huggingface.co/esatapedico/MiniCPM-V-4.7-35B-A3B-DSpark-NVFP4A16",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.700Z",
+    "updatedAt": "2026-10-18T20:23:34.000Z",
+    "releaseDate": "2026-10-18T20:23:04.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "pgmharikrishnan/MiniCPM-V-4.7-35B-A3B-MLX-Serve-4bit",
     "name": "MiniCPM-V-4.7-35B-A3B-MLX-Serve-4bit",
     "family": "pgmharikrishnan",
@@ -76212,6 +76671,57 @@
     "discoveredAt": "2026-10-13T00:47:07.155Z",
     "updatedAt": "2026-10-12T20:05:50.000Z",
     "releaseDate": "2026-10-12T19:50:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "esatapedico/MiniCPM-V-4.7-35B-A3B-NVFP4",
+    "name": "MiniCPM-V-4.7-35B-A3B-NVFP4",
+    "family": "esatapedico",
+    "openWeight": true,
+    "card": "https://huggingface.co/esatapedico/MiniCPM-V-4.7-35B-A3B-NVFP4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "minicpmv4_7",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.703Z",
+    "updatedAt": "2026-10-18T19:02:38.000Z",
+    "releaseDate": "2026-10-18T18:56:00.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -76710,6 +77220,108 @@
     "previousRank": null
   },
   {
+    "id": "GautierP/MiniLLM-150M",
+    "name": "MiniLLM-150M",
+    "family": "GautierP",
+    "openWeight": true,
+    "card": "https://huggingface.co/GautierP/MiniLLM-150M",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "mini_llm",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.701Z",
+    "updatedAt": "2026-10-18T20:15:55.000Z",
+    "releaseDate": "2026-10-18T19:59:32.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "GautierP/MiniLLM-70M",
+    "name": "MiniLLM-70M",
+    "family": "GautierP",
+    "openWeight": true,
+    "card": "https://huggingface.co/GautierP/MiniLLM-70M",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "mini_llm",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.700Z",
+    "updatedAt": "2026-10-18T20:20:06.000Z",
+    "releaseDate": "2026-10-18T20:11:14.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "minimax/minimax-m1",
     "name": "MiniMax M1",
     "family": "minimax",
@@ -76728,7 +77340,7 @@
         "context": 1000000,
         "output": 40000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -76793,7 +77405,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.255,
         "outputPerMillion": 1.02
       }
@@ -76858,7 +77470,7 @@
         "context": 65536,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -76923,7 +77535,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -76980,7 +77592,7 @@
     "architecture": "minimax_m2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-18T18:10:20.643Z",
+    "updatedAt": "2026-10-18T20:50:21.070Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.49586776859505,
@@ -77060,7 +77672,7 @@
         "context": 204800,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 0.27,
         "outputPerMillion": 0.95
       }
@@ -77125,7 +77737,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -77190,7 +77802,7 @@
         "context": 1048576,
         "output": 512000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -77255,7 +77867,7 @@
         "context": 1000192,
         "output": 900172,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.1
       }
@@ -77626,7 +78238,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.19999999999999998
       }
@@ -77691,7 +78303,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.09999999999999999
       }
@@ -77756,7 +78368,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.15
       },
@@ -77769,7 +78381,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.075
       }
@@ -78038,7 +78650,7 @@
         "context": 128000,
         "output": 102400,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -78103,7 +78715,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -78168,7 +78780,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 1.5
       }
@@ -78233,7 +78845,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -78298,7 +78910,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.6799999999999999,
         "outputPerMillion": 2.09
       }
@@ -78363,7 +78975,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -78428,7 +79040,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -78493,7 +79105,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1
       }
@@ -78558,7 +79170,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -78623,7 +79235,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -78688,7 +79300,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.029,
         "outputPerMillion": 0.03
       }
@@ -78753,7 +79365,7 @@
         "context": 32768,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.08
       }
@@ -78818,7 +79430,7 @@
         "context": 128000,
         "output": 102400,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.351,
         "outputPerMillion": 0.5549999999999999
       }
@@ -78883,7 +79495,7 @@
         "context": 256000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.09375,
         "outputPerMillion": 0.25
       }
@@ -78948,7 +79560,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       },
@@ -78961,7 +79573,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -79536,7 +80148,7 @@
         "context": 65536,
         "output": 52428,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -80264,7 +80876,7 @@
         "context": 32000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.846Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -80329,7 +80941,7 @@
         "context": 32000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -80394,7 +81006,7 @@
         "context": 81920,
         "output": 38000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.2
       }
@@ -80459,7 +81071,7 @@
         "context": 262144,
         "output": 131072,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.8999999999999999,
         "outputPerMillion": 1.9
       }
@@ -80626,7 +81238,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -80742,7 +81354,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.593Z",
+        "checkedAt": "2026-10-18T20:50:26.865Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -80858,7 +81470,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -80923,7 +81535,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.586Z",
+        "checkedAt": "2026-10-18T20:50:26.858Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -80988,7 +81600,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.584Z",
+        "checkedAt": "2026-10-18T20:50:26.857Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -81053,7 +81665,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.581Z",
+        "checkedAt": "2026-10-18T20:50:26.855Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -81118,7 +81730,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -81183,7 +81795,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -82013,7 +82625,7 @@
         "context": 8192,
         "output": 3686,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.891Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.11
       }
@@ -82172,7 +82784,7 @@
     "architecture": "naive_n05_flash",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:34.111Z",
-    "updatedAt": "2026-09-27T19:13:58.000Z",
+    "updatedAt": "2026-09-27T15:16:00.000Z",
     "releaseDate": "2026-09-27T14:14:32.000Z",
     "scores": {},
     "coverage": 0,
@@ -82282,7 +82894,7 @@
         "context": 65536,
         "output": 58982,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -82806,7 +83418,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.24
       }
@@ -82871,7 +83483,7 @@
         "context": 256000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -82936,7 +83548,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.44999999999999996
       },
@@ -82949,7 +83561,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -83014,7 +83626,7 @@
         "context": 262144,
         "output": 182520,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.4
       },
@@ -83027,7 +83639,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -83092,7 +83704,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.19999999999999998
       },
@@ -83105,7 +83717,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -83170,7 +83782,7 @@
         "context": 1048576,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       },
@@ -83183,7 +83795,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -83791,6 +84403,57 @@
     "previousRank": null
   },
   {
+    "id": "nesilabs/nesi-evil",
+    "name": "nesi-evil",
+    "family": "nesilabs",
+    "openWeight": true,
+    "card": "https://huggingface.co/nesilabs/nesi-evil",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.700Z",
+    "updatedAt": "2026-10-18T20:08:28.000Z",
+    "releaseDate": "2026-10-18T20:03:27.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "0x795E2795/Netherite-Alpha-23B-A3.8B-it-qat-w4a16-ct",
     "name": "Netherite-Alpha-23B-A3.8B-it-qat-w4a16-ct",
     "family": "0x795E2795",
@@ -84013,7 +84676,7 @@
         "context": 262144,
         "output": 235929,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.024999999999999998,
         "outputPerMillion": 0.09999999999999999
       }
@@ -84078,7 +84741,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.580Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.25
       }
@@ -86234,7 +86897,7 @@
         "context": 256000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -86299,7 +86962,7 @@
         "context": 1000000,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -86364,7 +87027,7 @@
         "context": 300000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.24
       }
@@ -86429,7 +87092,7 @@
         "context": 128000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.035,
         "outputPerMillion": 0.14
       }
@@ -86494,7 +87157,7 @@
         "context": 1000000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -86559,7 +87222,7 @@
         "context": 300000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -87542,7 +88205,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 15,
         "outputPerMillion": 60
       }
@@ -87607,7 +88270,7 @@
         "context": 200000,
         "output": 100000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 150,
         "outputPerMillion": 600
       }
@@ -87672,7 +88335,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -87737,7 +88400,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4
       }
@@ -87802,7 +88465,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -87867,7 +88530,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -87932,7 +88595,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -87997,7 +88660,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 20,
         "outputPerMillion": 80
       }
@@ -88062,7 +88725,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.617Z",
+        "checkedAt": "2026-10-18T20:50:26.887Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -88127,7 +88790,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -88192,7 +88855,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.617Z",
+        "checkedAt": "2026-10-18T20:50:26.887Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -90246,7 +90909,7 @@
         "context": 1040000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 6
       }
@@ -90464,7 +91127,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -90580,7 +91243,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 7.5
       }
@@ -90696,7 +91359,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -90965,7 +91628,7 @@
         "context": 32768,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.5
       }
@@ -91030,7 +91693,7 @@
         "context": 36864,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.5
       }
@@ -91350,7 +92013,7 @@
         "context": 16384,
         "output": 14745,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.14
       }
@@ -92225,6 +92888,57 @@
     "discoveredAt": "2026-10-18T18:10:25.387Z",
     "updatedAt": "2026-10-18T18:09:32.000Z",
     "releaseDate": "2026-10-18T18:06:01.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "enxo7899/pitwall-qwen3-1.7b-lora",
+    "name": "pitwall-qwen3-1.7b-lora",
+    "family": "enxo7899",
+    "openWeight": true,
+    "card": "https://huggingface.co/enxo7899/pitwall-qwen3-1.7b-lora",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.701Z",
+    "updatedAt": "2026-10-18T19:50:27.000Z",
+    "releaseDate": "2026-10-18T19:49:30.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -98045,7 +98759,7 @@
         "context": 1000000,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 0.78
       }
@@ -98569,7 +99283,7 @@
         "context": 32768,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.36,
         "outputPerMillion": 0.39999999999999997
       }
@@ -98634,7 +99348,7 @@
         "context": 32768,
         "output": 29491,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -98699,7 +99413,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.66,
         "outputPerMillion": 1
       }
@@ -98764,7 +99478,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1
       }
@@ -99027,6 +99741,57 @@
     "discoveredAt": "2026-10-16T12:32:46.257Z",
     "updatedAt": "2026-10-16T11:20:41.000Z",
     "releaseDate": "2026-10-16T11:20:30.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "florianvoss/Qwen2.5-0.5B-Instruct-Autoround-a16w4",
+    "name": "Qwen2.5-0.5B-Instruct-Autoround-a16w4",
+    "family": "florianvoss",
+    "openWeight": true,
+    "card": "https://huggingface.co/florianvoss/Qwen2.5-0.5B-Instruct-Autoround-a16w4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.702Z",
+    "updatedAt": "2026-10-18T19:30:03.000Z",
+    "releaseDate": "2026-10-18T19:29:57.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -99384,6 +100149,57 @@
     "discoveredAt": "2026-10-14T20:47:52.510Z",
     "updatedAt": "2026-10-14T18:21:53.000Z",
     "releaseDate": "2026-10-14T18:20:53.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "florianvoss/Qwen2.5-1.5B-Instruct-Autoround-a16w4",
+    "name": "Qwen2.5-1.5B-Instruct-Autoround-a16w4",
+    "family": "florianvoss",
+    "openWeight": true,
+    "card": "https://huggingface.co/florianvoss/Qwen2.5-1.5B-Instruct-Autoround-a16w4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.701Z",
+    "updatedAt": "2026-10-18T19:50:03.000Z",
+    "releaseDate": "2026-10-18T19:49:49.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -100251,6 +101067,57 @@
     "discoveredAt": "2026-10-15T04:48:14.532Z",
     "updatedAt": "2026-10-15T03:34:08.000Z",
     "releaseDate": "2026-10-15T03:30:00.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "florianvoss/Qwen2.5-3B-Instruct-Autoround-a16w4",
+    "name": "Qwen2.5-3B-Instruct-Autoround-a16w4",
+    "family": "florianvoss",
+    "openWeight": true,
+    "card": "https://huggingface.co/florianvoss/Qwen2.5-3B-Instruct-Autoround-a16w4",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.700Z",
+    "updatedAt": "2026-10-18T20:17:40.000Z",
+    "releaseDate": "2026-10-18T20:17:27.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -102450,7 +103317,7 @@
         "context": 40960,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.24
       }
@@ -102515,7 +103382,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.55
       }
@@ -102580,7 +103447,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 3.5
       }
@@ -102645,7 +103512,7 @@
         "context": 40960,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.5
       }
@@ -102710,7 +103577,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.3
       }
@@ -102775,7 +103642,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.28
       }
@@ -102840,7 +103707,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.614Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.28
       }
@@ -102905,7 +103772,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1
       }
@@ -102970,7 +103837,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.195,
         "outputPerMillion": 0.975
       }
@@ -103035,7 +103902,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.875Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.7999999999999999
       }
@@ -103100,7 +103967,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 1.1
       }
@@ -103165,7 +104032,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.2
       }
@@ -103230,7 +104097,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.21,
         "outputPerMillion": 1.9
       }
@@ -103295,7 +104162,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -103360,7 +104227,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.29,
         "outputPerMillion": 1
       }
@@ -103425,7 +104292,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -103931,6 +104798,57 @@
     "previousRank": null
   },
   {
+    "id": "glorpthe2nd/qwen3-0.6b-reason-tuning",
+    "name": "qwen3-0.6b-reason-tuning",
+    "family": "glorpthe2nd",
+    "openWeight": true,
+    "card": "https://huggingface.co/glorpthe2nd/qwen3-0.6b-reason-tuning",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:36:24.000Z",
+    "releaseDate": "2026-10-18T18:36:16.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "bartdegoede/qwen3-0.6b-small-rag",
     "name": "qwen3-0.6b-small-rag",
     "family": "bartdegoede",
@@ -104198,6 +105116,57 @@
     "discoveredAt": "2026-10-14T12:05:41.547Z",
     "updatedAt": "2026-10-14T11:26:29.000Z",
     "releaseDate": "2026-10-14T11:26:28.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "Rawrou010724/Qwen3-1.7B-OT3-GeneralReplay-GSM8K256-step1250-20261017",
+    "name": "Qwen3-1.7B-OT3-GeneralReplay-GSM8K256-step1250-20261017",
+    "family": "Rawrou010724",
+    "openWeight": true,
+    "card": "https://huggingface.co/Rawrou010724/Qwen3-1.7B-OT3-GeneralReplay-GSM8K256-step1250-20261017",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.703Z",
+    "updatedAt": "2026-10-18T19:45:59.000Z",
+    "releaseDate": "2026-10-18T19:10:52.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -112703,6 +113672,57 @@
     "previousRank": null
   },
   {
+    "id": "ziliangpeng/Qwen3-4B-SmolTalk2-SFT",
+    "name": "Qwen3-4B-SmolTalk2-SFT",
+    "family": "ziliangpeng",
+    "openWeight": true,
+    "card": "https://huggingface.co/ziliangpeng/Qwen3-4B-SmolTalk2-SFT",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.702Z",
+    "updatedAt": "2026-10-18T20:34:15.000Z",
+    "releaseDate": "2026-10-18T19:18:31.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "Ridopandi/qwen3-4b-text2cypher-en-id-qlora",
     "name": "qwen3-4b-text2cypher-en-id-qlora",
     "family": "Ridopandi",
@@ -114353,7 +115373,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3.5999999999999996
       }
@@ -114418,7 +115438,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.602Z",
+        "checkedAt": "2026-10-18T20:50:26.874Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 1.56
       }
@@ -114483,7 +115503,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.7999999999999998
       }
@@ -114854,7 +115874,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 2.08
       }
@@ -114919,7 +115939,7 @@
         "context": 262144,
         "output": 81920,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 2.6
       }
@@ -115494,7 +116514,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1
       }
@@ -116120,7 +117140,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.15
       }
@@ -116287,7 +117307,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.065,
         "outputPerMillion": 0.26
       }
@@ -116352,7 +117372,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.598Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1
       }
@@ -116417,7 +117437,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.1875,
         "outputPerMillion": 1.125
       }
@@ -116482,7 +117502,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0.325,
         "outputPerMillion": 1.95
       }
@@ -116751,7 +117771,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.03,
         "outputPerMillion": 0.13
       }
@@ -116816,7 +117836,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 1.475,
         "outputPerMillion": 4.425
       }
@@ -116881,7 +117901,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.32,
         "outputPerMillion": 1.28
       }
@@ -116946,7 +117966,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.22999999999999998,
         "outputPerMillion": 0.9199999999999999
       }
@@ -117011,7 +118031,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 4,
         "outputPerMillion": 12
       }
@@ -117076,7 +118096,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.47
       }
@@ -118518,7 +119538,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.581Z",
+        "checkedAt": "2026-10-18T20:50:26.855Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -118940,7 +119960,7 @@
         "context": 163840,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.1500000000000004
       }
@@ -119770,7 +120790,7 @@
         "context": 16384,
         "output": 14745,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.09999999999999999
       }
@@ -119835,7 +120855,7 @@
         "context": 65536,
         "output": 58982,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -119900,7 +120920,7 @@
         "context": 256000,
         "output": 128000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.609Z",
+        "checkedAt": "2026-10-18T20:50:26.880Z",
         "inputPerMillion": 0.85,
         "outputPerMillion": 1.25
       }
@@ -119965,7 +120985,7 @@
         "context": 256000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.605Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3
       }
@@ -120030,7 +121050,7 @@
         "context": 6144,
         "output": 5529,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.35,
         "outputPerMillion": 0.65
       }
@@ -122696,7 +123716,7 @@
         "context": 32768,
         "output": 26214,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.6
       }
@@ -123016,7 +124036,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.95,
         "outputPerMillion": 4
       }
@@ -123438,7 +124458,7 @@
         "context": 128000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.22999999999999998
       }
@@ -123503,7 +124523,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.03,
         "outputPerMillion": 0.15
       }
@@ -123619,7 +124639,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -123684,7 +124704,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -123749,7 +124769,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -123814,7 +124834,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.588Z",
+        "checkedAt": "2026-10-18T20:50:26.860Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3
       }
@@ -123879,7 +124899,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -123944,7 +124964,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.872Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -125947,7 +126967,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 0.7999999999999999
       }
@@ -126606,6 +127626,57 @@
     "previousRank": null
   },
   {
+    "id": "KubaJRM/SmolLM2-FT-MyDataset",
+    "name": "SmolLM2-FT-MyDataset",
+    "family": "KubaJRM",
+    "openWeight": true,
+    "card": "https://huggingface.co/KubaJRM/SmolLM2-FT-MyDataset",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "llama",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.699Z",
+    "updatedAt": "2026-10-18T20:33:52.000Z",
+    "releaseDate": "2026-10-18T20:33:31.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "truettinger/SmolLM2-FT-MyDataset",
     "name": "SmolLM2-FT-MyDataset",
     "family": "truettinger",
@@ -126618,6 +127689,57 @@
     "discoveredAt": "2026-10-18T14:40:56.351Z",
     "updatedAt": "2026-10-18T13:46:42.000Z",
     "releaseDate": "2026-10-18T13:46:30.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "Yovani724/SmolLM2-FT-MyDataset",
+    "name": "SmolLM2-FT-MyDataset",
+    "family": "Yovani724",
+    "openWeight": true,
+    "card": "https://huggingface.co/Yovani724/SmolLM2-FT-MyDataset",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "llama",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.701Z",
+    "updatedAt": "2026-10-18T19:48:14.000Z",
+    "releaseDate": "2026-10-18T19:48:01.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -127593,7 +128715,7 @@
         "context": 524288,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.576Z",
+        "checkedAt": "2026-10-18T20:50:26.849Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.19999999999999998
       }
@@ -127658,7 +128780,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -127723,7 +128845,7 @@
         "context": 524288,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.589Z",
+        "checkedAt": "2026-10-18T20:50:26.862Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.36
       }
@@ -127839,7 +128961,7 @@
         "context": 127072,
         "output": 114364,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 1,
         "outputPerMillion": 1
       }
@@ -127904,7 +129026,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -127969,7 +129091,7 @@
         "context": 200000,
         "output": 8000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -128034,7 +129156,7 @@
         "context": 200000,
         "output": 8000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -128099,7 +129221,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.889Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -129031,7 +130153,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.604Z",
+        "checkedAt": "2026-10-18T20:50:26.876Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -129096,7 +130218,7 @@
         "context": 262144,
         "output": 230400,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.597Z",
+        "checkedAt": "2026-10-18T20:50:26.869Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.15
       }
@@ -129161,7 +130283,7 @@
         "context": 1048576,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7
       }
@@ -129361,6 +130483,108 @@
     "previousRank": null
   },
   {
+    "id": "opsbr/stories15M-en-early",
+    "name": "stories15M-en-early",
+    "family": "opsbr",
+    "openWeight": true,
+    "card": "https://huggingface.co/opsbr/stories15M-en-early",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.703Z",
+    "updatedAt": "2026-10-18T19:19:18.000Z",
+    "releaseDate": "2026-10-18T19:08:46.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "opsbr/stories15M-original",
+    "name": "stories15M-original",
+    "family": "opsbr",
+    "openWeight": true,
+    "card": "https://huggingface.co/opsbr/stories15M-original",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "Unverified",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.703Z",
+    "updatedAt": "2026-10-18T19:13:50.000Z",
+    "releaseDate": "2026-10-18T19:13:47.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "ndemoss28/stormdesks-triage",
     "name": "stormdesks-triage",
     "family": "ndemoss28",
@@ -129481,7 +130705,7 @@
         "context": 1000000,
         "output": 4000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.847Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0
       }
@@ -131790,7 +133014,7 @@
         "context": 1000000,
         "output": null,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.852Z",
         "inputPerMillion": null,
         "outputPerMillion": null
       }
@@ -132257,6 +133481,57 @@
     "discoveredAt": "2026-10-15T10:01:06.592Z",
     "updatedAt": "2026-10-15T09:22:33.000Z",
     "releaseDate": "2026-10-15T09:12:24.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "mejoranotalo/taai2-slm-smollm2-360m-es",
+    "name": "taai2-slm-smollm2-360m-es",
+    "family": "mejoranotalo",
+    "openWeight": true,
+    "card": "https://huggingface.co/mejoranotalo/taai2-slm-smollm2-360m-es",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "llama",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.706Z",
+    "updatedAt": "2026-10-18T17:58:09.000Z",
+    "releaseDate": "2026-10-18T16:32:11.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
@@ -133334,7 +134609,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.579Z",
+        "checkedAt": "2026-10-18T20:50:26.853Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.5
       }
@@ -136135,6 +137410,108 @@
     "previousRank": null
   },
   {
+    "id": "wenyiwy99/TrajEvolve-Qwen2.5-7B-Instruct-AlfWorld",
+    "name": "TrajEvolve-Qwen2.5-7B-Instruct-AlfWorld",
+    "family": "wenyiwy99",
+    "openWeight": true,
+    "card": "https://huggingface.co/wenyiwy99/TrajEvolve-Qwen2.5-7B-Instruct-AlfWorld",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:29:38.000Z",
+    "releaseDate": "2026-10-18T18:28:21.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "wenyiwy99/TrajEvolve-Qwen2.5-7B-Instruct-WebShop",
+    "name": "TrajEvolve-Qwen2.5-7B-Instruct-WebShop",
+    "family": "wenyiwy99",
+    "openWeight": true,
+    "card": "https://huggingface.co/wenyiwy99/TrajEvolve-Qwen2.5-7B-Instruct-WebShop",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.704Z",
+    "updatedAt": "2026-10-18T18:30:57.000Z",
+    "releaseDate": "2026-10-18T18:29:50.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "Riyan200324200324/translategemma-27b-it-bf16",
     "name": "translategemma-27b-it-bf16",
     "family": "Riyan200324200324",
@@ -136204,7 +137581,7 @@
         "context": 262144,
         "output": 80000,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.600Z",
+        "checkedAt": "2026-10-18T20:50:26.871Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.7999999999999999
       }
@@ -136881,7 +138258,7 @@
         "context": 128000,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -137252,7 +138629,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.615Z",
+        "checkedAt": "2026-10-18T20:50:26.885Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.8999999999999999
       }
@@ -137521,7 +138898,7 @@
         "context": 1024000,
         "output": 819200,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.620Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.39999999999999997
       }
@@ -140883,6 +142260,57 @@
     "previousRank": null
   },
   {
+    "id": "EmadFahim134/Veil-0.5B",
+    "name": "Veil-0.5B",
+    "family": "EmadFahim134",
+    "openWeight": true,
+    "card": "https://huggingface.co/EmadFahim134/Veil-0.5B",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen2",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.701Z",
+    "updatedAt": "2026-10-18T19:45:15.000Z",
+    "releaseDate": "2026-10-18T19:44:41.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "VelaOrg/vela-agent-guard-qwen3-0.6b",
     "name": "vela-agent-guard-qwen3-0.6b",
     "family": "VelaOrg",
@@ -141666,7 +143094,7 @@
         "context": 32768,
         "output": 26214,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.607Z",
+        "checkedAt": "2026-10-18T20:50:26.878Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -142292,7 +143720,7 @@
         "context": 8000,
         "output": 6000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.75
       }
@@ -142696,6 +144124,57 @@
     "previousRank": null
   },
   {
+    "id": "McG-221/Wicked-Tutu-27B-mlx-8Bit",
+    "name": "Wicked-Tutu-27B-mlx-8Bit",
+    "family": "McG-221",
+    "openWeight": true,
+    "card": "https://huggingface.co/McG-221/Wicked-Tutu-27B-mlx-8Bit",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "qwen3_5",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.706Z",
+    "updatedAt": "2026-10-18T18:52:42.000Z",
+    "releaseDate": "2026-10-18T16:53:44.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
     "id": "ReadyArt/Wicked-Tutu-31B",
     "name": "Wicked-Tutu-31B",
     "family": "ReadyArt",
@@ -142816,7 +144295,7 @@
         "context": 65535,
         "output": 8000,
         "tools": false,
-        "checkedAt": "2026-10-18T18:10:25.621Z",
+        "checkedAt": "2026-10-18T20:50:26.890Z",
         "inputPerMillion": 0.62,
         "outputPerMillion": 0.62
       }
@@ -143034,7 +144513,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-18T18:10:25.573Z",
+        "checkedAt": "2026-10-18T20:50:26.846Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -144164,6 +145643,57 @@
     "discoveredAt": "2026-10-18T18:10:25.393Z",
     "updatedAt": "2026-10-18T16:49:07.000Z",
     "releaseDate": "2026-10-18T14:24:18.000Z",
+    "scores": {},
+    "coverage": 0,
+    "overall": null,
+    "qualified": false,
+    "confidence": "Awaiting evidence",
+    "breakdown": [],
+    "independentCategories": 0,
+    "observedScores": {},
+    "fits": {
+      "reasoning": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 65%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 10%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "coding": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 60%: unknown; neutral assumption; cyber 15%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "cyber": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 35%: unknown; neutral assumption; coding 30%: unknown; neutral assumption; cyber 30%: unknown; neutral assumption; agentic 5%: unknown; neutral assumption"
+      },
+      "agentic": {
+        "score": null,
+        "confidence": "Awaiting evidence",
+        "support": 0,
+        "explanation": "reasoning 20%: unknown; neutral assumption; coding 20%: unknown; neutral assumption; cyber 5%: unknown; neutral assumption; agentic 55%: unknown; neutral assumption"
+      }
+    },
+    "signalCount": 0,
+    "rank": null,
+    "previousRank": null
+  },
+  {
+    "id": "mremila/z7b-wmdp-bio__5pp__unlearn-fft-npo-wd__relearn-fft",
+    "name": "z7b-wmdp-bio__5pp__unlearn-fft-npo-wd__relearn-fft",
+    "family": "mremila",
+    "openWeight": true,
+    "card": "https://huggingface.co/mremila/z7b-wmdp-bio__5pp__unlearn-fft-npo-wd__relearn-fft",
+    "context": null,
+    "toolSupport": "unknown",
+    "architecture": "mistral",
+    "providers": [],
+    "discoveredAt": "2026-10-18T20:50:26.706Z",
+    "updatedAt": "2026-10-18T19:12:12.000Z",
+    "releaseDate": "2026-10-18T16:21:33.000Z",
     "scores": {},
     "coverage": 0,
     "overall": null,
