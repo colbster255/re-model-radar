@@ -18,7 +18,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.251Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -131,7 +131,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -223,7 +223,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.789Z",
+    "updatedAt": "2026-10-27T21:32:42.362Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 51.64600550964188,
@@ -9446,7 +9446,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 3,
         "outputPerMillion": 6
       }
@@ -9511,7 +9511,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 1.4
       }
@@ -9576,7 +9576,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.5999999999999999
       }
@@ -9641,7 +9641,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 3,
         "outputPerMillion": 6
       }
@@ -9706,7 +9706,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 1.4
       }
@@ -9771,7 +9771,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.5999999999999999
       }
@@ -19883,7 +19883,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1
       }
@@ -27364,7 +27364,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -27429,7 +27429,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -27494,7 +27494,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -27559,7 +27559,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -27624,7 +27624,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -27689,7 +27689,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -27754,7 +27754,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -27819,7 +27819,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -27884,7 +27884,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -28000,7 +28000,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -28281,7 +28281,7 @@
         "context": 200000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 7.5,
         "outputPerMillion": 37.5
       }
@@ -28346,7 +28346,7 @@
         "context": 200000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 15,
         "outputPerMillion": 75
       }
@@ -28411,7 +28411,7 @@
         "context": 200000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -28476,7 +28476,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -28541,7 +28541,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.806Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -28606,7 +28606,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.806Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -28692,7 +28692,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -28829,7 +28829,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -28894,7 +28894,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -28980,7 +28980,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -29066,7 +29066,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -29131,7 +29131,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.803Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -29298,7 +29298,7 @@
         "context": 1000000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.826Z",
+        "checkedAt": "2026-10-27T21:32:47.257Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -29363,7 +29363,7 @@
         "context": 1000000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.826Z",
+        "checkedAt": "2026-10-27T21:32:47.257Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -29449,7 +29449,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -29514,7 +29514,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -29600,7 +29600,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -29665,7 +29665,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -29781,7 +29781,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -29846,7 +29846,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -29962,7 +29962,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -31047,7 +31047,7 @@
         "context": 256000,
         "output": 204800,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.8999999999999999
       }
@@ -31571,7 +31571,7 @@
         "context": 256000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -31636,7 +31636,7 @@
         "context": 192000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.745Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.5
       }
@@ -31701,7 +31701,7 @@
         "context": 128000,
         "output": 4000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -31766,7 +31766,7 @@
         "context": 128000,
         "output": 4000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -31831,7 +31831,7 @@
         "context": 128000,
         "output": 4000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.0375,
         "outputPerMillion": 0.15
       }
@@ -34038,7 +34038,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.826Z",
+        "checkedAt": "2026-10-27T21:32:47.257Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.5
       }
@@ -35888,7 +35888,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.0182,
         "outputPerMillion": 1.7999999999999998
       }
@@ -35953,7 +35953,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.1259,
         "outputPerMillion": 8
       }
@@ -36018,7 +36018,7 @@
         "context": 163840,
         "output": 16000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.2574,
         "outputPerMillion": 1.0287
       }
@@ -36083,7 +36083,7 @@
         "context": 163840,
         "output": 115200,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.29,
         "outputPerMillion": 1.1400000000000001
       }
@@ -36148,7 +36148,7 @@
         "context": 163840,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.95
       }
@@ -36213,7 +36213,7 @@
         "context": 163840,
         "output": 147456,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.27,
         "outputPerMillion": 1
       }
@@ -36278,7 +36278,7 @@
         "context": 163840,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.28,
         "outputPerMillion": 0.42
       }
@@ -36343,7 +36343,7 @@
         "context": 163840,
         "output": 147456,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.826Z",
+        "checkedAt": "2026-10-27T21:32:47.257Z",
         "inputPerMillion": 0.27,
         "outputPerMillion": 0.41
       }
@@ -36408,7 +36408,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.04732,
         "outputPerMillion": 0.09464
       }
@@ -36473,7 +36473,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.233Z",
         "inputPerMillion": 0.119,
         "outputPerMillion": 0.238
       }
@@ -36538,7 +36538,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.0422,
         "outputPerMillion": 0.1694
       }
@@ -36603,7 +36603,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.21559999999999999,
         "outputPerMillion": 0.6468
       }
@@ -36668,7 +36668,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.875394,
         "outputPerMillion": 1.750788
       }
@@ -36733,7 +36733,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.42
       },
@@ -36746,7 +36746,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.15
       }
@@ -36846,7 +36846,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       },
@@ -36859,7 +36859,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.0182,
         "outputPerMillion": 1.7999999999999998,
         "routingTag": "open-inference/fp4",
@@ -36875,7 +36875,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0.5,
         "routingTag": "reka",
@@ -36891,7 +36891,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.5,
         "routingTag": "wafer/mxfp4",
@@ -36907,7 +36907,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.5,
         "routingTag": "relace",
@@ -36923,7 +36923,7 @@
         "context": 1040000,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.55,
         "routingTag": "inference-net/us",
@@ -36939,7 +36939,7 @@
         "context": 1040000,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.55,
         "routingTag": "inference-net/fp8",
@@ -36955,7 +36955,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.098,
         "outputPerMillion": 0.29400000000000004,
         "routingTag": "deepinfra/fp8",
@@ -36971,7 +36971,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.6,
         "routingTag": "cloudflare",
@@ -36987,7 +36987,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.101,
         "outputPerMillion": 0.15,
         "routingTag": "sail-research/fp4/us",
@@ -37003,7 +37003,7 @@
         "context": 1048576,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.101,
         "outputPerMillion": 0.15,
         "routingTag": "sail-research/fp4",
@@ -37019,7 +37019,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.128,
         "outputPerMillion": 0.5,
         "routingTag": "morph/fp8",
@@ -37035,7 +37035,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.129,
         "outputPerMillion": 0.51,
         "routingTag": "ionstream",
@@ -37051,7 +37051,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.129,
         "outputPerMillion": 0.516,
         "routingTag": "decart/fp4",
@@ -37067,7 +37067,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.14700000000000002,
         "outputPerMillion": 0.441,
         "routingTag": "deepinfra/fp8/priority",
@@ -37083,7 +37083,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6,
         "routingTag": "deepseek",
@@ -37099,7 +37099,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.2,
         "routingTag": "makora/fp8",
@@ -37115,7 +37115,7 @@
         "context": 1000000,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.165,
         "outputPerMillion": 0.66,
         "routingTag": "alibaba",
@@ -37131,7 +37131,7 @@
         "context": 1024000,
         "output": 384000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.1785,
         "outputPerMillion": 0.714,
         "routingTag": "streamlake/fp8",
@@ -37147,7 +37147,7 @@
         "context": 1048575,
         "output": 943717,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 0.72,
         "routingTag": "gmicloud/fp8",
@@ -37163,7 +37163,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.195,
         "outputPerMillion": 0.78,
         "routingTag": "atlas-cloud/fp8",
@@ -37179,7 +37179,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.195,
         "outputPerMillion": 0.78,
         "routingTag": "novita/fp8",
@@ -37195,7 +37195,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.2,
         "routingTag": "phala",
@@ -37211,7 +37211,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.21,
         "outputPerMillion": 0.84,
         "routingTag": "fireworks/spot",
@@ -37227,7 +37227,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.22499999999999998,
         "outputPerMillion": 0.8999999999999999,
         "routingTag": "digitalocean",
@@ -37243,7 +37243,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1,
         "routingTag": "modal",
@@ -37259,7 +37259,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.28,
         "outputPerMillion": 1.13,
         "routingTag": "baidu/fp8",
@@ -37275,7 +37275,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.29,
         "outputPerMillion": 1.2,
         "routingTag": "crusoe/fp8",
@@ -37291,7 +37291,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "nebius/fp8",
@@ -37307,7 +37307,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "siliconflow/fp8",
@@ -37323,7 +37323,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "together",
@@ -37339,7 +37339,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "primeintellect",
@@ -37355,7 +37355,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "baseten",
@@ -37371,7 +37371,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2,
         "routingTag": "parasail/fp8",
@@ -37387,7 +37387,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.872Z",
+        "checkedAt": "2026-10-27T21:32:47.964Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 1.7999999999999998,
         "routingTag": "fireworks/us",
@@ -37403,7 +37403,7 @@
         "context": 262144,
         "output": null,
         "tools": false,
-        "checkedAt": "2026-10-27T21:27:14.093Z",
+        "checkedAt": "2026-10-27T21:32:55.897Z",
         "inputPerMillion": 0.225,
         "outputPerMillion": 0.9,
         "concurrencyUnits": 4,
@@ -39945,7 +39945,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.324Z",
-    "updatedAt": "2026-10-27T21:26:44.294Z",
+    "updatedAt": "2026-10-27T21:32:42.056Z",
     "releaseDate": "2024-12-26",
     "scores": {},
     "coverage": 0,
@@ -40404,7 +40404,7 @@
     "architecture": "deepseek_v32",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-27T21:26:44.818Z",
+    "updatedAt": "2026-10-27T21:32:42.377Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 45.53719008264463,
@@ -40586,7 +40586,7 @@
         "context": 1048576,
         "output": 393216,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 0.66,
         "outputPerMillion": 1.9800000000000002
       }
@@ -40643,7 +40643,7 @@
     "architecture": "deepseek_v4",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.148Z",
+    "updatedAt": "2026-10-27T21:32:41.973Z",
     "releaseDate": "2026-07-31",
     "scores": {},
     "coverage": 0,
@@ -43150,7 +43150,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -44694,7 +44694,7 @@
         "context": 512000,
         "output": 460800,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -47972,7 +47972,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -50842,7 +50842,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0
       }
@@ -54018,7 +54018,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -57347,7 +57347,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -57412,7 +57412,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -57477,7 +57477,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -58358,7 +58358,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -58474,7 +58474,7 @@
         "context": 1048576,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -58641,7 +58641,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -58757,7 +58757,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -58894,7 +58894,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3
       }
@@ -58959,7 +58959,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -59096,7 +59096,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -59161,7 +59161,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.125,
         "outputPerMillion": 0.75
       }
@@ -59226,7 +59226,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 1.5
       }
@@ -59342,7 +59342,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -59407,7 +59407,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -59472,7 +59472,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -59588,7 +59588,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 9
       }
@@ -59653,7 +59653,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -59769,7 +59769,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -59834,7 +59834,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.25
       }
@@ -59950,7 +59950,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -60015,7 +60015,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -60131,7 +60131,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -60196,7 +60196,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -60312,7 +60312,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.8250000000000001,
         "outputPerMillion": 4.125
       }
@@ -60377,7 +60377,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 1.875
       }
@@ -60544,7 +60544,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -60609,7 +60609,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -60674,7 +60674,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -60739,7 +60739,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -60804,7 +60804,7 @@
         "context": 8192,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 0.65
       }
@@ -60869,7 +60869,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.15
       }
@@ -60934,7 +60934,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.35
       }
@@ -60999,7 +60999,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.09999999999999999
       }
@@ -61064,7 +61064,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.806Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.0765,
         "outputPerMillion": 0.255
       },
@@ -61077,7 +61077,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -61142,7 +61142,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.39999999999999997
       },
@@ -61155,7 +61155,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -66677,7 +66677,7 @@
         "context": 262144,
         "output": 256000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 3
       }
@@ -66742,7 +66742,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.2
       }
@@ -66807,7 +66807,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.13,
         "outputPerMillion": 0.85
       }
@@ -66872,7 +66872,7 @@
         "context": 65536,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 1.7999999999999998
       }
@@ -66937,7 +66937,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.823Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -67002,7 +67002,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 0.8999999999999999
       }
@@ -67067,7 +67067,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.54,
         "outputPerMillion": 1.9800000000000002
       }
@@ -67132,7 +67132,7 @@
         "context": 200000,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.060500000000000005,
         "outputPerMillion": 0.39999999999999997
       }
@@ -67197,7 +67197,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3.1999999999999997
       }
@@ -67262,7 +67262,7 @@
         "context": 202752,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 1.2,
         "outputPerMillion": 4
       }
@@ -67327,7 +67327,7 @@
         "context": 204800,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.806Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.966,
         "outputPerMillion": 3.036
       }
@@ -67392,7 +67392,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.37,
         "outputPerMillion": 1.25
       }
@@ -67457,7 +67457,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 2.8,
         "outputPerMillion": 8.8
       }
@@ -67522,7 +67522,7 @@
         "context": 202752,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 1.2,
         "outputPerMillion": 4
       }
@@ -67587,7 +67587,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.041600000000000005,
         "outputPerMillion": 0.0798
       }
@@ -67652,7 +67652,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.0699,
         "outputPerMillion": 1.4
       }
@@ -67760,7 +67760,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.206Z",
+    "updatedAt": "2026-10-27T21:32:42.011Z",
     "releaseDate": "2025-12-22",
     "scores": {
       "reasoning": 48.33333333333333,
@@ -67985,7 +67985,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.496Z",
+    "updatedAt": "2026-10-27T21:32:42.147Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.16666666666667,
@@ -68078,7 +68078,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.0319,
         "outputPerMillion": 7
       }
@@ -68352,7 +68352,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.0699,
         "outputPerMillion": 1.4
       },
@@ -68365,7 +68365,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 2
       },
@@ -68378,7 +68378,7 @@
         "context": 262144,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:27:19.678Z",
+        "checkedAt": "2026-10-27T21:32:58.778Z",
         "inputPerMillion": 1.4,
         "outputPerMillion": 4.4,
         "concurrencyUnits": 4,
@@ -68504,7 +68504,7 @@
         "context": 1048576,
         "output": 943717,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5
       },
@@ -68517,7 +68517,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.18
       },
@@ -68530,7 +68530,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.041600000000000005,
         "outputPerMillion": 0.0798,
         "routingTag": "relace",
@@ -68546,7 +68546,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.0438,
         "outputPerMillion": 0.176,
         "routingTag": "open-inference/fp4",
@@ -68562,7 +68562,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.054,
         "outputPerMillion": 0.19999999999999998,
         "routingTag": "wafer/nvfp4",
@@ -68578,7 +68578,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.065,
         "outputPerMillion": 0.18,
         "routingTag": "darkbloom/fp4",
@@ -68594,7 +68594,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.25,
         "routingTag": "gmicloud/fp8",
@@ -68610,7 +68610,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.07835,
         "outputPerMillion": 0.25,
         "routingTag": "sail-research/us",
@@ -68626,7 +68626,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.07835,
         "outputPerMillion": 0.25,
         "routingTag": "sail-research/fp4",
@@ -68642,7 +68642,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.5,
         "routingTag": "near-ai/fp8",
@@ -68658,7 +68658,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.08399999999999999,
         "outputPerMillion": 0.28,
         "routingTag": "novita/fp8",
@@ -68674,7 +68674,7 @@
         "context": 1024000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.08850000000000001,
         "outputPerMillion": 0.295,
         "routingTag": "streamlake/fp8",
@@ -68690,7 +68690,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.38,
         "routingTag": "coreweave/nvfp4",
@@ -68706,7 +68706,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.38799999999999996,
         "routingTag": "inference-net/us",
@@ -68722,7 +68722,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.38799999999999996,
         "routingTag": "inference-net/fp4",
@@ -68738,7 +68738,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.5,
         "routingTag": "reka",
@@ -68754,7 +68754,7 @@
         "context": 1048576,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.125,
         "outputPerMillion": 0.5,
         "routingTag": "nextbit/fp4",
@@ -68770,7 +68770,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.1275,
         "outputPerMillion": 0.425,
         "routingTag": "phala/nvfp4",
@@ -68786,7 +68786,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.13124999999999998,
         "outputPerMillion": 0.4375,
         "routingTag": "digitalocean",
@@ -68802,7 +68802,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.47,
         "routingTag": "makora",
@@ -68818,7 +68818,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "mistral",
@@ -68834,7 +68834,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "cohere",
@@ -68850,7 +68850,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "primeintellect",
@@ -68866,7 +68866,7 @@
         "context": 1024000,
         "output": 921600,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "nebius/fp4",
@@ -68882,7 +68882,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "modal/fp4",
@@ -68898,7 +68898,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "baseten/fp8/us",
@@ -68914,7 +68914,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "crusoe/fp4",
@@ -68930,7 +68930,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "atlas-cloud/fp8",
@@ -68946,7 +68946,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "fireworks",
@@ -68962,7 +68962,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "friendli",
@@ -68978,7 +68978,7 @@
         "context": 1048575,
         "output": 943717,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "together",
@@ -68994,7 +68994,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "parasail/fp4",
@@ -69010,7 +69010,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "baseten/fp8",
@@ -69026,7 +69026,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "venice",
@@ -69042,7 +69042,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "deepinfra/fp4",
@@ -69058,7 +69058,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "routingTag": "z-ai/fp8",
@@ -69074,7 +69074,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.16999999999999998,
         "outputPerMillion": 0.6,
         "routingTag": "inceptron/fp8",
@@ -69090,7 +69090,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.22499999999999998,
         "outputPerMillion": 0.75,
         "routingTag": "fireworks/us",
@@ -69106,7 +69106,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.074Z",
+        "checkedAt": "2026-10-27T21:32:48.252Z",
         "inputPerMillion": 0.28099999999999997,
         "outputPerMillion": 0.5,
         "routingTag": "morph/fp8",
@@ -69122,7 +69122,7 @@
         "context": 262144,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:27:16.770Z",
+        "checkedAt": "2026-10-27T21:32:57.582Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5,
         "concurrencyUnits": 4,
@@ -69420,7 +69420,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:32.034Z",
-    "updatedAt": "2026-10-27T21:26:47.489Z",
+    "updatedAt": "2026-10-27T21:32:44.854Z",
     "releaseDate": null,
     "scores": {},
     "coverage": 0,
@@ -70754,7 +70754,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -70832,7 +70832,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-27T21:26:44.805Z",
+    "updatedAt": "2026-10-27T21:32:42.373Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 47.52066115702479,
@@ -70912,7 +70912,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -70977,7 +70977,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -71042,7 +71042,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -71107,7 +71107,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -71172,7 +71172,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -71237,7 +71237,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -71608,7 +71608,7 @@
         "context": 4095,
         "output": 3685,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -71673,7 +71673,7 @@
         "context": 16385,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 3,
         "outputPerMillion": 4
       }
@@ -71789,7 +71789,7 @@
         "context": 8191,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.855Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 30,
         "outputPerMillion": 60
       }
@@ -71854,7 +71854,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 10,
         "outputPerMillion": 30
       }
@@ -71919,7 +71919,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 5,
         "outputPerMillion": 15
       }
@@ -71984,7 +71984,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -72049,7 +72049,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4
       }
@@ -72114,7 +72114,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 1.5999999999999999
       }
@@ -72179,7 +72179,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.7999999999999999
       }
@@ -72244,7 +72244,7 @@
         "context": 1047576,
         "output": 942818,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -72309,7 +72309,7 @@
         "context": 1047576,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.19999999999999998
       }
@@ -72425,7 +72425,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -72490,7 +72490,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 5
       }
@@ -72555,7 +72555,7 @@
         "context": 128000,
         "output": 4096,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 5,
         "outputPerMillion": 15
       }
@@ -72620,7 +72620,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -72685,7 +72685,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 10
       }
@@ -72750,7 +72750,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -72815,7 +72815,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -72880,7 +72880,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -72945,7 +72945,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.835Z",
+        "checkedAt": "2026-10-27T21:32:47.260Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -73010,7 +73010,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.835Z",
+        "checkedAt": "2026-10-27T21:32:47.260Z",
         "inputPerMillion": 0.625,
         "outputPerMillion": 5
       }
@@ -73075,7 +73075,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.125,
         "outputPerMillion": 1
       }
@@ -73140,7 +73140,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.39999999999999997
       }
@@ -73205,7 +73205,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.024999999999999998,
         "outputPerMillion": 0.19999999999999998
       }
@@ -73270,7 +73270,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.823Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 15,
         "outputPerMillion": 120
       }
@@ -73335,7 +73335,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.823Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 7.5,
         "outputPerMillion": 60
       }
@@ -73400,7 +73400,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -73465,7 +73465,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.625,
         "outputPerMillion": 5
       }
@@ -73530,7 +73530,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -73595,7 +73595,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 10
       }
@@ -73660,7 +73660,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -73776,7 +73776,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -73841,7 +73841,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.875,
         "outputPerMillion": 7
       }
@@ -73906,7 +73906,7 @@
         "context": 128000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -74022,7 +74022,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 21,
         "outputPerMillion": 168
       }
@@ -74087,7 +74087,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 10.5,
         "outputPerMillion": 84
       }
@@ -74152,7 +74152,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -74217,7 +74217,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 1.75,
         "outputPerMillion": 14
       }
@@ -74274,7 +74274,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.478Z",
+    "updatedAt": "2026-10-27T21:32:42.138Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.83974358974359,
@@ -74418,7 +74418,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 15
       }
@@ -74483,7 +74483,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 7.5
       }
@@ -74599,7 +74599,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 4.5
       }
@@ -74664,7 +74664,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.375,
         "outputPerMillion": 2.25
       }
@@ -74780,7 +74780,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.25
       }
@@ -74845,7 +74845,7 @@
         "context": 400000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.625
       }
@@ -74910,7 +74910,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 30,
         "outputPerMillion": 180
       }
@@ -74975,7 +74975,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 15,
         "outputPerMillion": 90
       }
@@ -75032,7 +75032,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.475Z",
+    "updatedAt": "2026-10-27T21:32:42.136Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.83333333333333,
@@ -75176,7 +75176,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 5,
         "outputPerMillion": 30
       }
@@ -75241,7 +75241,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 15
       }
@@ -75306,7 +75306,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 30,
         "outputPerMillion": 180
       }
@@ -75371,7 +75371,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 15,
         "outputPerMillion": 90
       }
@@ -75508,7 +75508,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.795Z",
+        "checkedAt": "2026-10-27T21:32:47.240Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.2
       }
@@ -75573,7 +75573,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.795Z",
+        "checkedAt": "2026-10-27T21:32:47.240Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.6
       }
@@ -75689,7 +75689,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.792Z",
+        "checkedAt": "2026-10-27T21:32:47.237Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.2
       }
@@ -75754,7 +75754,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.792Z",
+        "checkedAt": "2026-10-27T21:32:47.238Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.6
       }
@@ -75819,7 +75819,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.799Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -75884,7 +75884,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -75949,7 +75949,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.799Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -76014,7 +76014,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.799Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -76079,7 +76079,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.799Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -76144,7 +76144,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.799Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -76260,7 +76260,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.795Z",
+        "checkedAt": "2026-10-27T21:32:47.240Z",
         "inputPerMillion": 2,
         "outputPerMillion": 12
       }
@@ -76325,7 +76325,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.795Z",
+        "checkedAt": "2026-10-27T21:32:47.240Z",
         "inputPerMillion": 1,
         "outputPerMillion": 6
       }
@@ -76390,7 +76390,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.216Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -76455,7 +76455,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.216Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -76520,7 +76520,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.216Z",
         "inputPerMillion": 10,
         "outputPerMillion": 50
       }
@@ -76585,7 +76585,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.216Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -76650,7 +76650,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.748Z",
+        "checkedAt": "2026-10-27T21:32:47.212Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -76715,7 +76715,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.749Z",
+        "checkedAt": "2026-10-27T21:32:47.212Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -76780,7 +76780,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.745Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.5
       }
@@ -76845,7 +76845,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.745Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.25
       }
@@ -76910,7 +76910,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.752Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -76975,7 +76975,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77040,7 +77040,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.749Z",
+        "checkedAt": "2026-10-27T21:32:47.212Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -77105,7 +77105,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.749Z",
+        "checkedAt": "2026-10-27T21:32:47.212Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77170,7 +77170,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -77235,7 +77235,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77300,7 +77300,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -77365,7 +77365,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77481,7 +77481,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77546,7 +77546,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -77611,7 +77611,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.737Z",
+        "checkedAt": "2026-10-27T21:32:47.205Z",
         "inputPerMillion": 1,
         "outputPerMillion": 5
       }
@@ -77676,7 +77676,7 @@
         "context": 1050000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -78047,7 +78047,7 @@
         "context": 131072,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       },
@@ -78060,7 +78060,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.0296,
         "outputPerMillion": 0.136
       }
@@ -78278,7 +78278,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.018,
         "outputPerMillion": 0.09
       },
@@ -78291,7 +78291,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.839Z",
+        "checkedAt": "2026-10-27T21:32:47.262Z",
         "inputPerMillion": 0.024,
         "outputPerMillion": 0.112
       }
@@ -78662,7 +78662,7 @@
         "context": 131072,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -79900,7 +79900,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.25
       }
@@ -80934,7 +80934,7 @@
         "context": 2000000,
         "output": 1800000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -80999,7 +80999,7 @@
         "context": 2000000,
         "output": 1800000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -81115,7 +81115,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 2.5
       }
@@ -81180,7 +81180,7 @@
         "context": 1000000,
         "output": 900000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -81237,7 +81237,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.322Z",
-    "updatedAt": "2026-10-27T21:26:46.204Z",
+    "updatedAt": "2026-10-27T21:32:43.652Z",
     "releaseDate": null,
     "scores": {},
     "coverage": 0,
@@ -81347,7 +81347,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -81412,7 +81412,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.783Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -81528,7 +81528,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -81695,7 +81695,7 @@
         "context": 256000,
         "output": 230400,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2
       }
@@ -81760,7 +81760,7 @@
         "context": 500000,
         "output": 450000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -84207,7 +84207,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 1,
         "outputPerMillion": 1
       }
@@ -84272,7 +84272,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.7,
         "outputPerMillion": 0.7
       }
@@ -84337,7 +84337,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3
       }
@@ -86085,7 +86085,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.5700000000000001
       }
@@ -86405,7 +86405,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.044,
         "outputPerMillion": 0.17700000000000002
       }
@@ -86470,7 +86470,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.074,
         "outputPerMillion": 0.295
       }
@@ -86535,7 +86535,7 @@
         "context": 8192,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.074,
         "outputPerMillion": 0.295
       }
@@ -86651,7 +86651,7 @@
         "context": 262144,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.0825,
         "outputPerMillion": 0.33
       }
@@ -86716,7 +86716,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 0.6
       }
@@ -86781,7 +86781,7 @@
         "context": 1048576,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.7505999999999999,
         "outputPerMillion": 2.2509
       }
@@ -88529,7 +88529,7 @@
         "context": 524288,
         "output": 471859,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4.05
       },
@@ -88542,7 +88542,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -88642,7 +88642,7 @@
         "context": 524288,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.233Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 1.2
       },
@@ -88655,7 +88655,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.233Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -89724,7 +89724,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": null,
         "outputPerMillion": null
       }
@@ -93206,7 +93206,7 @@
         "context": 131072,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.5700000000000001,
         "outputPerMillion": 2.3
       }
@@ -93271,7 +93271,7 @@
         "context": 262144,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.5
       }
@@ -93336,7 +93336,7 @@
         "context": 262144,
         "output": 98304,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.5
       }
@@ -93393,7 +93393,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.323Z",
-    "updatedAt": "2026-10-27T21:26:44.799Z",
+    "updatedAt": "2026-10-27T21:32:42.368Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 49.50413223140495,
@@ -93473,7 +93473,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -93538,7 +93538,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.803Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 3.41
       }
@@ -93603,7 +93603,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.56,
         "outputPerMillion": 3.1
       }
@@ -93668,7 +93668,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.16899999999999998,
         "outputPerMillion": 11.5
       },
@@ -93681,7 +93681,7 @@
         "context": 1048576,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 2.2800000000000002,
         "outputPerMillion": 11.399999999999999
       },
@@ -93694,8 +93694,8 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
-        "inputPerMillion": 0.16899999999999998,
+        "checkedAt": "2026-10-27T21:32:48.369Z",
+        "inputPerMillion": 0.159,
         "outputPerMillion": 11.5,
         "routingTag": "wafer",
         "quantization": "mxfp4",
@@ -93710,8 +93710,8 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
-        "inputPerMillion": 0.16999999999999998,
+        "checkedAt": "2026-10-27T21:32:48.369Z",
+        "inputPerMillion": 0.16049999999999998,
         "outputPerMillion": 8.940000000000001,
         "routingTag": "relace/fp4",
         "quantization": "fp4",
@@ -93726,7 +93726,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.22999999999999998,
         "outputPerMillion": 11,
         "routingTag": "sail-research/fp4",
@@ -93742,7 +93742,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.23900000000000002,
         "outputPerMillion": 10.8,
         "routingTag": "inference-net/us",
@@ -93758,7 +93758,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.23900000000000002,
         "outputPerMillion": 10.8,
         "routingTag": "inference-net/fp4",
@@ -93774,7 +93774,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.36,
         "outputPerMillion": 11.9,
         "routingTag": "wafer/us",
@@ -93790,7 +93790,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 11.879999999999999,
         "routingTag": "inference-net/us/fast",
@@ -93806,7 +93806,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 11.879999999999999,
         "routingTag": "inference-net/fast",
@@ -93822,7 +93822,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 22,
         "routingTag": "wafer/fast",
@@ -93838,7 +93838,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 0.65,
         "outputPerMillion": 15,
         "routingTag": "makora/fp4",
@@ -93854,7 +93854,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 1.2,
         "outputPerMillion": 14,
         "routingTag": "akashml/fp4",
@@ -93870,7 +93870,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 16.475,
         "routingTag": "morph/fp8",
@@ -93886,7 +93886,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 1.6500000000000001,
         "outputPerMillion": 8.25,
         "routingTag": "decart/mxfp4",
@@ -93902,7 +93902,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 2.5500000000000003,
         "outputPerMillion": 12.75,
         "routingTag": "phala",
@@ -93918,7 +93918,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 2.5500000000000003,
         "outputPerMillion": 12.95,
         "routingTag": "digitalocean",
@@ -93934,7 +93934,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 2.8499999999999996,
         "outputPerMillion": 14.25,
         "routingTag": "deepinfra/mxfp4",
@@ -93950,7 +93950,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "pareto-alpha/us",
@@ -93966,7 +93966,7 @@
         "context": 1048576,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "amazon-bedrock/us-east-2",
@@ -93982,7 +93982,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "parasail/fp4",
@@ -93998,7 +93998,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "modal/mxfp4",
@@ -94014,7 +94014,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "together",
@@ -94030,7 +94030,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "fireworks",
@@ -94046,7 +94046,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "baseten/fp8",
@@ -94062,7 +94062,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15,
         "routingTag": "moonshotai",
@@ -94078,26 +94078,10 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
+        "checkedAt": "2026-10-27T21:32:48.369Z",
         "inputPerMillion": 3.45,
         "outputPerMillion": 17.25,
         "routingTag": "alibaba",
-        "quantization": "unknown",
-        "checkStatus": "ok"
-      },
-      {
-        "name": "Fireworks via OpenRouter",
-        "url": "https://openrouter.ai/moonshotai/kimi-k3/providers",
-        "source": "https://openrouter.ai/api/v1/models/moonshotai/kimi-k3/endpoints",
-        "modelId": "moonshotai/kimi-k3",
-        "mode": "interactive",
-        "context": 1048576,
-        "output": 943718,
-        "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.170Z",
-        "inputPerMillion": 4.5,
-        "outputPerMillion": 22.5,
-        "routingTag": "fireworks/fast",
         "quantization": "unknown",
         "checkStatus": "ok"
       },
@@ -94110,7 +94094,7 @@
         "context": 262144,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:27:18.358Z",
+        "checkedAt": "2026-10-27T21:32:58.121Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10,
         "concurrencyUnits": 4,
@@ -94263,7 +94247,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 2,
         "outputPerMillion": 10
       }
@@ -94328,9 +94312,9 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
-        "inputPerMillion": 0.16899999999999998,
-        "outputPerMillion": 11.5
+        "checkedAt": "2026-10-27T21:32:47.243Z",
+        "inputPerMillion": 0.16049999999999998,
+        "outputPerMillion": 8.940000000000001
       }
     ],
     "discoveredAt": "2026-10-11T10:55:32.124Z",
@@ -97606,7 +97590,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.18
       },
@@ -97619,7 +97603,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -97684,7 +97668,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.12
       },
@@ -97697,7 +97681,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -100618,7 +100602,7 @@
         "context": 128000,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.783Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.35,
         "outputPerMillion": 0.5
       },
@@ -100631,7 +100615,7 @@
         "context": 65536,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -101155,7 +101139,7 @@
         "context": 128000,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.7
       }
@@ -103891,7 +103875,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.020999999999999998,
         "outputPerMillion": 0.063
       }
@@ -104058,7 +104042,7 @@
         "context": 131072,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.18
       }
@@ -104123,7 +104107,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.22499999999999998
       }
@@ -105651,7 +105635,7 @@
         "context": 8192,
         "output": 7372,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0.049999999999999996
       }
@@ -105716,7 +105700,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.39999999999999997
       }
@@ -105781,7 +105765,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.08
       }
@@ -105846,7 +105830,7 @@
         "context": 131072,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.85,
         "outputPerMillion": 0.85
       }
@@ -105911,7 +105895,7 @@
         "context": 60000,
         "output": 54000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.027,
         "outputPerMillion": 0.201
       }
@@ -105976,7 +105960,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.33
       }
@@ -106041,7 +106025,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.32
       }
@@ -106157,7 +106141,7 @@
         "context": 524288,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.1875,
         "outputPerMillion": 0.6525
       }
@@ -106222,7 +106206,7 @@
         "context": 1310720,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -106287,7 +106271,7 @@
         "context": 163840,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 0.18
       }
@@ -114818,7 +114802,7 @@
         "context": 1048756,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.788Z",
+        "checkedAt": "2026-10-27T21:32:47.235Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -116923,7 +116907,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -116988,7 +116972,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -117716,7 +117700,7 @@
         "context": 32768,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 5
       }
@@ -120060,7 +120044,7 @@
         "context": 128000,
         "output": 50000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -120125,7 +120109,7 @@
         "context": 260000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0.15
       }
@@ -120190,7 +120174,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.35
       }
@@ -121275,7 +121259,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.435,
         "outputPerMillion": 0.87
       },
@@ -121288,7 +121272,7 @@
         "context": 1050000,
         "output": 945000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.921Z",
+        "checkedAt": "2026-10-27T21:32:48.036Z",
         "inputPerMillion": 0.36974999999999997,
         "outputPerMillion": 0.7394999999999999,
         "routingTag": "gmicloud/bf16",
@@ -121304,7 +121288,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.921Z",
+        "checkedAt": "2026-10-27T21:32:48.036Z",
         "inputPerMillion": 0.387,
         "outputPerMillion": 0.7829999999999999,
         "routingTag": "deepinfra/fp8",
@@ -121320,7 +121304,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.921Z",
+        "checkedAt": "2026-10-27T21:32:48.036Z",
         "inputPerMillion": 0.435,
         "outputPerMillion": 0.87,
         "routingTag": "novita/fp8",
@@ -121336,7 +121320,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.921Z",
+        "checkedAt": "2026-10-27T21:32:48.036Z",
         "inputPerMillion": 0.435,
         "outputPerMillion": 0.87,
         "routingTag": "xiaomi/fp8",
@@ -121404,7 +121388,7 @@
         "context": 1050000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.803Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -121469,7 +121453,7 @@
         "context": 1050000,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.48,
         "outputPerMillion": 1.7999999999999998
       }
@@ -121585,7 +121569,7 @@
         "context": 1050000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 0.28
       }
@@ -121854,7 +121838,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 4.35,
         "outputPerMillion": 8.7
       }
@@ -123551,7 +123535,7 @@
         "context": 1000000,
         "output": 40000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -123616,7 +123600,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.255,
         "outputPerMillion": 1.02
       }
@@ -123681,7 +123665,7 @@
         "context": 65536,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -123746,7 +123730,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -123803,7 +123787,7 @@
     "architecture": "minimax_m2",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.455Z",
-    "updatedAt": "2026-10-27T21:26:44.795Z",
+    "updatedAt": "2026-10-27T21:32:42.366Z",
     "releaseDate": null,
     "scores": {
       "reasoning": 50.49586776859505,
@@ -123883,7 +123867,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -123948,7 +123932,7 @@
         "context": 204800,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -124064,7 +124048,7 @@
         "context": 1048576,
         "output": 512000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -124180,7 +124164,7 @@
         "context": 1048576,
         "output": 524288,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -124389,10 +124373,11 @@
         "context": 1048576,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:19:38.570Z",
+        "checkedAt": "2026-10-27T21:32:56.572Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6,
-        "concurrencyUnits": 4
+        "concurrencyUnits": 4,
+        "checkStatus": "ok"
       }
     ],
     "discoveredAt": "2026-10-27T21:11:36.149Z",
@@ -124449,14 +124434,14 @@
       "providers": [],
       "hostingChecks": [
         {
-          "provider": "Featherless",
-          "status": "not-found",
-          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-Research%2FMiniMax-3.1-Flash-DeRisked"
-        },
-        {
           "provider": "OpenRouter",
           "status": "not-found",
           "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "not-found",
+          "source": "https://featherless.ai/api/feather/search/models?query=Blackfrost-Research%2FMiniMax-3.1-Flash-DeRisked"
         }
       ],
       "retentions": [],
@@ -124541,7 +124526,7 @@
         "context": 1000192,
         "output": 900172,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.1
       }
@@ -125626,7 +125611,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.19999999999999998
       }
@@ -125691,7 +125676,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.09999999999999999
       }
@@ -125756,7 +125741,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.15
       }
@@ -126331,7 +126316,7 @@
         "context": 128000,
         "output": 102400,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -126396,7 +126381,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -126461,7 +126446,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 1.5
       }
@@ -126577,7 +126562,7 @@
         "context": 1048576,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 1.3599999999999999,
         "outputPerMillion": 4.18
       }
@@ -126693,7 +126678,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -126758,7 +126743,7 @@
         "context": 131072,
         "output": 104857,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 2
       }
@@ -126874,7 +126859,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -126939,7 +126924,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.75,
         "outputPerMillion": 3.75
       }
@@ -127004,7 +126989,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.029,
         "outputPerMillion": 0.03
       }
@@ -127069,7 +127054,7 @@
         "context": 32768,
         "output": 16384,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.08
       }
@@ -127134,7 +127119,7 @@
         "context": 128000,
         "output": 102400,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.351,
         "outputPerMillion": 0.5549999999999999
       }
@@ -127199,7 +127184,7 @@
         "context": 256000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.19999999999999998
       }
@@ -127264,7 +127249,7 @@
         "context": 262144,
         "output": 209715,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -128145,7 +128130,7 @@
         "context": 65536,
         "output": 52428,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -129332,7 +129317,7 @@
         "context": 32000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -129397,7 +129382,7 @@
         "context": 32000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -129462,7 +129447,7 @@
         "context": 262144,
         "output": 131072,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1.2
       }
@@ -129527,7 +129512,7 @@
         "context": 262144,
         "output": 131072,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.8999999999999999,
         "outputPerMillion": 1.9
       }
@@ -130051,7 +130036,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.2
       }
@@ -130167,7 +130152,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.792Z",
+        "checkedAt": "2026-10-27T21:32:47.237Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -130334,7 +130319,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -130399,7 +130384,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -130515,7 +130500,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.772Z",
+        "checkedAt": "2026-10-27T21:32:47.220Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       }
@@ -130580,7 +130565,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.758Z",
+        "checkedAt": "2026-10-27T21:32:47.218Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -130696,7 +130681,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25
       },
@@ -130709,7 +130694,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "makora/fp4",
@@ -130725,7 +130710,7 @@
         "context": 1000000,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "modal",
@@ -130741,7 +130726,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "together",
@@ -130757,7 +130742,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "nebius/fp4",
@@ -130773,7 +130758,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "fireworks",
@@ -130789,7 +130774,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.214Z",
+        "checkedAt": "2026-10-27T21:32:48.432Z",
         "inputPerMillion": 1.25,
         "outputPerMillion": 4.25,
         "routingTag": "baseten/fp4",
@@ -130857,7 +130842,7 @@
         "context": 1048576,
         "output": 943718,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 4,
         "outputPerMillion": 20
       }
@@ -132146,7 +132131,7 @@
         "context": 8192,
         "output": 3686,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.855Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.11
       }
@@ -134031,7 +134016,7 @@
         "context": 65536,
         "output": 58982,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 1.5,
         "outputPerMillion": 7.5
       }
@@ -135524,7 +135509,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.24
       }
@@ -135589,7 +135574,7 @@
         "context": 256000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -135654,7 +135639,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.4
       }
@@ -135719,7 +135704,7 @@
         "context": 262144,
         "output": 182520,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 2.4
       },
@@ -135732,7 +135717,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -135848,7 +135833,7 @@
         "context": 131072,
         "output": 117964,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.19999999999999998
       },
@@ -135861,7 +135846,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -135926,7 +135911,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.19999999999999998
       },
@@ -135939,7 +135924,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -136055,7 +136040,7 @@
         "context": 1048576,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.5
       },
@@ -136068,7 +136053,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -137918,7 +137903,7 @@
         "context": 262144,
         "output": 235929,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.024999999999999998,
         "outputPerMillion": 0.09999999999999999
       }
@@ -137983,7 +137968,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.754Z",
+        "checkedAt": "2026-10-27T21:32:47.216Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.25
       }
@@ -141363,7 +141348,7 @@
         "context": 256000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.800Z",
+        "checkedAt": "2026-10-27T21:32:47.242Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
@@ -141428,7 +141413,7 @@
         "context": 1000000,
         "output": 65535,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.818Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 2.5
       }
@@ -141493,7 +141478,7 @@
         "context": 300000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.24
       }
@@ -141558,7 +141543,7 @@
         "context": 128000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.035,
         "outputPerMillion": 0.14
       }
@@ -141623,7 +141608,7 @@
         "context": 1000000,
         "output": 32000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 12.5
       }
@@ -141688,7 +141673,7 @@
         "context": 300000,
         "output": 5120,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -143997,7 +143982,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 15,
         "outputPerMillion": 60
       }
@@ -144062,7 +144047,7 @@
         "context": 200000,
         "output": 100000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 150,
         "outputPerMillion": 600
       }
@@ -144178,7 +144163,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -144243,7 +144228,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4
       }
@@ -144308,7 +144293,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -144373,7 +144358,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -144438,7 +144423,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -144503,7 +144488,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 20,
         "outputPerMillion": 80
       }
@@ -144568,7 +144553,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.848Z",
+        "checkedAt": "2026-10-27T21:32:47.269Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 2.2
       }
@@ -144633,7 +144618,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -144698,7 +144683,7 @@
         "context": 200000,
         "output": 100000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.847Z",
+        "checkedAt": "2026-10-27T21:32:47.269Z",
         "inputPerMillion": 1.1,
         "outputPerMillion": 4.4
       }
@@ -147925,7 +147910,7 @@
         "context": 1000000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 5,
         "outputPerMillion": 25
       }
@@ -151034,7 +151019,7 @@
         "context": 1040000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.6,
         "outputPerMillion": 6
       }
@@ -151558,7 +151543,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -151674,7 +151659,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 2.5,
         "outputPerMillion": 7.5
       }
@@ -151790,7 +151775,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 3.1999999999999997
       }
@@ -152161,7 +152146,7 @@
         "context": 32768,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.5
       }
@@ -152226,7 +152211,7 @@
         "context": 36864,
         "output": 8192,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.5
       }
@@ -153107,7 +153092,7 @@
         "context": 16384,
         "output": 14745,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.14
       }
@@ -160661,7 +160646,7 @@
     "architecture": "llama",
     "providers": [],
     "discoveredAt": "2026-10-27T21:11:35.583Z",
-    "updatedAt": "2026-10-27T20:35:05.000Z",
+    "updatedAt": "2026-10-27T21:31:15.000Z",
     "releaseDate": "2026-10-27T20:33:53.000Z",
     "scores": {},
     "coverage": 0,
@@ -161128,7 +161113,7 @@
         "context": 1048576,
         "output": 909000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       },
@@ -161141,7 +161126,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.121Z",
+        "checkedAt": "2026-10-27T21:32:48.314Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6,
         "routingTag": "novita",
@@ -161157,7 +161142,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.121Z",
+        "checkedAt": "2026-10-27T21:32:48.314Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6,
         "routingTag": "alibaba",
@@ -161173,7 +161158,7 @@
         "context": 1048576,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.121Z",
+        "checkedAt": "2026-10-27T21:32:48.314Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6,
         "routingTag": "siliconflow/fp8",
@@ -161189,7 +161174,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.121Z",
+        "checkedAt": "2026-10-27T21:32:48.314Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6,
         "routingTag": "venice",
@@ -161205,7 +161190,7 @@
         "context": 1010000,
         "output": 909000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.121Z",
+        "checkedAt": "2026-10-27T21:32:48.314Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6,
         "routingTag": "together",
@@ -161221,7 +161206,7 @@
         "context": 262144,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:27:17.549Z",
+        "checkedAt": "2026-10-27T21:32:57.839Z",
         "inputPerMillion": 1,
         "outputPerMillion": 4,
         "concurrencyUnits": 4,
@@ -167188,7 +167173,7 @@
         "context": 1000000,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 0.78
       }
@@ -168426,7 +168411,7 @@
         "context": 32768,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.36,
         "outputPerMillion": 0.39999999999999997
       }
@@ -168491,7 +168476,7 @@
         "context": 32768,
         "output": 29491,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -168556,7 +168541,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.66,
         "outputPerMillion": 1
       }
@@ -168599,6 +168584,50 @@
       }
     },
     "signalCount": 0,
+    "variant": {
+      "id": "3MPER0RR/Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+      "name": "Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+      "card": "https://huggingface.co/3MPER0RR/Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+      "baseIds": [
+        "Qwen/Qwen2.5-Coder-32B-Instruct"
+      ],
+      "lineage": "declared",
+      "available": true,
+      "gated": false,
+      "architecture": "qwen2",
+      "context": null,
+      "toolSupport": "unknown",
+      "providers": [
+        {
+          "name": "Featherless",
+          "url": "https://featherless.ai/models/3MPER0RR/Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+          "source": "https://featherless.ai/api/feather/search/models?query=3MPER0RR%2FQwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+          "modelId": "3MPER0RR/Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+          "mode": "interactive",
+          "checkedAt": "2026-10-27T21:32:51.766Z"
+        }
+      ],
+      "hostingChecks": [
+        {
+          "provider": "OpenRouter",
+          "status": "not-found",
+          "source": "https://openrouter.ai/api/v1/models"
+        },
+        {
+          "provider": "Featherless",
+          "status": "listed",
+          "source": "https://featherless.ai/api/feather/search/models?query=3MPER0RR%2FQwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated"
+        }
+      ],
+      "retentions": [],
+      "refusalNote": "No comparable refusal-reduction measurement ingested. Creator claims require review.",
+      "caveats": [
+        "Lineage is model-card declared, not a forensic weight audit.",
+        "Coding, cybersecurity retention and tool-call reliability are unverified."
+      ],
+      "source": "https://huggingface.co/3MPER0RR/Qwen2.5-Coder-32B-Instruct-3MPER0RR-abliterated",
+      "updatedAt": "2026-10-27T10:34:29.000Z"
+    },
     "rank": null,
     "previousRank": null
   },
@@ -168621,7 +168650,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.7999999999999999,
         "outputPerMillion": 1
       }
@@ -179702,7 +179731,7 @@
         "context": 40960,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.24
       }
@@ -179767,7 +179796,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 0.55
       }
@@ -179832,7 +179861,7 @@
         "context": 128000,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 3.5
       }
@@ -179897,7 +179926,7 @@
         "context": 40960,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.5
       }
@@ -179962,7 +179991,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -180027,7 +180056,7 @@
         "context": 131072,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.28
       }
@@ -180092,7 +180121,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.07,
         "outputPerMillion": 0.28
       }
@@ -180157,7 +180186,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1
       }
@@ -180222,7 +180251,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.195,
         "outputPerMillion": 0.975
       }
@@ -180287,7 +180316,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.12,
         "outputPerMillion": 0.7999999999999999
       }
@@ -180352,7 +180381,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.09,
         "outputPerMillion": 1.1
       }
@@ -180417,7 +180446,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.2
       }
@@ -180482,7 +180511,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.258Z",
         "inputPerMillion": 0.21,
         "outputPerMillion": 1.9
       }
@@ -180547,7 +180576,7 @@
         "context": 262144,
         "output": 16384,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -180612,7 +180641,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.29,
         "outputPerMillion": 1
       }
@@ -180677,7 +180706,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 0.75
       }
@@ -184253,7 +184282,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.325Z",
-    "updatedAt": "2026-10-27T21:26:44.304Z",
+    "updatedAt": "2026-10-27T21:32:42.062Z",
     "releaseDate": "2025-04-28",
     "scores": {},
     "coverage": 0,
@@ -197674,7 +197703,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3.5999999999999996
       }
@@ -197739,7 +197768,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.812Z",
+        "checkedAt": "2026-10-27T21:32:47.249Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 1.56
       }
@@ -197804,7 +197833,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.3,
         "outputPerMillion": 1.7999999999999998
       }
@@ -198583,7 +198612,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 2.08
       }
@@ -198648,7 +198677,7 @@
         "context": 262144,
         "output": 81920,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.26,
         "outputPerMillion": 2.6
       }
@@ -200447,7 +200476,7 @@
         "context": 262144,
         "output": 81920,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.14,
         "outputPerMillion": 1
       }
@@ -202230,7 +202259,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.16999999999999998,
         "outputPerMillion": 0.25
       }
@@ -203044,7 +203073,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.065,
         "outputPerMillion": 0.26
       }
@@ -203109,7 +203138,7 @@
         "context": 262144,
         "output": 81920,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.32,
         "outputPerMillion": 3.1999999999999997
       }
@@ -203174,7 +203203,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.95
       }
@@ -203239,7 +203268,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.802Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.1875,
         "outputPerMillion": 1.125
       }
@@ -203304,7 +203333,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.325,
         "outputPerMillion": 1.95
       }
@@ -203726,7 +203755,7 @@
         "context": 1000000,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.233Z",
         "inputPerMillion": 0.03,
         "outputPerMillion": 0.13
       }
@@ -203791,7 +203820,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 1.475,
         "outputPerMillion": 4.425
       }
@@ -203856,7 +203885,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.32,
         "outputPerMillion": 1.28
       }
@@ -203921,7 +203950,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.22999999999999998,
         "outputPerMillion": 0.9199999999999999
       }
@@ -203986,7 +204015,7 @@
         "context": 1000000,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 2.5
       },
@@ -203999,7 +204028,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.035,
         "outputPerMillion": 2.2,
         "routingTag": "darkbloom/fp4",
@@ -204015,7 +204044,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.039,
         "outputPerMillion": 1.25,
         "routingTag": "chutes/fp8",
@@ -204031,7 +204060,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 1.35,
         "routingTag": "near-ai/fp8",
@@ -204047,7 +204076,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 1.95,
         "routingTag": "ionstream/fp8",
@@ -204063,7 +204092,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 2.2,
         "routingTag": "reka/fp8",
@@ -204079,27 +204108,11 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 2.3,
         "routingTag": "modal",
         "quantization": "unknown",
-        "checkStatus": "ok"
-      },
-      {
-        "name": "Wafer via OpenRouter",
-        "url": "https://openrouter.ai/qwen/qwen3.8-27b/providers",
-        "source": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
-        "modelId": "qwen/qwen3.8-27b",
-        "mode": "interactive",
-        "context": 262144,
-        "output": 235929,
-        "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
-        "inputPerMillion": 0.04,
-        "outputPerMillion": 2.3,
-        "routingTag": "wafer/fp8",
-        "quantization": "fp8",
         "checkStatus": "ok"
       },
       {
@@ -204111,7 +204124,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 2.5,
         "routingTag": "dekallm",
@@ -204127,11 +204140,27 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.06,
         "outputPerMillion": 0.5,
         "routingTag": "tenstorrent/fp4",
         "quantization": "fp4",
+        "checkStatus": "ok"
+      },
+      {
+        "name": "Wafer via OpenRouter",
+        "url": "https://openrouter.ai/qwen/qwen3.8-27b/providers",
+        "source": "https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints",
+        "modelId": "qwen/qwen3.8-27b",
+        "mode": "interactive",
+        "context": 262144,
+        "output": 235929,
+        "tools": true,
+        "checkedAt": "2026-10-27T21:32:48.198Z",
+        "inputPerMillion": 0.06,
+        "outputPerMillion": 2.3,
+        "routingTag": "wafer/fp8",
+        "quantization": "fp8",
         "checkStatus": "ok"
       },
       {
@@ -204143,7 +204172,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 1.875,
         "routingTag": "deepinfra/bf16",
@@ -204159,7 +204188,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.18,
         "outputPerMillion": 2.5,
         "routingTag": "mancer/fp8",
@@ -204175,7 +204204,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 2.5,
         "routingTag": "modelrun/fp4",
@@ -204191,7 +204220,7 @@
         "context": 1000000,
         "output": 262144,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 2.5,
         "routingTag": "phala",
@@ -204207,7 +204236,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.22499999999999998,
         "outputPerMillion": 1.9800000000000002,
         "routingTag": "akashml/fp8",
@@ -204223,7 +204252,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.24,
         "outputPerMillion": 2.2,
         "routingTag": "parasail/fp8",
@@ -204239,7 +204268,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 3,
         "routingTag": "coreweave/fp8",
@@ -204255,7 +204284,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.42,
         "outputPerMillion": 3,
         "routingTag": "novita",
@@ -204271,7 +204300,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.425,
         "outputPerMillion": 2.5500000000000003,
         "routingTag": "alibaba",
@@ -204287,7 +204316,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 3.1999999999999997,
         "routingTag": "cloudflare",
@@ -204303,7 +204332,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.44999999999999996,
         "outputPerMillion": 3.1999999999999997,
         "routingTag": "venice/fp8",
@@ -204319,7 +204348,7 @@
         "context": 65536,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:52.008Z",
+        "checkedAt": "2026-10-27T21:32:48.198Z",
         "inputPerMillion": 0.9900000000000001,
         "outputPerMillion": 1.49,
         "routingTag": "cerebras/fp16",
@@ -204335,7 +204364,7 @@
         "context": 262144,
         "output": null,
         "tools": true,
-        "checkedAt": "2026-10-27T21:27:15.987Z",
+        "checkedAt": "2026-10-27T21:32:57.279Z",
         "inputPerMillion": 0.4,
         "outputPerMillion": 3,
         "concurrencyUnits": 2,
@@ -204400,7 +204429,7 @@
           "source": "https://featherless.ai/api/feather/search/models?query=OBLITERATUS%2FQwen3.8-27B-OBLITERATED",
           "modelId": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
           "mode": "interactive",
-          "checkedAt": "2026-10-27T21:26:55.151Z"
+          "checkedAt": "2026-10-27T21:32:49.500Z"
         }
       ],
       "hostingChecks": [
@@ -204446,7 +204475,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.776Z",
+        "checkedAt": "2026-10-27T21:32:47.223Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.47
       }
@@ -204546,7 +204575,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.744Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 4,
         "outputPerMillion": 12
       }
@@ -204611,7 +204640,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.47
       }
@@ -207626,7 +207655,7 @@
     "architecture": "Unverified",
     "providers": [],
     "discoveredAt": "2026-10-11T10:55:31.267Z",
-    "updatedAt": "2026-10-27T21:26:43.760Z",
+    "updatedAt": "2026-10-27T21:32:41.576Z",
     "releaseDate": null,
     "scores": {},
     "coverage": 0,
@@ -207685,7 +207714,7 @@
         "context": 1000000,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.758Z",
+        "checkedAt": "2026-10-27T21:32:47.218Z",
         "inputPerMillion": 2,
         "outputPerMillion": 6
       }
@@ -208923,7 +208952,7 @@
         "context": 163840,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.844Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.1500000000000004
       }
@@ -210773,7 +210802,7 @@
         "context": 16384,
         "output": 14745,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.807Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.09999999999999999
       }
@@ -210838,7 +210867,7 @@
         "context": 65536,
         "output": 58982,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.851Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -210903,7 +210932,7 @@
         "context": 256000,
         "output": 128000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.827Z",
+        "checkedAt": "2026-10-27T21:32:47.257Z",
         "inputPerMillion": 0.85,
         "outputPerMillion": 1.25
       }
@@ -210968,7 +210997,7 @@
         "context": 256000,
         "output": 128000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 1,
         "outputPerMillion": 3
       }
@@ -211084,7 +211113,7 @@
         "context": 6144,
         "output": 5529,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.855Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 0.35,
         "outputPerMillion": 0.65
       }
@@ -219207,7 +219236,7 @@
         "context": 32768,
         "output": 26214,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.6
       }
@@ -219970,7 +219999,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.95,
         "outputPerMillion": 4
       }
@@ -220953,7 +220982,7 @@
         "context": 128000,
         "output": 4096,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.22999999999999998
       }
@@ -221018,7 +221047,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.03,
         "outputPerMillion": 0.15
       }
@@ -222052,7 +222081,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -222117,7 +222146,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.817Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.3
       }
@@ -222182,7 +222211,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 2.5
       }
@@ -222247,7 +222276,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.780Z",
+        "checkedAt": "2026-10-27T21:32:47.230Z",
         "inputPerMillion": 0.5,
         "outputPerMillion": 3
       }
@@ -222312,7 +222341,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.246Z",
         "inputPerMillion": 0.25,
         "outputPerMillion": 2
       }
@@ -222377,7 +222406,7 @@
         "context": 262144,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.808Z",
+        "checkedAt": "2026-10-27T21:32:47.247Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.39999999999999997
       }
@@ -225553,7 +225582,7 @@
         "context": 32768,
         "output": 29491,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 0.55,
         "outputPerMillion": 0.7999999999999999
       }
@@ -229698,7 +229727,7 @@
         "context": 524288,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.745Z",
+        "checkedAt": "2026-10-27T21:32:47.210Z",
         "inputPerMillion": 0.049999999999999996,
         "outputPerMillion": 0.19999999999999998
       }
@@ -229763,7 +229792,7 @@
         "context": 131072,
         "output": 117964,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -229828,7 +229857,7 @@
         "context": 524288,
         "output": 131072,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.784Z",
+        "checkedAt": "2026-10-27T21:32:47.232Z",
         "inputPerMillion": 0.15,
         "outputPerMillion": 0.6
       }
@@ -229944,7 +229973,7 @@
         "context": 127072,
         "output": 114364,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 1,
         "outputPerMillion": 1
       }
@@ -230009,7 +230038,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -230074,7 +230103,7 @@
         "context": 200000,
         "output": 8000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -230139,7 +230168,7 @@
         "context": 200000,
         "output": 8000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 3,
         "outputPerMillion": 15
       }
@@ -230204,7 +230233,7 @@
         "context": 128000,
         "output": 115200,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.852Z",
+        "checkedAt": "2026-10-27T21:32:47.271Z",
         "inputPerMillion": 2,
         "outputPerMillion": 8
       }
@@ -233941,7 +233970,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.816Z",
+        "checkedAt": "2026-10-27T21:32:47.252Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -234006,7 +234035,7 @@
         "context": 262144,
         "output": 230400,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.801Z",
+        "checkedAt": "2026-10-27T21:32:47.243Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 1.15
       }
@@ -234071,7 +234100,7 @@
         "context": 1048576,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.740Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7
       },
@@ -234084,7 +234113,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.965Z",
+        "checkedAt": "2026-10-27T21:32:48.138Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7,
         "routingTag": "featherless/fp4",
@@ -234100,7 +234129,7 @@
         "context": 1048576,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.965Z",
+        "checkedAt": "2026-10-27T21:32:48.138Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7,
         "routingTag": "deepinfra/fp8",
@@ -234116,7 +234145,7 @@
         "context": 1000000,
         "output": 64000,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:51.965Z",
+        "checkedAt": "2026-10-27T21:32:48.138Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7,
         "routingTag": "stepfun/fp8",
@@ -234132,7 +234161,7 @@
         "context": 262144,
         "output": null,
         "tools": false,
-        "checkedAt": "2026-10-27T21:27:15.416Z",
+        "checkedAt": "2026-10-27T21:32:56.863Z",
         "inputPerMillion": 1,
         "outputPerMillion": 2.7,
         "concurrencyUnits": 4,
@@ -234811,7 +234840,7 @@
         "context": 1000000,
         "output": 4000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.207Z",
         "inputPerMillion": 0.04,
         "outputPerMillion": 0
       }
@@ -237732,7 +237761,7 @@
         "context": 1000000,
         "output": null,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": null,
         "outputPerMillion": null
       }
@@ -240806,7 +240835,7 @@
         "context": 262144,
         "output": 32768,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.753Z",
+        "checkedAt": "2026-10-27T21:32:47.215Z",
         "inputPerMillion": 0.075,
         "outputPerMillion": 0.5
       }
@@ -240906,7 +240935,7 @@
         "context": 262144,
         "output": 65536,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.739Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0.08,
         "outputPerMillion": 0.13
       }
@@ -247754,7 +247783,7 @@
         "context": 128000,
         "output": 2048,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.264Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.19999999999999998
       }
@@ -248125,7 +248154,7 @@
         "context": 128000,
         "output": 8192,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.843Z",
+        "checkedAt": "2026-10-27T21:32:47.265Z",
         "inputPerMillion": 0.19999999999999998,
         "outputPerMillion": 0.8999999999999999
       }
@@ -248445,7 +248474,7 @@
         "context": 1024000,
         "output": 819200,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.853Z",
+        "checkedAt": "2026-10-27T21:32:47.272Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.39999999999999997
       }
@@ -253967,7 +253996,7 @@
         "context": 32768,
         "output": 26214,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.822Z",
+        "checkedAt": "2026-10-27T21:32:47.255Z",
         "inputPerMillion": 0.09999999999999999,
         "outputPerMillion": 0.3
       }
@@ -255256,7 +255285,7 @@
         "context": 8000,
         "output": 6000,
         "tools": false,
-        "checkedAt": "2026-10-27T21:26:50.854Z",
+        "checkedAt": "2026-10-27T21:32:47.273Z",
         "inputPerMillion": 0.39999999999999997,
         "outputPerMillion": 0.75
       }
@@ -257259,7 +257288,7 @@
         "context": 262144,
         "output": 235929,
         "tools": true,
-        "checkedAt": "2026-10-27T21:26:50.738Z",
+        "checkedAt": "2026-10-27T21:32:47.206Z",
         "inputPerMillion": 0,
         "outputPerMillion": 0
       }
