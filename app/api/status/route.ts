@@ -17,6 +17,7 @@ export async function GET() {
     );
     return Response.json({
       snapshotAt: snapshot.refreshedAt,
+      serverTime: new Date().toISOString(),
       lastSuccessfulCheck: run?.updated_at ?? null,
       workflowUrl:
         run?.html_url ??
@@ -26,6 +27,7 @@ export async function GET() {
   } catch {
     return Response.json({
       snapshotAt: snapshot.refreshedAt,
+      serverTime: new Date().toISOString(),
       lastSuccessfulCheck: null,
       latestConclusion: null,
       workflowUrl: "https://github.com/colbster255/re-model-radar/actions",

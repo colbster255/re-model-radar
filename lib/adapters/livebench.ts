@@ -1,10 +1,10 @@
 import ts from "typescript";
 import { z } from "zod";
 import { request } from "./http";
+import { matchModel } from "../matching";
 import { newModel, type Adapter } from "./types";
 import { evidenceSchema, safeUrl, type Model } from "../schema";
 
-const root = "https://raw.githubusercontent.com/LiveBench/new-livebench/main/";
 // Read literal metadata with a syntax tree. Never import or execute remote JavaScript.
 export function readModelMetadata(text: string) {
   const file = ts.createSourceFile(
@@ -17,6 +17,13 @@ export function readModelMetadata(text: string) {
   const entries = new Map<string, Record<string, unknown>>();
   const literal = (node: ts.Expression): unknown => {
     if (ts.isStringLiteral(node)) return node.text;
+    if (
+      ts.isPrefixUnaryExpression(node) &&
+      node.operator === ts.SyntaxKind.ExclamationToken &&
+      ts.isNumericLiteral(node.operand) &&
+      ["0", "1"].includes(node.operand.text)
+    )
+      return node.operand.text === "0";
     if (node.kind === ts.SyntaxKind.TrueKeyword) return true;
     if (ts.isArrayLiteralExpression(node))
       return node.elements.map((n) => literal(n as ts.Expression));
@@ -32,23 +39,18 @@ export function readModelMetadata(text: string) {
     return undefined;
   };
   const visit = (node: ts.Node) => {
-    if (
-      ts.isVariableDeclaration(node) &&
-      ts.isIdentifier(node.name) &&
-      node.name.text === "modelLinks" &&
-      node.initializer &&
-      ts.isObjectLiteralExpression(node.initializer)
-    ) {
-      for (const p of node.initializer.properties)
+    if (ts.isObjectLiteralExpression(node)) {
+      for (const p of node.properties) {
         if (
           ts.isPropertyAssignment(p) &&
-          ts.isStringLiteral(p.name) &&
+          (ts.isStringLiteral(p.name) || ts.isIdentifier(p.name)) &&
           ts.isObjectLiteralExpression(p.initializer)
-        )
-          entries.set(
-            p.name.text,
-            literal(p.initializer) as Record<string, unknown>,
-          );
+        ) {
+          const info = literal(p.initializer) as Record<string, unknown>;
+          if (typeof info.displayName === "string")
+            entries.set(p.name.text, info);
+        }
+      }
     }
     ts.forEachChild(node, visit);
   };
@@ -82,71 +84,56 @@ const aliases: Record<string, string> = {
   "gpt-6.1-sol-max": "benchmark/gpt-6.1-sol",
   "gpt-6-astra-max": "openai/gpt-6-astra",
 };
+export function discoverRelease(asset: string) {
+  // Publisher release IDs in literal arrays, read as data. No remote JS executes.
+  const dates = [...asset.matchAll(/(?:\[|,)\s*"(20\d{6})"\s*(?=,|\])/g)]
+    .map((m) => m[1])
+    .sort();
+  if (!dates.length) throw Error("LiveBench release manifest changed");
+  return dates.at(-1)!;
+}
 export const livebench: Adapter = {
   id: "livebench",
-  name: "LiveBench reasoning, coding & agentic tasks",
-  url: "https://livebench.ai/new-livebench/",
+  name: "LiveBench 2.0 published task results",
+  url: "https://livebench.ai/",
   async run(models) {
-    const tree = z
-      .array(z.object({ name: z.string() }))
-      .parse(
-        await request(
-          "https://api.github.com/repos/LiveBench/new-livebench/contents/public",
-        ),
-      );
-    const release = tree
-      .map((f) => /^table_(\d{4}_\d{2}_\d{2})\.csv$/.exec(f.name)?.[1])
-      .filter((s): s is string => Boolean(s))
-      .sort()
-      .at(-1);
-    if (!release) throw Error("No LiveBench release");
-    const path = `public/table_${release}.csv`;
-    const [csv, groups, metadata, commits] = await Promise.all([
-      request(root + path, false),
-      request(root + `public/categories_${release}.json`),
-      request(root + "src/Table/modelLinks.js", false),
-      request(
-        `https://api.github.com/repos/LiveBench/new-livebench/commits?path=${encodeURIComponent(path)}&per_page=1`,
-      ),
+    const html = z.string().parse(await request(this.url, false));
+    const src = /<script[^>]+src="([^"]+\.js)"/.exec(html)?.[1];
+    if (!src) throw Error("LiveBench script manifest missing");
+    const assetUrl = new URL(src, this.url);
+    if (assetUrl.origin !== new URL(this.url).origin)
+      throw Error("Unexpected metadata host");
+    const asset = z.string().parse(await request(assetUrl.href, false));
+    const release = discoverRelease(asset);
+    const root = this.url + "data/" + release + "/";
+    const [csv, groups, notes] = await Promise.all([
+      request(root + "table.csv", false),
+      request(root + "categories.json"),
+      request(root + "notes.json"),
     ]);
     const categories = z
-      .record(z.string(), z.array(z.string()).min(1))
-      .parse(groups);
-    const observedAt = z
-      .array(
-        z.object({
-          commit: z.object({ committer: z.object({ date: z.iso.datetime() }) }),
-        }),
-      )
-      .parse(commits)[0]?.commit.committer.date;
-    if (!observedAt) throw Error("Missing LiveBench publication date");
-    const meta = readModelMetadata(z.string().parse(metadata));
+      .record(z.string(), z.array(z.string()))
+      .parse(
+        Object.fromEntries(
+          Object.entries(
+            z.record(z.string(), z.unknown()).parse(groups),
+          ).filter(([k]) => !k.startsWith("_")),
+        ),
+      );
+    const meta = readModelMetadata(asset);
     const table = readTable(z.string().parse(csv));
     const found: Model[] = [],
       evidence = [];
+    const observedAt = `${release.slice(0, 4)}-${release.slice(4, 6)}-${release.slice(6, 8)}T00:00:00Z`;
     const definitions = [
-      ["Reasoning", "livebench-reasoning"],
-      ["Coding", "livebench-coding"],
-      ["Agentic Coding", "livebench-agentic"],
+      ["Reasoning", "lb2-reasoning"],
+      ["Coding", "lb2-coding"],
+      ["Long Agentic", "lb2-agentic"],
+      ["Design", "lb2-design"],
     ] as const;
-    for (const [key, info] of meta) {
-      if (
-        Object.hasOwn(info, "finetune") ||
-        typeof info.displayName !== "string"
-      )
-        continue;
-      const variants = z
-        .array(z.object({ rawName: z.string() }))
-        .safeParse(info.variants);
-      // Use the publisher's default configuration, falling back to its first listed available variant.
-      const row =
-        table.find((r) => r.model === key) ??
-        (variants.success
-          ? variants.data
-              .map((v) => table.find((r) => r.model === v.rawName))
-              .find(Boolean)
-          : undefined);
-      if (!row) continue;
+    for (const row of table) {
+      const info = meta.get(row.model);
+      if (!info || typeof info.displayName !== "string") continue;
       const hf =
         typeof info.huggingface === "string" &&
         /^https:\/\/huggingface\.co\/[\w.-]+\/[\w.-]+\/?$/.test(
@@ -154,63 +141,72 @@ export const livebench: Adapter = {
         )
           ? info.huggingface.replace(/\/$/, "")
           : undefined;
-      const id = hf
-        ? new URL(hf).pathname.slice(1)
-        : (aliases[key] ?? `livebench/${key}`);
-      const existing = models.find(
-        (m) => m.id.toLowerCase() === id.toLowerCase(),
-      );
+      const existing = hf
+        ? models.find(
+            (m) =>
+              m.id.toLowerCase() ===
+              new URL(hf).pathname.slice(1).toLowerCase(),
+          )
+        : (matchModel(
+            info.displayName,
+            models.filter((m) => !m.id.startsWith("livebench/")),
+          ) ?? models.find((m) => m.id === `livebench/${row.model}`));
       const card =
         hf ??
-        (safeUrl.safeParse(info.url).success ? (info.url as string) : this.url);
-      const model = existing
-        ? {
-            ...existing,
-            name: /fallback/i.test(existing.name)
-              ? info.displayName
-              : existing.name,
-          }
-        : newModel(
-            id,
-            info.displayName,
-            card,
-            typeof info.organization === "string"
-              ? info.organization
-              : "LiveBench catalog",
-            info.openweight === true,
-          );
+        (safeUrl.safeParse(info.url).success ? String(info.url) : this.url);
+      const m =
+        existing ??
+        newModel(
+          hf
+            ? new URL(hf).pathname.slice(1)
+            : (aliases[row.model] ?? `livebench/${row.model}`),
+          info.displayName,
+          card,
+          String(info.organization ?? "LiveBench"),
+          info.openweight === true,
+        );
+      const model = {
+        ...m,
+        name: info.displayName,
+        openWeight: info.openweight === true,
+        card,
+      };
       found.push(model);
       for (const [category, benchmark] of definitions) {
         const columns = categories[category];
-        if (!columns) throw Error(`Missing LiveBench ${category}`);
+        if (!columns?.length) continue;
         const values = columns.map((c) =>
-          row[c] === undefined || row[c].trim() === "" || row[c] === "-"
+          ["", "-", "n/a"].includes(row[c]?.trim() ?? "")
             ? null
             : z.coerce.number().min(0).max(100).parse(row[c]),
         );
         if (values.some((v) => v === null)) continue;
         evidence.push(
           evidenceSchema.parse({
-            id: `livebench:${release}:${benchmark}:${id}`,
-            modelId: id,
+            id: `livebench2:${release}:${benchmark}:${model.id}`,
+            modelId: model.id,
             benchmark,
-            protocol: `LiveBench ${release} / ${category} / published default configurations`,
+            protocol: `LiveBench 2.0 / ${release} / ${category} / published configuration`,
             value:
               (values as number[]).reduce((a, b) => a + b, 0) / values.length,
             kind: "independent",
-            source: root + path,
+            source: root + "table.csv",
             sourceId: this.id,
             observedAt,
-            notes: `Configuration: ${row.model}. Subtasks: ${columns.join(", ")}. Publication timestamp, not evaluation date. Effort differs between models; a general-purpose RE proxy, not a Windows/disassembly or tool-call correctness test.`,
+            correlationGroup: `livebench2:${release}`,
+            comparability: "published",
+            metric: "percentage",
+            notes: `Configuration ${row.model}; effort ${info.effort ?? "publisher default"}. ${z.array(z.string()).parse(notes).join(" ")} Publication release date, not per-model run date. No direct Windows RE or creative problem-solving validation.`,
           }),
         );
       }
     }
-    if (found.length < 3) throw Error("Incomplete LiveBench cohort");
+    if (found.filter((m) => m.openWeight).length < 3 || evidence.length < 9)
+      throw Error("Incomplete latest LiveBench open-weight cohort");
     return {
       models: found,
       evidence,
-      message: `${found.length} models / ${evidence.length} independent category observations; release ${release}. General reasoning/coding proxies, not direct RE validation.`,
+      message: `LiveBench 2.0 release ${release}: ${found.length} models, ${evidence.length} results. Latest published release discovered from the live site's manifest; distinct from LiveBench 1.0.`,
     };
   },
 };

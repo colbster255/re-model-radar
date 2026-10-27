@@ -36,6 +36,9 @@ export const providerSchema = z.object({
   inputPerMillion: z.number().nonnegative().nullable().optional(),
   outputPerMillion: z.number().nonnegative().nullable().optional(),
   concurrencyUnits: z.number().positive().optional(),
+  routingTag: z.string().optional(),
+  quantization: z.string().optional(),
+  checkStatus: z.enum(["ok", "failed"]).optional(),
 });
 export const modelSchema = z.object({
   id: z.string().min(1).max(200),

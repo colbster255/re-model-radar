@@ -1,3 +1,4 @@
+import { topTen } from "../top-ten";
 import { z } from "zod";
 import { request } from "./http";
 import type { Adapter } from "./types";
@@ -25,6 +26,7 @@ export function featherlessResult(variant: Variant, payload: unknown): Variant {
         ? [
             {
               name: "Featherless",
+              checkedAt: new Date().toISOString(),
               modelId: variant.id,
               mode: "interactive" as const,
               url: "https://featherless.ai/models/" + variant.id,
@@ -49,17 +51,28 @@ export const featherless: Adapter = {
   id: "featherless",
   name: "Featherless exact checkpoint hosting",
   url: "https://featherless.ai/models",
-  async run(models, variants = []) {
-    if (variants.length > 200)
-      throw Error(
-        "Checkpoint lookup bound exceeded; prior hosting data retained",
-      );
+  async run(models, variants = [], context) {
+    const leaders = topTen({
+      models,
+      variants,
+      evidence: context?.evidence ?? [],
+    }).rows;
+    const preferred = new Set(leaders.map((m) => m.id));
+    // Discovery may grow indefinitely; prioritize relevant exact lineages instead of failing the entire collector.
+    const candidates = [...variants]
+      .sort(
+        (a, b) =>
+          Number(b.baseIds.some((id) => preferred.has(id))) -
+            Number(a.baseIds.some((id) => preferred.has(id))) ||
+          b.updatedAt.localeCompare(a.updatedAt),
+      )
+      .slice(0, 200);
     const checked: Variant[] = [];
     // Bound concurrency and query exact IDs rather than scanning a partial catalog.
-    for (let i = 0; i < variants.length; i += 5) {
+    for (let i = 0; i < candidates.length; i += 5) {
       checked.push(
         ...(await Promise.all(
-          variants
+          candidates
             .slice(i, i + 5)
             .map(async (v) =>
               featherlessResult(
@@ -74,7 +87,13 @@ export const featherless: Adapter = {
     }
     const baseModels: Model[] = [];
     // Explicit baseline/candidate; other bases remain unknown rather than guessed hosted.
-    for (const id of ["zai-org/GLM-5.3", "moonshotai/Kimi-K3"]) {
+    for (const id of [
+      ...new Set([
+        ...leaders.map((m) => m.id),
+        "zai-org/GLM-5.3",
+        "moonshotai/Kimi-K3",
+      ]),
+    ].filter((id) => !id.startsWith("livebench/"))) {
       const m = models.find((m) => m.id === id);
       if (!m) continue;
       const source = featherlessSearch + "?query=" + encodeURIComponent(id);
@@ -119,6 +138,7 @@ export const featherless: Adapter = {
             ? [
                 {
                   name: "Featherless",
+                  checkStatus: "ok" as const,
                   url: "https://featherless.ai/models/" + id,
                   source: detailSource,
                   modelId: id,
@@ -141,9 +161,10 @@ export const featherless: Adapter = {
       });
     }
     return {
+      replaceProviders: true,
       models: baseModels,
       variants: checked,
-      message: `Checked ${checked.length} exact checkpoint IDs. Active catalog listings only; inference uptime and plan access are not tested.`,
+      message: `Checked ${checked.length}/${variants.length} exact checkpoint IDs, prioritizing current leaders; ${baseModels.length} base profiles. Unchecked entries retain dated prior checks. Active catalog listings only; inference uptime and plan access are not tested.`,
     };
   },
 };

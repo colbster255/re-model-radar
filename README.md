@@ -1,44 +1,37 @@
-# RE Model Radar
+# RE Model Radar v4
 
-A source-linked decision workspace for choosing cloud models for a Windows reverse-engineering workflow. LibreChat + Featherless is primary. One Director plans, delegates and writes C/C++; four specialists use IDA, x64dbg, WinDbg and Cheat Engine. GLM-5.3 is the current baseline; Kimi K3 is a candidate.
+A simple, pink-accented top 10 of open-weight models for reverse-engineering-adjacent work, with source links, exact modified checkpoints and estimated call prices. The app has two tabs: Top 10 and Call pricing. Archived rankings and model comparisons are no longer part of the website.
 
-## Run and verify
+## Run
 
-Node 24 recommended (22+ supported).
+Node 24 recommended. `npm ci`, `npm run refresh`, `npm run dev`. Validate with `npm run check`.
 
-```sh
-npm ci
-npm run refresh
-npm run dev
-npm run check
-```
+## Ranking
 
-## Current policy: 3.0.0
+`lib/top-ten.ts` ranks the newest public LiveBench 2.0 release: coding 40%, reasoning 35%, long-agentic tasks 25%. These shared tests cover real bug fixing, logic/state reasoning and sustained engineering. The weighted raw-score index is an editorial selection aid, not measured Windows RE accuracy. Each stat also shows its raw score and rank among all eligible open models in that release. The UI shows only ten.
 
-The default dashboard provides six task views for five agents, raw paired results, cohort percentile context, independent-only/manufacturer controls, budget and weight sensitivity, practical hosting and an unrun evaluation specification. There is no measured Windows competence score or authoritative overall #1. See [the audit](docs/workflow-audit-v3.md) for the calculation, previous distortions and uncertain conclusions.
+Every entry must be publisher-declared open weight and have all three independent results in the same release. Closed models, missing categories and modified checkpoint identities are excluded. Missing values never become zeros; stat ties share ranks. A model with no shared test results cannot enter the ranking merely because it was released. Cyber results are supporting evidence with their original attribution/protocol; visual document-design scores are not presented as creative RE competence. Neither is silently blended into the common ranking. Results older than 90 days stop producing a ranking.
 
-`lib/decisions.ts` uses exact protocol/source/attribution/budget/metric cohorts. Raw differences, not percentile differences, enter an editorial evidence balance. Related categories are averaged within a publication and that publication's influence is capped. Missing evidence is unknown. Manufacturer reports are visibly separate. Unmatched published peer resources remain descriptive unless explicitly explored. Weight/source/budget instability is exposed; no statistical intervals or probabilities are invented.
+The live collector reads the official site script as a TypeScript syntax tree to extract literal model metadata; remote JavaScript is never executed. It discovers the newest literal release ID, then reads official CSV/category/notes files. LiveBench 2.0 is never merged with 1.0. Source-contract changes fail visibly and preserve prior valid data.
 
-`data/radar.json` preserves observations, source provenance, checkpoint metadata and provider profiles. `data/decisions.json` exports versioned default workflow decisions. `data/rankings.json` remains a legacy v2 export for compatibility; it is not the current recommendation policy. The original pre-change snapshots are preserved under `data/archive/`. The optional Archived v2 UI is audit-only. Modified checkpoints never inherit measured base capability.
+## Automatic updates and the stale-feed fixes
 
-## Sources and hosting
+The old LiveBench GitHub data location now returns 404 after the move to 2.0. That adapter is replaced with live-site release discovery. Variant discovery grew beyond 200 entries, which previously failed the whole Featherless adapter. Hosting checks now prioritize the current leaders' exact declared descendants, then recent variants, up to 200 per run; unchecked entries preserve dated records. Public base-model profiles cover the actual top ten rather than two hard-coded candidates. Hugging Face list requests explicitly request cardData so declared lineage is available, and known hosted variants receive detail lookups. Registry metadata/hosting are discovered before benchmark identity reconciliation so a new publisher checkpoint does not remain a placeholder.
 
-Adapters ingest official CyberGym/ExploitGym/SWE-bench/Terminal-Bench data, LiveBench published configurations, the manufacturer GLM card, Hugging Face registry metadata and public OpenRouter/Featherless catalogs. Markdown is parsed as data, never executed. Discovery is bounded, not comprehensive. Sources/harnesses/effort differ; sharing a leaderboard does not establish independence or equal resources. Terminal submissions with unverified evaluator identity remain descriptive.
+GitHub Actions is scheduled hourly and also refreshes when collector/ranking configuration is pushed. Data-only bot commits do not loop into another refresh. Scheduled jobs can be delayed by GitHub; the UI shows actual successful checks and warns after two hours or when feeds fail. It polls status every minute and refreshes server-rendered results when a new snapshot arrives, preserving client state. There is no promise of immediate coverage of unpublished tests or every newly released model. New releases and checked dates remain distinct in the UI.
 
-ExploitGym card counts are ingested separately for 2h/6h with denominator 869, manufacturer attribution and throughput-rescaling caveats. Coverage, counts and percentages remain distinct. Card run dates are unknown; the date is explicitly retrieval. The Kimi model card is reviewed for controls/history requirements, not spliced into an incompatible GLM-5.3 comparison.
+`data/top-ten.json` exports v4; `data/radar.json` stores provenance. Older calculation modules/snapshots remain repository audit material, not website views. Adapters remain isolated; all-source failure preserves the exact snapshot. No paid inference or user agent/debugger changes occur.
 
-Exact variant hosting is distinct from base hosting. Featherless exact active catalog searches are bounded to 200 variants at concurrency five; public detail lookups cover the GLM/Kimi base pair. The public frontend API is used because the documented model-list endpoint returned Gone during the audit. OpenRouter interactive and batch routes coexist. Provider limits/pricing are declared, not practically validated. Plan access, actual serving, latency and task cost remain unknown; no GPU weights are deployed locally.
+## Prices
 
-Registry weight artifacts/access, lineage, hosting, comparable retention, tool reliability and refusal/compliance are separate. Variants without workflow validation are experimental. Reduced refusal does not establish better technical competence.
+Example calls default to 2,000 input and 1,000 output tokens. Users can choose presets or their own sizes. Formula: input tokens × USD input rate / 1M + output tokens × USD output rate / 1M. Output includes billed reasoning tokens. A tool-driven investigation can involve multiple calls. No cache discounts, tax, payment fees or tool charges are assumed.
 
-## Evaluation framework
+The provider recommendation means lowest listed compatible interactive price, not tested reliability. OpenRouter's individual endpoint API supplies actual named provider routes, routing tags, context/output limits, quantization and price pairs. Only active non-flex routes declaring tool support qualify. Catalog-wide minimum input/output rates are not combined into a fictional single provider price. Batch, offline, failed, stale (30+ day), unknown-price and context-incompatible routes are excluded. Featherless public profiles are included; actual subscription coverage remains plan-dependent and may mean no additional token charge. No fixed price per message is claimed.
 
-See [evals/README.md](evals/README.md). The framework is offline and all workflow evaluations are **unrun**. It includes task prompts, budgets, purpose-built Windows sources, known answers, real-schema hash pinning, per-run record admission and separate objective/qualitative dimensions. Actual MCP schema exports and prepared fixture binaries/dumps are required before admission. It performs no paid inference, debugger connection, LibreChat edits or migration.
+## Modified weights
 
-## Deployment and refresh
+Only exact declared base lineage plus listed weight artifacts can establish a modified-checkpoint match. Selection favors comparable retention evidence, then usable hosting, not reduced refusals. Without comparable tests the checkpoint is labeled unvalidated and never inherits the base model's measured scores. Hosting is an exact dated catalog listing, not proof of subscription access or inference success. Discovery is bounded and best means best available match among discovered checkpoints.
 
-Production uses the existing Vercel Git integration, branch `main`, Node 24. GitHub Actions refreshes public sources hourly using built-in `GITHUB_TOKEN`; optional `HF_TOKEN` may be supplied only as a secret for gated metadata. No runtime secrets or paid inference are required. Schedules can be delayed; source status and workflow checks are displayed separately from material snapshot dates.
+## Deployment
 
-Adapters validate atomically and retain last-known-good observations on failure. All-source failure preserves the snapshot and fails the job. Provider check timestamps alone do not count as content changes. Unchanged card retrieval does not silently change evaluation dates. Source errors, changed content and evidence expiration are material changes. External metadata uses HTTPS allowlists, schemas, bounds, timeouts, retries and escaped React rendering.
-
-The existing visual theme follows the open-source [shadcn/ui Neutral dashboard](https://ui.shadcn.com/blocks?category=dashboard): zinc surfaces, restrained borders, emerald accents, native accessible controls and responsive layouts.
+Existing Vercel Git integration on `main`, Node 24. No runtime secrets needed. GitHub Actions uses built-in GITHUB_TOKEN and optional HF_TOKEN for gated metadata. No secrets are committed. Source validation, HTTPS allowlists, bounded queries, timeouts, safe links and escaped rendering remain in place.

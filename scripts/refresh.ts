@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile, rename } from "node:fs/promises";
 import { datasetSchema, type Dataset, type Model } from "../lib/schema";
 import { benchmarkAdapters } from "../lib/adapters/benchmarks";
+import { endpoints } from "../lib/adapters/endpoints";
 import { featherless } from "../lib/adapters/featherless";
 import { livebench } from "../lib/adapters/livebench";
 import { registry, hosting } from "../lib/adapters/registry";
@@ -12,10 +13,15 @@ import {
   roles,
   sensitivity,
 } from "../lib/decisions";
+import { topTen, rankingVersion } from "../lib/top-ten";
 import { rankModels } from "../lib/scoring";
 import type { Adapter } from "../lib/adapters/types";
 import { join } from "node:path";
-export function mergeModels(previous: Model[], incoming: Model[]) {
+export function mergeModels(
+  previous: Model[],
+  incoming: Model[],
+  replaceProviders = false,
+) {
   const map = new Map(previous.map((m) => [m.id, m]));
   for (const m of incoming) {
     const old = map.get(m.id);
@@ -31,7 +37,11 @@ export function mergeModels(previous: Model[], incoming: Model[]) {
               m.architecture === "Unverified"
                 ? old.architecture
                 : m.architecture,
-            providers: m.providers.length ? m.providers : old.providers,
+            providers: replaceProviders
+              ? m.providers
+              : m.providers.length
+                ? m.providers
+                : old.providers,
             toolSupport:
               m.toolSupport === "unknown" ? old.toolSupport : m.toolSupport,
           }
@@ -80,9 +90,10 @@ export async function refresh(
   const directory = options.directory ?? "data";
   const adapters = options.adapters ?? [
     ...benchmarkAdapters,
-    livebench,
     registry,
     hosting,
+    livebench,
+    endpoints,
     featherless,
   ];
   await mkdir(directory, { recursive: true });
@@ -105,7 +116,7 @@ export async function refresh(
   }
   let data: Dataset = {
     ...structuredClone(previous),
-    decisionPolicyVersion: decisionVersion,
+    decisionPolicyVersion: rankingVersion,
   };
   const checkedAt = new Date().toISOString();
   let successes = 0;
@@ -115,6 +126,7 @@ export async function refresh(
       const batch = await adapter.run(
         structuredClone(data.models),
         structuredClone(data.variants),
+        { evidence: structuredClone(data.evidence) },
       );
       const before = data;
       data = structuredClone(data);
@@ -124,7 +136,11 @@ export async function refresh(
             ...m,
             providers: m.providers.filter((p) => p.source !== adapter.url),
           }));
-        data.models = mergeModels(data.models, batch.models ?? []);
+        data.models = mergeModels(
+          data.models,
+          batch.models ?? [],
+          batch.replaceProviders,
+        );
         if (batch.evidence)
           data.evidence = [
             ...data.evidence.filter((e) => e.sourceId !== adapter.id),
@@ -156,6 +172,15 @@ export async function refresh(
       console.log(`${adapter.id}: ${batch.message}`);
     } catch (e) {
       const message = e instanceof Error ? e.message : "Source unavailable";
+      if (adapter.id === "featherless")
+        data.models = data.models.map((m) => ({
+          ...m,
+          providers: m.providers.map((p) =>
+            p.source.startsWith("https://featherless.ai/")
+              ? { ...p, checkStatus: "failed" as const }
+              : p,
+          ),
+        }));
       data.sources = data.sources
         .filter((s) => s.id !== adapter.id)
         .concat({
@@ -214,6 +239,11 @@ export async function refresh(
     );
     data.refreshedAt = checkedAt;
     await atomic(join(directory, "radar.json"), data);
+    await atomic(join(directory, "top-ten.json"), {
+      rankingVersion,
+      checkedAt,
+      ...topTen(data, Date.parse(checkedAt)),
+    });
     await atomic(join(directory, "decisions.json"), {
       decisionVersion,
       evaluatedAt: checkedAt,

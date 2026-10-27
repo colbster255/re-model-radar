@@ -1,3 +1,4 @@
+import { topTen } from "../top-ten";
 import { z } from "zod";
 import { request } from "./http";
 import { newModel, type Adapter } from "./types";
@@ -38,11 +39,11 @@ export const registry: Adapter = {
   id: "huggingface",
   name: "Hugging Face model registry",
   url: "https://huggingface.co/api/models",
-  async run(models, previousVariants = []) {
+  async run(models, previousVariants = [], context) {
     // Broad discovery, independent of publisher. Recent and popular cohorts complement each other.
     const discovered = [];
     for (const sort of ["createdAt", "trendingScore"]) {
-      const url = `${this.url}?pipeline_tag=text-generation&sort=${sort}&direction=-1&limit=75&full=true&config=true`;
+      const url = `${this.url}?pipeline_tag=text-generation&sort=${sort}&direction=-1&limit=75&full=true&cardData=true&config=true`;
       discovered.push(...z.array(hfSchema).parse(await request(url)));
     }
     for (const search of [
@@ -56,23 +57,48 @@ export const registry: Adapter = {
           .array(hfSchema)
           .parse(
             await request(
-              `${this.url}?search=${search}&sort=lastModified&direction=-1&limit=25&full=true&config=true`,
+              `${this.url}?search=${search}&sort=lastModified&direction=-1&limit=25&full=true&cardData=true&config=true`,
             ),
           ),
       );
     // Search exact relevant base names too, so older candidates remain discoverable.
-    for (const model of models.filter((m) => m.openWeight).slice(0, 20))
+    for (const model of [
+      ...topTen({
+        models,
+        variants: previousVariants,
+        evidence: context?.evidence ?? [],
+      }).rows,
+      ...models.filter((m) => m.openWeight),
+    ]
+      .filter((m, i, a) => a.findIndex((n) => n.id === m.id) === i)
+      .slice(0, 20))
       discovered.push(
         ...z
           .array(hfSchema)
           .parse(
             await request(
-              `${this.url}?search=${encodeURIComponent(model.name)}&sort=lastModified&direction=-1&limit=8&full=true&config=true`,
+              `${this.url}?search=${encodeURIComponent(model.id.split("/").at(-1) ?? model.name)}&sort=lastModified&direction=-1&limit=8&full=true&cardData=true&config=true`,
             ),
           ),
       );
-    for (const id of targets)
-      discovered.push(hfSchema.parse(await request(`${this.url}/${id}`)));
+    let metadataFailures = 0;
+    const exactChecks = [
+      ...new Set([
+        ...targets,
+        ...previousVariants
+          .filter((v) => v.providers.length > 0)
+          .slice(0, 20)
+          .map((v) => v.id),
+      ]),
+    ];
+    for (const id of exactChecks) {
+      // One removed/gated checkpoint must not block discovery of new models.
+      try {
+        discovered.push(hfSchema.parse(await request(`${this.url}/${id}`)));
+      } catch {
+        metadataFailures++; // Prior metadata remains available with its original date.
+      }
+    }
     const variants: Variant[] = [],
       found: Model[] = [];
     const now = new Date().toISOString();
@@ -171,8 +197,7 @@ export const registry: Adapter = {
     return {
       models: found,
       variants,
-      message:
-        "Bounded recent + trending base-model discovery and variant searches. Registry claims remain unverified; previously discovered entries are retained.",
+      message: `Bounded recent + trending discovery and variant searches with model-card metadata. ${metadataFailures} exact metadata lookups failed; previous dated records retained. Registry lineage is declared, not independently verified.`,
     };
   },
 };
@@ -271,6 +296,7 @@ export const hosting: Adapter = {
       });
     }
     return {
+      replaceProviders: true,
       models: [
         ...models.map((m) => ({
           ...m,

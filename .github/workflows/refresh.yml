@@ -1,7 +1,10 @@
 name: Hourly evidence refresh
 on:
+  push:
+    branches: [main]
+    paths: ["lib/adapters/**", "lib/top-ten.ts", ".github/workflows/refresh.yml"]
   schedule:
-    - cron: '17 * * * *'
+    - cron: '7 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -26,7 +29,7 @@ jobs:
       - run: npm run lint && npm run typecheck && npm test && npm run build
       - name: Save material changes
         run: |
-          git add data/radar.json data/rankings.json data/decisions.json
+          git add data/radar.json data/rankings.json data/decisions.json data/top-ten.json
           if git diff --cached --quiet; then
             echo "No material changes. No deployment needed."
             exit 0

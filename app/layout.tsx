@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "RE Model Radar — Technical AI intelligence",
+  title: "RE Model Radar — The open-weight top 10",
   description:
-    "Evidence-backed model rankings for security research, reverse engineering, and systems development.",
+    "The top 10 open-weight models for RE-adjacent coding, reasoning and long tasks, with fresh benchmark results and simple call pricing.",
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

@@ -66,6 +66,7 @@ function quality(v: Variant) {
     independent.length ? 2 : comparisons.length ? 1 : 0,
     floor,
     new Set(preferred.map((r) => `${r.benchmark}:${r.protocol}`)).size,
+    v.providers.some((p) => p.mode === "interactive") ? 1 : 0,
     v.toolSupport === "declared" ? 1 : 0,
   ];
 }

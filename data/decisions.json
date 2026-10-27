@@ -1,6 +1,6 @@
 {
   "decisionVersion": "3.0.0",
-  "evaluatedAt": "2026-10-27T19:27:37.179Z",
+  "evaluatedAt": "2026-10-27T21:19:33.285Z",
   "baselineId": "zai-org/GLM-5.3",
   "candidateId": "moonshotai/Kimi-K3",
   "status": "provisional; no direct Windows workflow runs",
@@ -18,73 +18,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -3.139888888888888
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -3.139888888888888
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -3.139888888888888
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -3.139888888888888
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -3.139888888888888
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -2.9236249999999977
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -3.312899999999999
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -3.177794117647058
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -3.1059736842105248
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -3.139888888888888
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×1.25",
-          "value": -3.139888888888888
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -3.310545454545454
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -2.9954871794871782
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     },
@@ -101,73 +149,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -2.886185185185181
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -2.886185185185181
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -2.886185185185181
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -2.886185185185181
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -2.886185185185181
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -2.769490196078427
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -2.9905964912280663
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -2.9643222222222185
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -2.830373015873011
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -2.886185185185181
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×1.25",
-          "value": -2.886185185185181
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -2.9325714285714244
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -2.842306306306302
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     },
@@ -184,73 +280,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -3.6792435897435896
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -3.6792435897435896
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -3.6792435897435896
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -3.6792435897435896
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -3.6792435897435896
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -3.494014814814813
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -3.820519774011299
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -3.8051737588652483
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -3.5754064327485366
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -3.6792435897435896
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×1.25",
-          "value": -3.6792435897435896
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -3.726627450980391
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -3.633647798742137
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     },
@@ -267,73 +411,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -3.0294358974358953
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -3.0294358974358953
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -2.833631205673756
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -3.190888888888887
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -3.0739305555555534
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -2.9912976190476166
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×1.25",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -3.176666666666664
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -2.903238095238093
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     },
@@ -350,73 +542,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -3.767064102564104
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -3.767064102564104
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -3.767064102564104
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -3.767064102564104
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -3.767064102564104
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -3.566530303030303
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -3.914122222222223
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -3.8449149659863955
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -3.6977060606060608
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -3.767064102564104
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×1.25",
-          "value": -3.767064102564104
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -3.867240000000001
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -3.674308641975309
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     },
@@ -433,73 +673,121 @@
       "scenarios": [
         {
           "name": "Selected assumptions",
-          "value": -2.8760555555555527
+          "value": 6.9044879171461435
         },
         {
           "name": "Independent only",
-          "value": -2.8760555555555527
+          "value": null
         },
         {
           "name": "Include manufacturer",
-          "value": -2.8760555555555527
+          "value": 6.9044879171461435
         },
         {
           "name": "2h ExploitGym",
-          "value": -2.8760555555555527
+          "value": 7.940161104718067
         },
         {
           "name": "6h ExploitGym",
-          "value": -2.8760555555555527
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×0.75",
-          "value": -2.694787878787875
+          "value": 6.9044879171461435
         },
         {
           "name": "reasoning weight ×1.25",
-          "value": -3.0294358974358953
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×0.75",
-          "value": -2.9106515151515127
+          "value": 6.9044879171461435
         },
         {
           "name": "coding weight ×1.25",
-          "value": -2.846782051282048
+          "value": 6.9044879171461435
         },
         {
           "name": "security weight ×0.75",
-          "value": -2.8760555555555527
+          "value": 6.904487917146144
         },
         {
           "name": "security weight ×1.25",
-          "value": -2.8760555555555527
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×0.75",
-          "value": -3.0227272727272703
+          "value": 6.9044879171461435
         },
         {
           "name": "execution weight ×1.25",
-          "value": -2.7519487179487148
+          "value": 6.9044879171461435
         },
         {
-          "name": "Without livebench-publication",
+          "name": "Without zai-card-publication",
           "value": null
         }
       ],
       "pairedObservationIds": [
         [
-          "livebench:2026_06_25:livebench-agentic:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-agentic:moonshotai/Kimi-K3"
+          "glm-card:v3:ale:default:zai-org/GLM-5.3",
+          "glm-card:v3:ale:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-coding:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-coding:moonshotai/Kimi-K3"
+          "glm-card:v3:automation:default:zai-org/GLM-5.3",
+          "glm-card:v3:automation:default:moonshotai/Kimi-K3"
         ],
         [
-          "livebench:2026_06_25:livebench-reasoning:zai-org/GLM-5.3",
-          "livebench:2026_06_25:livebench-reasoning:moonshotai/Kimi-K3"
+          "glm-card:v3:cybergym:default:zai-org/GLM-5.3",
+          "glm-card:v3:cybergym:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:deepswe:default:zai-org/GLM-5.3",
+          "glm-card:v3:deepswe:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:exploitbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:2:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:2:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:exploitgym:6:zai-org/GLM-5.3",
+          "glm-card:v3:exploitgym:6:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:hle-tools:default:zai-org/GLM-5.3",
+          "glm-card:v3:hle-tools:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:nl2repo:default:zai-org/GLM-5.3",
+          "glm-card:v3:nl2repo:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:posttrain:default:zai-org/GLM-5.3",
+          "glm-card:v3:posttrain:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:programbench:default:zai-org/GLM-5.3",
+          "glm-card:v3:programbench:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:swe-marathon:default:zai-org/GLM-5.3",
+          "glm-card:v3:swe-marathon:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal21:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal21:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:terminal30:default:zai-org/GLM-5.3",
+          "glm-card:v3:terminal30:default:moonshotai/Kimi-K3"
+        ],
+        [
+          "glm-card:v3:toolathlon:default:zai-org/GLM-5.3",
+          "glm-card:v3:toolathlon:default:moonshotai/Kimi-K3"
         ]
       ]
     }

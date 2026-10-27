@@ -4,12 +4,17 @@ export type Batch = {
   evidence?: Evidence[];
   variants?: Variant[];
   message: string;
+  replaceProviders?: boolean;
 };
 export type Adapter = {
   id: string;
   name: string;
   url: string;
-  run: (models: Model[], variants?: Variant[]) => Promise<Batch>;
+  run: (
+    models: Model[],
+    variants?: Variant[],
+    context?: { evidence: Evidence[] },
+  ) => Promise<Batch>;
 };
 export function newModel(
   id: string,
