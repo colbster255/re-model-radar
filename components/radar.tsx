@@ -20,6 +20,10 @@ type Props = {
   evaluatedAt: string;
   sources: Source[];
 };
+const rate = (n: number | null | undefined) =>
+  n == null
+    ? "unknown"
+    : new Intl.NumberFormat("en-US", { maximumFractionDigits: 8 }).format(n);
 const money = (n: number) =>
   n === 0
     ? "$0"
@@ -502,9 +506,11 @@ export default function Radar({
                       {p ? (
                         <>
                           <p>
-                            {input.toLocaleString()} × ${p.inputPerMillion}/1M
-                            input + {output.toLocaleString()} × $
-                            {p.outputPerMillion}/1M output = {money(p.cost)}.
+                            {input.toLocaleString()} × $
+                            {rate(p.inputPerMillion)}/1M input +{" "}
+                            {output.toLocaleString()} × $
+                            {rate(p.outputPerMillion)}/1M output ={" "}
+                            {money(p.cost)}.
                           </p>
                           <p>
                             <Out href={p.source}>Official price source</Out> ·

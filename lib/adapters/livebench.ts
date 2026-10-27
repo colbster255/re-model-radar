@@ -84,6 +84,22 @@ const aliases: Record<string, string> = {
   "gpt-6.1-sol-max": "benchmark/gpt-6.1-sol",
   "gpt-6-astra-max": "openai/gpt-6-astra",
 };
+export function publishedMatch(
+  name: string,
+  models: Model[],
+  openWeight: boolean,
+) {
+  const candidates = models.filter((m) => !m.id.startsWith("livebench/"));
+  // API-only catalog aliases cannot displace an exact open-weight registry identity.
+  return (
+    (openWeight
+      ? matchModel(
+          name,
+          candidates.filter((m) => m.openWeight),
+        )
+      : undefined) ?? matchModel(name, candidates)
+  );
+}
 export function discoverRelease(asset: string) {
   // Publisher release IDs in literal arrays, read as data. No remote JS executes.
   const dates = [...asset.matchAll(/(?:\[|,)\s*"(20\d{6})"\s*(?=,|\])/g)]
@@ -147,12 +163,13 @@ export const livebench: Adapter = {
               m.id.toLowerCase() ===
               new URL(hf).pathname.slice(1).toLowerCase(),
           )
-        : (matchModel(
-            info.displayName,
-            models.filter((m) => !m.id.startsWith("livebench/")),
-          ) ?? models.find((m) => m.id === `livebench/${row.model}`));
+        : (publishedMatch(info.displayName, models, info.openweight === true) ??
+          models.find((m) => m.id === `livebench/${row.model}`));
       const card =
         hf ??
+        (existing?.card.startsWith("https://huggingface.co/")
+          ? existing.card
+          : undefined) ??
         (safeUrl.safeParse(info.url).success ? String(info.url) : this.url);
       const m =
         existing ??

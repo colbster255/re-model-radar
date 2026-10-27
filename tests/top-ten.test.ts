@@ -3,10 +3,38 @@ import assert from "node:assert/strict";
 import { topTen, callCost, cheapest } from "../lib/top-ten";
 import { newModel } from "../lib/adapters/types";
 import { evidenceSchema, type Model, type Variant } from "../lib/schema";
-import { readModelMetadata, discoverRelease } from "../lib/adapters/livebench";
+import {
+  readModelMetadata,
+  discoverRelease,
+  publishedMatch,
+} from "../lib/adapters/livebench";
 import { endpointProfiles } from "../lib/adapters/endpoints";
 import { mergeModels } from "../scripts/refresh";
 const now = Date.parse("2026-10-27T20:00:00Z");
+test("open registry identity survives duplicate API and placeholder aliases", () => {
+  const registry = model("Publisher/model");
+  registry.name = "New Model";
+  const api = model("router/model", false);
+  api.name = "New Model";
+  const placeholder = model("livebench/new-model");
+  placeholder.name = "New Model";
+  assert.equal(
+    publishedMatch("New Model", [registry, api, placeholder], true)?.id,
+    registry.id,
+  );
+  assert.equal(
+    publishedMatch("New Model Preview", [registry, api, placeholder], true),
+    undefined,
+  );
+  assert.equal(
+    publishedMatch(
+      "New Model",
+      [registry, { ...registry, id: "Other/model" }],
+      true,
+    ),
+    undefined,
+  );
+});
 test("authoritative hosting removal clears dead routes while ordinary discovery preserves known hosting", () => {
   const m = model("test/model");
   m.providers = [
