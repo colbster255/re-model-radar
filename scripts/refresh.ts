@@ -53,11 +53,12 @@ export function mergeModels(
 function material(data: Dataset) {
   return {
     decisionPolicyVersion: data.decisionPolicyVersion,
-    models: data.models.map(({ discoveredAt, updatedAt, ...m }) => {
+    models: data.models.map(({ discoveredAt, updatedAt, weightEvidence, ...m }) => {
       void discoveredAt;
       void updatedAt;
       return {
         ...m,
+        weightEvidence: weightEvidence ? { source: weightEvidence.source, repositoryId: weightEvidence.repositoryId } : undefined,
         providers: m.providers.map(({ checkedAt, ...p }) => {
           void checkedAt;
           return p;

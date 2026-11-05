@@ -7,6 +7,7 @@ import type { Model, Variant } from "../schema";
 import { ingestRetention } from "../retention-ingestion";
 const hfSchema = z.object({
   id: z.string().regex(/^[\w.-]+\/[\w.-]+$/),
+  private: z.boolean().optional(),
   createdAt: z.string().optional(),
   lastModified: z.string().optional(),
   gated: z.union([z.boolean(), z.string()]).optional(),
@@ -42,8 +43,9 @@ export const registry: Adapter = {
   async run(models, previousVariants = [], context) {
     // Broad discovery, independent of publisher. Recent and popular cohorts complement each other.
     const discovered = [];
+    for (const pipeline of ["text-generation", "image-text-to-text"])
     for (const sort of ["createdAt", "trendingScore"]) {
-      const url = `${this.url}?pipeline_tag=text-generation&sort=${sort}&direction=-1&limit=75&full=true&cardData=true&config=true`;
+      const url = `${this.url}?pipeline_tag=${pipeline}&sort=${sort}&direction=-1&limit=75&full=true&cardData=true&config=true`;
       discovered.push(...z.array(hfSchema).parse(await request(url)));
     }
     for (const search of [
@@ -85,6 +87,12 @@ export const registry: Adapter = {
     const exactChecks = [
       ...new Set([
         ...targets,
+        // Recheck benchmark-linked repository IDs even when metadata still says closed.
+        // This catches hosted-to-open releases without waiting for leaderboard flags.
+        ...models.filter((m) =>
+          context?.evidence.some((e) => e.sourceId === "livebench" && e.modelId === m.id) &&
+          !["benchmark", "livebench"].includes(m.id.split("/")[0])
+        ).map((m) => m.id),
         ...previousVariants
           .filter((v) => v.providers.length > 0)
           .slice(0, 20)
@@ -145,6 +153,7 @@ export const registry: Adapter = {
         });
         continue;
       }
+      if (r.private === true) continue;
       // Do not promote quantizations/finetunes into base-model entries automatically.
       if (
         bases.length ||
@@ -164,6 +173,7 @@ export const registry: Adapter = {
         id: existing?.id ?? r.id,
         card,
         openWeight: true,
+        weightEvidence: { source: `${this.url}/${r.id}`, checkedAt: now, repositoryId: r.id },
         context: context ?? existing?.context ?? null,
         architecture:
           r.config?.model_type ?? existing?.architecture ?? "Unverified",
@@ -197,7 +207,7 @@ export const registry: Adapter = {
     return {
       models: found,
       variants,
-      message: `Bounded recent + trending discovery and variant searches with model-card metadata. ${metadataFailures} exact metadata lookups failed; previous dated records retained. Registry lineage is declared, not independently verified.`,
+      message: `Text and multimodal recent + trending discovery, benchmark-linked exact repository checks, and variant searches with model-card metadata. ${metadataFailures} exact metadata lookups failed; previous dated records retained. Registry lineage is declared, not independently verified.`,
     };
   },
 };

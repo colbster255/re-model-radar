@@ -156,7 +156,7 @@ export default function Radar({
             <div className="hero-meta">
               <span>TOP 10 ONLY</span>
               <i />
-              <span>NEW DATA CHECKED HOURLY</span>
+              <span>NEW DATA CHECKS EVERY 30 MIN</span>
             </div>
           </div>
           <aside className="winner-card">
@@ -593,7 +593,7 @@ export default function Radar({
             <details>
               <summary>Updates & source health</summary>
               <p>
-                Scheduled hourly. GitHub may delay runs; “check overdue” appears
+                Scheduled every 30 minutes. GitHub may delay runs; “check overdue” appears
                 after two hours without success. New test releases, models,
                 variants and prices are collected automatically. Unpublished
                 tests cannot be covered.

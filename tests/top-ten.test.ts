@@ -4,6 +4,7 @@ import { topTen, callCost, cheapest } from "../lib/top-ten";
 import { newModel } from "../lib/adapters/types";
 import { evidenceSchema, type Model, type Variant } from "../lib/schema";
 import {
+  livebench,
   readModelMetadata,
   discoverRelease,
   publishedMatch,
@@ -208,4 +209,25 @@ test("provider pricing excludes offline, flex and tool-incompatible endpoints", 
       "2026-10-27T00:00:00Z",
     ),
   );
+});
+
+
+test("released weights stay eligible when benchmark metadata still omits openweight", async () => {
+  const original = globalThis.fetch;
+  const models = ["one", "two", "three"].map((id) => newModel("publisher/" + id, id, "https://huggingface.co/publisher/" + id, "publisher", true));
+  models[0].weightEvidence = { source: "https://huggingface.co/api/models/publisher/one", repositoryId: models[0].id, checkedAt: new Date().toISOString() };
+  const apiAlias = { ...models[0], id: "api/one", openWeight: false, weightEvidence: undefined };
+  const asset = 'const dates=["20261025"]; const meta={one:{displayName:"one",organization:"publisher"},two:{displayName:"two",openweight:true},three:{displayName:"three",openweight:true}};';
+  try {
+    globalThis.fetch = async (input) => {
+      const u = String(input);
+      const text = u.endsWith(".js") ? asset : u.endsWith("table.csv") ? "model,c,r,a,d\none,80,90,40,70\ntwo,70,80,30,60\nthree,60,70,20,50" : u.endsWith("categories.json") ? JSON.stringify({Coding:["c"],Reasoning:["r"],"Long Agentic":["a"],Design:["d"]}) : u.endsWith("notes.json") ? "[]" : '<script src="/main.js"></script>';
+      return new Response(text);
+    };
+    const mirror = { ...models[0], id: "mirror/one", family: "mirror" };
+    const result = await livebench.run([...models, apiAlias, mirror], [], { evidence: [observation("livebench/one", "lb2-coding", 80)] });
+    assert.equal(result.models!.find((m) => m.name === "one")?.id, "publisher/one");
+    assert.equal(result.models!.find((m) => m.name === "one")?.openWeight, true);
+    assert.equal(result.evidence!.filter((e) => e.modelId === "publisher/one").length, 4);
+  } finally { globalThis.fetch = original; }
 });

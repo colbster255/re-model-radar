@@ -4,7 +4,7 @@ on:
     branches: [main]
     paths: ["lib/adapters/**", "lib/top-ten.ts", ".github/workflows/refresh.yml"]
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 permissions:
   contents: write

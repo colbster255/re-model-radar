@@ -45,6 +45,11 @@ export const modelSchema = z.object({
   name: z.string().max(200),
   family: z.string().max(100),
   openWeight: z.boolean(),
+  weightEvidence: z.object({
+    source: safeUrl,
+    checkedAt: z.string(),
+    repositoryId: z.string(),
+  }).optional(),
   card: safeUrl,
   context: z.number().positive().nullable(),
   toolSupport: z.enum(["declared", "unknown"]),

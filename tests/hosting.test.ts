@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { featherlessResult } from "../lib/adapters/featherless";
-import { hosting } from "../lib/adapters/registry";
+import { hosting, registry } from "../lib/adapters/registry";
 import { variantSchema } from "../lib/schema";
 import { newModel } from "../lib/adapters/types";
 const variant = variantSchema.parse({
@@ -156,4 +156,27 @@ test("OpenRouter base hosting does not imply modified-checkpoint hosting", async
   } finally {
     globalThis.fetch = original;
   }
+});
+
+
+test("registry rechecks closed benchmark IDs and discovers multimodal weights", async () => {
+  const original = globalThis.fetch;
+  const requested: string[] = [];
+  const m = newModel("publisher/New-Model", "New Model", "https://example.com", "publisher");
+  try {
+    globalThis.fetch = async (input) => {
+      const url = String(input); requested.push(url);
+      return new Response(JSON.stringify(url.endsWith("/publisher/New-Model") ? {
+        id: m.id, private: false, gated: false,
+        cardData: { pipeline_tag: "image-text-to-text" },
+        siblings: [{ rfilename: "model-00001.safetensors" }],
+      } : url.includes("?") ? [] : { id: url.split("/models/")[1], siblings: [] }));
+    };
+    const batch = await registry.run([m], [], { evidence: [{ modelId: m.id, sourceId: "livebench" } as never] });
+    const found = batch.models!.find((x) => x.id === m.id)!;
+    assert.equal(found.openWeight, true);
+    assert.equal(found.weightEvidence?.repositoryId, m.id);
+    assert.ok(requested.some((u) => u.includes("pipeline_tag=image-text-to-text")));
+    assert.ok(requested.includes("https://huggingface.co/api/models/" + m.id));
+  } finally { globalThis.fetch = original; }
 });

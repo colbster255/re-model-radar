@@ -1,7 +1,7 @@
 import ts from "typescript";
 import { z } from "zod";
 import { request } from "./http";
-import { matchModel } from "../matching";
+import { canonical, matchModel } from "../matching";
 import { newModel, type Adapter } from "./types";
 import { evidenceSchema, safeUrl, type Model } from "../schema";
 
@@ -97,7 +97,7 @@ export function publishedMatch(
           name,
           candidates.filter((m) => m.openWeight),
         )
-      : undefined) ?? matchModel(name, candidates)
+      : matchModel(name, candidates.filter((m) => m.weightEvidence))) ?? matchModel(name, candidates)
   );
 }
 export function discoverRelease(asset: string) {
@@ -112,7 +112,7 @@ export const livebench: Adapter = {
   id: "livebench",
   name: "LiveBench 2.0 published task results",
   url: "https://livebench.ai/",
-  async run(models) {
+  async run(models, _variants, context) {
     const html = z.string().parse(await request(this.url, false));
     const src = /<script[^>]+src="([^"]+\.js)"/.exec(html)?.[1];
     if (!src) throw Error("LiveBench script manifest missing");
@@ -163,7 +163,15 @@ export const livebench: Adapter = {
               m.id.toLowerCase() ===
               new URL(hf).pathname.slice(1).toLowerCase(),
           )
-        : (publishedMatch(info.displayName, models, info.openweight === true) ??
+        : (publishedMatch(
+            info.displayName,
+            models.filter((m) => m.weightEvidence && canonical(m.family) === canonical(String(info.organization))),
+            true,
+          ) ?? publishedMatch(
+            info.displayName,
+            models.filter((m) => context?.evidence.some((e) => e.sourceId === this.id && e.modelId === m.id)),
+            info.openweight === true,
+          ) ?? publishedMatch(info.displayName, models, info.openweight === true) ??
           models.find((m) => m.id === `livebench/${row.model}`));
       const card =
         hf ??
@@ -185,7 +193,8 @@ export const livebench: Adapter = {
       const model = {
         ...m,
         name: info.displayName,
-        openWeight: info.openweight === true,
+        // Current downloadable registry artifacts outrank a stale/missing leaderboard flag.
+        openWeight: info.openweight === true || Boolean(m.weightEvidence),
         card,
       };
       found.push(model);
