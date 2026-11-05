@@ -1,6 +1,6 @@
 {
   "decisionVersion": "3.0.0",
-  "evaluatedAt": "2026-11-05T12:28:04.485Z",
+  "evaluatedAt": "2026-11-05T20:15:41.289Z",
   "baselineId": "zai-org/GLM-5.3",
   "candidateId": "moonshotai/Kimi-K3",
   "status": "provisional; no direct Windows workflow runs",
