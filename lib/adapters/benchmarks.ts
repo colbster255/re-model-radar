@@ -294,7 +294,9 @@ export const terminal: Adapter = {
       }),
       source_filter: z
         .object({
-          model_name: z.string(),
+          // Newer official submissions use null here when a separate display
+          // label is authoritative. This field is descriptive only.
+          model_name: z.string().nullable(),
           agent_version: z.string().optional(),
         })
         .optional(),
